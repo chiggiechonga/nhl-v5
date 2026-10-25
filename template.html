@@ -1,138 +1,356 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>NHL Matchup Simulator</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<meta name="theme-color" content="#1a1a19">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="favicon.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
-/* Layout: sticky tab bar over four views; each view is a stack of ruled "sheets" like a scorer's table. Boldness lives in the condensed numerals. */
+/* Same look as the archeage-classic site: warm charcoal, Figtree, blue accent, big rounded cards, "thing · value" rows. */
 :root{
-  --bg:#EDF1F4; --sheet:#FFFFFF; --ink:#0F1B26; --mute:#5A6B79; --rule:#CFD9E1;
-  --ice:#177A8C; --ice-soft:#D6EBEF; --good:#1E7F4F; --warn:#B26A00; --bad:#B3363B; --good-soft:#DDF0E5; --bad-soft:#F6DEDF; --warn-soft:#F8E8CC;
-  --f-disp:"Barlow Condensed","Arial Narrow",sans-serif; --f-body:"IBM Plex Sans",system-ui,sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+  --bg:#1a1a19; --card:#1a1a19; --card2:#242422; --sunk:#151515;
+  --line:#2e2e2c; --line2:#3b3b38; --ink:#f0efec; --ink2:#d6d5cf; --muted:#b4b3a9; --faint:#878680;
+  --accent:#5fa7ec; --accent-soft:#032042; --on-accent:#0d1a29; --brand:#1a4fa3;
+  --up:#2fb344; --up-bg:#11260f; --down:#ec7e7e; --down-bg:#321c1c; --warn:#db9300; --warn-bg:#2a2110; --warn-line:#4a3a14;
+  --font:"Figtree","Segoe UI",system-ui,sans-serif;
+  --head-h:64px;
+  color-scheme:dark;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0B131B; --sheet:#121D28; --ink:#E6EEF4; --mute:#8FA3B3; --rule:#233443;
-  --ice:#5CC8D8; --ice-soft:#16343C; --good:#4CC38A; --warn:#E0A64A; --bad:#EE7B7F; --good-soft:#143525; --bad-soft:#3A1D20; --warn-soft:#3A2D12; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#0B131B; --sheet:#121D28; --ink:#E6EEF4; --mute:#8FA3B3; --rule:#233443;
-  --ice:#5CC8D8; --ice-soft:#16343C; --good:#4CC38A; --warn:#E0A64A; --bad:#EE7B7F; --good-soft:#143525; --bad-soft:#3A1D20; --warn-soft:#3A2D12; color-scheme:dark}
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body);margin:0;padding-block:0 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-.wrap{max-width:760px;margin:0 auto}
-h1,h2,h3{font-family:var(--f-disp);font-weight:700;letter-spacing:.01em;margin:0;text-wrap:balance}
-.top{padding-top:20px}
-.kick{font:500 11px var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
-h1{font-size:40px;line-height:1;margin-top:6px}
-.sub{color:var(--mute);margin:8px 0 0;max-width:60ch}
-nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:4px;margin:16px 0 0;border-bottom:1px solid var(--rule);overflow-x:auto}
-nav button{font:600 17px var(--f-disp);letter-spacing:.04em;text-transform:uppercase;background:none;border:0;color:var(--mute);padding:12px 12px 10px;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
-nav button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--ice)}
-nav button:focus-visible,a:focus-visible{outline:2px solid var(--ice);outline-offset:2px}
-section[hidden]{display:none}
-.stack{display:flex;flex-direction:column;gap:16px;margin-top:18px}
-.sheet{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:16px;min-width:0}
-.note{border-left:4px solid var(--warn);background:var(--warn-soft);padding:12px 14px;border-radius:0 6px 6px 0;font-size:14px}
-.note b{font-weight:600}
-h2{font-size:26px}
-h3{font-size:19px;letter-spacing:.03em;text-transform:uppercase;color:var(--mute);font-weight:600}
-.row{display:flex;gap:12px;flex-wrap:wrap;align-items:baseline;justify-content:space-between}
-.big{font:700 44px/1 var(--f-disp);font-variant-numeric:tabular-nums}
-.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
-.chip{display:inline-block;font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:3px;background:var(--warn-soft);color:var(--warn)}
-.chip.ok{background:var(--good-soft);color:var(--good)} .chip.no{background:var(--bad-soft);color:var(--bad)} .chip.ice{background:var(--ice-soft);color:var(--ice)}
-.bar{display:flex;height:34px;border-radius:4px;overflow:hidden;font:700 20px/34px var(--f-disp);margin:10px 0 4px}
-.bar>div{padding:0 10px;white-space:nowrap}
-.bar .a{background:var(--ice-soft);color:var(--ink)} .bar .h{background:var(--ice);color:var(--bg);text-align:right}
-.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin:14px 0}
-.facts div{border-top:2px solid var(--rule);padding-top:6px;min-width:0}
-.facts small{display:block;font:500 10.5px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
-.facts span:not(.chip){font:700 24px var(--f-disp);font-variant-numeric:tabular-nums}
-.scroll{overflow-x:auto}
-table{border-collapse:collapse;width:100%;font-size:14px}
-th{font:500 10.5px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);text-align:right;padding:6px 8px;border-bottom:1px solid var(--rule);white-space:nowrap}
-td{padding:7px 8px;border-bottom:1px solid var(--rule);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
-th:first-child,td:first-child{text-align:left}
-tr:last-child td{border-bottom:0}
-.teamhd td{font:600 13px var(--f-disp);letter-spacing:.08em;text-transform:uppercase;color:var(--ice);padding-top:12px;border-bottom:1px solid var(--rule)}
-.prog{height:14px;background:var(--rule);border-radius:7px;overflow:hidden;margin:10px 0 6px}
-.prog i{display:block;height:100%;background:var(--ice)}
-.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
-p{margin:8px 0}
-ul.plain{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
-ul.plain li{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;align-items:start}
-svg text{font-family:var(--f-mono);font-size:10px;fill:var(--mute)}
-.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--mute)}
-.legend i{display:inline-block;width:18px;height:3px;vertical-align:middle;margin-right:6px}
-.foot{color:var(--mute);font-size:12.5px;margin-top:22px}
-@media (max-width:420px){h1{font-size:34px}.big{font-size:38px}}
-@media (prefers-reduced-motion:no-preference){.prog i{transition:width .6s}}
+html{scroll-padding-top:calc(var(--head-h) + 16px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--font);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)} a:hover{color:#9ccaf5}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+[hidden]{display:none!important}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+@media (min-width:700px){.wrap{padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}}
+
+/* header */
+header.site{position:sticky;top:0;z-index:40;background:rgba(26,26,25,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:3px solid var(--brand);border-bottom:1px solid var(--line)}
+header.site .top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;min-height:calc(var(--head-h) - 4px);padding-block:6px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand img{width:30px;height:30px;border-radius:8px}
+.brand b{display:block;font-size:18px;font-weight:700;line-height:1.15}
+.fresh{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:var(--muted);line-height:1.2}
+.fresh i{width:7px;height:7px;border-radius:50%;background:var(--up);flex:none}
+.fresh.bad{color:var(--warn)} .fresh.bad i{background:var(--warn)}
+nav.tabs{display:flex;gap:4px;margin-left:auto}
+nav.tabs button{min-height:40px;padding:0 14px;border-radius:10px;border:0;background:transparent;color:var(--ink2);font-weight:600;white-space:nowrap}
+nav.tabs button:hover{background:var(--card2);color:var(--ink)}
+nav.tabs button[aria-selected=true]{background:var(--accent-soft);color:var(--ink)}
+@media (max-width:560px){
+  header.site .top{flex-wrap:nowrap;gap:8px}
+  .brand{min-width:0} .brand img{width:26px;height:26px} .brand b{font-size:16px}
+  .brand>div{min-width:0}
+  .fresh{white-space:nowrap;overflow:hidden}
+  .fresh span{overflow:hidden;text-overflow:ellipsis}
+  nav.tabs button{padding:0 10px;font-size:14px}
+}
+
+/* page bits */
+main{display:flex;flex-direction:column;gap:28px;padding-block:32px 64px}
+section[role=tabpanel]{display:flex;flex-direction:column;gap:28px}
+.intro h1{margin:0;font-size:30px;font-weight:700;line-height:1.2;text-wrap:balance}
+.intro p{margin:6px 0 0;color:var(--muted);max-width:70ch}
+.sec{display:flex;flex-direction:column;gap:14px}
+.eyebrow{margin:0;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sechead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.sechead span{font-size:13px;color:var(--faint)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px}
+.note{display:flex;gap:10px;align-items:flex-start;background:var(--warn-bg);border:1px solid var(--warn-line);border-radius:12px;padding:12px 16px;font-size:14px;color:var(--ink2)}
+.note svg{flex:none;margin-top:2px}
+.note b{color:var(--ink);font-weight:700}
+.k{font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.chip{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:8px;background:var(--card2);color:var(--ink2);white-space:nowrap}
+.chip.ok{background:var(--up-bg);color:var(--up)} .chip.no{background:var(--down-bg);color:var(--down)} .chip.warn{background:var(--warn-bg);color:var(--warn)}
+.tag{display:inline-block;padding:1px 8px;border-radius:6px;font-weight:600;font-size:13px}
+.tag.out{background:var(--down-bg);color:var(--down)} .tag.dtd{background:var(--warn-bg);color:var(--warn)}
+.good{color:var(--up)} .dim{color:var(--muted)}
+
+/* slate strip */
+.slate{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:16px}
+.mini{display:flex;flex-direction:column;gap:8px;padding:16px 18px;text-decoration:none;color:var(--ink);transition:border-color .15s}
+.mini:hover{border-color:var(--line2);color:var(--ink)}
+.mini .t{display:flex;justify-content:space-between;align-items:center;gap:6px}
+.mini .m{font-size:19px;font-weight:700;line-height:1.3}
+.mini .p{font-size:14px;font-weight:600;color:var(--up)}
+.thin{display:flex;height:6px;border-radius:3px;overflow:hidden;background:var(--card2)}
+.thin i{margin-left:auto;background:var(--accent)}
+.live{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;color:var(--down);text-transform:uppercase}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--down)}
+
+/* game card */
+.games{display:flex;flex-direction:column;gap:16px}
+.game{padding:22px 24px;display:flex;flex-direction:column;gap:16px}
+@media (max-width:560px){.game{padding:18px 16px}}
+.game .hd{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.game h2{margin:0;font-size:26px;font-weight:800;letter-spacing:-.01em}
+.pick{font-size:20px;font-weight:700;color:var(--up);line-height:1.3}
+.pick + small{display:block;font-size:14px;color:var(--muted)}
+.bar{display:flex;height:40px;border-radius:10px;overflow:hidden;font-size:16px;font-weight:700;line-height:40px}
+.bar>div{padding:0 14px;white-space:nowrap;overflow:hidden;min-width:0}
+.bar .a{background:var(--accent-soft);color:var(--ink)} .bar .h{background:var(--accent);color:var(--on-accent);text-align:right}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.stat{background:var(--card2);border-radius:12px;padding:12px 16px;display:flex;flex-direction:column;gap:2px}
+.stat b{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums}
+@media (max-width:560px){
+  .stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .stat{padding:10px 12px} .stat .k{font-size:11px;letter-spacing:.03em} .stat b{font-size:19px}
+  .slate{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px} .mini{padding:14px}
+}
+.rows{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.rows.top{border-top:1px solid var(--line)}
+.rows>li{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);min-height:52px}
+.rows>li:last-child{border-bottom:0}
+.rows .l{min-width:0;font-weight:500}
+.rows .r{text-align:right;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
+.rows small{display:block;font-size:13px;font-weight:500;color:var(--muted)}
+.rows .inj{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin-top:4px}
+.sk{overflow-x:auto;background:var(--sunk);border:1px solid var(--line);border-radius:12px}
+.sk table{border-collapse:collapse;width:100%;min-width:440px;font-size:14px}
+.sk th{font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--faint);text-align:right;padding:9px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+.sk td{padding:7px 12px;text-align:right;border-bottom:1px solid var(--card2);font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink2)}
+.sk th:first-child,.sk td:first-child{text-align:left}
+.sk td:first-child{color:var(--ink);font-weight:500}
+.sk td:nth-child(2){color:var(--ink);font-weight:700}
+.sk tr.th td{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);padding-top:12px;border-bottom:0}
+.sk tbody tr:last-child td{border-bottom:0}
+.sk tr.more[hidden]{display:none}
+.btn{align-self:flex-start;min-height:42px;padding:0 16px;border:1px solid var(--line2);border-radius:10px;background:transparent;color:var(--ink);font-weight:600}
+.btn:hover{background:var(--card2)}
+
+/* report card */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.tile{padding:16px 18px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.tile .big{font-size:36px;font-weight:800;line-height:1.1;font-variant-numeric:tabular-nums}
+.tile .big small{font-size:15px;font-weight:600;color:var(--muted)}
+.prog{height:8px;background:var(--card2);border-radius:4px;overflow:hidden;margin-top:4px}
+.prog i{display:block;height:100%;background:var(--accent)}
+details.help summary{display:inline-flex;align-items:center;gap:5px;color:var(--accent);font-weight:600;font-size:14px;min-height:28px;list-style:none;cursor:pointer}
+details.help summary::-webkit-details-marker{display:none}
+details.help p{margin:4px 0 0;font-size:14px;color:var(--muted)}
+.filters{display:flex;gap:4px;flex-wrap:wrap}
+.filters button{min-height:38px;padding:0 14px;border-radius:10px;border:1px solid var(--line2);background:transparent;color:var(--ink2);font-size:14px;font-weight:600}
+.filters button[aria-pressed=true]{border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+.list{padding:8px 20px}
+@media (max-width:560px){.list{padding:6px 14px}}
+.list .r{display:flex;align-items:center;gap:10px}
+.empty{padding:16px 0;color:var(--muted)}
+p.small{margin:0;font-size:14px;color:var(--muted)}
+
+/* footer */
+footer.site{border-top:1px solid var(--line)}
+footer.site .wrap{padding-block:24px;display:flex;flex-direction:column;gap:10px;font-size:14px;color:var(--muted)}
+footer.site summary{display:inline-flex;align-items:center;gap:6px;min-height:44px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);list-style:none;cursor:pointer}
+footer.site summary::-webkit-details-marker{display:none}
+footer.site summary svg{transition:transform .15s}
+footer.site details[open] summary svg{transform:rotate(90deg)}
+footer.site details div{display:flex;flex-direction:column;gap:6px;padding:4px 0 0 20px;max-width:70ch}
+footer.site p{margin:0}
+@media (prefers-reduced-motion:reduce){footer.site summary svg,.mini{transition:none}}
 </style>
-<div class="wrap">
-<header class="top">
-  <div class="kick" id="kick"></div>
-  <h1>NHL Matchup Simulator</h1>
-  <p class="sub">Model v5. Every projection and result is logged; parameters stay frozen until the refit on Mon Nov 23.</p>
+</head>
+<body>
+<header class="site">
+  <div class="wrap top">
+    <div class="brand">
+      <img src="favicon.png" alt="">
+      <div><b>NHL Matchup Sim</b><span class="fresh" id="fresh"><i></i><span></span></span></div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Views" id="nav"></nav>
+  </div>
 </header>
-<nav role="tablist" id="nav"></nav>
-<section id="wed" class="stack"></section>
-<section id="grade" class="stack" hidden></section>
-<p class="foot">Projections are probabilities, not predictions. No single game or prop is certain, and a leg priced near 90% pays almost nothing.</p>
-<p class="foot" id="hl"></p>
-<p class="foot">Code and data: <a href="https://github.com/chiggiechonga/nhl-v5">github.com/chiggiechonga/nhl-v5</a>. Updated automatically.</p>
-</div>
+
+<main class="wrap">
+  <section id="p-today" role="tabpanel" aria-labelledby="t-today"></section>
+  <section id="p-grade" role="tabpanel" aria-labelledby="t-grade" hidden></section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <details>
+      <summary><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>About the model</summary>
+      <div>
+        <p>Projections are probabilities, not predictions. No single game or prop is certain, and a leg priced near 90% pays almost nothing.</p>
+        <p id="hl"></p>
+        <p>Lineups from Daily Faceoff. Player rates use season stats as of the last refresh.</p>
+      </div>
+    </details>
+    <p>Code and data: <a href="https://github.com/chiggiechonga/nhl-v5">github.com/chiggiechonga/nhl-v5</a>. Updated automatically.</p>
+  </div>
+</footer>
+
 <script>
 const DATA=/*DATA*/null;
-const $=s=>document.querySelector(s), pct=(x,d=0)=>(x*100).toFixed(d)+'%', f2=x=>x.toFixed(2);
-const el=(h)=>{const t=document.createElement('template');t.innerHTML=h.trim();return t.content.firstChild};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pct=(x,d=0)=>(x*100).toFixed(d)+'%';
+const last=n=>String(n).split(' ').slice(-1)[0];
 const fmtD=d=>{const [y,m,dd]=d.split('-');return new Date(+y,+m-1,+dd).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'})};
-const TABS=[['wed',DATA.slate_label],['grade','Report card']];
-$('#kick').textContent='Updated '+new Date(DATA.made).toLocaleString('en-US',{weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' · '+DATA.n_games+' games logged';
+const fmtLong=d=>{const [y,m,dd]=d.split('-');return new Date(+y,+m-1,+dd).toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'})};
+const ICON_WARN='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--warn)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>';
+const ICON_Q='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>';
+
+// "7:00 ET" on a date -> a real Date, so we can show the viewer's own time zone and spot games that have started.
+function startOf(g){
+  const m=/(\d{1,2}):(\d{2})\s*(AM|PM)?/i.exec(g.time||'');if(!m||!g.date)return null;
+  let h=+m[1];const mi=+m[2];const ap=(m[3]||'').toUpperCase();
+  if(ap==='AM'&&h===12)h=0; else if(ap==='PM'&&h<12)h+=12; else if(!ap&&h<11)h+=12; // NHL puck drops are afternoon/evening
+  const [y,mo,d]=g.date.split('-').map(Number);
+  for(const off of [4,5]){ // EDT or EST, whichever reads back as the right ET hour
+    const t=new Date(Date.UTC(y,mo-1,d,h+off,mi));
+    const etH=+new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'numeric',hourCycle:'h23'}).format(t);
+    if(etH===h)return t;
+  }
+  return new Date(Date.UTC(y,mo-1,d,h+5,mi));
+}
+const clock=t=>t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZoneName:'short'});
+const clockShort=t=>t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
+
+// ---------- header + tabs
+const made=new Date(DATA.made);
+const H=DATA.health||{}, probs=H.problems||[];
+const fr=$('#fresh');fr.querySelector('span').textContent='Updated '+made.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+if(probs.length)fr.classList.add('bad');
+const TABS=[['today','Today'],['grade','Report card']];
 const nav=$('#nav');
-TABS.forEach(([id,l])=>{const b=el(`<button role="tab" id="t-${id}" aria-selected="false">${l}</button>`);b.onclick=()=>show(id);nav.append(b)});
-function show(id){TABS.forEach(([i])=>{$('#'+i).hidden=i!==id;$('#t-'+i).setAttribute('aria-selected',i===id)});try{history.replaceState(null,'','#'+id)}catch(e){}}
-const gchip=(s)=>`<span class="chip ${s==='confirmed'?'ok':''}">${s}</span>`;
-const injLine=(t)=>{const lu=DATA.lineups[t];if(!lu)return '';const out=Object.entries(lu.inj).filter(([k,v])=>/^(IR|OUT)/.test(v)).map(([k])=>k.split(' ').slice(-1)[0]);const dtd=Object.entries(lu.inj).filter(([k,v])=>v==='DTD').map(([k])=>k.split(' ').slice(-1)[0]);
-  return `<div><b>${t}</b> out: ${out.join(', ')||'none listed'}${dtd.length?' · day-to-day: '+dtd.join(', '):''}</div>`};
-function gameCard(g){
+TABS.forEach(([id,l])=>{const b=document.createElement('button');b.type='button';b.setAttribute('role','tab');b.id='t-'+id;b.setAttribute('aria-controls','p-'+id);b.textContent=l;b.onclick=()=>show(id);nav.append(b)});
+function show(id){TABS.forEach(([i])=>{$('#p-'+i).hidden=i!==id;$('#t-'+i).setAttribute('aria-selected',i===id)});try{history.replaceState(null,'','#'+id)}catch(e){}}
+$('#hl').innerHTML=H.at?'Last automatic run: '+esc(new Date(H.at).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}))+' ('+esc(H.mode)+'). '+(probs.length?'<b>Problems:</b> '+probs.map(esc).join(' · '):'No problems reported.'):'';
+
+// ---------- today
+const now=new Date();
+function market(g){
   const mk=DATA.market.filter(m=>m.game===g.away+'@'+g.home);
-  const mline=mk.map(m=>`${m.source.replace(' moneyline','').replace('NHL scores feed win prob','Feed')} ${g.home} ${pct(m.home_prob,Math.abs(m.home_prob*100-Math.round(m.home_prob*100))>.05?1:0)}`).join(' · ');
-  const ps=DATA.players.filter(p=>p.team===g.away||p.team===g.home);
-  const tbl=[g.away,g.home].map(t=>`<tr class="teamhd"><td colspan="5">${t}</td></tr>`+ps.filter(p=>p.team===t).map(p=>`<tr><td>${p.name}${p.dtd?' <span class="chip">DTD</span>':''}</td><td>${pct(p.p_pt)}</td><td>${pct(p.p_g)}</td><td>${p.sog.toFixed(1)}</td><td>${pct(p.sog3)}</td></tr>`).join('')).join('');
-  const lu=DATA.lineups[g.away]||{};
-  return `<article class="sheet">
-    <div class="row"><h2>${g.away} @ ${g.home}</h2><span class="kick">${g.time} · home ${g.home}</span></div>
-    <div class="bar" role="img" aria-label="Win probability"><div class="a" style="width:${(1-g.p_home)*100}%">${g.away} ${pct(1-g.p_home)}</div><div class="h" style="width:${g.p_home*100}%">${g.home} ${pct(g.p_home)}</div></div>
-    <div class="kick" style="text-transform:none;letter-spacing:.02em">Market: ${mline||'not captured'}. Gaps here are information, not an edge.</div>
-    <div class="facts">
-      <div><small>Total goals</small><span>${f2(g.total)}</span></div>
-      <div><small>Over 5.5</small><span>${pct(g.o55)}</span></div>
-      <div><small>Shots ${g.away}–${g.home}</small><span>${g.sa.toFixed(0)}–${g.sh.toFixed(0)}</span></div>
-      <div style="grid-column:1/-1"><small>Goalies (away / home)</small><span style="font-size:17px">${g.goalie_a} / ${g.goalie_h}</span><br>${gchip(g.goalie_status_a)} ${gchip(g.goalie_status_h)}</div>
+  return mk.find(m=>/kalshi/i.test(m.source))||mk[0]||null;
+}
+function injuries(t){
+  const lu=DATA.lineups[t];if(!lu||!lu.inj)return {out:[],dtd:[]};
+  const e=Object.entries(lu.inj);
+  return {out:e.filter(([,v])=>/^(IR|OUT|LTIR)/.test(v)).map(([k])=>last(k)),dtd:e.filter(([,v])=>v==='DTD').map(([k])=>last(k))};
+}
+function headline(g){
+  const fav=g.p_home>=.5?g.home:g.away, p=Math.max(g.p_home,1-g.p_home), e=p-.5;
+  if(e<.03)return 'Toss-up · '+fav+' by a hair';
+  if(e<.08)return fav+' slight edge · '+pct(p);
+  return fav+' favored · '+pct(p);
+}
+function gapText(g,m,started){
+  if(!m)return 'No market price captured.';
+  if(started)return 'Game has started, so the market is live and not comparable to the pregame model.';
+  const gap=Math.round((g.p_home-m.home_prob)*100);
+  if(Math.abs(gap)<=2)return 'Model and market basically agree.';
+  return 'Model is '+Math.abs(gap)+' pts '+(gap>0?'higher':'lower')+' on '+g.home+' than the market. A gap is information, not an edge.';
+}
+function sideRow(t,goalie,status){
+  const inj=injuries(t), confirmed=status==='confirmed';
+  const tags=inj.out.map(n=>`<span class="tag out">${esc(n)}</span>`).join('')+inj.dtd.map(n=>`<span class="tag dtd">${esc(n)} · DTD</span>`).join('');
+  return `<li><div class="l">${esc(t)} goalie · ${esc(goalie)}<small class="inj">Out: ${tags||'none listed'}</small></div>
+    <div class="r"><span class="chip ${confirmed?'ok':''}">${confirmed?'Confirmed':'Projected'}</span></div></li>`;
+}
+function skaters(g){
+  const SHOW=3;let rows='';let hiddenN=0,total=0;
+  [g.away,g.home].forEach(t=>{
+    const ps=DATA.players.filter(p=>p.team===t);
+    rows+=`<tr class="th"><td colspan="5">${esc(t)}</td></tr>`;
+    ps.forEach((p,i)=>{total++;const more=i>=SHOW;if(more)hiddenN++;
+      rows+=`<tr${more?' class="more" hidden':''}><td>${esc(p.name)}${p.dtd?' <span class="chip warn">DTD</span>':''}</td><td>${pct(p.p_pt)}</td><td>${pct(p.p_g)}</td><td>${p.sog.toFixed(1)}</td><td>${pct(p.sog3)}</td></tr>`});
+  });
+  const btn=hiddenN?`<button type="button" class="btn" data-more aria-expanded="false" data-all="Show all ${total} skaters" data-few="Show top ${SHOW} per team">Show all ${total} skaters</button>`:'';
+  return `<div class="sec"><h3 class="eyebrow">Top skaters</h3>
+    <div class="sk"><table><thead><tr><th>Player</th><th>1+ pt</th><th>Goal</th><th>SOG avg</th><th>3+ SOG</th></tr></thead><tbody>${rows}</tbody></table></div>${btn}</div>`;
+}
+const cards=DATA.games.map(g=>{
+  const id='g-'+g.away+'-'+g.home, st=startOf(g), started=!!st&&now>=st;
+  const m=market(g), pa=1-g.p_home, fav=g.p_home>=.5?g.home:g.away;
+  const when=started?'<span class="chip no">Live · started '+esc(clockShort(st))+'</span>':`<span class="chip">${st?esc(clock(st)):esc(g.time)}</span>`;
+  const mini=`<a class="card mini" href="#${id}"><div class="t"><span class="k">${started?'Started':esc(st?clock(st):g.time)}</span>${started?'<span class="live">Live</span>':''}</div>
+    <span class="m">${esc(g.away)} @ ${esc(g.home)}</span><div class="thin"><i style="width:${(g.p_home*100).toFixed(1)}%"></i></div>
+    <span class="p">${esc(fav)} ${pct(Math.max(g.p_home,pa))}</span></a>`;
+  const card=`<article class="card game" id="${id}">
+    <div class="hd"><h2>${esc(g.away)} @ ${esc(g.home)}</h2>${when}</div>
+    <div><div class="pick">${esc(headline(g))}</div><small>Model v5, pregame · home ice ${esc(g.home)}</small></div>
+    <div class="bar" role="img" aria-label="Win probability: ${esc(g.away)} ${pct(pa)}, ${esc(g.home)} ${pct(g.p_home)}"><div class="a" style="width:${pa*100}%">${esc(g.away)} ${pct(pa)}</div><div class="h" style="width:${g.p_home*100}%">${esc(g.home)} ${pct(g.p_home)}</div></div>
+    <div class="stats">
+      <div class="stat"><span class="k">Total goals</span><b>${g.total.toFixed(2)}</b></div>
+      <div class="stat"><span class="k">Over 5.5</span><b>${pct(g.o55)}</b></div>
+      <div class="stat"><span class="k">Shots ${esc(g.away)}–${esc(g.home)}</span><b>${g.sa.toFixed(0)}–${g.sh.toFixed(0)}</b></div>
     </div>
-    <h3>Top skaters</h3>
-    <div class="scroll"><table><thead><tr><th>Player</th><th>1+ pt</th><th>Goal</th><th>SOG avg</th><th>3+ SOG</th></tr></thead><tbody>${tbl}</tbody></table></div>
-    <div class="kick" style="text-transform:none;letter-spacing:.02em;margin-top:10px;display:flex;flex-direction:column;gap:2px">${injLine(g.away)}${injLine(g.home)}<div>Lineups from Daily Faceoff${lu.asof?', updated '+lu.asof.replace('T',' ').replace('Z',' UTC'):''}. Player rates use season stats as of the last refresh.</div></div>
-  </article>`}
+    <ul class="rows top">
+      <li><div class="l">Model · ${esc(g.home)} wins<small>${esc(gapText(g,m,started))}</small></div>
+        <div class="r">${pct(g.p_home)}<small>${m?esc(/kalshi/i.test(m.source)?'Kalshi':'Feed')+' '+pct(m.home_prob,Math.abs(m.home_prob*100-Math.round(m.home_prob*100))>.05?1:0):'–'}</small></div></li>
+      ${sideRow(g.away,g.goalie_a,g.goalie_status_a)}${sideRow(g.home,g.goalie_h,g.goalie_status_h)}
+    </ul>
+    ${skaters(g)}
+  </article>`;
+  return {mini,card};
+});
 const anyUnc=DATA.games.some(g=>g.goalie_status_a!=='confirmed'||g.goalie_status_h!=='confirmed');
-$('#wed').innerHTML=(DATA.slate_note?`<div class="note">${DATA.slate_note}</div>`:'')+(anyUnc?`<div class="note"><b>Some goalies are not confirmed.</b> Numbers change if a starter changes. Nothing here is a certainty.</div>`:'')+DATA.games.map(gameCard).join('');
-const H=DATA.health||{};
-if(H.at){const pr=(H.problems||[]);$('#hl').innerHTML='Last automatic run: '+new Date(H.at).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ('+H.mode+'). '+(pr.length?'<b>Problems:</b> '+pr.map(x=>String(x).replace(/</g,'&lt;')).join(' · '):'No problems reported.')}
+const allUnc=DATA.games.every(g=>g.goalie_status_a!=='confirmed'&&g.goalie_status_h!=='confirmed');
+const sd=DATA.games[0]&&DATA.games[0].date;
+$('#p-today').innerHTML=`<div class="intro"><h1>${sd?esc(fmtLong(sd)):esc(DATA.slate_label)} · ${DATA.games.length} game${DATA.games.length===1?'':'s'}</h1>
+    <p>Model v5 win probabilities, totals and skater props. ${DATA.n_games} games logged; parameters stay frozen until the refit on ${esc(fmtD(DATA.refit||'2026-11-23'))}.</p></div>
+  ${DATA.slate_note?`<div class="note">${ICON_WARN}<div>${DATA.slate_note}</div></div>`:''}
+  ${anyUnc?`<div class="note">${ICON_WARN}<div><b>${allUnc?'No starting goalies confirmed yet.':'Some goalies are not confirmed.'}</b> Numbers shift if a starter changes. Check back closer to puck drop.</div></div>`:''}
+  ${DATA.games.length?`<section class="sec" aria-label="Slate overview"><div class="sechead"><h2 class="eyebrow">Today's slate</h2><span>Tap a game to jump</span></div><div class="slate">${cards.map(c=>c.mini).join('')}</div></section>
+  <section class="games">${cards.map(c=>c.card).join('')}</section>`:'<div class="card game"><p class="small">No games on today\'s slate.</p></div>'}`;
+$('#p-today').addEventListener('click',e=>{
+  const b=e.target.closest('[data-more]');if(!b)return;
+  const open=b.getAttribute('aria-expanded')!=='true';
+  b.closest('.game').querySelectorAll('tr.more').forEach(r=>r.hidden=!open);
+  b.setAttribute('aria-expanded',open);b.textContent=open?b.dataset.few:b.dataset.all;
+});
+
 // ---------- report card
-const T=DATA.graded, S=DATA.summary;
-const hit=T.filter(t=>(t.p5>.5?t.home:t.away)===t.winner).length;
-const rows=T.map(t=>{const pick=t.p5>.5?t.home:t.away,ok=pick===t.winner;
-  return `<tr><td>${t.away} @ ${t.home}</td><td>${t.score}${t.ot?' '+t.ot:''}</td><td>${pick} ${pct(Math.max(t.p5,1-t.p5))}</td><td>${t.p4?pct(t.p4>.5?t.p4:1-t.p4)+' '+(t.p4>.5?t.home:t.away):'–'}</td><td><span class="chip ${ok?'ok':'no'}">${ok?'hit':'miss'}</span></td><td>${t.tot5.toFixed(1)} / ${t.tot_act}</td><td>${t.sh_act[0]}–${t.sh_act[1]}</td></tr>`}).join('');
-const dd=DATA.daily[DATA.daily.length-1];
+const T=DATA.graded||[], S=DATA.summary||{};
+const graded=T.map(t=>{const pick=t.p5>.5?t.home:t.away,ok=pick===t.winner;
+  const v4=t.p4?`v4 ${t.p4>.5?t.home:t.away} ${pct(t.p4>.5?t.p4:1-t.p4)} · `:'';
+  return {ok,html:`<li data-ok="${ok}"><div class="l">${esc(t.away)} @ ${esc(t.home)} · ${esc(t.score)}${t.ot?' '+esc(t.ot):''}<small>${v4}Goals ${t.tot5.toFixed(1)}/${t.tot_act} proj/act · shots ${t.sh_act[0]}–${t.sh_act[1]}</small></div>
+    <div class="r">${esc(pick)} ${pct(Math.max(t.p5,1-t.p5))}<span class="chip ${ok?'ok':'no'}">${ok?'Hit':'Miss'}</span></div></li>`}});
+const hit=graded.filter(r=>r.ok).length;
+const dd=DATA.daily[DATA.daily.length-1]||{};
 const C=DATA.player_cal||{};
-const PC=C.n?`<div class="sheet"><h3>Player props, all graded so far</h3><p>${C.n} player-games. 1+ point: projected ${C.pt_exp.toFixed(1)}, actual ${C.pt_act}. Goals: projected ${C.g_exp.toFixed(1)}, actual ${C.g_act}.${C.n_shots?` 3+ shots (${C.n_shots} with shot data): projected ${C.sh3_exp.toFixed(1)}, actual ${C.sh3_act}.`:''} If projected and actual stay close, the probabilities are honest.</p></div>`:'';
-$('#grade').innerHTML=`<div class="sheet"><div class="row"><div><div class="kick">${fmtD(DATA.graded_date)} · winners</div><div class="big">${hit} of ${T.length}</div></div><div><div class="kick">Brier (coin flip = 0.250)</div><div class="big">${dd.b5.toFixed(3)}</div></div></div>
- <p>Score is Brier across the day's picks; lower is better, and a coin flip scores 0.250.</p></div>
- <div class="sheet"><h3>All ${T.length} games</h3><div class="scroll"><table><thead><tr><th>Game</th><th>Final</th><th>v5 pick</th><th>v4 pick</th><th></th><th>Goals proj/act</th><th>Shots</th></tr></thead><tbody>${rows}</tbody></table></div>
- <p class="kick" style="text-transform:none;letter-spacing:.02em">v5 picks are walk-forward: each game uses only ratings from games played before it. v4 picks are what was published.</p></div>
- ${PC}
- <div class="sheet"><div class="row"><div><div class="kick">Games logged toward refit</div><div class="big">${DATA.n_games} / ${DATA.target}</div></div><span class="chip ice">refit Mon Nov 23</span></div>
- <div class="prog"><i style="width:${DATA.n_games/DATA.target*100}%"></i></div>
- <p>Same ${S.n_h2h} games: v5 Brier ${S.brier5_h2h.toFixed(3)} vs v4 ${S.brier4_h2h.toFixed(3)}, winners ${pct(S.acc5_h2h)} vs ${pct(S.acc4_h2h)}. That gap is inside the noise. Parameters stay frozen until the refit.</p></div>`;
-const start=(location.hash||'').slice(1);show(TABS.some(t=>t[0]===start)?start:'wed');
+const brier=dd.b5!=null?dd.b5:S.brier5;
+const propTile=(label,act,exp)=>`<div class="card tile"><span class="k">${label}</span><span class="big">${act} <small>vs ${exp.toFixed(1)} proj</small></span></div>`;
+$('#p-grade').innerHTML=`<div class="intro"><h1>Report card · ${esc(fmtD(DATA.graded_date))}</h1><p>How the last graded slate held up, plus progress toward the refit.</p></div>
+  <div class="tiles">
+    <div class="card tile"><span class="k">Winners</span><span class="big">${hit} of ${T.length}</span><span class="good" style="font-weight:600;font-size:14px">${T.length?pct(hit/T.length):'–'} hit rate</span></div>
+    <div class="card tile"><span class="k">Brier score</span><span class="big">${brier!=null?brier.toFixed(3):'–'}</span>
+      <details class="help"><summary>${ICON_Q}What's this?</summary><p>Lower is better. A coin flip scores 0.250${brier!=null?(brier<.25?', so this beat guessing.':', so this was worse than guessing.'):'.'}</p></details></div>
+    <div class="card tile"><span class="k">Toward refit</span><span class="big">${DATA.n_games} / ${DATA.target}</span>
+      <div class="prog"><i style="width:${Math.min(100,DATA.n_games/DATA.target*100)}%"></i></div><span class="dim" style="font-size:14px">Refit ${esc(fmtD(DATA.refit||'2026-11-23'))}</span></div>
+  </div>
+  <section class="sec">
+    <div class="sechead"><h2 class="eyebrow">All ${T.length} games</h2>
+      <div class="filters" role="group" aria-label="Filter games">
+        <button type="button" data-f="all" aria-pressed="true">All ${T.length}</button>
+        <button type="button" data-f="hit" aria-pressed="false">Hits ${hit}</button>
+        <button type="button" data-f="miss" aria-pressed="false">Misses ${T.length-hit}</button>
+      </div></div>
+    <div class="card list"><ul class="rows" id="glist">${graded.map(r=>r.html).join('')}</ul><p class="empty" id="gempty" hidden>Nothing here.</p></div>
+    <p class="small">v5 picks are walk-forward: each game uses only ratings from games played before it.${S.n_h2h?` On the same ${S.n_h2h} games, v5 Brier ${S.brier5_h2h.toFixed(3)} vs v4 ${S.brier4_h2h.toFixed(3)}, winners ${pct(S.acc5_h2h)} vs ${pct(S.acc4_h2h)}. That gap is inside the noise.`:''}</p>
+  </section>
+  ${C.n?`<section class="sec"><h2 class="eyebrow">Player props · ${C.n} graded</h2><div class="tiles">
+    ${propTile('1+ point',C.pt_act,C.pt_exp)}${propTile('Goals',C.g_act,C.g_exp)}${C.n_shots?propTile('3+ shots',C.sh3_act,C.sh3_exp):''}
+  </div><p class="small">If actual stays close to projected, the probabilities are honest.</p></section>`:''}`;
+$('#p-grade').addEventListener('click',e=>{
+  const b=e.target.closest('[data-f]');if(!b)return;const f=b.dataset.f;
+  $('#p-grade').querySelectorAll('[data-f]').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  let n=0;$('#glist').querySelectorAll('li').forEach(li=>{const show=f==='all'||(f==='hit')===(li.dataset.ok==='true');li.hidden=!show;if(show)n++});
+  $('#gempty').hidden=n>0;
+});
+
+// old links used #wed for the slate tab
+const start=(location.hash||'').slice(1);
+show(start==='grade'?'grade':'today');
+if(start.startsWith('g-')){const el=document.getElementById(start);if(el)el.scrollIntoView()}
 </script>
+</body>
+</html>
