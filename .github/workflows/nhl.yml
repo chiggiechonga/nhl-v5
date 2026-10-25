@@ -1,0 +1,49 @@
+name: nhl-v5
+on:
+  schedule:
+    - cron: '*/30 12-23,0-3 * * *'   # plan: goalies, lineups, odds, projections (UTC; 8am-11pm ET)
+    - cron: '15 1-9,14 * * *'        # grade: finals -> results -> report card
+    - cron: '0 9 * * *'              # players: daily season-stat refresh
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'plan, grade or players'
+        default: 'plan'
+permissions:
+  contents: write
+concurrency:
+  group: nhl-v5
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Tests
+        run: python -m unittest discover tests
+      - name: Run
+        env:
+          SCHED: ${{ github.event.schedule }}
+          MODE_IN: ${{ github.event.inputs.mode }}
+        run: |
+          case "$SCHED" in
+            '15 1-9,14 * * *') MODE=grade ;;
+            '0 9 * * *') MODE=players ;;
+            '') MODE="${MODE_IN:-plan}" ;;
+            *) MODE=plan ;;
+          esac
+          echo "mode=$MODE"
+          python auto/run.py "$MODE"
+          if [ "$MODE" = plan ]; then python auto/run.py grade; fi
+      - name: Commit
+        run: |
+          git config user.name "nhl-v5-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data docs
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "auto: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -X theirs origin main || true
+          git push origin HEAD:main

@@ -1,0 +1,135 @@
+<title>NHL Matchup Simulator</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: sticky tab bar over four views; each view is a stack of ruled "sheets" like a scorer's table. Boldness lives in the condensed numerals. */
+:root{
+  --bg:#EDF1F4; --sheet:#FFFFFF; --ink:#0F1B26; --mute:#5A6B79; --rule:#CFD9E1;
+  --ice:#177A8C; --ice-soft:#D6EBEF; --good:#1E7F4F; --warn:#B26A00; --bad:#B3363B; --good-soft:#DDF0E5; --bad-soft:#F6DEDF; --warn-soft:#F8E8CC;
+  --f-disp:"Barlow Condensed","Arial Narrow",sans-serif; --f-body:"IBM Plex Sans",system-ui,sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0B131B; --sheet:#121D28; --ink:#E6EEF4; --mute:#8FA3B3; --rule:#233443;
+  --ice:#5CC8D8; --ice-soft:#16343C; --good:#4CC38A; --warn:#E0A64A; --bad:#EE7B7F; --good-soft:#143525; --bad-soft:#3A1D20; --warn-soft:#3A2D12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B131B; --sheet:#121D28; --ink:#E6EEF4; --mute:#8FA3B3; --rule:#233443;
+  --ice:#5CC8D8; --ice-soft:#16343C; --good:#4CC38A; --warn:#E0A64A; --bad:#EE7B7F; --good-soft:#143525; --bad-soft:#3A1D20; --warn-soft:#3A2D12; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body);margin:0;padding-block:0 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:760px;margin:0 auto}
+h1,h2,h3{font-family:var(--f-disp);font-weight:700;letter-spacing:.01em;margin:0;text-wrap:balance}
+.top{padding-top:20px}
+.kick{font:500 11px var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+h1{font-size:40px;line-height:1;margin-top:6px}
+.sub{color:var(--mute);margin:8px 0 0;max-width:60ch}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:4px;margin:16px 0 0;border-bottom:1px solid var(--rule);overflow-x:auto}
+nav button{font:600 17px var(--f-disp);letter-spacing:.04em;text-transform:uppercase;background:none;border:0;color:var(--mute);padding:12px 12px 10px;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
+nav button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--ice)}
+nav button:focus-visible,a:focus-visible{outline:2px solid var(--ice);outline-offset:2px}
+section[hidden]{display:none}
+.stack{display:flex;flex-direction:column;gap:16px;margin-top:18px}
+.sheet{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:16px;min-width:0}
+.note{border-left:4px solid var(--warn);background:var(--warn-soft);padding:12px 14px;border-radius:0 6px 6px 0;font-size:14px}
+.note b{font-weight:600}
+h2{font-size:26px}
+h3{font-size:19px;letter-spacing:.03em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:baseline;justify-content:space-between}
+.big{font:700 44px/1 var(--f-disp);font-variant-numeric:tabular-nums}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.chip{display:inline-block;font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:3px;background:var(--warn-soft);color:var(--warn)}
+.chip.ok{background:var(--good-soft);color:var(--good)} .chip.no{background:var(--bad-soft);color:var(--bad)} .chip.ice{background:var(--ice-soft);color:var(--ice)}
+.bar{display:flex;height:34px;border-radius:4px;overflow:hidden;font:700 20px/34px var(--f-disp);margin:10px 0 4px}
+.bar>div{padding:0 10px;white-space:nowrap}
+.bar .a{background:var(--ice-soft);color:var(--ink)} .bar .h{background:var(--ice);color:var(--bg);text-align:right}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin:14px 0}
+.facts div{border-top:2px solid var(--rule);padding-top:6px;min-width:0}
+.facts small{display:block;font:500 10.5px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.facts span:not(.chip){font:700 24px var(--f-disp);font-variant-numeric:tabular-nums}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th{font:500 10.5px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);text-align:right;padding:6px 8px;border-bottom:1px solid var(--rule);white-space:nowrap}
+td{padding:7px 8px;border-bottom:1px solid var(--rule);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+tr:last-child td{border-bottom:0}
+.teamhd td{font:600 13px var(--f-disp);letter-spacing:.08em;text-transform:uppercase;color:var(--ice);padding-top:12px;border-bottom:1px solid var(--rule)}
+.prog{height:14px;background:var(--rule);border-radius:7px;overflow:hidden;margin:10px 0 6px}
+.prog i{display:block;height:100%;background:var(--ice)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+p{margin:8px 0}
+ul.plain{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+ul.plain li{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;align-items:start}
+svg text{font-family:var(--f-mono);font-size:10px;fill:var(--mute)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--mute)}
+.legend i{display:inline-block;width:18px;height:3px;vertical-align:middle;margin-right:6px}
+.foot{color:var(--mute);font-size:12.5px;margin-top:22px}
+@media (max-width:420px){h1{font-size:34px}.big{font-size:38px}}
+@media (prefers-reduced-motion:no-preference){.prog i{transition:width .6s}}
+</style>
+<div class="wrap">
+<header class="top">
+  <div class="kick" id="kick"></div>
+  <h1>NHL Matchup Simulator</h1>
+  <p class="sub">Model v5. Every projection and result is logged; parameters stay frozen until the refit on Mon Nov 23.</p>
+</header>
+<nav role="tablist" id="nav"></nav>
+<section id="wed" class="stack"></section>
+<section id="grade" class="stack" hidden></section>
+<p class="foot">Projections are probabilities, not predictions. No single game or prop is certain, and a leg priced near 90% pays almost nothing.</p>
+<p class="foot" id="hl"></p>
+<p class="foot">Code and data: <a href="https://github.com/chiggiechonga/nhl-v5">github.com/chiggiechonga/nhl-v5</a>. Updated automatically.</p>
+</div>
+<script>
+const DATA=/*DATA*/null;
+const $=s=>document.querySelector(s), pct=(x,d=0)=>(x*100).toFixed(d)+'%', f2=x=>x.toFixed(2);
+const el=(h)=>{const t=document.createElement('template');t.innerHTML=h.trim();return t.content.firstChild};
+const fmtD=d=>{const [y,m,dd]=d.split('-');return new Date(+y,+m-1,+dd).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'})};
+const TABS=[['wed',DATA.slate_label],['grade','Report card']];
+$('#kick').textContent='Updated '+new Date(DATA.made).toLocaleString('en-US',{weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' · '+DATA.n_games+' games logged';
+const nav=$('#nav');
+TABS.forEach(([id,l])=>{const b=el(`<button role="tab" id="t-${id}" aria-selected="false">${l}</button>`);b.onclick=()=>show(id);nav.append(b)});
+function show(id){TABS.forEach(([i])=>{$('#'+i).hidden=i!==id;$('#t-'+i).setAttribute('aria-selected',i===id)});try{history.replaceState(null,'','#'+id)}catch(e){}}
+const gchip=(s)=>`<span class="chip ${s==='confirmed'?'ok':''}">${s}</span>`;
+const injLine=(t)=>{const lu=DATA.lineups[t];if(!lu)return '';const out=Object.entries(lu.inj).filter(([k,v])=>/^(IR|OUT)/.test(v)).map(([k])=>k.split(' ').slice(-1)[0]);const dtd=Object.entries(lu.inj).filter(([k,v])=>v==='DTD').map(([k])=>k.split(' ').slice(-1)[0]);
+  return `<div><b>${t}</b> out: ${out.join(', ')||'none listed'}${dtd.length?' · day-to-day: '+dtd.join(', '):''}</div>`};
+function gameCard(g){
+  const mk=DATA.market.filter(m=>m.game===g.away+'@'+g.home);
+  const mline=mk.map(m=>`${m.source.replace(' moneyline','').replace('NHL scores feed win prob','Feed')} ${g.home} ${pct(m.home_prob,Math.abs(m.home_prob*100-Math.round(m.home_prob*100))>.05?1:0)}`).join(' · ');
+  const ps=DATA.players.filter(p=>p.team===g.away||p.team===g.home);
+  const tbl=[g.away,g.home].map(t=>`<tr class="teamhd"><td colspan="5">${t}</td></tr>`+ps.filter(p=>p.team===t).map(p=>`<tr><td>${p.name}${p.dtd?' <span class="chip">DTD</span>':''}</td><td>${pct(p.p_pt)}</td><td>${pct(p.p_g)}</td><td>${p.sog.toFixed(1)}</td><td>${pct(p.sog3)}</td></tr>`).join('')).join('');
+  const lu=DATA.lineups[g.away]||{};
+  return `<article class="sheet">
+    <div class="row"><h2>${g.away} @ ${g.home}</h2><span class="kick">${g.time} · home ${g.home}</span></div>
+    <div class="bar" role="img" aria-label="Win probability"><div class="a" style="width:${(1-g.p_home)*100}%">${g.away} ${pct(1-g.p_home)}</div><div class="h" style="width:${g.p_home*100}%">${g.home} ${pct(g.p_home)}</div></div>
+    <div class="kick" style="text-transform:none;letter-spacing:.02em">Market: ${mline||'not captured'}. Gaps here are information, not an edge.</div>
+    <div class="facts">
+      <div><small>Total goals</small><span>${f2(g.total)}</span></div>
+      <div><small>Over 5.5</small><span>${pct(g.o55)}</span></div>
+      <div><small>Shots ${g.away}–${g.home}</small><span>${g.sa.toFixed(0)}–${g.sh.toFixed(0)}</span></div>
+      <div style="grid-column:1/-1"><small>Goalies (away / home)</small><span style="font-size:17px">${g.goalie_a} / ${g.goalie_h}</span><br>${gchip(g.goalie_status_a)} ${gchip(g.goalie_status_h)}</div>
+    </div>
+    <h3>Top skaters</h3>
+    <div class="scroll"><table><thead><tr><th>Player</th><th>1+ pt</th><th>Goal</th><th>SOG avg</th><th>3+ SOG</th></tr></thead><tbody>${tbl}</tbody></table></div>
+    <div class="kick" style="text-transform:none;letter-spacing:.02em;margin-top:10px;display:flex;flex-direction:column;gap:2px">${injLine(g.away)}${injLine(g.home)}<div>Lineups from Daily Faceoff${lu.asof?', updated '+lu.asof.replace('T',' ').replace('Z',' UTC'):''}. Player rates use season stats as of the last refresh.</div></div>
+  </article>`}
+const anyUnc=DATA.games.some(g=>g.goalie_status_a!=='confirmed'||g.goalie_status_h!=='confirmed');
+$('#wed').innerHTML=(DATA.slate_note?`<div class="note">${DATA.slate_note}</div>`:'')+(anyUnc?`<div class="note"><b>Some goalies are not confirmed.</b> Numbers change if a starter changes. Nothing here is a certainty.</div>`:'')+DATA.games.map(gameCard).join('');
+const H=DATA.health||{};
+if(H.at){const pr=(H.problems||[]);$('#hl').innerHTML='Last automatic run: '+new Date(H.at).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ('+H.mode+'). '+(pr.length?'<b>Problems:</b> '+pr.map(x=>String(x).replace(/</g,'&lt;')).join(' · '):'No problems reported.')}
+// ---------- report card
+const T=DATA.graded, S=DATA.summary;
+const hit=T.filter(t=>(t.p5>.5?t.home:t.away)===t.winner).length;
+const rows=T.map(t=>{const pick=t.p5>.5?t.home:t.away,ok=pick===t.winner;
+  return `<tr><td>${t.away} @ ${t.home}</td><td>${t.score}${t.ot?' '+t.ot:''}</td><td>${pick} ${pct(Math.max(t.p5,1-t.p5))}</td><td>${t.p4?pct(t.p4>.5?t.p4:1-t.p4)+' '+(t.p4>.5?t.home:t.away):'–'}</td><td><span class="chip ${ok?'ok':'no'}">${ok?'hit':'miss'}</span></td><td>${t.tot5.toFixed(1)} / ${t.tot_act}</td><td>${t.sh_act[0]}–${t.sh_act[1]}</td></tr>`}).join('');
+const dd=DATA.daily[DATA.daily.length-1];
+const C=DATA.player_cal||{};
+const PC=C.n?`<div class="sheet"><h3>Player props, all graded so far</h3><p>${C.n} player-games. 1+ point: projected ${C.pt_exp.toFixed(1)}, actual ${C.pt_act}. Goals: projected ${C.g_exp.toFixed(1)}, actual ${C.g_act}.${C.n_shots?` 3+ shots (${C.n_shots} with shot data): projected ${C.sh3_exp.toFixed(1)}, actual ${C.sh3_act}.`:''} If projected and actual stay close, the probabilities are honest.</p></div>`:'';
+$('#grade').innerHTML=`<div class="sheet"><div class="row"><div><div class="kick">${fmtD(DATA.graded_date)} · winners</div><div class="big">${hit} of ${T.length}</div></div><div><div class="kick">Brier (coin flip = 0.250)</div><div class="big">${dd.b5.toFixed(3)}</div></div></div>
+ <p>Score is Brier across the day's picks; lower is better, and a coin flip scores 0.250.</p></div>
+ <div class="sheet"><h3>All ${T.length} games</h3><div class="scroll"><table><thead><tr><th>Game</th><th>Final</th><th>v5 pick</th><th>v4 pick</th><th></th><th>Goals proj/act</th><th>Shots</th></tr></thead><tbody>${rows}</tbody></table></div>
+ <p class="kick" style="text-transform:none;letter-spacing:.02em">v5 picks are walk-forward: each game uses only ratings from games played before it. v4 picks are what was published.</p></div>
+ ${PC}
+ <div class="sheet"><div class="row"><div><div class="kick">Games logged toward refit</div><div class="big">${DATA.n_games} / ${DATA.target}</div></div><span class="chip ice">refit Mon Nov 23</span></div>
+ <div class="prog"><i style="width:${DATA.n_games/DATA.target*100}%"></i></div>
+ <p>Same ${S.n_h2h} games: v5 Brier ${S.brier5_h2h.toFixed(3)} vs v4 ${S.brier4_h2h.toFixed(3)}, winners ${pct(S.acc5_h2h)} vs ${pct(S.acc4_h2h)}. That gap is inside the noise. Parameters stay frozen until the refit.</p></div>`;
+const start=(location.hash||'').slice(1);show(TABS.some(t=>t[0]===start)?start:'wed');
+</script>

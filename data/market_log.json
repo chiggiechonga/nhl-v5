@@ -1,0 +1,358 @@
+[
+ {
+  "date": "2026-10-21",
+  "game": "PHI@BUF",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.62,
+  "note": "page snapshot, no timestamp; trade panel showed 66%",
+  "total_o55": 0.58
+ },
+ {
+  "date": "2026-10-21",
+  "game": "PHI@BUF",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.619
+ },
+ {
+  "date": "2026-10-21",
+  "game": "FLA@OTT",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.503,
+  "note": "morning pass; corrected from 0.497 (that was FLA, the away side)"
+ },
+ {
+  "date": "2026-10-19",
+  "game": "COL@PHI",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.34,
+  "note": "pre-game snapshot (PHI 34%); PHI won 3-2"
+ },
+ {
+  "date": "2026-10-21",
+  "game": "PHI@BUF",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.63,
+  "total_o55": 0.55,
+  "note": "3pm PT pass; trade panel showed 66%; page countdown inconsistent, no timestamp"
+ },
+ {
+  "date": "2026-10-21",
+  "game": "FLA@OTT",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.5,
+  "total_o55": 0.53,
+  "note": "3pm PT pass; trade panel showed FLA 52%, OTT 48%; no timestamp"
+ },
+ {
+  "date": "2026-10-21",
+  "game": "PHI@BUF",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.637,
+  "note": "3pm PT pass"
+ },
+ {
+  "date": "2026-10-21",
+  "game": "FLA@OTT",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.505,
+  "note": "3pm PT pass"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "ANA@NJD",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.655,
+  "note": "10:30am PT pass; no timestamp; 66/35"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "SJS@OTT",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.55,
+  "note": "10:30am PT pass; no timestamp"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "FLA@PIT",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.51,
+  "note": "10:30am PT pass; no timestamp"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "NSH@BOS",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.6,
+  "note": "10:30am PT pass; no timestamp",
+  "total_o55": 0.55
+ },
+ {
+  "date": "2026-10-22",
+  "game": "NYR@TOR",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.49,
+  "note": "10:30am PT pass; no timestamp; trade panel NYR 54%"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "LAK@NYI",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.51,
+  "note": "10:30am PT pass; no timestamp; trade panel NYI 55%",
+  "total_o55": 0.49
+ },
+ {
+  "date": "2026-10-22",
+  "game": "WPG@DAL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.64,
+  "note": "10:30am PT pass; no timestamp; trade panel DAL 67%",
+  "total_o55": 0.49
+ },
+ {
+  "date": "2026-10-22",
+  "game": "VGK@STL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.46,
+  "note": "10:30am PT pass; no timestamp"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "MIN@CGY",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.36,
+  "note": "10:30am PT pass; no timestamp",
+  "total_o55": 0.55
+ },
+ {
+  "date": "2026-10-22",
+  "game": "CAR@EDM",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.47,
+  "note": "10:30am PT pass; no timestamp"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "UTA@SEA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.4,
+  "note": "10:30am PT pass; no timestamp"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "DET@VAN",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.4,
+  "note": "10:30am PT pass; no timestamp"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "ANA@NJD",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.656,
+  "note": "10:30am PT pass"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "SJS@OTT",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.542,
+  "note": "10:30am PT pass"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "FLA@PIT",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.514,
+  "note": "10:30am PT pass"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "NSH@BOS",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.566,
+  "note": "10:30am PT pass"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "NYR@TOR",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.502,
+  "note": "10:30am PT pass"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "LAK@NYI",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.5,
+  "note": "10:30am PT pass"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "WPG@DAL",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.639,
+  "note": "10:30am PT pass"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "VGK@STL",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.461,
+  "note": "10:30am PT pass"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "MIN@CGY",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.353,
+  "note": "10:30am PT pass"
+ },
+ {
+  "date": "2026-10-22",
+  "game": "CAR@EDM",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.478,
+  "note": "10:30am PT pass"
+ },
+ {
+  "date": "2026-10-23",
+  "game": "MTL@CHI",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.45,
+  "note": "11:45am PT pass; no timestamp; trade panel MTL 59% (CHI .41); O6.5 goals 43%"
+ },
+ {
+  "date": "2026-10-23",
+  "game": "TBL@COL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.54,
+  "note": "11:45am PT pass; no timestamp; trade panel COL 57%; O6.5 goals 49%"
+ },
+ {
+  "date": "2026-10-23",
+  "game": "MTL@CHI",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.407,
+  "note": "11:45am PT pass"
+ },
+ {
+  "date": "2026-10-23",
+  "game": "TBL@COL",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.532,
+  "note": "11:45am PT pass"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "ANA@PHI",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.52,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; 53% in meta; O5.5 53%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "LAK@NJD",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.61,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; 62% in meta; O5.5 54%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "SJS@BOS",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.63,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; 65% in text; O6.5 50%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "NYR@OTT",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.54,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; 55% in meta; O5.5 54%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "NSH@PIT",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.56,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; 57% in meta; O6.5 48%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "BUF@WSH",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.53,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; 54% in text; O6.5 50%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "VGK@CBJ",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.46,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; VGK 54% card / 56% meta; O6.5 46%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "CAR@STL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.42,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; O6.5 46%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "TOR@EDM",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.62,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; 63% in meta; O6.5 58%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "TBL@UTA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.56,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; 57% in meta; O6.5 52%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "DET@CGY",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.43,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; O5.5 54%"
+ },
+ {
+  "date": "2026-10-24",
+  "game": "MIN@SEA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.43,
+  "note": "12:40am PT pass (pre-morning, goalies unconfirmed); no timestamp; MIN 59% / 57% shown; O6.5 46%"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "NYI@DAL",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.62,
+  "note": "2:15pm PT pass; Kalshi unavailable (site blocked)"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "MTL@WPG",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.48,
+  "note": "2:15pm PT pass; Kalshi unavailable (site blocked)"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "COL@NSH",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.325,
+  "note": "2:15pm PT pass; Kalshi unavailable (site blocked)"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "MIN@VAN",
+  "source": "NHL scores feed win prob",
+  "home_prob": 0.367,
+  "note": "2:15pm PT pass; Kalshi unavailable (site blocked)"
+ }
+]

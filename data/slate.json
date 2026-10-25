@@ -1,0 +1,47 @@
+{
+ "date": "2026-10-25",
+ "label": "Sun Oct 25",
+ "b2b": [
+  "MIN",
+  "NSH"
+ ],
+ "note": "Run at 2:15pm PT with sources blocked: goalies unknown (TBD), lineups/injuries are from Oct 20-24 (stale). FLA@CHI excluded: already in progress.",
+ "games": [
+  {
+   "away": "NYI",
+   "home": "DAL",
+   "time": "6:00 ET",
+   "goalie_a": "TBD",
+   "goalie_h": "TBD",
+   "status_a": "unconfirmed",
+   "status_h": "unconfirmed"
+  },
+  {
+   "away": "MTL",
+   "home": "WPG",
+   "time": "7:00 ET",
+   "goalie_a": "TBD",
+   "goalie_h": "TBD",
+   "status_a": "unconfirmed",
+   "status_h": "unconfirmed"
+  },
+  {
+   "away": "COL",
+   "home": "NSH",
+   "time": "8:00 ET",
+   "goalie_a": "TBD",
+   "goalie_h": "TBD",
+   "status_a": "unconfirmed",
+   "status_h": "unconfirmed"
+  },
+  {
+   "away": "MIN",
+   "home": "VAN",
+   "time": "10:00 ET",
+   "goalie_a": "TBD",
+   "goalie_h": "TBD",
+   "status_a": "unconfirmed",
+   "status_h": "unconfirmed"
+  }
+ ]
+}
