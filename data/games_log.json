@@ -862,5 +862,17 @@
   "ot": null,
   "id": "2026-10-24_MIN@SEA",
   "winner": "MIN"
+ },
+ {
+  "away": "FLA",
+  "home": "CHI",
+  "ag": 3,
+  "hg": 2,
+  "a_sh": 33,
+  "h_sh": 21,
+  "ot": null,
+  "winner": "FLA",
+  "date": "2026-10-25",
+  "id": "2026-10-25_FLA@CHI"
  }
 ]

@@ -265,18 +265,18 @@
   "inj": {}
  },
  "NSH": {
-  "asof": "2026-10-25T21:46Z",
+  "asof": "2026-10-25T23:41Z",
   "source": "Daily Faceoff",
   "lines": [
    "Steven Stamkos",
    "Ryan O'Reilly",
-   "Matthew Wood",
-   "Filip Forsberg",
-   "Mavrik Bourque",
-   "Jonathan Marchessault",
    "Vitali Pinchuk",
+   "Filip Forsberg",
    "Alex Kerfoot",
+   "Mavrik Bourque",
    "Nils Hoglander",
+   "Matthew Wood",
+   "Jonathan Marchessault",
    "Ross Colton",
    "Jack Drury",
    "Adam Edstrom",
@@ -285,7 +285,8 @@
    "Nicolas Hague",
    "Jayden Struble",
    "Brady Skjei",
-   "Nick Perbix"
+   "Nick Perbix",
+   "Daemon Hunt"
   ],
   "inj": {
    "William Trudeau": "IR"
@@ -562,7 +563,7 @@
   }
  },
  "MIN": {
-  "asof": "2026-10-25T21:46Z",
+  "asof": "2026-10-25T23:41Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kirill Kaprizov",
@@ -711,7 +712,7 @@
   }
  },
  "VAN": {
-  "asof": "2026-10-25T21:46Z",
+  "asof": "2026-10-25T23:41Z",
   "source": "Daily Faceoff",
   "lines": [
    "Drew O'Connor",
@@ -852,7 +853,7 @@
   }
  },
  "COL": {
-  "asof": "2026-10-25T21:46Z",
+  "asof": "2026-10-25T23:41Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artturi Lehkonen",

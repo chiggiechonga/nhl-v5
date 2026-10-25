@@ -389,5 +389,19 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.355,
   "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "NYI@DAL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.56,
+  "note": "auto 23:41Z; mid of bid/ask; O5.5 goals 100%; O6.5 goals 100%"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "MTL@WPG",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.485,
+  "note": "auto 23:41Z; mid of bid/ask; O5.5 goals 38%; O6.5 goals 26%"
  }
 ]
