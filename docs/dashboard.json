@@ -264,6 +264,30 @@
  "graded_date": "2026-10-24",
  "games": [
   {
+   "away": "FLA",
+   "home": "CHI",
+   "lh": 2.7369123588984228,
+   "la": 3.2525512042071356,
+   "sh": 21.445295153229992,
+   "sa": 29.980781058957287,
+   "p_home_raw": 0.4113307266565057,
+   "p_home": 0.4113307266565057,
+   "total": 5.989463563105558,
+   "o45": 0.7047311641159323,
+   "o55": 0.5475009668140804,
+   "o65": 0.39217657604483097,
+   "p00": 0.0030454199942953875,
+   "goalie_a": "Akira Schmid",
+   "goalie_h": "Spencer Knight",
+   "goalie_status_a": "unconfirmed",
+   "goalie_status_h": "unconfirmed",
+   "goalie_data_a": false,
+   "goalie_data_h": false,
+   "id": "2026-10-25_FLA@CHI",
+   "date": "2026-10-25",
+   "time": "3:00 ET"
+  },
+  {
    "away": "NYI",
    "home": "DAL",
    "lh": 2.9517426385070085,
@@ -277,8 +301,8 @@
    "o55": 0.47702333909851585,
    "o65": 0.32422194952933314,
    "p00": 0.0045970460869186915,
-   "goalie_a": "TBD",
-   "goalie_h": "TBD",
+   "goalie_a": "Ilya Sorokin",
+   "goalie_h": "Jake Oettinger",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -301,8 +325,8 @@
    "o55": 0.5708774791597159,
    "o65": 0.4158021183837774,
    "p00": 0.002640978629825467,
-   "goalie_a": "TBD",
-   "goalie_h": "TBD",
+   "goalie_a": "Jacob Fowler",
+   "goalie_h": "Stuart Skinner",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -325,8 +349,8 @@
    "o55": 0.6355527836271294,
    "o65": 0.4841361936077183,
    "p00": 0.0017409206888038785,
-   "goalie_a": "TBD",
-   "goalie_h": "TBD",
+   "goalie_a": "Scott Wedgewood",
+   "goalie_h": "Justus Annunen",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -349,8 +373,8 @@
    "o55": 0.6091862001352436,
    "o65": 0.4557381647564017,
    "p00": 0.002072744910439121,
-   "goalie_a": "TBD",
-   "goalie_h": "TBD",
+   "goalie_a": "Calvin Pickard",
+   "goalie_h": "Leevi Merilainen",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -361,6 +385,186 @@
   }
  ],
  "players": [
+  {
+   "name": "Matthew Tkachuk",
+   "team": "FLA",
+   "opp": "CHI",
+   "pos": "F",
+   "p_pt": 0.6683,
+   "p_g": 0.3018,
+   "ep": 1.104,
+   "sog": 2.77,
+   "sog2_raw": 0.717,
+   "sog3_raw": 0.4964,
+   "sog4_raw": 0.3071,
+   "sog2": 0.674,
+   "sog3": 0.4468,
+   "sog4": 0.2457,
+   "dtd": false,
+   "basis": "2025-26 31 GP + 2026-27 9 GP (stats as of Oct 21)"
+  },
+  {
+   "name": "Brady Tkachuk",
+   "team": "FLA",
+   "opp": "CHI",
+   "pos": "F",
+   "p_pt": 0.602,
+   "p_g": 0.3324,
+   "ep": 0.921,
+   "sog": 3.71,
+   "sog2_raw": 0.8326,
+   "sog3_raw": 0.6614,
+   "sog4_raw": 0.4804,
+   "sog2": 0.7827,
+   "sog3": 0.5952,
+   "sog4": 0.3843,
+   "dtd": false,
+   "basis": "2025-26 60 GP + 2026-27 9 GP (stats as of Oct 21)"
+  },
+  {
+   "name": "Sam Reinhart",
+   "team": "FLA",
+   "opp": "CHI",
+   "pos": "F",
+   "p_pt": 0.5717,
+   "p_g": 0.3528,
+   "ep": 0.848,
+   "sog": 2.89,
+   "sog2_raw": 0.7354,
+   "sog3_raw": 0.5204,
+   "sog4_raw": 0.3302,
+   "sog2": 0.6912,
+   "sog3": 0.4684,
+   "sog4": 0.2641,
+   "dtd": false,
+   "basis": "2025-26 64 GP + 2026-27 9 GP (stats as of Oct 21)"
+  },
+  {
+   "name": "Carter Verhaeghe",
+   "team": "FLA",
+   "opp": "CHI",
+   "pos": "F",
+   "p_pt": 0.4979,
+   "p_g": 0.3135,
+   "ep": 0.689,
+   "sog": 2.36,
+   "sog2_raw": 0.644,
+   "sog3_raw": 0.4079,
+   "sog4_raw": 0.2284,
+   "sog2": 0.6053,
+   "sog3": 0.3671,
+   "sog4": 0.1827,
+   "dtd": false,
+   "basis": "2025-26 77 GP + 2026-27 9 GP (stats as of Oct 21)"
+  },
+  {
+   "name": "Seth Jones",
+   "team": "FLA",
+   "opp": "CHI",
+   "pos": "D",
+   "p_pt": 0.4915,
+   "p_g": 0.1098,
+   "ep": 0.676,
+   "sog": 2.07,
+   "sog2_raw": 0.5814,
+   "sog3_raw": 0.34,
+   "sog4_raw": 0.1744,
+   "sog2": 0.5465,
+   "sog3": 0.306,
+   "sog4": 0.1395,
+   "dtd": false,
+   "basis": "2025-26 52 GP + 2026-27 9 GP (stats as of Oct 21)"
+  },
+  {
+   "name": "Connor Bedard",
+   "team": "CHI",
+   "opp": "FLA",
+   "pos": "F",
+   "p_pt": 0.6122,
+   "p_g": 0.3111,
+   "ep": 0.947,
+   "sog": 2.88,
+   "sog2_raw": 0.7337,
+   "sog3_raw": 0.5182,
+   "sog4_raw": 0.328,
+   "sog2": 0.6897,
+   "sog3": 0.4663,
+   "sog4": 0.2624,
+   "dtd": false,
+   "basis": "2025-26 69 GP + 2026-27 3 GP (stats as of Oct 23)"
+  },
+  {
+   "name": "Patrick Kane",
+   "team": "CHI",
+   "opp": "FLA",
+   "pos": "F",
+   "p_pt": 0.4929,
+   "p_g": 0.1649,
+   "ep": 0.679,
+   "sog": 2.09,
+   "sog2_raw": 0.5842,
+   "sog3_raw": 0.343,
+   "sog4_raw": 0.1766,
+   "sog2": 0.5492,
+   "sog3": 0.3087,
+   "sog4": 0.1413,
+   "dtd": false,
+   "basis": "2025-26 67 GP + 2026-27 9 GP (stats as of Oct 23)"
+  },
+  {
+   "name": "Anton Frondell",
+   "team": "CHI",
+   "opp": "FLA",
+   "pos": "F",
+   "p_pt": 0.4726,
+   "p_g": 0.1709,
+   "ep": 0.64,
+   "sog": 2.4,
+   "sog2_raw": 0.6514,
+   "sog3_raw": 0.4164,
+   "sog4_raw": 0.2356,
+   "sog2": 0.6123,
+   "sog3": 0.3748,
+   "sog4": 0.1885,
+   "dtd": false,
+   "basis": "2025-26 12 GP + 2026-27 9 GP (stats as of Oct 23)"
+  },
+  {
+   "name": "Tyler Bertuzzi",
+   "team": "CHI",
+   "opp": "FLA",
+   "pos": "F",
+   "p_pt": 0.4532,
+   "p_g": 0.2691,
+   "ep": 0.604,
+   "sog": 1.63,
+   "sog2_raw": 0.467,
+   "sog3_raw": 0.2329,
+   "sog4_raw": 0.1006,
+   "sog2": 0.439,
+   "sog3": 0.2096,
+   "sog4": 0.0805,
+   "dtd": false,
+   "basis": "2025-26 79 GP + 2026-27 9 GP (stats as of Oct 23)"
+  },
+  {
+   "name": "Frank Nazar",
+   "team": "CHI",
+   "opp": "FLA",
+   "pos": "F",
+   "p_pt": 0.4152,
+   "p_g": 0.2122,
+   "ep": 0.536,
+   "sog": 1.86,
+   "sog2_raw": 0.5283,
+   "sog3_raw": 0.2878,
+   "sog4_raw": 0.1366,
+   "sog2": 0.4966,
+   "sog3": 0.259,
+   "sog4": 0.1093,
+   "dtd": false,
+   "basis": "2025-26 66 GP + 2026-27 7 GP (stats as of Oct 23)"
+  },
   {
    "name": "Bo Horvat",
    "team": "NYI",
@@ -1042,7 +1246,7 @@
    "sog2": 0.3133,
    "sog3": 0.1193,
    "sog4": 0.0361,
-   "dtd": true,
+   "dtd": false,
    "basis": "2025-26 50 GP + 2026-27 9 GP (stats as of Oct 21)"
   },
   {
@@ -1110,11 +1314,104 @@
    "source": "NHL scores feed win prob",
    "home_prob": 0.367,
    "note": "2:15pm PT pass; Kalshi unavailable (site blocked)"
+  },
+  {
+   "date": "2026-10-25",
+   "game": "FLA@CHI",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.055,
+   "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 68%; O6.5 goals 26%"
+  },
+  {
+   "date": "2026-10-25",
+   "game": "NYI@DAL",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.625,
+   "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 46%; O6.5 goals 36%"
+  },
+  {
+   "date": "2026-10-25",
+   "game": "MTL@WPG",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.475,
+   "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
+  },
+  {
+   "date": "2026-10-25",
+   "game": "COL@NSH",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.315,
+   "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%"
+  },
+  {
+   "date": "2026-10-25",
+   "game": "MIN@VAN",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.355,
+   "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%"
   }
  ],
  "lineups": {
+  "FLA": {
+   "asof": "2026-10-20T15:15Z",
+   "source": "Daily Faceoff",
+   "lines": [
+    "Brady Tkachuk",
+    "Sam Bennett",
+    "Matthew Tkachuk",
+    "Carter Verhaeghe",
+    "Sam Reinhart",
+    "Lars Eller",
+    "Eetu Luostarinen",
+    "Anton Lundell",
+    "Sandis Vilmanis",
+    "Bokondji Imama",
+    "Cole Schwindt",
+    "Garnet Hathaway",
+    "Gustav Forsling",
+    "Aaron Ekblad",
+    "Niko Mikkola",
+    "Seth Jones",
+    "Dmitry Kulikov",
+    "Radko Gudas"
+   ],
+   "inj": {
+    "Aleksander Barkov": "IR",
+    "Jonah Gadjovich": "IR",
+    "Brad Marchand": "IR",
+    "Jacob Markstrom": "DTD"
+   }
+  },
+  "CHI": {
+   "asof": "2026-10-22T16:55Z",
+   "source": "Daily Faceoff",
+   "lines": [
+    "Roman Kantserov",
+    "Connor Bedard",
+    "Patrick Kane",
+    "Tyler Bertuzzi",
+    "Anton Frondell",
+    "Teuvo Teravainen",
+    "Oliver Moore",
+    "Frank Nazar",
+    "Ryan Donato",
+    "Cole Smith",
+    "Ryan Greene",
+    "Jordan Greenway",
+    "Alex Vlasic",
+    "Ian Cole",
+    "Wyatt Kaiser",
+    "Artyom Levshunov",
+    "Ethan Del Mastro",
+    "Sam Rinzel"
+   ],
+   "inj": {
+    "Andrew Mangiapane": "IR",
+    "Bowen Byram": "DTD"
+   }
+  },
   "NYI": {
-   "asof": "2026-10-22T14:38Z",
+   "asof": "2026-10-25T21:46Z",
    "source": "Daily Faceoff",
    "lines": [
     "Simon Holmstrom",
@@ -1138,16 +1435,16 @@
    ],
    "inj": {
     "Mathew Barzal": "IR",
-    "Alexander Romanov": "OUT",
-    "Matias Maccelli": "DTD",
-    "Calum Ritchie": "DTD"
+    "Alexander Romanov": "IR",
+    "Matias Maccelli": "IR",
+    "Calum Ritchie": "IR"
    }
   },
   "DAL": {
-   "asof": "2026-10-22T15:36Z",
+   "asof": "2026-10-25T21:46Z",
    "source": "Daily Faceoff",
    "lines": [
-    "Sam Steel",
+    "Joel Kiviranta",
     "Wyatt Johnston",
     "Mikko Rantanen",
     "Jason Robertson",
@@ -1156,9 +1453,9 @@
     "Justin Hryckowian",
     "Arttu Hyry",
     "Jamie Benn",
-    "Joel Kiviranta",
-    "Radek Faksa",
+    "Dylan Hryckowian",
     "Colin Blackwell",
+    "Matthew Seminoff",
     "Thomas Harley",
     "Miro Heiskanen",
     "Lian Bichsel",
@@ -1169,11 +1466,13 @@
    "inj": {
     "Matt Duchene": "IR",
     "Oskar Back": "IR",
-    "Esa Lindell": "DTD"
+    "Esa Lindell": "IR",
+    "Radek Faksa": "IR",
+    "Sam Steel": "IR"
    }
   },
   "MTL": {
-   "asof": "2026-10-22T16:05Z",
+   "asof": "2026-10-25T21:46Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -1189,21 +1488,19 @@
     "Jake Evans",
     "Florian Xhekaj",
     "Lane Hutson",
-    "Noah Dobson",
+    "Mike Matheson",
     "Kaiden Guhle",
     "Alexandre Carrier",
     "Arber Xhekaj",
-    "Adam Engstrom"
+    "Noah Dobson"
    ],
    "inj": {
     "Ivan Demidov": "IR",
-    "Florian Xhekaj": "IR",
-    "Sam Montembeault": "IR",
-    "Mike Matheson": "DTD"
+    "Sam Montembeault": "IR"
    }
   },
   "WPG": {
-   "asof": "2026-10-21T20:07Z",
+   "asof": "2026-10-25T21:46Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -1214,25 +1511,24 @@
     "Gabriel Vilardi",
     "Isak Rosen",
     "Adam Lowry",
-    "Brayden Yager",
+    "Dawson Mercer",
     "Nino Niederreiter",
     "Morgan Barron",
-    "Brad Lambert",
+    "Cole Koepke",
     "Dylan Samberg",
     "Neal Pionk",
     "Mario Ferraro",
-    "Dylan DeMelo",
+    "Elias Salomonsson",
     "Haydn Fleury",
-    "Tyrel Bauer"
+    "Dylan DeMelo"
    ],
    "inj": {
-    "Connor Hellebuyck": "OUT",
-    "Josh Morrissey": "OUT",
-    "Vladislav Namestnikov": "DTD"
+    "Josh Morrissey": "IR",
+    "Vladislav Namestnikov": "IR"
    }
   },
   "COL": {
-   "asof": "2026-10-22T17:33Z",
+   "asof": "2026-10-25T21:46Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -1244,8 +1540,9 @@
     "Jaden Schwartz",
     "Fedor Svechkov",
     "T.J. Hughes",
-    "Logan O'Connor",
+    "Taylor Makar",
     "Parker Kelly",
+    "Logan O'Connor",
     "Devon Toews",
     "Cale Makar",
     "Brett Kulak",
@@ -1254,13 +1551,12 @@
     "Brent Burns"
    ],
    "inj": {
-    "Logan O'Connor": "IR (listed in lines; may be stale)",
-    "Nicolas Roy": "OUT",
-    "Zachary L'Heureux": "OUT"
+    "Nicolas Roy": "IR",
+    "Zachary L'Heureux": "IR"
    }
   },
   "NSH": {
-   "asof": "2026-10-23T13:42Z",
+   "asof": "2026-10-25T21:46Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -1269,10 +1565,10 @@
     "Filip Forsberg",
     "Mavrik Bourque",
     "Jonathan Marchessault",
-    "Ross Colton",
+    "Vitali Pinchuk",
     "Alex Kerfoot",
     "Nils Hoglander",
-    "Reid Schaefer",
+    "Ross Colton",
     "Jack Drury",
     "Adam Edstrom",
     "Roman Josi",
@@ -1287,67 +1583,65 @@
    }
   },
   "MIN": {
-   "asof": "2026-10-23T14:03Z",
+   "asof": "2026-10-25T21:46Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
     "Joel Eriksson Ek",
     "Matt Boldy",
     "Blake Coleman",
-    "Ryan Hartman",
-    "Bobby Brink",
-    "Rieger Lorenz",
-    "Danila Yurov",
-    "Yakov Trenin",
-    "Nico Sturm",
     "Michael McCarron",
+    "Bobby Brink",
+    "Yakov Trenin",
+    "Danila Yurov",
+    "Maxim Shabanov",
+    "Nico Sturm",
+    "Ryan Hartman",
     "Tyler Pitlick",
     "Quinn Hughes",
-    "Jonas Brodin",
-    "Daemon Hunt",
     "Jared Spurgeon",
+    "Jonas Brodin",
     "Olli Maatta",
+    "Matt Kiersted",
     "Zach Bogosian"
    ],
    "inj": {
     "Brock Faber": "IR",
-    "Filip Gustavsson": "OUT",
-    "Nick Foligno": "OUT",
-    "Marcus Foligno": "OUT",
-    "Maxim Shabanov": "DTD"
+    "Filip Gustavsson": "IR",
+    "Nick Foligno": "IR",
+    "Marcus Foligno": "IR"
    }
   },
   "VAN": {
-   "asof": "2026-10-21T18:42Z",
+   "asof": "2026-10-25T21:46Z",
    "source": "Daily Faceoff",
    "lines": [
     "Drew O'Connor",
     "Elias Pettersson",
-    "Linus Karlsson",
-    "Paul Cotter",
-    "Marco Rossi",
     "Brock Boeser",
     "Jake DeBrusk",
+    "Marco Rossi",
+    "Brendan Gallagher",
+    "Liam Ohgren",
     "Filip Chytil",
     "Jonathan Lekkerimaki",
-    "Liam Ohgren",
+    "Paul Cotter",
     "Max Sasson",
-    "Brendan Gallagher",
+    "Linus Karlsson",
     "Elias Nils Pettersson",
     "Filip Hronek",
-    "Jamie Oleksiak",
-    "Tom Willander",
     "Zeev Buium",
+    "Tom Willander",
+    "Guillaume Brisebois",
     "Luke Schenn"
    ],
    "inj": {
-    "Thatcher Demko": "OUT",
-    "Marco Rossi": "DTD"
+    "Thatcher Demko": "IR"
    }
   }
  },
  "slate_label": "Sun Oct 25",
- "slate_note": "Run at 2:15pm PT with sources blocked: goalies unknown (TBD), lineups/injuries are from Oct 20-24 (stale). FLA@CHI excluded: already in progress.",
+ "slate_note": "",
  "n_games": 72,
  "target": 300,
  "refit": "2026-11-23",
@@ -1362,5 +1656,5 @@
   "sh3_exp": 63.6
  },
  "health": {},
- "made": "2026-10-25T21:30+00:00"
+ "made": "2026-10-25T21:46+00:00"
 }

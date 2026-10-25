@@ -5,42 +5,66 @@
   "MIN",
   "NSH"
  ],
- "note": "Run at 2:15pm PT with sources blocked: goalies unknown (TBD), lineups/injuries are from Oct 20-24 (stale). FLA@CHI excluded: already in progress.",
+ "note": "",
  "games": [
+  {
+   "away": "FLA",
+   "home": "CHI",
+   "time": "3:00 ET",
+   "start": "2026-10-25T19:00:00Z",
+   "gid": 2026020180,
+   "started": true,
+   "goalie_a": "Akira Schmid",
+   "status_a": "unconfirmed",
+   "goalie_h": "Spencer Knight",
+   "status_h": "unconfirmed"
+  },
   {
    "away": "NYI",
    "home": "DAL",
    "time": "6:00 ET",
-   "goalie_a": "TBD",
-   "goalie_h": "TBD",
+   "start": "2026-10-25T22:00:00Z",
+   "gid": 2026020181,
+   "started": false,
+   "goalie_a": "Ilya Sorokin",
    "status_a": "unconfirmed",
+   "goalie_h": "Jake Oettinger",
    "status_h": "unconfirmed"
   },
   {
    "away": "MTL",
    "home": "WPG",
    "time": "7:00 ET",
-   "goalie_a": "TBD",
-   "goalie_h": "TBD",
+   "start": "2026-10-25T23:00:00Z",
+   "gid": 2026020182,
+   "started": false,
+   "goalie_a": "Jacob Fowler",
    "status_a": "unconfirmed",
+   "goalie_h": "Stuart Skinner",
    "status_h": "unconfirmed"
   },
   {
    "away": "COL",
    "home": "NSH",
    "time": "8:00 ET",
-   "goalie_a": "TBD",
-   "goalie_h": "TBD",
+   "start": "2026-10-26T00:00:00Z",
+   "gid": 2026020183,
+   "started": false,
+   "goalie_a": "Scott Wedgewood",
    "status_a": "unconfirmed",
+   "goalie_h": "Justus Annunen",
    "status_h": "unconfirmed"
   },
   {
    "away": "MIN",
    "home": "VAN",
    "time": "10:00 ET",
-   "goalie_a": "TBD",
-   "goalie_h": "TBD",
+   "start": "2026-10-26T02:00:00Z",
+   "gid": 2026020184,
+   "started": false,
+   "goalie_a": "Calvin Pickard",
    "status_a": "unconfirmed",
+   "goalie_h": "Leevi Merilainen",
    "status_h": "unconfirmed"
   }
  ]

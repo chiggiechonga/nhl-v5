@@ -354,5 +354,40 @@
   "source": "NHL scores feed win prob",
   "home_prob": 0.367,
   "note": "2:15pm PT pass; Kalshi unavailable (site blocked)"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "FLA@CHI",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.055,
+  "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 68%; O6.5 goals 26%"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "NYI@DAL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.625,
+  "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 46%; O6.5 goals 36%"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "MTL@WPG",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.475,
+  "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "COL@NSH",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.315,
+  "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%"
+ },
+ {
+  "date": "2026-10-25",
+  "game": "MIN@VAN",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.355,
+  "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%"
  }
 ]

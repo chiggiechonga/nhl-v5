@@ -1,0 +1,20 @@
+{
+ "mode": "plan",
+ "at": "2026-10-25T21:46+00:00",
+ "ok": [
+  "5 games on 2026-10-25",
+  "Daily Faceoff goalies parsed for 10 teams",
+  "lineups refreshed for 8/8 teams",
+  "Kalshi: 5 NHL games priced, 5 new rows",
+  "logging 4 game(s): ['2026-10-25_COL@NSH', '2026-10-25_MIN@VAN', '2026-10-25_MTL@WPG', '2026-10-25_NYI@DAL']"
+ ],
+ "problems": [],
+ "history": [
+  {
+   "mode": "plan",
+   "at": "2026-10-25T21:46+00:00",
+   "n_ok": 5,
+   "problems": []
+  }
+ ]
+}
