@@ -1,6 +1,6 @@
 {
  "mode": "plan",
- "at": "2026-10-26T23:11+00:00",
+ "at": "2026-10-26T23:36+00:00",
  "ok": [
   "3 games on 2026-10-26",
   "Daily Faceoff goalies parsed for 6 teams",
@@ -10,12 +10,6 @@
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-26T19:18+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
   {
    "mode": "plan",
    "at": "2026-10-26T19:44+00:00",
@@ -67,6 +61,12 @@
   {
    "mode": "plan",
    "at": "2026-10-26T23:11+00:00",
+   "n_ok": 5,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-26T23:36+00:00",
    "n_ok": 5,
    "problems": []
   }
