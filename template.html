@@ -155,6 +155,17 @@ footer.site details[open] summary svg{transform:rotate(90deg)}
 footer.site details div{display:flex;flex-direction:column;gap:6px;padding:4px 0 0 20px;max-width:70ch}
 footer.site p{margin:0}
 @media (prefers-reduced-motion:reduce){footer.site summary svg,.mini{transition:none}}
+
+.receipt{position:relative;background:#050505;color:#f4f4f4;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;padding:30px 22px;margin:0;
+  -webkit-mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/12px 51% repeat-x,conic-gradient(from 135deg at top,#0000,#000 1deg 89deg,#0000 90deg) top/12px 51% repeat-x;
+  mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/12px 51% repeat-x,conic-gradient(from 135deg at top,#0000,#000 1deg 89deg,#0000 90deg) top/12px 51% repeat-x}
+.receipt h2{margin:0;text-align:center;font:500 26px/1 inherit;letter-spacing:.2em;font-family:inherit}
+.receipt .ul{width:120px;height:1px;background:#f4f4f4;margin:14px auto 22px}
+.receipt .sub{letter-spacing:.14em;font-size:15px;text-align:center;margin:0 0 20px}
+.receipt .leg{display:grid;grid-template-columns:2.4em 1fr auto auto;gap:0 14px;font-size:15.5px;line-height:2.15;letter-spacing:.06em}
+.receipt .leg span:last-child{text-align:right;min-width:3.6em}
+.receipt .rule{height:1px;background:#f4f4f4;margin:16px 0}
+.receipt .tot{display:flex;justify-content:space-between;font-size:15.5px;line-height:2.1;letter-spacing:.06em}
 </style>
 </head>
 <body>
@@ -227,6 +238,21 @@ $('#hl').innerHTML=H.at?'Last automatic run: '+esc(new Date(H.at).toLocaleString
 
 // ---------- today
 const now=new Date();
+
+function receipt(){
+  const legs=DATA.games.map(g=>{const m=market(g);if(!m||!/kalshi/i.test(m.source))return null;
+    const home=g.p_home>=.5, p=home?m.home_prob:1-m.home_prob; if(!(p>.01&&p<.99))return null;
+    return {team:home?g.home:g.away,dec:1/p}}).filter(Boolean);
+  if(!legs.length)return '';
+  const D=legs.reduce((a,l)=>a*l.dec,1), win=10*D-10;
+  const fm=v=>'$'+v.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+  const unp=DATA.games.length-legs.length;
+  return `<section aria-label="Parlay receipt" style="margin:0"><div class="receipt"><h2>PARLAY</h2><div class="ul"></div><p class="sub">${legs.length} LEG PARLAY</p>
+    ${legs.map((l,i)=>`<div class="leg"><span>${i+1}.</span><span>${esc(l.team)}</span><span>ML</span><span>${l.dec.toFixed(2)}</span></div>`).join('')}
+    <div class="rule"></div><div class="tot"><span>TOTAL ODDS</span><span>${D.toFixed(2)}</span></div>
+    <div class="tot"><span>BET AMOUNT</span><span>$10.00</span></div><div class="tot"><span>POTENTIAL WIN</span><span>${fm(win)}</span></div></div>
+    <p class="small" style="margin:8px 0 0">The model's pick in every game, at Kalshi pregame prices as decimal odds (before fees)${unp?`; ${unp} game${unp===1?'':'s'} left out with no saved price`:''}. A ${legs.length}-leg parlay almost never hits.</p></section>`;
+}
 function market(g){
   const mk=DATA.market.filter(m=>m.game===g.away+'@'+g.home);
   return mk.find(m=>/kalshi/i.test(m.source))||mk[0]||null;
@@ -293,12 +319,14 @@ const cards=DATA.games.map(g=>{
   return {mini,card};
 });
 const anyUnc=DATA.games.some(g=>g.goalie_status_a!=='confirmed'||g.goalie_status_h!=='confirmed');
+const RCPT=receipt();
 const allUnc=DATA.games.every(g=>g.goalie_status_a!=='confirmed'&&g.goalie_status_h!=='confirmed');
 const sd=DATA.games[0]&&DATA.games[0].date;
 $('#p-today').innerHTML=`<div class="intro"><h1>${sd?esc(fmtLong(sd)):esc(DATA.slate_label)} · ${DATA.games.length} game${DATA.games.length===1?'':'s'}</h1>
     <p>Model v5 win probabilities, totals and skater props. ${DATA.n_games} games logged; parameters stay frozen until the refit on ${esc(fmtD(DATA.refit||'2026-11-23'))}.</p></div>
   ${DATA.slate_note?`<div class="note">${ICON_WARN}<div>${DATA.slate_note}</div></div>`:''}
   ${anyUnc?`<div class="note">${ICON_WARN}<div><b>${allUnc?'No starting goalies confirmed yet.':'Some goalies are not confirmed.'}</b> Numbers shift if a starter changes. Check back closer to puck drop.</div></div>`:''}
+  ${RCPT}
   ${DATA.games.length?`<section class="sec" aria-label="Slate overview"><div class="sechead"><h2 class="eyebrow">Today's slate</h2><span>Tap a game to jump</span></div><div class="slate">${cards.map(c=>c.mini).join('')}</div></section>
   <section class="games">${cards.map(c=>c.card).join('')}</section>`:'<div class="card game"><p class="small">No games on today\'s slate.</p></div>'}`;
 $('#p-today').addEventListener('click',e=>{
