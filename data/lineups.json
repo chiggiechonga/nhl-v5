@@ -293,7 +293,7 @@
   }
  },
  "TOR": {
-  "asof": "2026-10-26T22:20Z",
+  "asof": "2026-10-26T22:42Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
@@ -325,7 +325,7 @@
   }
  },
  "NYR": {
-  "asof": "2026-10-26T22:20Z",
+  "asof": "2026-10-26T22:42Z",
   "source": "Daily Faceoff",
   "lines": [
    "Gabriel Perreault",
@@ -385,7 +385,7 @@
   }
  },
  "LAK": {
-  "asof": "2026-10-26T22:20Z",
+  "asof": "2026-10-26T22:42Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
@@ -393,9 +393,9 @@
    "Adrian Kempe",
    "Trevor Moore",
    "Quinton Byfield",
-   "Erik Haula",
    "Taylor Ward",
    "Scott Laughton",
+   "Erik Haula",
    "Joel Armia",
    "Andre Lee",
    "Samuel Helenius",
@@ -410,8 +410,7 @@
   "inj": {
    "Alex Turcotte": "IR",
    "Kevin Fiala": "IR",
-   "Mats Zuccarello": "IR",
-   "Quinton Byfield": "IR"
+   "Mats Zuccarello": "IR"
   }
  },
  "DAL": {
@@ -534,7 +533,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-10-26T22:20Z",
+  "asof": "2026-10-26T22:42Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -546,7 +545,7 @@
    "Matvei Gridin",
    "Martin Pospisil",
    "Ryan Strome",
-   "Maxim Tsyplakov",
+   "Brennan Othmann",
    "Jonathan Castagna",
    "Adam Klapka",
    "Kevin Bahl",
@@ -593,7 +592,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-10-26T22:20Z",
+  "asof": "2026-10-26T22:42Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -739,7 +738,7 @@
   }
  },
  "DET": {
-  "asof": "2026-10-26T22:20Z",
+  "asof": "2026-10-26T22:42Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex DeBrincat",

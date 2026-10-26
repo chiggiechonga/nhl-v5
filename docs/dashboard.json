@@ -350,22 +350,22 @@
    "basis": "2025-26 82 GP + 2026-27 9 GP (stats as of Oct 26)"
   },
   {
-   "name": "Erik Haula",
+   "name": "Quinton Byfield",
    "team": "LAK",
    "opp": "NYR",
    "pos": "F",
-   "p_pt": 0.325,
-   "p_g": 0.1214,
-   "ep": 0.393,
-   "sog": 1.81,
-   "sog2_raw": 0.5158,
-   "sog3_raw": 0.276,
-   "sog4_raw": 0.1286,
-   "sog2": 0.4848,
-   "sog3": 0.2484,
-   "sog4": 0.1029,
+   "p_pt": 0.3657,
+   "p_g": 0.2003,
+   "ep": 0.455,
+   "sog": 2.01,
+   "sog2_raw": 0.5655,
+   "sog3_raw": 0.3239,
+   "sog4_raw": 0.1624,
+   "sog2": 0.5316,
+   "sog3": 0.2916,
+   "sog4": 0.1299,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 9 GP (stats as of Oct 26)"
+   "basis": "2025-26 79 GP + 2026-27 7 GP (stats as of Oct 26)"
   },
   {
    "name": "Adam Fox",
@@ -874,11 +874,18 @@
    "source": "Kalshi moneyline",
    "home_prob": 0.535,
    "note": "auto 22:20Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
+  },
+  {
+   "date": "2026-10-26",
+   "game": "LAK@NYR",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.555,
+   "note": "auto 22:42Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
   }
  ],
  "lineups": {
   "LAK": {
-   "asof": "2026-10-26T22:20Z",
+   "asof": "2026-10-26T22:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -886,9 +893,9 @@
     "Adrian Kempe",
     "Trevor Moore",
     "Quinton Byfield",
-    "Erik Haula",
     "Taylor Ward",
     "Scott Laughton",
+    "Erik Haula",
     "Joel Armia",
     "Andre Lee",
     "Samuel Helenius",
@@ -903,12 +910,11 @@
    "inj": {
     "Alex Turcotte": "IR",
     "Kevin Fiala": "IR",
-    "Mats Zuccarello": "IR",
-    "Quinton Byfield": "IR"
+    "Mats Zuccarello": "IR"
    }
   },
   "NYR": {
-   "asof": "2026-10-26T22:20Z",
+   "asof": "2026-10-26T22:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gabriel Perreault",
@@ -938,7 +944,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-26T22:20Z",
+   "asof": "2026-10-26T22:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -970,7 +976,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-26T22:20Z",
+   "asof": "2026-10-26T22:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -982,7 +988,7 @@
     "Matvei Gridin",
     "Martin Pospisil",
     "Ryan Strome",
-    "Maxim Tsyplakov",
+    "Brennan Othmann",
     "Jonathan Castagna",
     "Adam Klapka",
     "Kevin Bahl",
@@ -999,7 +1005,7 @@
    }
   },
   "DET": {
-   "asof": "2026-10-26T22:20Z",
+   "asof": "2026-10-26T22:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -1029,7 +1035,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-26T22:20Z",
+   "asof": "2026-10-26T22:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1079,7 +1085,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-26T21:54+00:00",
+  "at": "2026-10-26T22:20+00:00",
   "ok": [
    "3 games on 2026-10-26",
    "Daily Faceoff goalies parsed for 6 teams",
@@ -1089,12 +1095,6 @@
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "players",
-    "at": "2026-10-26T15:40+00:00",
-    "n_ok": 1,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-26T18:26+00:00",
@@ -1146,6 +1146,12 @@
    {
     "mode": "plan",
     "at": "2026-10-26T21:54+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-26T22:20+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1201,5 +1207,5 @@
    "cum": 22.07
   }
  ],
- "made": "2026-10-26T22:20+00:00"
+ "made": "2026-10-26T22:42+00:00"
 }

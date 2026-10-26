@@ -438,5 +438,12 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.535,
   "note": "auto 22:20Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
+ },
+ {
+  "date": "2026-10-26",
+  "game": "LAK@NYR",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.555,
+  "note": "auto 22:42Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
  }
 ]
