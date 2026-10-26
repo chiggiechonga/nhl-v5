@@ -18703,7 +18703,7 @@
   "date": "2026-10-26",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-26T18:13+00:00Z",
+  "made_at": "2026-10-26T18:26+00:00Z",
   "away": "LAK",
   "home": "NYR",
   "p_home": 0.5328,
@@ -18717,7 +18717,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "LAK": {
-    "asof": "2026-10-26T18:13Z",
+    "asof": "2026-10-26T18:26Z",
     "source": "Daily Faceoff",
     "lines": [
      "Artemi Panarin",
@@ -18747,7 +18747,7 @@
     }
    },
    "NYR": {
-    "asof": "2026-10-26T18:13Z",
+    "asof": "2026-10-26T18:26Z",
     "source": "Daily Faceoff",
     "lines": [
      "Gabriel Perreault",
@@ -18978,7 +18978,7 @@
   "date": "2026-10-26",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-26T18:13+00:00Z",
+  "made_at": "2026-10-26T18:26+00:00Z",
   "away": "DET",
   "home": "EDM",
   "p_home": 0.5682,
@@ -18992,7 +18992,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "DET": {
-    "asof": "2026-10-26T18:13Z",
+    "asof": "2026-10-26T18:26Z",
     "source": "Daily Faceoff",
     "lines": [
      "Alex DeBrincat",
@@ -19022,7 +19022,7 @@
     }
    },
    "EDM": {
-    "asof": "2026-10-26T18:13Z",
+    "asof": "2026-10-26T18:26Z",
     "source": "Daily Faceoff",
     "lines": [
      "Vasily Podkolzin",
