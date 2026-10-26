@@ -200,16 +200,18 @@ footer.site p{margin:0}
 .cal-sum{display:flex;gap:4px 14px;flex-wrap:wrap;margin-top:10px;font-size:13px;color:var(--muted)}
 .cal-sum b{color:var(--ink);font-size:14px}
 .cal-det{margin-top:6px;min-height:1.4em;font-size:13px;color:var(--ink2)}
-.cal-year{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:14px}
-.cal-mo{display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch;border:1px solid var(--line);border-radius:12px;background:var(--sunk);padding:10px 10px 12px;text-align:left;color:var(--ink2);font:inherit;cursor:pointer}
+.cal-year{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:10px;max-width:330px}
+.cal-mo{display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch;border:1px solid var(--line);border-radius:8px;background:var(--sunk);padding:6px 6px 7px;text-align:left;color:var(--ink2);font:inherit;cursor:pointer}
 .cal-mo:hover{border-color:var(--line2)}
-.cal-mo .n{width:100%;display:flex;justify-content:space-between;align-items:baseline;font-weight:700;font-size:13px;margin-bottom:8px}
-.cal-mo .mini{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.cal-mo .n{width:100%;display:flex;justify-content:space-between;align-items:baseline;font-weight:700;font-size:11px;margin-bottom:5px}
+.cal-mo .mini{display:grid;grid-template-columns:repeat(7,1fr);gap:1.5px;width:76px;max-width:100%;margin:0 auto}
 .cal-mo .mini i{aspect-ratio:1;border-radius:2px;background:var(--line);opacity:.55;display:block}
 .cal-mo .mini i.e{background:transparent;opacity:1}
 .cal-mo .mini i.up{background:var(--up);opacity:1}.cal-mo .mini i.dn{background:var(--down);opacity:1}
-@media (min-width:561px){.cal.wide{max-width:none}}
-@media (max-width:560px){.cal-cell{aspect-ratio:1/.62}.cal{padding:12px 10px;max-width:none}.cal-grid{max-width:none}.cal-cell .v{font-size:10px}.cal-title{min-width:7em}}
+@keyframes calin{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+.cal-body{animation:calin .18s ease-out}
+@media (prefers-reduced-motion:reduce){.cal-body{animation:none}}
+@media (max-width:560px){.cal-year{max-width:none}.cal-cell{aspect-ratio:1/.62}.cal{padding:12px 10px;max-width:none}.cal-grid{max-width:none}.cal-cell .v{font-size:10px}.cal-title{min-width:7em}}
 </style>
 </head>
 <body>
@@ -455,9 +457,9 @@ $('#p-grade').innerHTML=`<div class="intro"><h1>Report card · ${esc(fmtD(DATA.g
       let yp=0,yb=0,yw=0;for(let m=0;m<12;m++){const T=mTot(Y,m);yp+=T.p;yb+=T.b;yw+=T.w}
       body+=`</div><div class="cal-sum"><span>${Y} total <b class="${yp>=0?'good':'bad'}">${yb?money(Math.round(yp*100)/100):'–'}</b></span><span>${yw} of ${yb} bets won</span></div>`;
     }
-    host.innerHTML=`<h2 class="eyebrow">Profit calendar · $10 on the pick, every game</h2><div class="card cal${mode==='year'?' wide':''}">
+    host.innerHTML=`<h2 class="eyebrow">Profit calendar · $10 on the pick, every game</h2><div class="card cal">
       <div class="cal-top"><div class="cal-nav"><button type="button" data-nav="-1" aria-label="Previous" ${canPrev()?'':'disabled'}>‹</button><span class="cal-title" aria-live="polite">${title}</span><button type="button" data-nav="1" aria-label="Next" ${canNext()?'':'disabled'}>›</button></div>
-      <div class="cal-mode" role="group" aria-label="Calendar view"><button type="button" data-mode="month" aria-pressed="${mode==='month'}">Month</button><button type="button" data-mode="year" aria-pressed="${mode==='year'}">Year</button></div></div>${body}</div>
+      <div class="cal-mode" role="group" aria-label="Calendar view"><button type="button" data-mode="month" aria-pressed="${mode==='month'}">Month</button><button type="button" data-mode="year" aria-pressed="${mode==='year'}">Year</button></div></div><div class="cal-body">${body}</div></div>
       <p class="small">Each game: $10 on the v5 pick at the last pregame Kalshi price (middle of the bid and ask), paying $1 per contract if it wins. Before Kalshi fees, and real fills are usually a cent or two worse than the middle. Only games with a saved pregame price count. This is a record of what would have happened, not a promise of anything.</p>`;
   }
   host.addEventListener('click',e=>{
