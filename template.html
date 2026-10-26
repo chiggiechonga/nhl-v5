@@ -421,6 +421,7 @@ $('#p-today').addEventListener('click',e=>{
           const w=as>hs?g.away:g.home, ot=pt==='SO'?' SO':pt==='OT'?' OT':'';
           if(chip){chip.className='chip';chip.textContent=`Final ${as}-${hs}${ot} · ${w} won`}
           if(k)k.textContent=`Final ${as}-${hs}${ot}`; if(lv)lv.remove();
+          if(!g.final){g.final={score:`${as}-${hs}`,ot:(pt==='SO'?'SO':pt==='OT'?'OT':null),winner:w};const rc=document.getElementById('rcpt');if(rc&&typeof receipt==='function')rc.outerHTML=receipt()}
         }else if(st==='LIVE'||st==='CRIT'){
           const c=x.clock||{}, per=pt==='OT'?'OT':pt==='SO'?'Shootout':ord(n);
           const t=c.inIntermission?`${per} intermission`:(c.timeRemaining?`${per} · ${c.timeRemaining}`:per);
