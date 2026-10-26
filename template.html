@@ -353,8 +353,8 @@ function skaters(g){
 const cards=DATA.games.map(g=>{
   const id='g-'+g.away+'-'+g.home, st=startOf(g), started=!!st&&now>=st&&!g.final, fin=g.final, stale=started&&(now-st)>4*36e5;
   const m=market(g), pa=1-g.p_home, fav=g.p_home>=.5?g.home:g.away;
-  const when=fin?'<span class="chip">Final '+esc(fin.score)+(fin.ot?' '+esc(fin.ot):'')+' · '+esc(fin.winner)+' won</span>':stale?'<span class="chip">Started '+esc(clockShort(st))+' · final score pending</span>':started?'<span class="chip no">Live · started '+esc(clockShort(st))+'</span>':`<span class="chip">${st?esc(clock(st)):esc(g.time)}</span>`;
-  const mini=`<a class="card mini" href="#${id}"><div class="t"><span class="k">${fin?'Final '+esc(fin.score):started?'Started':esc(st?clock(st):g.time)}</span>${started&&!stale?'<span class="live">Live</span>':''}</div>
+  const when=fin?'<span class="chip" data-lc="'+id+'">Final '+esc(fin.score)+(fin.ot?' '+esc(fin.ot):'')+' · '+esc(fin.winner)+' won</span>':stale?'<span class="chip" data-lc="'+id+'">Started '+esc(clockShort(st))+' · final score pending</span>':started?'<span class="chip no" data-lc="'+id+'">Live · started '+esc(clockShort(st))+'</span>':`<span class="chip">${st?esc(clock(st)):esc(g.time)}</span>`;
+  const mini=`<a class="card mini" href="#${id}"><div class="t"><span class="k" data-lk="${id}">${fin?'Final '+esc(fin.score):started?'Started':esc(st?clock(st):g.time)}</span>${started&&!stale?`<span class="live" data-ll="${id}">Live</span>`:''}</div>
     <span class="m">${esc(g.away)} @ ${esc(g.home)}</span><div class="thin"><i style="width:${(g.p_home*100).toFixed(1)}%"></i></div>
     <span class="p">${esc(fav)} ${pct(Math.max(g.p_home,pa))}</span></a>`;
   const card=`<article class="card game" id="${id}">
@@ -393,6 +393,44 @@ $('#p-today').addEventListener('click',e=>{
   b.setAttribute('aria-expanded',open);b.textContent=open?b.dataset.few:b.dataset.all;
 });
 
+
+// ---------- live score + period (read straight from the NHL's public scoreboard in the viewer's browser)
+(function(){
+  const AL={NJ:'NJD',TB:'TBL',LA:'LAK',SJ:'SJS',VEG:'VGK',LV:'VGK',WAS:'WSH',MON:'MTL'};const cd=a=>AL[a]||a;
+  const ord=n=>['','1st','2nd','3rd'][n]||'';
+  const cand=DATA.games.filter(g=>{const st=startOf(g);return st&&now>=st&&!g.final&&g.date});
+  if(!cand.length)return;
+  const dates=[...new Set(cand.map(g=>g.date))];
+  async function poll(){
+    let ok=false;
+    for(const d of dates){
+      let js;try{const r=await fetch('https://api-web.nhle.com/v1/score/'+d,{cache:'no-store'});if(!r.ok)continue;js=await r.json()}catch(e){continue}
+      ok=true;
+      for(const x of js.games||[]){
+        const a=cd(x.awayTeam.abbrev),h=cd(x.homeTeam.abbrev),g=cand.find(c=>c.away===a&&c.home===h&&c.date===d);if(!g)continue;
+        const id='g-'+g.away+'-'+g.home, chip=document.querySelector(`[data-lc="${id}"]`), k=document.querySelector(`[data-lk="${id}"]`), lv=document.querySelector(`[data-ll="${id}"]`);
+        const as=x.awayTeam.score, hs=x.homeTeam.score, sc=(as!=null&&hs!=null)?`${g.away} ${as} – ${hs} ${g.home}`:'';
+        const st=x.gameState, pd=x.periodDescriptor||{}, pt=pd.periodType, n=pd.number||x.period;
+        const final=st==='FINAL'||st==='OFF';
+        if(final){
+          const w=as>hs?g.away:g.home, ot=pt==='SO'?' SO':pt==='OT'?' OT':'';
+          if(chip){chip.className='chip';chip.textContent=`Final ${as}-${hs}${ot} · ${w} won`}
+          if(k)k.textContent=`Final ${as}-${hs}${ot}`; if(lv)lv.remove();
+        }else if(st==='LIVE'||st==='CRIT'){
+          const c=x.clock||{}, per=pt==='OT'?'OT':pt==='SO'?'Shootout':ord(n);
+          const t=c.inIntermission?`${per} intermission`:(c.timeRemaining?`${per} · ${c.timeRemaining}`:per);
+          if(chip){chip.className='chip no';chip.textContent=`Live · ${t}${sc?' · '+sc:''}`}
+          if(k)k.textContent=`${c.inIntermission?per+' int.':t}${sc?' · '+as+'–'+hs:''}`;
+        }
+      }
+    }
+    return ok;
+  }
+  let timer=null;
+  const tick=async()=>{if(document.hidden)return;const ok=await poll();if(ok===false&&timer){/* blocked or offline: keep the plain Live badge */}};
+  tick();timer=setInterval(tick,30000);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick()});
+})();
 // ---------- report card
 const money=v=>(v<0?'-$':'+$')+Math.abs(v).toFixed(2);
 const KD=DATA.kalshi_days||[], kl=KD[KD.length-1];
