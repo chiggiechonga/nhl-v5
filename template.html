@@ -178,28 +178,28 @@ footer.site p{margin:0}
 .receipt .leg.w{color:#4ade80}.receipt .leg.l{color:#8a8a8a;text-decoration:line-through}
 .receipt.won .tot:last-child{color:#4ade80;font-weight:700}.receipt.lost .tot:last-child{color:#8a8a8a;text-decoration:line-through}
 
-.cal{padding:18px}
+.cal{padding:14px;max-width:370px}
 .cal-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .cal-nav{display:flex;align-items:center;gap:6px}
-.cal-nav button,.cal-mode button{min-height:38px;min-width:38px;padding:0 12px;border-radius:10px;border:1px solid var(--line2);background:transparent;color:var(--ink2);font:600 14px var(--font);cursor:pointer}
+.cal-nav button,.cal-mode button{min-height:32px;min-width:32px;padding:0 10px;border-radius:10px;border:1px solid var(--line2);background:transparent;color:var(--ink2);font:600 14px var(--font);cursor:pointer}
 .cal-nav button:disabled{opacity:.35;cursor:default}
 .cal-mode{display:flex;gap:4px}
 .cal-mode button[aria-pressed=true]{border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
-.cal-title{font-weight:700;font-size:17px;min-width:9.5em;text-align:center}
-.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:14px}
-.cal-dow{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);text-align:center;padding-bottom:2px}
-.cal-cell{aspect-ratio:1/.92;border-radius:8px;border:1px solid var(--line);background:var(--sunk);padding:4px 5px;display:flex;flex-direction:column;justify-content:space-between;font:inherit;color:var(--ink2);text-align:left;min-width:0}
+.cal-title{font-weight:700;font-size:15px;min-width:8em;text-align:center}
+.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px;margin-top:10px;max-width:330px}
+.cal-dow{font-size:9.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);text-align:center;padding-bottom:2px}
+.cal-cell{aspect-ratio:1/.78;border-radius:6px;border:1px solid var(--line);background:var(--sunk);padding:2px 4px;display:flex;flex-direction:column;justify-content:space-between;font:inherit;color:var(--ink2);text-align:left;min-width:0}
 .cal-cell.blank{border-color:transparent;background:transparent}
-.cal-cell .d{font-size:11px;color:var(--faint);line-height:1}
-.cal-cell .v{font-size:12.5px;font-weight:700;line-height:1;text-align:right;white-space:nowrap}
+.cal-cell .d{font-size:9.5px;color:var(--faint);line-height:1}
+.cal-cell .v{font-size:11px;font-weight:700;line-height:1;text-align:right;white-space:nowrap}
 .cal-cell.has{cursor:pointer}
 .cal-cell.up{background:color-mix(in srgb,var(--up) var(--k,20%),var(--sunk));border-color:color-mix(in srgb,var(--up) 45%,var(--line));color:var(--ink)}
 .cal-cell.dn{background:color-mix(in srgb,var(--down) var(--k,20%),var(--sunk));border-color:color-mix(in srgb,var(--down) 45%,var(--line));color:var(--ink)}
 .cal-cell.sel{outline:2px solid var(--accent);outline-offset:1px}
 .cal-cell.today{border-color:var(--accent)}
-.cal-sum{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px;font-size:14px;color:var(--muted)}
-.cal-sum b{color:var(--ink);font-size:16px}
-.cal-det{margin-top:10px;min-height:1.5em;font-size:14px;color:var(--ink2)}
+.cal-sum{display:flex;gap:4px 14px;flex-wrap:wrap;margin-top:10px;font-size:13px;color:var(--muted)}
+.cal-sum b{color:var(--ink);font-size:14px}
+.cal-det{margin-top:6px;min-height:1.4em;font-size:13px;color:var(--ink2)}
 .cal-year{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:14px}
 .cal-mo{display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch;border:1px solid var(--line);border-radius:12px;background:var(--sunk);padding:10px 10px 12px;text-align:left;color:var(--ink2);font:inherit;cursor:pointer}
 .cal-mo:hover{border-color:var(--line2)}
@@ -208,7 +208,8 @@ footer.site p{margin:0}
 .cal-mo .mini i{aspect-ratio:1;border-radius:2px;background:var(--line);opacity:.55;display:block}
 .cal-mo .mini i.e{background:transparent;opacity:1}
 .cal-mo .mini i.up{background:var(--up);opacity:1}.cal-mo .mini i.dn{background:var(--down);opacity:1}
-@media (max-width:560px){.cal{padding:14px 10px}.cal-cell{padding:3px 3px}.cal-cell .v{font-size:10.5px}.cal-title{min-width:7.5em;font-size:15px}}
+@media (min-width:561px){.cal.wide{max-width:none}}
+@media (max-width:560px){.cal-cell{aspect-ratio:1/.62}.cal{padding:12px 10px;max-width:none}.cal-grid{max-width:none}.cal-cell .v{font-size:10px}.cal-title{min-width:7em}}
 </style>
 </head>
 <body>
@@ -454,7 +455,7 @@ $('#p-grade').innerHTML=`<div class="intro"><h1>Report card · ${esc(fmtD(DATA.g
       let yp=0,yb=0,yw=0;for(let m=0;m<12;m++){const T=mTot(Y,m);yp+=T.p;yb+=T.b;yw+=T.w}
       body+=`</div><div class="cal-sum"><span>${Y} total <b class="${yp>=0?'good':'bad'}">${yb?money(Math.round(yp*100)/100):'–'}</b></span><span>${yw} of ${yb} bets won</span></div>`;
     }
-    host.innerHTML=`<h2 class="eyebrow">Profit calendar · $10 on the pick, every game</h2><div class="card cal">
+    host.innerHTML=`<h2 class="eyebrow">Profit calendar · $10 on the pick, every game</h2><div class="card cal${mode==='year'?' wide':''}">
       <div class="cal-top"><div class="cal-nav"><button type="button" data-nav="-1" aria-label="Previous" ${canPrev()?'':'disabled'}>‹</button><span class="cal-title" aria-live="polite">${title}</span><button type="button" data-nav="1" aria-label="Next" ${canNext()?'':'disabled'}>›</button></div>
       <div class="cal-mode" role="group" aria-label="Calendar view"><button type="button" data-mode="month" aria-pressed="${mode==='month'}">Month</button><button type="button" data-mode="year" aria-pressed="${mode==='year'}">Year</button></div></div>${body}</div>
       <p class="small">Each game: $10 on the v5 pick at the last pregame Kalshi price (middle of the bid and ask), paying $1 per contract if it wins. Before Kalshi fees, and real fills are usually a cent or two worse than the middle. Only games with a saved pregame price count. This is a record of what would have happened, not a promise of anything.</p>`;
