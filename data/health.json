@@ -1,10 +1,12 @@
 {
- "mode": "grade",
- "at": "2026-10-26T05:03+00:00",
+ "mode": "plan",
+ "at": "2026-10-26T05:29+00:00",
  "ok": [
-  "graded 2026-10-25_COL@NSH: 2-6, shots 21-35",
-  "graded 2026-10-25_MIN@VAN: 4-2, shots 34-17",
-  "2 games and 20 player rows added"
+  "3 games on 2026-10-26",
+  "Daily Faceoff goalies parsed for 6 teams",
+  "lineups refreshed for 6/6 teams",
+  "Kalshi: 3 NHL games priced, 0 new rows",
+  "nothing new to log (no new games, no goalie changes)"
  ],
  "problems": [],
  "history": [
@@ -48,6 +50,12 @@
    "mode": "grade",
    "at": "2026-10-26T05:03+00:00",
    "n_ok": 3,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-26T05:29+00:00",
+   "n_ok": 5,
    "problems": []
   }
  ]

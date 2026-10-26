@@ -819,7 +819,7 @@
  ],
  "lineups": {
   "LAK": {
-   "asof": "2026-10-26T05:03Z",
+   "asof": "2026-10-26T05:29Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -848,7 +848,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-10-26T05:03Z",
+   "asof": "2026-10-26T05:29Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gabriel Perreault",
@@ -878,7 +878,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-26T05:03Z",
+   "asof": "2026-10-26T05:29Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -910,7 +910,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-26T05:03Z",
+   "asof": "2026-10-26T05:29Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -939,7 +939,7 @@
    }
   },
   "DET": {
-   "asof": "2026-10-26T05:03Z",
+   "asof": "2026-10-26T05:29Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -969,7 +969,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-26T05:03Z",
+   "asof": "2026-10-26T05:29Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1018,14 +1018,12 @@
   "sh3_exp": 77.3
  },
  "health": {
-  "mode": "plan",
+  "mode": "grade",
   "at": "2026-10-26T05:03+00:00",
   "ok": [
-   "3 games on 2026-10-26",
-   "Daily Faceoff goalies parsed for 6 teams",
-   "lineups refreshed for 6/6 teams",
-   "Kalshi: 3 NHL games priced, 3 new rows",
-   "logging 3 game(s): ['2026-10-26_DET@EDM', '2026-10-26_LAK@NYR', '2026-10-26_TOR@CGY']"
+   "graded 2026-10-25_COL@NSH: 2-6, shots 21-35",
+   "graded 2026-10-25_MIN@VAN: 4-2, shots 34-17",
+   "2 games and 20 player rows added"
   ],
   "problems": [],
   "history": [
@@ -1063,6 +1061,12 @@
     "mode": "plan",
     "at": "2026-10-26T05:03+00:00",
     "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "grade",
+    "at": "2026-10-26T05:03+00:00",
+    "n_ok": 3,
     "problems": []
    }
   ]
@@ -1117,5 +1121,5 @@
    "cum": 22.07
   }
  ],
- "made": "2026-10-26T05:03+00:00"
+ "made": "2026-10-26T05:29+00:00"
 }
