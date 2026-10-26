@@ -1,9 +1,9 @@
 {
  "mode": "grade",
- "at": "2026-10-26T02:21+00:00",
+ "at": "2026-10-26T05:03+00:00",
  "ok": [
-  "graded 2026-10-25_NYI@DAL: 3-6, shots 20-38",
-  "graded 2026-10-25_MTL@WPG: 2-1, shots 21-34",
+  "graded 2026-10-25_COL@NSH: 2-6, shots 21-35",
+  "graded 2026-10-25_MIN@VAN: 4-2, shots 34-17",
   "2 games and 20 player rows added"
  ],
  "problems": [],
@@ -35,6 +35,18 @@
   {
    "mode": "grade",
    "at": "2026-10-26T02:21+00:00",
+   "n_ok": 3,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-26T05:03+00:00",
+   "n_ok": 5,
+   "problems": []
+  },
+  {
+   "mode": "grade",
+   "at": "2026-10-26T05:03+00:00",
    "n_ok": 3,
    "problems": []
   }

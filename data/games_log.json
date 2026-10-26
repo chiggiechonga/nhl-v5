@@ -898,5 +898,29 @@
   "winner": "MTL",
   "date": "2026-10-25",
   "id": "2026-10-25_MTL@WPG"
+ },
+ {
+  "away": "COL",
+  "home": "NSH",
+  "ag": 2,
+  "hg": 6,
+  "a_sh": 21,
+  "h_sh": 35,
+  "ot": null,
+  "winner": "NSH",
+  "date": "2026-10-25",
+  "id": "2026-10-25_COL@NSH"
+ },
+ {
+  "away": "MIN",
+  "home": "VAN",
+  "ag": 4,
+  "hg": 2,
+  "a_sh": 34,
+  "h_sh": 17,
+  "ot": null,
+  "winner": "MIN",
+  "date": "2026-10-25",
+  "id": "2026-10-25_MIN@VAN"
  }
 ]
