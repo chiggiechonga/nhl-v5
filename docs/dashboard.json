@@ -864,7 +864,7 @@
  ],
  "lineups": {
   "LAK": {
-   "asof": "2026-10-26T18:26Z",
+   "asof": "2026-10-26T18:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -894,7 +894,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-10-26T18:26Z",
+   "asof": "2026-10-26T18:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gabriel Perreault",
@@ -924,7 +924,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-26T18:26Z",
+   "asof": "2026-10-26T18:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -956,7 +956,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-26T18:26Z",
+   "asof": "2026-10-26T18:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -985,7 +985,7 @@
    }
   },
   "DET": {
-   "asof": "2026-10-26T18:26Z",
+   "asof": "2026-10-26T18:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -1015,7 +1015,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-26T18:26Z",
+   "asof": "2026-10-26T18:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1064,19 +1064,17 @@
   "sh3_exp": 77.3
  },
  "health": {
-  "mode": "players",
-  "at": "2026-10-26T15:40+00:00",
+  "mode": "plan",
+  "at": "2026-10-26T18:26+00:00",
   "ok": [
-   "players_base refreshed: 259 updated, 425 added"
+   "3 games on 2026-10-26",
+   "Daily Faceoff goalies parsed for 6 teams",
+   "lineups refreshed for 6/6 teams",
+   "Kalshi: 3 NHL games priced, 2 new rows",
+   "logging 2 game(s): ['2026-10-26_DET@EDM', '2026-10-26_LAK@NYR']"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-26T02:21+00:00",
-    "n_ok": 4,
-    "problems": []
-   },
    {
     "mode": "grade",
     "at": "2026-10-26T02:21+00:00",
@@ -1129,6 +1127,12 @@
     "mode": "players",
     "at": "2026-10-26T15:40+00:00",
     "n_ok": 1,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-26T18:26+00:00",
+    "n_ok": 5,
     "problems": []
    }
   ]
@@ -1183,5 +1187,5 @@
    "cum": 22.07
   }
  ],
- "made": "2026-10-26T18:26+00:00"
+ "made": "2026-10-26T18:52+00:00"
 }
