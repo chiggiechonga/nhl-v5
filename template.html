@@ -166,6 +166,12 @@ footer.site p{margin:0}
 .receipt .leg span:last-child{text-align:right;min-width:3.6em}
 .receipt .rule{height:1px;background:#f4f4f4;margin:16px 0}
 .receipt .tot{display:flex;justify-content:space-between;font-size:15.5px;line-height:2.1;letter-spacing:.06em}
+@media (min-width:1000px){
+  #p-today:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) 340px;column-gap:32px;row-gap:0;align-items:start;grid-auto-rows:min-content}
+  #p-today>*{grid-column:1;margin-bottom:28px}
+  #p-today>#rcpt{grid-column:2;grid-row:1 / span 99;position:sticky;top:84px;margin-bottom:0}
+}
+@media (max-width:999px){#rcpt{max-width:440px;width:100%;margin:0 auto!important}}
 </style>
 </head>
 <body>
@@ -247,7 +253,7 @@ function receipt(){
   const D=legs.reduce((a,l)=>a*l.dec,1), win=10*D-10;
   const fm=v=>'$'+v.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
   const unp=DATA.games.length-legs.length;
-  return `<section aria-label="Parlay receipt" style="margin:0"><div class="receipt"><h2>PARLAY</h2><div class="ul"></div><p class="sub">${legs.length} LEG PARLAY</p>
+  return `<section id="rcpt" aria-label="Parlay receipt"><div class="receipt"><h2>PARLAY</h2><div class="ul"></div><p class="sub">${legs.length} LEG PARLAY</p>
     ${legs.map((l,i)=>`<div class="leg"><span>${i+1}.</span><span>${esc(l.team)}</span><span>ML</span><span>${l.dec.toFixed(2)}</span></div>`).join('')}
     <div class="rule"></div><div class="tot"><span>TOTAL ODDS</span><span>${D.toFixed(2)}</span></div>
     <div class="tot"><span>BET AMOUNT</span><span>$10.00</span></div><div class="tot"><span>POTENTIAL WIN</span><span>${fm(win)}</span></div></div>
