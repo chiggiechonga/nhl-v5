@@ -880,12 +880,12 @@
    "game": "LAK@NYR",
    "source": "Kalshi moneyline",
    "home_prob": 0.555,
-   "note": "auto 22:42Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
+   "note": "auto 22:45Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
   }
  ],
  "lineups": {
   "LAK": {
-   "asof": "2026-10-26T22:42Z",
+   "asof": "2026-10-26T22:45Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -914,7 +914,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-10-26T22:42Z",
+   "asof": "2026-10-26T22:45Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gabriel Perreault",
@@ -944,7 +944,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-26T22:42Z",
+   "asof": "2026-10-26T22:45Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -976,7 +976,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-26T22:42Z",
+   "asof": "2026-10-26T22:45Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1005,7 +1005,7 @@
    }
   },
   "DET": {
-   "asof": "2026-10-26T22:42Z",
+   "asof": "2026-10-26T22:45Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -1035,7 +1035,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-26T22:42Z",
+   "asof": "2026-10-26T22:45Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1207,5 +1207,5 @@
    "cum": 22.07
   }
  ],
- "made": "2026-10-26T22:42+00:00"
+ "made": "2026-10-26T22:45+00:00"
 }
