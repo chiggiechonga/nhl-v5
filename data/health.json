@@ -1,9 +1,10 @@
 {
  "mode": "grade",
- "at": "2026-10-25T23:41+00:00",
+ "at": "2026-10-26T02:21+00:00",
  "ok": [
-  "graded 2026-10-25_FLA@CHI: 3-2, shots 33-21",
-  "1 games and 0 player rows added"
+  "graded 2026-10-25_NYI@DAL: 3-6, shots 20-38",
+  "graded 2026-10-25_MTL@WPG: 2-1, shots 21-34",
+  "2 games and 20 player rows added"
  ],
  "problems": [],
  "history": [
@@ -23,6 +24,18 @@
    "mode": "grade",
    "at": "2026-10-25T23:41+00:00",
    "n_ok": 2,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-26T02:21+00:00",
+   "n_ok": 4,
+   "problems": []
+  },
+  {
+   "mode": "grade",
+   "at": "2026-10-26T02:21+00:00",
+   "n_ok": 3,
    "problems": []
   }
  ]

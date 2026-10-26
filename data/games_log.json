@@ -874,5 +874,29 @@
   "winner": "FLA",
   "date": "2026-10-25",
   "id": "2026-10-25_FLA@CHI"
+ },
+ {
+  "away": "NYI",
+  "home": "DAL",
+  "ag": 3,
+  "hg": 6,
+  "a_sh": 20,
+  "h_sh": 38,
+  "ot": null,
+  "winner": "DAL",
+  "date": "2026-10-25",
+  "id": "2026-10-25_NYI@DAL"
+ },
+ {
+  "away": "MTL",
+  "home": "WPG",
+  "ag": 2,
+  "hg": 1,
+  "a_sh": 21,
+  "h_sh": 34,
+  "ot": null,
+  "winner": "MTL",
+  "date": "2026-10-25",
+  "id": "2026-10-25_MTL@WPG"
  }
 ]
