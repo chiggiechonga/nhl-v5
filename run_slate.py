@@ -25,6 +25,8 @@ def build(log=True, only=None):
                                     write=log, lineups=lineups, only=only)
     for g, s in zip(gms, slate['games']):
         g['time'] = s.get('time', '')
+        fin = json.load(open(D + '/games_log.json')); fin = {x['id']: x for x in fin}.get(f"{slate['date']}_{g['away']}@{g['home']}")
+        if fin: g['final'] = dict(score=f"{fin['ag']}-{fin['hg']}", ot=fin['ot'], winner=fin['winner'])
     R, rows = m.replay(); S = m.summarize(rows)
     days = {}
     for r in rows: days.setdefault(r['date'], []).append(r)

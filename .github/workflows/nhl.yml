@@ -1,7 +1,7 @@
 name: nhl-v5
 on:
   schedule:
-    - cron: '*/30 12-23,0-3 * * *'   # plan: goalies, lineups, odds, projections (UTC; 8am-11pm ET)
+    - cron: '*/15 12-23,0-5 * * *'   # plan (+grade): goalies, lineups, odds, projections (UTC; 8am-1am ET)
     - cron: '15 1-9,14 * * *'        # grade: finals -> results -> report card
     - cron: '0 9 * * *'              # players: daily season-stat refresh
   workflow_dispatch:

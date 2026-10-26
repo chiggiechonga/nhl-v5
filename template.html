@@ -268,10 +268,10 @@ function skaters(g){
     <div class="sk"><table><thead><tr><th>Player</th><th>1+ pt</th><th>Goal</th><th>SOG avg</th><th>3+ SOG</th></tr></thead><tbody>${rows}</tbody></table></div>${btn}</div>`;
 }
 const cards=DATA.games.map(g=>{
-  const id='g-'+g.away+'-'+g.home, st=startOf(g), started=!!st&&now>=st;
+  const id='g-'+g.away+'-'+g.home, st=startOf(g), started=!!st&&now>=st&&!g.final, fin=g.final, stale=started&&(now-st)>4*36e5;
   const m=market(g), pa=1-g.p_home, fav=g.p_home>=.5?g.home:g.away;
-  const when=started?'<span class="chip no">Live · started '+esc(clockShort(st))+'</span>':`<span class="chip">${st?esc(clock(st)):esc(g.time)}</span>`;
-  const mini=`<a class="card mini" href="#${id}"><div class="t"><span class="k">${started?'Started':esc(st?clock(st):g.time)}</span>${started?'<span class="live">Live</span>':''}</div>
+  const when=fin?'<span class="chip">Final '+esc(fin.score)+(fin.ot?' '+esc(fin.ot):'')+' · '+esc(fin.winner)+' won</span>':stale?'<span class="chip">Started '+esc(clockShort(st))+' · final score pending</span>':started?'<span class="chip no">Live · started '+esc(clockShort(st))+'</span>':`<span class="chip">${st?esc(clock(st)):esc(g.time)}</span>`;
+  const mini=`<a class="card mini" href="#${id}"><div class="t"><span class="k">${fin?'Final '+esc(fin.score):started?'Started':esc(st?clock(st):g.time)}</span>${started&&!stale?'<span class="live">Live</span>':''}</div>
     <span class="m">${esc(g.away)} @ ${esc(g.home)}</span><div class="thin"><i style="width:${(g.p_home*100).toFixed(1)}%"></i></div>
     <span class="p">${esc(fav)} ${pct(Math.max(g.p_home,pa))}</span></a>`;
   const card=`<article class="card game" id="${id}">

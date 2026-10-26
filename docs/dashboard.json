@@ -126,7 +126,12 @@
    "goalie_data_h": false,
    "id": "2026-10-25_FLA@CHI",
    "date": "2026-10-25",
-   "time": "3:00 ET"
+   "time": "3:00 ET",
+   "final": {
+    "score": "3-2",
+    "ot": null,
+    "winner": "FLA"
+   }
   },
   {
    "away": "NYI",
@@ -1512,14 +1517,11 @@
   "sh3_exp": 63.6
  },
  "health": {
-  "mode": "plan",
+  "mode": "grade",
   "at": "2026-10-25T23:41+00:00",
   "ok": [
-   "5 games on 2026-10-25",
-   "Daily Faceoff goalies parsed for 10 teams",
-   "lineups refreshed for 4/4 teams",
-   "Kalshi: 4 NHL games priced, 2 new rows",
-   "nothing new to log (no new games, no goalie changes)"
+   "graded 2026-10-25_FLA@CHI: 3-2, shots 33-21",
+   "1 games and 0 player rows added"
   ],
   "problems": [],
   "history": [
@@ -1534,8 +1536,14 @@
     "at": "2026-10-25T23:41+00:00",
     "n_ok": 5,
     "problems": []
+   },
+   {
+    "mode": "grade",
+    "at": "2026-10-25T23:41+00:00",
+    "n_ok": 2,
+    "problems": []
    }
   ]
  },
- "made": "2026-10-25T23:41+00:00"
+ "made": "2026-10-26T02:20+00:00"
 }
