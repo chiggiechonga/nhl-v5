@@ -177,6 +177,38 @@ footer.site p{margin:0}
 @media (prefers-reduced-motion:reduce){#rcpt.glow{animation:none}}
 .receipt .leg.w{color:#4ade80}.receipt .leg.l{color:#8a8a8a;text-decoration:line-through}
 .receipt.won .tot:last-child{color:#4ade80;font-weight:700}.receipt.lost .tot:last-child{color:#8a8a8a;text-decoration:line-through}
+
+.cal{padding:18px}
+.cal-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.cal-nav{display:flex;align-items:center;gap:6px}
+.cal-nav button,.cal-mode button{min-height:38px;min-width:38px;padding:0 12px;border-radius:10px;border:1px solid var(--line2);background:transparent;color:var(--ink2);font:600 14px var(--font);cursor:pointer}
+.cal-nav button:disabled{opacity:.35;cursor:default}
+.cal-mode{display:flex;gap:4px}
+.cal-mode button[aria-pressed=true]{border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+.cal-title{font-weight:700;font-size:17px;min-width:9.5em;text-align:center}
+.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:14px}
+.cal-dow{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);text-align:center;padding-bottom:2px}
+.cal-cell{aspect-ratio:1/.92;border-radius:8px;border:1px solid var(--line);background:var(--sunk);padding:4px 5px;display:flex;flex-direction:column;justify-content:space-between;font:inherit;color:var(--ink2);text-align:left;min-width:0}
+.cal-cell.blank{border-color:transparent;background:transparent}
+.cal-cell .d{font-size:11px;color:var(--faint);line-height:1}
+.cal-cell .v{font-size:12.5px;font-weight:700;line-height:1;text-align:right;white-space:nowrap}
+.cal-cell.has{cursor:pointer}
+.cal-cell.up{background:color-mix(in srgb,var(--up) var(--k,20%),var(--sunk));border-color:color-mix(in srgb,var(--up) 45%,var(--line));color:var(--ink)}
+.cal-cell.dn{background:color-mix(in srgb,var(--down) var(--k,20%),var(--sunk));border-color:color-mix(in srgb,var(--down) 45%,var(--line));color:var(--ink)}
+.cal-cell.sel{outline:2px solid var(--accent);outline-offset:1px}
+.cal-cell.today{border-color:var(--accent)}
+.cal-sum{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px;font-size:14px;color:var(--muted)}
+.cal-sum b{color:var(--ink);font-size:16px}
+.cal-det{margin-top:10px;min-height:1.5em;font-size:14px;color:var(--ink2)}
+.cal-year{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:14px}
+.cal-mo{display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch;border:1px solid var(--line);border-radius:12px;background:var(--sunk);padding:10px 10px 12px;text-align:left;color:var(--ink2);font:inherit;cursor:pointer}
+.cal-mo:hover{border-color:var(--line2)}
+.cal-mo .n{width:100%;display:flex;justify-content:space-between;align-items:baseline;font-weight:700;font-size:13px;margin-bottom:8px}
+.cal-mo .mini{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.cal-mo .mini i{aspect-ratio:1;border-radius:2px;background:var(--line);opacity:.55;display:block}
+.cal-mo .mini i.e{background:transparent;opacity:1}
+.cal-mo .mini i.up{background:var(--up);opacity:1}.cal-mo .mini i.dn{background:var(--down);opacity:1}
+@media (max-width:560px){.cal{padding:14px 10px}.cal-cell{padding:3px 3px}.cal-cell .v{font-size:10.5px}.cal-title{min-width:7.5em;font-size:15px}}
 </style>
 </head>
 <body>
@@ -379,10 +411,65 @@ $('#p-grade').innerHTML=`<div class="intro"><h1>Report card · ${esc(fmtD(DATA.g
     <div class="card list"><ul class="rows" id="glist">${graded.map(r=>r.html).join('')}</ul><p class="empty" id="gempty" hidden>Nothing here.</p></div>
     <p class="small">v5 picks are walk-forward: each game uses only ratings from games played before it.${S.n_h2h?` On the same ${S.n_h2h} games, v5 Brier ${S.brier5_h2h.toFixed(3)} vs v4 ${S.brier4_h2h.toFixed(3)}, winners ${pct(S.acc5_h2h)} vs ${pct(S.acc4_h2h)}. That gap is inside the noise.`:''}</p>
   </section>
-  ${KD.length?`<section class="sec"><h2 class="eyebrow">$10 on the pick, every day</h2><div class="card list"><ul class="rows">${KD.slice().reverse().map(d=>`<li><div class="l">${esc(fmtD(d.date))}<small>${d.wins} of ${d.bets} won${d.games>d.bets?' · '+d.bets+' of '+d.games+' games had a Kalshi price':''}</small></div><div class="r"><span class="${d.pnl>=0?'good':'bad'}" style="font-weight:700">${money(d.pnl)}</span><small class="dim" style="display:block">total ${money(d.cum)}</small></div></li>`).join('')}</ul></div><p class="small">Each game: $10 on the v5 pick at the last pregame Kalshi price (middle of the bid and ask), paying $1 per contract if it wins. Before Kalshi fees, and real fills are usually a cent or two worse than the middle. Only games with a saved pregame price count. This is a record of what would have happened, not a promise of anything.</p></section>`:''}
+  ${KD.length?`<section class="sec" id="cal" aria-label="Profit calendar"></section>`:''}
   ${C.n?`<section class="sec"><h2 class="eyebrow">Player props · ${C.n} graded</h2><div class="tiles">
     ${propTile('1+ point',C.pt_act,C.pt_exp)}${propTile('Goals',C.g_act,C.g_exp)}${C.n_shots?propTile('3+ shots',C.sh3_act,C.sh3_exp):''}
   </div><p class="small">If actual stays close to projected, the probabilities are honest.</p></section>`:''}`;
+
+// ---------- profit calendar
+(function(){
+  const host=$('#cal');if(!host)return;
+  const by={};KD.forEach(d=>by[d.date]=d);
+  const MN=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const money0=v=>(v<0?'-$':'+$')+Math.abs(Math.round(v)).toLocaleString('en-US');
+  const first=KD[0].date.split('-').map(Number), last=KD[KD.length-1].date.split('-').map(Number);
+  let mode='month', Y=last[0], M=last[1]-1, sel=KD[KD.length-1].date;
+  const pad=n=>String(n).padStart(2,'0'), key=(y,m,d)=>y+'-'+pad(m+1)+'-'+pad(d);
+  const maxAbs=Math.max(20,...KD.map(d=>Math.abs(d.pnl)));
+  const tint=v=>Math.round(14+Math.min(1,Math.abs(v)/maxAbs)*36)+'%';
+  const mTot=(y,m)=>{let p=0,b=0,w=0,days=0;for(const d of KD){const [yy,mm]=d.date.split('-').map(Number);if(yy===y&&mm-1===m){p+=d.pnl;b+=d.bets;w+=d.wins;days++}}return {p:Math.round(p*100)/100,b,w,days}};
+  const today=new Date();const tk=key(today.getFullYear(),today.getMonth(),today.getDate());
+  const canPrev=()=>mode==='month'?(Y>first[0]||M>first[1]-1):Y>first[0];
+  const canNext=()=>mode==='month'?(Y<last[0]||M<last[1]-1):Y<last[0];
+  function draw(){
+    const title=mode==='month'?MN[M]+' '+Y:String(Y);
+    let body='';
+    if(mode==='month'){
+      const lead=new Date(Y,M,1).getDay(), nd=new Date(Y,M+1,0).getDate();
+      body='<div class="cal-grid" role="grid">'+['S','M','T','W','T','F','S'].map(x=>`<div class="cal-dow">${x}</div>`).join('');
+      for(let i=0;i<lead;i++)body+='<div class="cal-cell blank"></div>';
+      for(let d=1;d<=nd;d++){const k=key(Y,M,d),r=by[k];
+        body+=r?`<button type="button" class="cal-cell has ${r.pnl>=0?'up':'dn'}${k===sel?' sel':''}${k===tk?' today':''}" style="--k:${tint(r.pnl)}" data-day="${k}" aria-label="${MN[M]} ${d}: ${money(r.pnl)}, ${r.wins} of ${r.bets} won"><span class="d">${d}</span><span class="v">${money0(r.pnl)}</span></button>`
+          :`<div class="cal-cell${k===tk?' today':''}"><span class="d">${d}</span></div>`}
+      body+='</div>';
+      const T=mTot(Y,M), r=by[sel];
+      body+=`<div class="cal-sum"><span>${MN[M]} total <b class="${T.p>=0?'good':'bad'}">${T.days?money(T.p):'–'}</b></span><span>${T.days} day${T.days===1?'':'s'} · ${T.w} of ${T.b} bets won</span></div>
+        <div class="cal-det">${r&&r.date.startsWith(Y+'-'+pad(M+1))?`${esc(fmtD(r.date))}: ${r.wins} of ${r.bets} won, <b class="${r.pnl>=0?'good':'bad'}">${money(r.pnl)}</b>${r.games>r.bets?` (${r.bets} of ${r.games} games had a Kalshi price)`:''} · running total ${money(r.cum)}`:'Tap a day for details.'}</div>`;
+    }else{
+      body='<div class="cal-year">';
+      for(let m=0;m<12;m++){const T=mTot(Y,m),lead=new Date(Y,m,1).getDay(),nd=new Date(Y,m+1,0).getDate();
+        let mini='';for(let i=0;i<lead;i++)mini+='<i class="e"></i>';
+        for(let d=1;d<=nd;d++){const r=by[key(Y,m,d)];mini+=`<i class="${r?(r.pnl>=0?'up':'dn'):''}"></i>`}
+        body+=`<button type="button" class="cal-mo" data-mo="${m}" aria-label="${MN[m]} ${Y}: ${T.days?money(T.p):'no data'}"><div class="n"><span>${MN[m].slice(0,3)}</span><span class="${T.days?(T.p>=0?'good':'bad'):'dim'}">${T.days?money0(T.p):'–'}</span></div><div class="mini">${mini}</div></button>`}
+      let yp=0,yb=0,yw=0;for(let m=0;m<12;m++){const T=mTot(Y,m);yp+=T.p;yb+=T.b;yw+=T.w}
+      body+=`</div><div class="cal-sum"><span>${Y} total <b class="${yp>=0?'good':'bad'}">${yb?money(Math.round(yp*100)/100):'–'}</b></span><span>${yw} of ${yb} bets won</span></div>`;
+    }
+    host.innerHTML=`<h2 class="eyebrow">Profit calendar · $10 on the pick, every game</h2><div class="card cal">
+      <div class="cal-top"><div class="cal-nav"><button type="button" data-nav="-1" aria-label="Previous" ${canPrev()?'':'disabled'}>‹</button><span class="cal-title" aria-live="polite">${title}</span><button type="button" data-nav="1" aria-label="Next" ${canNext()?'':'disabled'}>›</button></div>
+      <div class="cal-mode" role="group" aria-label="Calendar view"><button type="button" data-mode="month" aria-pressed="${mode==='month'}">Month</button><button type="button" data-mode="year" aria-pressed="${mode==='year'}">Year</button></div></div>${body}</div>
+      <p class="small">Each game: $10 on the v5 pick at the last pregame Kalshi price (middle of the bid and ask), paying $1 per contract if it wins. Before Kalshi fees, and real fills are usually a cent or two worse than the middle. Only games with a saved pregame price count. This is a record of what would have happened, not a promise of anything.</p>`;
+  }
+  host.addEventListener('click',e=>{
+    const n=e.target.closest('[data-nav]'),m=e.target.closest('[data-mode]'),d=e.target.closest('[data-day]'),mo=e.target.closest('[data-mo]');
+    if(n){const s=+n.dataset.nav;if(mode==='month'){M+=s;if(M<0){M=11;Y--}if(M>11){M=0;Y++}}else Y+=s}
+    else if(m)mode=m.dataset.mode;
+    else if(d)sel=d.dataset.day;
+    else if(mo){M=+mo.dataset.mo;mode='month'}
+    else return;
+    draw();
+  });
+  draw();
+})();
 $('#p-grade').addEventListener('click',e=>{
   const b=e.target.closest('[data-f]');if(!b)return;const f=b.dataset.f;
   $('#p-grade').querySelectorAll('[data-f]').forEach(x=>x.setAttribute('aria-pressed',x===b));
