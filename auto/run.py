@@ -100,7 +100,7 @@ def plan(h):
         added = 0
         for g in games:
             k = f"{g['away']}@{g['home']}"; v = km.get(k)
-            if not v: continue
+            if not v or nhl_api.started(g, now): continue   # after puck drop the price is live, not pregame
             prior = [x for x in M if x['date'] == str(today) and x['game'] == k and x['source'] == 'Kalshi moneyline']
             if not prior or abs(prior[-1]['home_prob'] - v['home_prob']) >= 0.005:
                 extra = ''.join(f"; O{x[4]}.{x[5]} goals {int(round(v[x]*100))}%" for x in ('over55', 'over65') if x in v)

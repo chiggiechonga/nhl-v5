@@ -40,6 +40,25 @@ def build(log=True, only=None):
     graded = [dict(away=r['away'], home=r['home'], score=f"{G[r['id']]['ag']}-{G[r['id']]['hg']}", ot=G[r['id']]['ot'],
                    winner=G[r['id']]['winner'], p5=r['p5'], p4=r['p4'], tot5=r['tot5'], tot_act=r['act_total'],
                    sh_act=[G[r['id']]['a_sh'], G[r['id']]['h_sh']]) for r in lastrows]
+    # $10 on the v5 pick at the last pregame Kalshi price (mid of bid/ask), before fees
+    MK = {}
+    for x in market:
+        if x['source'] == 'Kalshi moneyline': MK[(x['date'], x['game'])] = x['home_prob']
+    kd = {}
+    for r in rows:
+        hp = MK.get((r['date'], f"{r['away']}@{r['home']}"))
+        if hp is None: continue
+        pick_home = r['p5'] > .5; price = hp if pick_home else 1 - hp
+        if not .02 <= price <= .98: continue
+        won = (G[r['id']]['winner'] == (r['home'] if pick_home else r['away']))
+        pnl = round(10 / price - 10, 2) if won else -10.0
+        r['k_price'] = round(price, 3); r['k_pnl'] = pnl
+        d = kd.setdefault(r['date'], dict(date=r['date'], games=len(days[r['date']]), bets=0, wins=0, pnl=0.0))
+        d['bets'] += 1; d['wins'] += int(won); d['pnl'] = round(d['pnl'] + pnl, 2)
+    kdays = sorted(kd.values(), key=lambda d: d['date']); cum = 0
+    for d in kdays: cum = round(cum + d['pnl'], 2); d['cum'] = cum
+    for g, r in zip(graded, lastrows):
+        g['k_price'] = r.get('k_price'); g['k_pnl'] = r.get('k_pnl'); g['pick'] = r['home'] if r['p5'] > .5 else r['away']
     health = {}
     hp = os.path.join(D, 'health.json')
     if os.path.exists(hp):
@@ -48,7 +67,7 @@ def build(log=True, only=None):
                market=[x for x in market if x['date'] == slate['date']],
                lineups={t: lineups[t] for g in games for t in g if t in lineups},
                slate_label=slate['label'], slate_note=slate.get('note', ''), n_games=len(rows), target=300, refit='2026-11-23',
-               player_cal=player_calibration(), health=health,
+               player_cal=player_calibration(), health=health, kalshi_days=kdays,
                made=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='minutes'))
     os.makedirs(DOCS, exist_ok=True)
     json.dump(out, open(os.path.join(DOCS, 'dashboard.json'), 'w'), indent=1, default=float)

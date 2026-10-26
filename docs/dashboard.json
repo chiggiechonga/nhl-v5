@@ -99,7 +99,10 @@
    "sh_act": [
     33,
     21
-   ]
+   ],
+   "k_price": null,
+   "k_pnl": null,
+   "pick": "FLA"
   },
   {
    "away": "MTL",
@@ -114,7 +117,10 @@
    "sh_act": [
     21,
     34
-   ]
+   ],
+   "k_price": 0.525,
+   "k_pnl": 9.05,
+   "pick": "MTL"
   },
   {
    "away": "NYI",
@@ -129,7 +135,10 @@
    "sh_act": [
     20,
     38
-   ]
+   ],
+   "k_price": 0.625,
+   "k_pnl": 6.0,
+   "pick": "DAL"
   }
  ],
  "graded_date": "2026-10-25",
@@ -1203,13 +1212,6 @@
   },
   {
    "date": "2026-10-25",
-   "game": "FLA@CHI",
-   "source": "Kalshi moneyline",
-   "home_prob": 0.055,
-   "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 68%; O6.5 goals 26%"
-  },
-  {
-   "date": "2026-10-25",
    "game": "NYI@DAL",
    "source": "Kalshi moneyline",
    "home_prob": 0.625,
@@ -1235,27 +1237,6 @@
    "source": "Kalshi moneyline",
    "home_prob": 0.355,
    "note": "auto 21:46Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%"
-  },
-  {
-   "date": "2026-10-25",
-   "game": "NYI@DAL",
-   "source": "Kalshi moneyline",
-   "home_prob": 0.56,
-   "note": "auto 23:41Z; mid of bid/ask; O5.5 goals 100%; O6.5 goals 100%"
-  },
-  {
-   "date": "2026-10-25",
-   "game": "MTL@WPG",
-   "source": "Kalshi moneyline",
-   "home_prob": 0.485,
-   "note": "auto 23:41Z; mid of bid/ask; O5.5 goals 38%; O6.5 goals 26%"
-  },
-  {
-   "date": "2026-10-25",
-   "game": "COL@NSH",
-   "source": "Kalshi moneyline",
-   "home_prob": 0.985,
-   "note": "auto 02:21Z; mid of bid/ask; O5.5 goals 100%; O6.5 goals 100%"
   }
  ],
  "lineups": {
@@ -1564,13 +1545,12 @@
   "sh3_exp": 70.0
  },
  "health": {
-  "mode": "plan",
+  "mode": "grade",
   "at": "2026-10-26T02:21+00:00",
   "ok": [
-   "5 games on 2026-10-25",
-   "Daily Faceoff goalies parsed for 10 teams",
-   "Kalshi: 2 NHL games priced, 1 new rows",
-   "nothing new to log (no new games, no goalie changes)"
+   "graded 2026-10-25_NYI@DAL: 3-6, shots 20-38",
+   "graded 2026-10-25_MTL@WPG: 2-1, shots 21-34",
+   "2 games and 20 player rows added"
   ],
   "problems": [],
   "history": [
@@ -1597,8 +1577,64 @@
     "at": "2026-10-26T02:21+00:00",
     "n_ok": 4,
     "problems": []
+   },
+   {
+    "mode": "grade",
+    "at": "2026-10-26T02:21+00:00",
+    "n_ok": 3,
+    "problems": []
    }
   ]
  },
- "made": "2026-10-26T02:21+00:00"
+ "kalshi_days": [
+  {
+   "date": "2026-10-19",
+   "games": 4,
+   "bets": 1,
+   "wins": 0,
+   "pnl": -10.0,
+   "cum": -10.0
+  },
+  {
+   "date": "2026-10-21",
+   "games": 2,
+   "bets": 2,
+   "wins": 1,
+   "pnl": 0.0,
+   "cum": -10.0
+  },
+  {
+   "date": "2026-10-22",
+   "games": 12,
+   "bets": 12,
+   "wins": 5,
+   "pnl": -36.16,
+   "cum": -46.16
+  },
+  {
+   "date": "2026-10-23",
+   "games": 2,
+   "bets": 2,
+   "wins": 2,
+   "pnl": 16.7,
+   "cum": -29.46
+  },
+  {
+   "date": "2026-10-24",
+   "games": 12,
+   "bets": 12,
+   "wins": 9,
+   "pnl": 40.98,
+   "cum": 11.52
+  },
+  {
+   "date": "2026-10-25",
+   "games": 3,
+   "bets": 2,
+   "wins": 2,
+   "pnl": 15.05,
+   "cum": 26.57
+  }
+ ],
+ "made": "2026-10-26T02:30+00:00"
 }

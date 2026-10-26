@@ -72,7 +72,7 @@ section[role=tabpanel]{display:flex;flex-direction:column;gap:28px}
 .chip.ok{background:var(--up-bg);color:var(--up)} .chip.no{background:var(--down-bg);color:var(--down)} .chip.warn{background:var(--warn-bg);color:var(--warn)}
 .tag{display:inline-block;padding:1px 8px;border-radius:6px;font-weight:600;font-size:13px}
 .tag.out{background:var(--down-bg);color:var(--down)} .tag.dtd{background:var(--warn-bg);color:var(--warn)}
-.good{color:var(--up)} .dim{color:var(--muted)}
+.good{color:var(--up)} .bad{color:var(--down)} .dim{color:var(--muted)}
 
 /* slate strip */
 .slate{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:16px}
@@ -309,11 +309,13 @@ $('#p-today').addEventListener('click',e=>{
 });
 
 // ---------- report card
+const money=v=>(v<0?'-$':'+$')+Math.abs(v).toFixed(2);
+const KD=DATA.kalshi_days||[], kl=KD[KD.length-1];
 const T=DATA.graded||[], S=DATA.summary||{};
 const graded=T.map(t=>{const pick=t.p5>.5?t.home:t.away,ok=pick===t.winner;
   const v4=t.p4?`v4 ${t.p4>.5?t.home:t.away} ${pct(t.p4>.5?t.p4:1-t.p4)} · `:'';
   return {ok,html:`<li data-ok="${ok}"><div class="l">${esc(t.away)} @ ${esc(t.home)} · ${esc(t.score)}${t.ot?' '+esc(t.ot):''}<small>${v4}Goals ${t.tot5.toFixed(1)}/${t.tot_act} proj/act · shots ${t.sh_act[0]}–${t.sh_act[1]}</small></div>
-    <div class="r">${esc(pick)} ${pct(Math.max(t.p5,1-t.p5))}<span class="chip ${ok?'ok':'no'}">${ok?'Hit':'Miss'}</span></div></li>`}});
+    <div class="r">${esc(pick)} ${pct(Math.max(t.p5,1-t.p5))}<span class="chip ${ok?'ok':'no'}">${ok?'Hit':'Miss'}</span>${t.k_pnl!=null?`<small class="${t.k_pnl>=0?'good':'bad'}" style="display:block;font-weight:600">$10 at ${Math.round(t.k_price*100)}¢ → ${money(t.k_pnl)}</small>`:'<small class="dim" style="display:block">no Kalshi price</small>'}</div></li>`}});
 const hit=graded.filter(r=>r.ok).length;
 const dd=DATA.daily[DATA.daily.length-1]||{};
 const C=DATA.player_cal||{};
@@ -324,6 +326,7 @@ $('#p-grade').innerHTML=`<div class="intro"><h1>Report card · ${esc(fmtD(DATA.g
     <div class="card tile"><span class="k">Winners</span><span class="big">${hit} of ${T.length}</span><span class="good" style="font-weight:600;font-size:14px">${T.length?pct(hit/T.length):'–'} hit rate</span></div>
     <div class="card tile"><span class="k">Brier score</span><span class="big">${brier!=null?brier.toFixed(3):'–'}</span>
       <details class="help"><summary>${ICON_Q}What's this?</summary><p>Lower is better. A coin flip scores 0.250${brier!=null?(brier<.25?', so this beat guessing.':', so this was worse than guessing.'):'.'}</p></details></div>
+    ${kl?`<div class="card tile"><span class="k">$10 per game on Kalshi</span><span class="big">${money(kl.pnl)}</span><span class="dim" style="font-size:14px">${esc(fmtD(kl.date))}: ${kl.wins} of ${kl.bets} won · total ${money(kl.cum)}</span></div>`:''}
     <div class="card tile"><span class="k">Toward refit</span><span class="big">${DATA.n_games} / ${DATA.target}</span>
       <div class="prog"><i style="width:${Math.min(100,DATA.n_games/DATA.target*100)}%"></i></div><span class="dim" style="font-size:14px">Refit ${esc(fmtD(DATA.refit||'2026-11-23'))}</span></div>
   </div>
@@ -337,6 +340,7 @@ $('#p-grade').innerHTML=`<div class="intro"><h1>Report card · ${esc(fmtD(DATA.g
     <div class="card list"><ul class="rows" id="glist">${graded.map(r=>r.html).join('')}</ul><p class="empty" id="gempty" hidden>Nothing here.</p></div>
     <p class="small">v5 picks are walk-forward: each game uses only ratings from games played before it.${S.n_h2h?` On the same ${S.n_h2h} games, v5 Brier ${S.brier5_h2h.toFixed(3)} vs v4 ${S.brier4_h2h.toFixed(3)}, winners ${pct(S.acc5_h2h)} vs ${pct(S.acc4_h2h)}. That gap is inside the noise.`:''}</p>
   </section>
+  ${KD.length?`<section class="sec"><h2 class="eyebrow">$10 on the pick, every day</h2><div class="card list"><ul class="rows">${KD.slice().reverse().map(d=>`<li><div class="l">${esc(fmtD(d.date))}<small>${d.wins} of ${d.bets} won${d.games>d.bets?' · '+d.bets+' of '+d.games+' games had a Kalshi price':''}</small></div><div class="r"><span class="${d.pnl>=0?'good':'bad'}" style="font-weight:700">${money(d.pnl)}</span><small class="dim" style="display:block">total ${money(d.cum)}</small></div></li>`).join('')}</ul></div><p class="small">Each game: $10 on the v5 pick at the last pregame Kalshi price (middle of the bid and ask), paying $1 per contract if it wins. Before Kalshi fees, and real fills are usually a cent or two worse than the middle. Only games with a saved pregame price count. This is a record of what would have happened, not a promise of anything.</p></section>`:''}
   ${C.n?`<section class="sec"><h2 class="eyebrow">Player props · ${C.n} graded</h2><div class="tiles">
     ${propTile('1+ point',C.pt_act,C.pt_exp)}${propTile('Goals',C.g_act,C.g_exp)}${C.n_shots?propTile('3+ shots',C.sh3_act,C.sh3_exp):''}
   </div><p class="small">If actual stays close to projected, the probabilities are honest.</p></section>`:''}`;
