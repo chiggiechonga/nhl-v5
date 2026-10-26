@@ -172,6 +172,11 @@ footer.site p{margin:0}
   #p-today>#rcpt{grid-column:2;grid-row:1 / span 99;position:sticky;top:84px;margin-bottom:0}
 }
 @media (max-width:999px){#rcpt{max-width:300px;width:100%;margin:0 auto!important}}
+#rcpt.glow{filter:drop-shadow(0 0 6px rgba(52,211,120,.85)) drop-shadow(0 0 22px rgba(52,211,120,.5));animation:rglow 2.4s ease-in-out infinite alternate}
+@keyframes rglow{from{filter:drop-shadow(0 0 4px rgba(52,211,120,.7)) drop-shadow(0 0 14px rgba(52,211,120,.35))}to{filter:drop-shadow(0 0 8px rgba(52,211,120,.95)) drop-shadow(0 0 28px rgba(52,211,120,.6))}}
+@media (prefers-reduced-motion:reduce){#rcpt.glow{animation:none}}
+.receipt .leg.w{color:#4ade80}.receipt .leg.l{color:#8a8a8a;text-decoration:line-through}
+.receipt.won .tot:last-child{color:#4ade80;font-weight:700}.receipt.lost .tot:last-child{color:#8a8a8a;text-decoration:line-through}
 </style>
 </head>
 <body>
@@ -248,15 +253,15 @@ const now=new Date();
 function receipt(){
   const legs=DATA.games.map(g=>{const m=market(g);if(!m||!/kalshi/i.test(m.source))return null;
     const home=g.p_home>=.5, p=home?m.home_prob:1-m.home_prob; if(!(p>.01&&p<.99))return null;
-    return {team:home?g.home:g.away,dec:1/p}}).filter(Boolean);
+    const team=home?g.home:g.away;return {team,dec:1/p,res:g.final?(g.final.winner===team?'w':'l'):''}}).filter(Boolean);
   if(!legs.length)return '';
   const D=legs.reduce((a,l)=>a*l.dec,1), win=10*D-10;
   const fm=v=>'$'+v.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
-  const unp=DATA.games.length-legs.length;
-  return `<section id="rcpt" aria-label="Parlay receipt"><div class="receipt"><h2>PARLAY</h2><div class="ul"></div><p class="sub">${legs.length} LEG PARLAY</p>
-    ${legs.map((l,i)=>`<div class="leg"><span>${i+1}.</span><span>${esc(l.team)}</span><span>ML</span><span>${l.dec.toFixed(2)}</span></div>`).join('')}
+  const unp=DATA.games.length-legs.length, lost=legs.some(l=>l.res==='l'), allWon=legs.every(l=>l.res==='w');
+  return `<section id="rcpt" aria-label="Parlay receipt"${allWon?' class="glow"':''}><div class="receipt${allWon?' won':''}${lost?' lost':''}"><h2>PARLAY</h2><div class="ul"></div><p class="sub">${legs.length} LEG PARLAY</p>
+    ${legs.map((l,i)=>`<div class="leg ${l.res}"><span>${i+1}.</span><span>${esc(l.team)}${l.res==='w'?' ✓':l.res==='l'?' ✗':''}</span><span>ML</span><span>${l.dec.toFixed(2)}</span></div>`).join('')}
     <div class="rule"></div><div class="tot"><span>TOTAL ODDS</span><span>${D.toFixed(2)}</span></div>
-    <div class="tot"><span>BET AMOUNT</span><span>$10.00</span></div><div class="tot"><span>POTENTIAL WIN</span><span>${fm(win)}</span></div></div>
+    <div class="tot"><span>BET AMOUNT</span><span>$10.00</span></div><div class="tot"><span>${allWon?'WON':lost?'NO WIN':'POTENTIAL WIN'}</span><span>${fm(win)}</span></div></div>
     <p class="small" style="margin:6px 0 0;font-size:12px">The model's pick in every game, at Kalshi pregame prices as decimal odds (before fees)${unp?`; ${unp} game${unp===1?'':'s'} left out with no saved price`:''}. A ${legs.length}-leg parlay almost never hits.</p></section>`;
 }
 function market(g){
