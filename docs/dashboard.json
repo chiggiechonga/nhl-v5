@@ -194,7 +194,7 @@
    "o65": 0.37783778485811953,
    "p00": 0.003320416702555068,
    "goalie_a": "Darcy Kuemper",
-   "goalie_h": "Dylan Garand",
+   "goalie_h": "James Reimer",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -257,7 +257,7 @@
    "o55": 0.6044551711060446,
    "o65": 0.4507223252268535,
    "p00": 0.0021371462864928493,
-   "goalie_a": "John Gibson",
+   "goalie_a": "Michal Postava",
    "goalie_h": "Tristan Jarry",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
@@ -846,28 +846,42 @@
    "source": "Kalshi moneyline",
    "home_prob": 0.425,
    "note": "auto 11:06Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%"
+  },
+  {
+   "date": "2026-10-26",
+   "game": "LAK@NYR",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.555,
+   "note": "auto 18:13Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
+  },
+  {
+   "date": "2026-10-26",
+   "game": "TOR@CGY",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.445,
+   "note": "auto 18:13Z; mid of bid/ask; O5.5 goals 63%; O6.5 goals 52%"
   }
  ],
  "lineups": {
   "LAK": {
-   "asof": "2026-10-26T11:06Z",
+   "asof": "2026-10-26T18:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
     "Alex Laferriere",
     "Adrian Kempe",
-    "Andre Lee",
-    "Erik Haula",
-    "Mats Zuccarello",
     "Trevor Moore",
+    "Quinton Byfield",
+    "Erik Haula",
+    "Taylor Ward",
     "Scott Laughton",
     "Joel Armia",
-    "Jared Wright",
+    "Andre Lee",
     "Samuel Helenius",
     "Corey Perry",
-    "Joel Edmundson",
-    "Brandt Clarke",
     "Erik Gustafsson",
+    "Brandt Clarke",
+    "Joel Edmundson",
     "Drew Doughty",
     "Mikey Anderson",
     "Brian Dumoulin"
@@ -875,11 +889,12 @@
    "inj": {
     "Alex Turcotte": "IR",
     "Kevin Fiala": "IR",
+    "Mats Zuccarello": "IR",
     "Quinton Byfield": "IR"
    }
   },
   "NYR": {
-   "asof": "2026-10-26T11:06Z",
+   "asof": "2026-10-26T18:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gabriel Perreault",
@@ -909,7 +924,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-26T11:06Z",
+   "asof": "2026-10-26T18:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -941,11 +956,11 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-26T11:06Z",
+   "asof": "2026-10-26T18:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
-    "Ben Jones",
+    "Mikael Backlund",
     "Matt Coronato",
     "Yegor Sharangovich",
     "Morgan Frost",
@@ -953,7 +968,7 @@
     "Matvei Gridin",
     "Martin Pospisil",
     "Ryan Strome",
-    "Brennan Othmann",
+    "Maxim Tsyplakov",
     "Jonathan Castagna",
     "Adam Klapka",
     "Kevin Bahl",
@@ -970,7 +985,7 @@
    }
   },
   "DET": {
-   "asof": "2026-10-26T11:06Z",
+   "asof": "2026-10-26T18:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -1000,7 +1015,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-26T11:06Z",
+   "asof": "2026-10-26T18:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1012,14 +1027,14 @@
     "Alex Formenton",
     "Owen Michaels",
     "Mathieu Joseph",
-    "Max Jones",
+    "Trent Frederic",
     "Colton Dach",
-    "Filip Hallander",
-    "Ryan Shea",
-    "Evan Bouchard",
-    "Jake Walman",
-    "Connor Murphy",
+    "Isaac Howard",
     "Shakir Mukhamadullin",
+    "Evan Bouchard",
+    "Ryan Shea",
+    "Connor Murphy",
+    "Jake Walman",
     "Ty Emberson"
    ],
    "inj": {
@@ -1168,5 +1183,5 @@
    "cum": 22.07
   }
  ],
- "made": "2026-10-26T17:13+00:00"
+ "made": "2026-10-26T18:13+00:00"
 }

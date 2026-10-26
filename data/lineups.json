@@ -293,7 +293,7 @@
   }
  },
  "TOR": {
-  "asof": "2026-10-26T11:06Z",
+  "asof": "2026-10-26T18:13Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
@@ -325,7 +325,7 @@
   }
  },
  "NYR": {
-  "asof": "2026-10-26T11:06Z",
+  "asof": "2026-10-26T18:13Z",
   "source": "Daily Faceoff",
   "lines": [
    "Gabriel Perreault",
@@ -385,24 +385,24 @@
   }
  },
  "LAK": {
-  "asof": "2026-10-26T11:06Z",
+  "asof": "2026-10-26T18:13Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
    "Alex Laferriere",
    "Adrian Kempe",
-   "Andre Lee",
-   "Erik Haula",
-   "Mats Zuccarello",
    "Trevor Moore",
+   "Quinton Byfield",
+   "Erik Haula",
+   "Taylor Ward",
    "Scott Laughton",
    "Joel Armia",
-   "Jared Wright",
+   "Andre Lee",
    "Samuel Helenius",
    "Corey Perry",
-   "Joel Edmundson",
-   "Brandt Clarke",
    "Erik Gustafsson",
+   "Brandt Clarke",
+   "Joel Edmundson",
    "Drew Doughty",
    "Mikey Anderson",
    "Brian Dumoulin"
@@ -410,6 +410,7 @@
   "inj": {
    "Alex Turcotte": "IR",
    "Kevin Fiala": "IR",
+   "Mats Zuccarello": "IR",
    "Quinton Byfield": "IR"
   }
  },
@@ -533,11 +534,11 @@
   }
  },
  "CGY": {
-  "asof": "2026-10-26T11:06Z",
+  "asof": "2026-10-26T18:13Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
-   "Ben Jones",
+   "Mikael Backlund",
    "Matt Coronato",
    "Yegor Sharangovich",
    "Morgan Frost",
@@ -545,7 +546,7 @@
    "Matvei Gridin",
    "Martin Pospisil",
    "Ryan Strome",
-   "Brennan Othmann",
+   "Maxim Tsyplakov",
    "Jonathan Castagna",
    "Adam Klapka",
    "Kevin Bahl",
@@ -592,7 +593,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-10-26T11:06Z",
+  "asof": "2026-10-26T18:13Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -604,14 +605,14 @@
    "Alex Formenton",
    "Owen Michaels",
    "Mathieu Joseph",
-   "Max Jones",
+   "Trent Frederic",
    "Colton Dach",
-   "Filip Hallander",
-   "Ryan Shea",
-   "Evan Bouchard",
-   "Jake Walman",
-   "Connor Murphy",
+   "Isaac Howard",
    "Shakir Mukhamadullin",
+   "Evan Bouchard",
+   "Ryan Shea",
+   "Connor Murphy",
+   "Jake Walman",
    "Ty Emberson"
   ],
   "inj": {
@@ -738,7 +739,7 @@
   }
  },
  "DET": {
-  "asof": "2026-10-26T11:06Z",
+  "asof": "2026-10-26T18:13Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex DeBrincat",
