@@ -815,11 +815,18 @@
    "source": "Kalshi moneyline",
    "home_prob": 0.615,
    "note": "auto 05:03Z; mid of bid/ask; O5.5 goals 63%; O6.5 goals 52%"
+  },
+  {
+   "date": "2026-10-26",
+   "game": "TOR@CGY",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.425,
+   "note": "auto 11:06Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%"
   }
  ],
  "lineups": {
   "LAK": {
-   "asof": "2026-10-26T08:00Z",
+   "asof": "2026-10-26T11:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -848,7 +855,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-10-26T08:00Z",
+   "asof": "2026-10-26T11:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gabriel Perreault",
@@ -878,7 +885,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-26T08:00Z",
+   "asof": "2026-10-26T11:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -910,7 +917,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-26T08:00Z",
+   "asof": "2026-10-26T11:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -939,7 +946,7 @@
    }
   },
   "DET": {
-   "asof": "2026-10-26T08:00Z",
+   "asof": "2026-10-26T11:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -969,7 +976,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-26T08:00Z",
+   "asof": "2026-10-26T11:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1019,7 +1026,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-26T06:20+00:00",
+  "at": "2026-10-26T08:00+00:00",
   "ok": [
    "3 games on 2026-10-26",
    "Daily Faceoff goalies parsed for 6 teams",
@@ -1029,12 +1036,6 @@
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-25T21:46+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-25T23:41+00:00",
@@ -1086,6 +1087,12 @@
    {
     "mode": "plan",
     "at": "2026-10-26T06:20+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-26T08:00+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1141,5 +1148,5 @@
    "cum": 22.07
   }
  ],
- "made": "2026-10-26T08:00+00:00"
+ "made": "2026-10-26T11:06+00:00"
 }
