@@ -293,7 +293,7 @@
   }
  },
  "TOR": {
-  "asof": "2026-10-26T06:20Z",
+  "asof": "2026-10-26T08:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
@@ -325,7 +325,7 @@
   }
  },
  "NYR": {
-  "asof": "2026-10-26T06:20Z",
+  "asof": "2026-10-26T08:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Gabriel Perreault",
@@ -385,7 +385,7 @@
   }
  },
  "LAK": {
-  "asof": "2026-10-26T06:20Z",
+  "asof": "2026-10-26T08:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
@@ -533,7 +533,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-10-26T06:20Z",
+  "asof": "2026-10-26T08:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -592,7 +592,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-10-26T06:20Z",
+  "asof": "2026-10-26T08:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -738,7 +738,7 @@
   }
  },
  "DET": {
-  "asof": "2026-10-26T06:20Z",
+  "asof": "2026-10-26T08:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex DeBrincat",
