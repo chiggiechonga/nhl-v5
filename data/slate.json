@@ -10,7 +10,7 @@
    "time": "7:00 ET",
    "start": "2026-10-26T23:00:00Z",
    "gid": 2026020185,
-   "started": false,
+   "started": true,
    "goalie_a": "Darcy Kuemper",
    "status_a": "unconfirmed",
    "goalie_h": "James Reimer",
