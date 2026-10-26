@@ -867,11 +867,18 @@
    "source": "Kalshi moneyline",
    "home_prob": 0.445,
    "note": "auto 21:54Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%"
+  },
+  {
+   "date": "2026-10-26",
+   "game": "LAK@NYR",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.535,
+   "note": "auto 22:20Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
   }
  ],
  "lineups": {
   "LAK": {
-   "asof": "2026-10-26T21:54Z",
+   "asof": "2026-10-26T22:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -901,7 +908,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-10-26T21:54Z",
+   "asof": "2026-10-26T22:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gabriel Perreault",
@@ -931,7 +938,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-26T21:54Z",
+   "asof": "2026-10-26T22:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -963,7 +970,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-26T21:54Z",
+   "asof": "2026-10-26T22:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -992,7 +999,7 @@
    }
   },
   "DET": {
-   "asof": "2026-10-26T21:54Z",
+   "asof": "2026-10-26T22:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -1022,7 +1029,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-26T21:54Z",
+   "asof": "2026-10-26T22:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1072,22 +1079,16 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-26T21:28+00:00",
+  "at": "2026-10-26T21:54+00:00",
   "ok": [
    "3 games on 2026-10-26",
    "Daily Faceoff goalies parsed for 6 teams",
    "lineups refreshed for 6/6 teams",
-   "Kalshi: 3 NHL games priced, 0 new rows",
+   "Kalshi: 3 NHL games priced, 1 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-26T11:06+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "players",
     "at": "2026-10-26T15:40+00:00",
@@ -1139,6 +1140,12 @@
    {
     "mode": "plan",
     "at": "2026-10-26T21:28+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-26T21:54+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1194,5 +1201,5 @@
    "cum": 22.07
   }
  ],
- "made": "2026-10-26T21:54+00:00"
+ "made": "2026-10-26T22:20+00:00"
 }
