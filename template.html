@@ -156,22 +156,22 @@ footer.site details div{display:flex;flex-direction:column;gap:6px;padding:4px 0
 footer.site p{margin:0}
 @media (prefers-reduced-motion:reduce){footer.site summary svg,.mini{transition:none}}
 
-.receipt{position:relative;background:#050505;color:#f4f4f4;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;padding:30px 22px;margin:0;
+.receipt{position:relative;background:#050505;color:#f4f4f4;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;padding:18px 14px;margin:0;
   -webkit-mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/12px 51% repeat-x,conic-gradient(from 135deg at top,#0000,#000 1deg 89deg,#0000 90deg) top/12px 51% repeat-x;
   mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/12px 51% repeat-x,conic-gradient(from 135deg at top,#0000,#000 1deg 89deg,#0000 90deg) top/12px 51% repeat-x}
-.receipt h2{margin:0;text-align:center;font:500 26px/1 inherit;letter-spacing:.2em;font-family:inherit}
-.receipt .ul{width:120px;height:1px;background:#f4f4f4;margin:14px auto 22px}
-.receipt .sub{letter-spacing:.14em;font-size:15px;text-align:center;margin:0 0 20px}
-.receipt .leg{display:grid;grid-template-columns:2.4em 1fr auto auto;gap:0 14px;font-size:15.5px;line-height:2.15;letter-spacing:.06em}
+.receipt h2{margin:0;text-align:center;font:600 18px/1 inherit;letter-spacing:.2em;font-family:inherit}
+.receipt .ul{width:80px;height:1px;background:#f4f4f4;margin:9px auto 12px}
+.receipt .sub{letter-spacing:.12em;font-size:12px;text-align:center;margin:0 0 10px}
+.receipt .leg{display:grid;grid-template-columns:2em 1fr auto auto;gap:0 10px;font-size:13px;line-height:1.85;letter-spacing:.05em}
 .receipt .leg span:last-child{text-align:right;min-width:3.6em}
-.receipt .rule{height:1px;background:#f4f4f4;margin:16px 0}
-.receipt .tot{display:flex;justify-content:space-between;font-size:15.5px;line-height:2.1;letter-spacing:.06em}
+.receipt .rule{height:1px;background:#f4f4f4;margin:9px 0}
+.receipt .tot{display:flex;justify-content:space-between;font-size:13px;line-height:1.85;letter-spacing:.05em}
 @media (min-width:1000px){
-  #p-today:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) 340px;column-gap:32px;row-gap:0;align-items:start;grid-auto-rows:min-content}
+  #p-today:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) 270px;column-gap:32px;row-gap:0;align-items:start;grid-auto-rows:min-content}
   #p-today>*{grid-column:1;margin-bottom:28px}
   #p-today>#rcpt{grid-column:2;grid-row:1 / span 99;position:sticky;top:84px;margin-bottom:0}
 }
-@media (max-width:999px){#rcpt{max-width:440px;width:100%;margin:0 auto!important}}
+@media (max-width:999px){#rcpt{max-width:300px;width:100%;margin:0 auto!important}}
 </style>
 </head>
 <body>
@@ -257,7 +257,7 @@ function receipt(){
     ${legs.map((l,i)=>`<div class="leg"><span>${i+1}.</span><span>${esc(l.team)}</span><span>ML</span><span>${l.dec.toFixed(2)}</span></div>`).join('')}
     <div class="rule"></div><div class="tot"><span>TOTAL ODDS</span><span>${D.toFixed(2)}</span></div>
     <div class="tot"><span>BET AMOUNT</span><span>$10.00</span></div><div class="tot"><span>POTENTIAL WIN</span><span>${fm(win)}</span></div></div>
-    <p class="small" style="margin:8px 0 0">The model's pick in every game, at Kalshi pregame prices as decimal odds (before fees)${unp?`; ${unp} game${unp===1?'':'s'} left out with no saved price`:''}. A ${legs.length}-leg parlay almost never hits.</p></section>`;
+    <p class="small" style="margin:6px 0 0;font-size:12px">The model's pick in every game, at Kalshi pregame prices as decimal odds (before fees)${unp?`; ${unp} game${unp===1?'':'s'} left out with no saved price`:''}. A ${legs.length}-leg parlay almost never hits.</p></section>`;
 }
 function market(g){
   const mk=DATA.market.filter(m=>m.game===g.away+'@'+g.home);
