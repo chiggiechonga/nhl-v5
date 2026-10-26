@@ -57,16 +57,13 @@ def publish(obj):
 
 if __name__ == '__main__':
     end = time.time() + MIN * 60; last = None; n = 0
-    while True:
+    while time.time() < end:
         obj, active = snapshot()
-        if not active and n == 0:
-            print('nothing live or starting soon; exiting'); break
         body = json.dumps(obj['days'], sort_keys=True)
-        if body != last or n % 10 == 0:      # publish on change, and a heartbeat every ~5 min
+        if body != last or n % 6 == 0:      # publish on change, plus a heartbeat so the page can tell the relay is alive
             if TOKEN: publish(obj)
             else: print('no token; would publish', len(body), 'bytes')
             last = body
         n += 1
-        if time.time() + 30 > end or (not active and n > 3): break
-        time.sleep(30)
+        time.sleep(30 if active else 90)
     print('done after', n, 'polls')

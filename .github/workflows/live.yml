@@ -1,17 +1,20 @@
 name: nhl-v5-live
+# Keeps itself going from 8am to about 2am ET: relay live scores for ~25 minutes, then refresh goalies/lineups/odds and grade
+# finals, then start the next round. The cron lines only restart the chain if it ever breaks (GitHub often skips cron runs).
 on:
   schedule:
-    - cron: '*/30 16-23,0-5 * * *'   # live-score relay while games are on (UTC)
+    - cron: '*/30 12-23,0-5 * * *'
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: nhl-v5-live
   cancel-in-progress: false
 jobs:
   live:
     runs-on: ubuntu-24.04
-    timeout-minutes: 32
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -19,4 +22,27 @@ jobs:
       - name: Relay live scores
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python auto/live.py 28
+        run: python auto/live.py 25
+      - name: Refresh data and grade
+        if: always()
+        run: |
+          python auto/run.py plan || true
+          python auto/run.py grade || true
+          git config user.name "nhl-v5-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data docs
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "auto: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -X theirs origin main || true
+          git push origin HEAD:main
+      - name: Start the next round
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          H=$(TZ=America/New_York date +%H)
+          if [ "$H" -ge 8 ] || [ "$H" -lt 2 ]; then
+            gh workflow run live.yml --ref main
+          else
+            echo "overnight in ET, chain stops until the morning cron"
+          fi
