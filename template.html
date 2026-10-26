@@ -223,6 +223,8 @@ footer.site p{margin:0}
   #cal .cal-row .cal{flex:0 1 370px;margin:0}
   #cal .cal-note{flex:0 1 230px;max-width:230px;margin:4px 0 0}}
 @media (max-width:699px){#cal .cal-note{max-width:370px;width:100%}}
+.whyl{list-style:none;margin:6px 0;padding:0;display:flex;flex-direction:column;gap:2px;max-width:460px}.whyl li{display:flex;justify-content:space-between;gap:12px;font-size:13px}.whyl b{font-weight:600;text-align:right}details.why{margin-top:6px}details.why p{font-size:13px}
+.rows li.whyrow{display:block;padding-top:0}.rows li.whyrow details{margin:0}
 </style>
 </head>
 <body>
@@ -330,7 +332,19 @@ function gapText(g,m,started){
   if(started)return 'Game has started, so the market is live and not comparable to the pregame model.';
   const gap=Math.round((g.p_home-m.home_prob)*100);
   if(Math.abs(gap)<=2)return 'Model and market basically agree.';
-  return 'Model is '+Math.abs(gap)+' pts '+(gap>0?'higher':'lower')+' on '+g.home+' than the market. A gap is information, not an edge.';
+  return 'Model is '+Math.abs(gap)+' pts '+(gap>0?'higher':'lower')+' on '+g.home+' than the market. Tap "Why the gap?" for the breakdown.';
+}
+function whyGap(g,m){
+  const w=g.why;if(!w||!m)return '';
+  const gap=Math.round((g.p_home-m.home_prob)*100);if(Math.abs(gap)<=2)return '';
+  const pp=v=>(v>=0?'+':'-')+Math.abs(Math.round(v*100))+' pts';
+  const lean=Math.abs(g.p_home-m.home_prob), fav=m.home_prob<.5?g.away:g.home;
+  const out=[g.away,g.home].map(t=>[t,injuries(t).out]).filter(([,o])=>o.length);
+  const line=(k,v)=>`<li><span>${k}</span><b>${v}</b></li>`;
+  return `<details class="help why"><summary>${ICON_Q}Why the gap?</summary>
+    <p><b>Home ice is not the reason.</b> The market includes it too. This is the model's build-up for ${esc(g.home)}:</p>
+    <ul class="whyl">${line('Team ratings alone (neutral ice)',pct(w.neutral))}${line('Home ice',pp(w.home))}${line('Back-to-back',w.b2b_teams.length?pp(w.b2b)+' ('+esc(w.b2b_teams.join(', '))+' played last night)':'none')}${line('Goalies',w.goalie_adj?pp(w.goalie):'none (no goalie data)')}${line('Model total',pct(g.p_home))}${line('Market',pct(m.home_prob))}</ul>
+    <p>So the model rates these two teams about ${Math.abs(w.neutral-.5)<.03?'evenly':'as '+(w.neutral>.5?esc(g.home):esc(g.away))+' being somewhat better'} before home ice, and the market has ${esc(fav)} at ${pct(1-(fav===g.home?1-m.home_prob:m.home_prob))}. The model's ratings come from last season blended with only a few games this season, so it can't see things the market prices in: the confirmed starting goalie, injured or returning stars${out.length?' (listed out: '+out.map(([t,o])=>esc(t)+' '+o.map(esc).join(', ')).join('; ')+')':''}, trades, and recent form. The model's team number does not change when a player is hurt. I can't tell which of these the market is reacting to, so treat the gap as a flag to check, not a mistake in either number.</p></details>`;
 }
 function sideRow(t,goalie,status){
   const inj=injuries(t), confirmed=status==='confirmed';
@@ -369,6 +383,7 @@ const cards=DATA.games.map(g=>{
     <ul class="rows top">
       <li><div class="l">Model · ${esc(g.home)} wins<small>${esc(gapText(g,m,started))}</small></div>
         <div class="r">${pct(g.p_home)}<small>${m?esc(/kalshi/i.test(m.source)?'Kalshi':'Feed')+' '+pct(m.home_prob,Math.abs(m.home_prob*100-Math.round(m.home_prob*100))>.05?1:0):'–'}</small></div></li>
+      ${started||!whyGap(g,m)?'':`<li class="whyrow">${whyGap(g,m)}</li>`}
       ${sideRow(g.away,g.goalie_a,g.goalie_status_a)}${sideRow(g.home,g.goalie_h,g.goalie_status_h)}
     </ul>
     ${skaters(g)}

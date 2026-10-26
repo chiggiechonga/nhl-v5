@@ -61,6 +61,10 @@ def project_slate(date,slate,goalies,status,b2b=(),market=None,write=True,lineup
         pr=m.project(R,a,h,b2b=b2b,gf_a=fa,gf_h=fh)
         pr.update(goalie_a=ga,goalie_h=gh,goalie_status_a=status.get(a,'unconfirmed'),goalie_status_h=status.get(h,'unconfirmed'),goalie_data_a=ka,goalie_data_h=kh,
                   id=f'{date}_{a}@{h}',date=date)
+        P0=dict(m.PARAMS,HOME_G=0,HOME_S=0)          # same model with home ice switched off, then back-to-back, then goalies, one at a time
+        p0=m.project(R,a,h,P=P0)['p_home']; p1=m.project(R,a,h)['p_home']; p2=m.project(R,a,h,b2b=b2b)['p_home']
+        pr['why']=dict(neutral=round(p0,4),home=round(p1-p0,4),b2b=round(p2-p1,4),goalie=round(pr['p_home']-p2,4),b2b_teams=[t for t in (a,h) if t in b2b],
+                       goalie_adj=bool(ka or kh))
         gms.append(pr)
         allp+=players_for(R,pr,{a:fa,h:fh},players,lineups=lineups)
     if write:
