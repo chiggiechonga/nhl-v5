@@ -1,0 +1,22 @@
+name: nhl-v5-live
+on:
+  schedule:
+    - cron: '*/30 16-23,0-5 * * *'   # live-score relay while games are on (UTC)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: nhl-v5-live
+  cancel-in-progress: false
+jobs:
+  live:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: '3.12' }
+      - name: Relay live scores
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python auto/live.py 28

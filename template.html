@@ -402,9 +402,14 @@ $('#p-today').addEventListener('click',e=>{
   if(!cand.length)return;
   const dates=[...new Set(cand.map(g=>g.date))];
   async function poll(){
-    let ok=false;
+    let ok=false, relay;
     for(const d of dates){
-      let js;try{const r=await fetch('https://api-web.nhle.com/v1/score/'+d,{cache:'no-store'});if(!r.ok)continue;js=await r.json()}catch(e){continue}
+      let js=null;try{const r=await fetch('https://api-web.nhle.com/v1/score/'+d,{cache:'no-store'});if(r.ok)js=await r.json()}catch(e){}
+      if(!js){ // the NHL did not allow the browser to read it: use the relay file the automation publishes while games are on
+        if(relay===undefined){try{const r=await fetch('https://raw.githubusercontent.com/chiggiechonga/nhl-v5/live/live.json?t='+Date.now(),{cache:'no-store'});relay=r.ok?await r.json():null}catch(e){relay=null}
+          if(relay&&Date.now()-new Date(relay.asof)>12*60000)relay=null}
+        js=relay&&relay.days&&relay.days[d]||null}
+      if(!js)continue;
       ok=true;
       for(const x of js.games||[]){
         const a=cd(x.awayTeam.abbrev),h=cd(x.homeTeam.abbrev),g=cand.find(c=>c.away===a&&c.home===h&&c.date===d);if(!g)continue;
