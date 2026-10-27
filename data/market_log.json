@@ -648,5 +648,12 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.515,
   "note": "auto 21:31Z; mid of bid/ask; O5.5 goals 50%; O6.5 goals 38%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "MIN@UTA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.515,
+  "note": "auto 21:57Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%"
  }
 ]
