@@ -1,6 +1,6 @@
 {
  "mode": "plan",
- "at": "2026-10-27T20:38+00:00",
+ "at": "2026-10-27T21:05+00:00",
  "ok": [
   "11 games on 2026-10-27",
   "Daily Faceoff goalies parsed for 22 teams",
@@ -10,12 +10,6 @@
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-27T07:34+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
   {
    "mode": "players",
    "at": "2026-10-27T15:03+00:00",
@@ -67,6 +61,12 @@
   {
    "mode": "plan",
    "at": "2026-10-27T20:38+00:00",
+   "n_ok": 5,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-27T21:05+00:00",
    "n_ok": 5,
    "problems": []
   }
