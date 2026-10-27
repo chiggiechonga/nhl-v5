@@ -34,7 +34,7 @@
    "time": "9:30 ET",
    "start": "2026-10-27T01:30:00Z",
    "gid": 2026020187,
-   "started": false,
+   "started": true,
    "goalie_a": "Michal Postava",
    "status_a": "unconfirmed",
    "goalie_h": "Tristan Jarry",
