@@ -2577,11 +2577,18 @@
    "source": "Kalshi moneyline",
    "home_prob": 0.465,
    "note": "auto 05:08Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 44%"
+  },
+  {
+   "date": "2026-10-27",
+   "game": "VAN@ANA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.665,
+   "note": "auto 05:34Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%"
   }
  ],
  "lineups": {
   "CBJ": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Valeri Nichushkin",
@@ -2610,7 +2617,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Trevor Zegras",
@@ -2641,7 +2648,7 @@
    }
   },
   "BOS": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "JJ Peterka",
@@ -2666,7 +2673,7 @@
    "inj": {}
   },
   "CAR": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -2696,7 +2703,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -2725,7 +2732,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -2752,7 +2759,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -2780,7 +2787,7 @@
    }
   },
   "STL": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Dylan Holloway",
@@ -2811,7 +2818,7 @@
    }
   },
   "NYI": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Simon Holmstrom",
@@ -2841,7 +2848,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -2868,7 +2875,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Arseny Gritsyuk",
@@ -2896,7 +2903,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Kiviranta",
@@ -2927,7 +2934,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -2957,7 +2964,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -2985,7 +2992,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -3015,7 +3022,7 @@
    }
   },
   "UTA": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Logan Cooley",
@@ -3043,7 +3050,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -3072,7 +3079,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -3100,7 +3107,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3127,7 +3134,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cutter Gauthier",
@@ -3157,7 +3164,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -3187,7 +3194,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-10-27T05:08Z",
+   "asof": "2026-10-27T05:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivar Stenberg",
@@ -3231,20 +3238,17 @@
   "sh3_exp": 88.5
  },
  "health": {
-  "mode": "grade",
-  "at": "2026-10-27T04:42+00:00",
+  "mode": "plan",
+  "at": "2026-10-27T05:08+00:00",
   "ok": [
-   "graded 2026-10-26_DET@EDM: 4-3 SO, shots 29-28",
-   "1 games and 10 player rows added"
+   "11 games on 2026-10-27",
+   "Daily Faceoff goalies parsed for 22 teams",
+   "lineups refreshed for 22/22 teams",
+   "Kalshi: 11 NHL games priced, 1 new rows",
+   "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-27T01:44+00:00",
-    "n_ok": 4,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-27T02:34+00:00",
@@ -3297,6 +3301,12 @@
     "mode": "grade",
     "at": "2026-10-27T04:42+00:00",
     "n_ok": 2,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-27T05:08+00:00",
+    "n_ok": 5,
     "problems": []
    }
   ]
@@ -3359,5 +3369,5 @@
    "cum": 14.54
   }
  ],
- "made": "2026-10-27T05:09+00:00"
+ "made": "2026-10-27T05:35+00:00"
 }
