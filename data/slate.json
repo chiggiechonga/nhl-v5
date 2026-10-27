@@ -12,7 +12,7 @@
    "time": "7:00 ET",
    "start": "2026-10-27T23:00:00Z",
    "gid": 2026020188,
-   "started": false,
+   "started": true,
    "goalie_a": "Cam Talbot",
    "status_a": "unconfirmed",
    "goalie_h": "Dan Vladar",
