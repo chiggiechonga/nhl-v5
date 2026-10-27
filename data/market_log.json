@@ -445,5 +445,82 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.555,
   "note": "auto 22:45Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "CBJ@PHI",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.465,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 50%; O6.5 goals 41%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "BOS@CAR",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.625,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "LAK@CHI",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.485,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "MTL@STL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.535,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 46%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "NYI@NSH",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.535,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 53%; O6.5 goals 42%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "NJD@DAL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.535,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 52%; O6.5 goals 42%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "FLA@WPG",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.46,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "MIN@UTA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.535,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "OTT@VGK",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.585,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 61%; O6.5 goals 48%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "VAN@ANA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.665,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "BUF@SJS",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.445,
+  "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%"
  }
 ]
