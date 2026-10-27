@@ -620,5 +620,12 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.495,
   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "FLA@WPG",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.455,
+  "note": "auto 19:46Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%"
  }
 ]
