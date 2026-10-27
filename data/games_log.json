@@ -934,5 +934,17 @@
   "winner": "LAK",
   "date": "2026-10-26",
   "id": "2026-10-26_LAK@NYR"
+ },
+ {
+  "away": "TOR",
+  "home": "CGY",
+  "ag": 2,
+  "hg": 5,
+  "a_sh": 28,
+  "h_sh": 35,
+  "ot": null,
+  "winner": "CGY",
+  "date": "2026-10-26",
+  "id": "2026-10-26_TOR@CGY"
  }
 ]
