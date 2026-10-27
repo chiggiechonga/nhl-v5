@@ -944,7 +944,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-27T00:01Z",
+   "asof": "2026-10-27T00:27Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -976,7 +976,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-27T00:01Z",
+   "asof": "2026-10-27T00:27Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1000,12 +1000,11 @@
    ],
    "inj": {
     "Jonathan Huberdeau": "IR",
-    "Samuel Honzek": "IR",
-    "Mikael Backlund": "IR"
+    "Samuel Honzek": "IR"
    }
   },
   "DET": {
-   "asof": "2026-10-27T00:01Z",
+   "asof": "2026-10-27T00:27Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -1035,7 +1034,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-27T00:01Z",
+   "asof": "2026-10-27T00:27Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1085,7 +1084,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-26T23:36+00:00",
+  "at": "2026-10-27T00:01+00:00",
   "ok": [
    "3 games on 2026-10-26",
    "Daily Faceoff goalies parsed for 6 teams",
@@ -1095,12 +1094,6 @@
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-26T19:44+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-26T20:10+00:00",
@@ -1152,6 +1145,12 @@
    {
     "mode": "plan",
     "at": "2026-10-26T23:36+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-27T00:01+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1207,5 +1206,5 @@
    "cum": 22.07
   }
  ],
- "made": "2026-10-27T00:02+00:00"
+ "made": "2026-10-27T00:27+00:00"
 }

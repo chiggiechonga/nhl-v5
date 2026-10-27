@@ -293,7 +293,7 @@
   }
  },
  "TOR": {
-  "asof": "2026-10-27T00:01Z",
+  "asof": "2026-10-27T00:27Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
@@ -533,7 +533,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-10-27T00:01Z",
+  "asof": "2026-10-27T00:27Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -557,8 +557,7 @@
   ],
   "inj": {
    "Jonathan Huberdeau": "IR",
-   "Samuel Honzek": "IR",
-   "Mikael Backlund": "IR"
+   "Samuel Honzek": "IR"
   }
  },
  "MIN": {
@@ -592,7 +591,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-10-27T00:01Z",
+  "asof": "2026-10-27T00:27Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -738,7 +737,7 @@
   }
  },
  "DET": {
-  "asof": "2026-10-27T00:01Z",
+  "asof": "2026-10-27T00:27Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex DeBrincat",
