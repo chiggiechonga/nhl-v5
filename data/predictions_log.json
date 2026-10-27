@@ -22255,7 +22255,7 @@
   "date": "2026-10-27",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-27T17:27+00:00Z",
+  "made_at": "2026-10-27T17:34+00:00Z",
   "away": "CBJ",
   "home": "PHI",
   "p_home": 0.4952,
@@ -22269,7 +22269,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "CBJ": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Valeri Nichushkin",
@@ -22298,7 +22298,7 @@
     }
    },
    "PHI": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Trevor Zegras",
@@ -22529,7 +22529,7 @@
   "date": "2026-10-27",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-27T17:27+00:00Z",
+  "made_at": "2026-10-27T17:34+00:00Z",
   "away": "LAK",
   "home": "CHI",
   "p_home": 0.4319,
@@ -22543,7 +22543,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "LAK": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Artemi Panarin",
@@ -22572,7 +22572,7 @@
     }
    },
    "CHI": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Roman Kantserov",
@@ -22800,7 +22800,7 @@
   "date": "2026-10-27",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-27T17:27+00:00Z",
+  "made_at": "2026-10-27T17:34+00:00Z",
   "away": "MTL",
   "home": "STL",
   "p_home": 0.5023,
@@ -22814,7 +22814,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "MTL": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Cole Caufield",
@@ -22842,7 +22842,7 @@
     }
    },
    "STL": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Dylan Holloway",
@@ -23074,7 +23074,7 @@
   "date": "2026-10-27",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-27T17:27+00:00Z",
+  "made_at": "2026-10-27T17:34+00:00Z",
   "away": "NJD",
   "home": "DAL",
   "p_home": 0.5355,
@@ -23088,7 +23088,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "NJD": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Arseny Gritsyuk",
@@ -23115,7 +23115,7 @@
     }
    },
    "DAL": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Joel Kiviranta",
@@ -23347,7 +23347,7 @@
   "date": "2026-10-27",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-27T17:27+00:00Z",
+  "made_at": "2026-10-27T17:34+00:00Z",
   "away": "FLA",
   "home": "WPG",
   "p_home": 0.4923,
@@ -23361,7 +23361,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "FLA": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Brady Tkachuk",
@@ -23391,7 +23391,7 @@
     }
    },
    "WPG": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Kyle Connor",
@@ -23621,7 +23621,7 @@
   "date": "2026-10-27",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-27T17:27+00:00Z",
+  "made_at": "2026-10-27T17:34+00:00Z",
   "away": "OTT",
   "home": "VGK",
   "p_home": 0.5552,
@@ -23635,7 +23635,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "OTT": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Fabian Zetterlund",
@@ -23664,7 +23664,7 @@
     }
    },
    "VGK": {
-    "asof": "2026-10-27T17:26Z",
+    "asof": "2026-10-27T17:34Z",
     "source": "Daily Faceoff",
     "lines": [
      "Ivan Barbashev",

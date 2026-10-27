@@ -549,48 +549,48 @@
   "game": "CBJ@PHI",
   "source": "Kalshi moneyline",
   "home_prob": 0.475,
-  "note": "auto 17:26Z; mid of bid/ask; O5.5 goals 50%; O6.5 goals 40%"
+  "note": "auto 17:34Z; mid of bid/ask; O5.5 goals 50%; O6.5 goals 40%"
  },
  {
   "date": "2026-10-27",
   "game": "MTL@STL",
   "source": "Kalshi moneyline",
   "home_prob": 0.525,
-  "note": "auto 17:26Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 48%"
+  "note": "auto 17:34Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 48%"
  },
  {
   "date": "2026-10-27",
   "game": "NYI@NSH",
   "source": "Kalshi moneyline",
   "home_prob": 0.515,
-  "note": "auto 17:26Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
+  "note": "auto 17:34Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
  },
  {
   "date": "2026-10-27",
   "game": "NJD@DAL",
   "source": "Kalshi moneyline",
   "home_prob": 0.505,
-  "note": "auto 17:26Z; mid of bid/ask; O5.5 goals 50%; O6.5 goals 38%"
+  "note": "auto 17:34Z; mid of bid/ask; O5.5 goals 50%; O6.5 goals 38%"
  },
  {
   "date": "2026-10-27",
   "game": "MIN@UTA",
   "source": "Kalshi moneyline",
   "home_prob": 0.525,
-  "note": "auto 17:26Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%"
+  "note": "auto 17:34Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%"
  },
  {
   "date": "2026-10-27",
   "game": "OTT@VGK",
   "source": "Kalshi moneyline",
   "home_prob": 0.595,
-  "note": "auto 17:26Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 50%"
+  "note": "auto 17:34Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%"
  },
  {
   "date": "2026-10-27",
   "game": "BUF@SJS",
   "source": "Kalshi moneyline",
   "home_prob": 0.435,
-  "note": "auto 17:26Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%"
+  "note": "auto 17:34Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%"
  }
 ]
