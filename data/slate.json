@@ -13,7 +13,7 @@
    "start": "2026-10-27T23:00:00Z",
    "gid": 2026020188,
    "started": false,
-   "goalie_a": "Jet Greaves",
+   "goalie_a": "Cam Talbot",
    "status_a": "unconfirmed",
    "goalie_h": "Dan Vladar",
    "status_h": "unconfirmed"
@@ -37,7 +37,7 @@
    "start": "2026-10-28T00:00:00Z",
    "gid": 2026020190,
    "started": false,
-   "goalie_a": "Darcy Kuemper",
+   "goalie_a": "Anton Forsberg",
    "status_a": "unconfirmed",
    "goalie_h": "Spencer Knight",
    "status_h": "unconfirmed"
@@ -51,7 +51,7 @@
    "started": false,
    "goalie_a": "Jacob Fowler",
    "status_a": "unconfirmed",
-   "goalie_h": "Joel Hofer",
+   "goalie_h": "Jordan Binnington",
    "status_h": "unconfirmed"
   },
   {
@@ -73,9 +73,9 @@
    "start": "2026-10-28T00:00:00Z",
    "gid": 2026020193,
    "started": false,
-   "goalie_a": "Jake Allen",
+   "goalie_a": "Connor Hellebuyck",
    "status_a": "unconfirmed",
-   "goalie_h": "Jake Oettinger",
+   "goalie_h": "Casey DeSmith",
    "status_h": "unconfirmed"
   },
   {
@@ -87,7 +87,7 @@
    "started": false,
    "goalie_a": "Akira Schmid",
    "status_a": "unconfirmed",
-   "goalie_h": "Stuart Skinner",
+   "goalie_h": "Clay Stevenson",
    "status_h": "unconfirmed"
   },
   {
@@ -111,7 +111,7 @@
    "started": false,
    "goalie_a": "Samuel Ersson",
    "status_a": "unconfirmed",
-   "goalie_h": "Carter Hart",
+   "goalie_h": "Adin Hill",
    "status_h": "unconfirmed"
   },
   {

@@ -1,6 +1,6 @@
 {
  "FLA": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brady Tkachuk",
@@ -30,7 +30,7 @@
   }
  },
  "BUF": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Zach Benson",
@@ -60,7 +60,7 @@
   }
  },
  "PHI": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Trevor Zegras",
@@ -80,18 +80,17 @@
    "Nick Seeler",
    "Jamie Drysdale",
    "Hunter McDonald",
-   "Simon Benoit"
+   "Cam York"
   ],
   "inj": {
    "Nikita Grebenkin": "IR",
    "Owen Tippett": "IR",
    "Travis Konecny": "IR",
-   "Cam York": "IR",
    "Rasmus Ristolainen": "IR"
   }
  },
  "OTT": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -120,7 +119,7 @@
   }
  },
  "NJD": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Arseny Gritsyuk",
@@ -143,12 +142,11 @@
    "Johnathan Kovacevic"
   ],
   "inj": {
-   "Seamus Casey": "IR",
-   "Connor Hellebuyck": "IR"
+   "Seamus Casey": "IR"
   }
  },
  "ANA": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cutter Gauthier",
@@ -166,9 +164,9 @@
    "Jackson Lacombe",
    "Noah Warren",
    "Tyson Hinds",
-   "Drew Helleson",
+   "Tristan Luneau",
    "Travis Mitchell",
-   "Tristan Luneau"
+   "Nick Jensen"
   ],
   "inj": {
    "Troy Terry": "IR",
@@ -178,7 +176,7 @@
   }
  },
  "SJS": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivar Stenberg",
@@ -240,7 +238,7 @@
   }
  },
  "BOS": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "JJ Peterka",
@@ -265,16 +263,16 @@
   "inj": {}
  },
  "NSH": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Steven Stamkos",
    "Ryan O'Reilly",
-   "Mavrik Bourque",
    "Filip Forsberg",
-   "Matthew Wood",
-   "Nils Hoglander",
    "Alex Kerfoot",
+   "Mavrik Bourque",
+   "Nils Hoglander",
+   "Matthew Wood",
    "Jonathan Marchessault",
    "Ross Colton",
    "Jack Drury",
@@ -354,7 +352,7 @@
   }
  },
  "NYI": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Simon Holmstrom",
@@ -384,7 +382,7 @@
   }
  },
  "LAK": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
@@ -413,7 +411,7 @@
   }
  },
  "DAL": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Kiviranta",
@@ -422,11 +420,11 @@
    "Jason Robertson",
    "Roope Hintz",
    "Tyler Seguin",
-   "Justin Hryckowian",
-   "Arttu Hyry",
    "Jamie Benn",
+   "Arttu Hyry",
    "Dylan Hryckowian",
    "Colin Blackwell",
+   "Justin Hryckowian",
    "Matthew Seminoff",
    "Thomas Harley",
    "Miro Heiskanen",
@@ -444,35 +442,36 @@
   }
  },
  "WPG": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kyle Connor",
    "Mark Scheifele",
    "Cole Perfetti",
-   "Alex Iafallo",
-   "Viggo Björck",
-   "Gabriel Vilardi",
    "Isak Rosen",
    "Adam Lowry",
+   "Gabriel Vilardi",
+   "Alex Iafallo",
+   "Viggo Björck",
    "Dawson Mercer",
-   "Nino Niederreiter",
-   "Morgan Barron",
    "Cole Koepke",
+   "Morgan Barron",
+   "Brad Lambert",
    "Dylan Samberg",
    "Neal Pionk",
-   "Mario Ferraro",
    "Elias Salomonsson",
-   "Haydn Fleury",
-   "Dylan DeMelo"
+   "Dylan DeMelo",
+   "Mario Ferraro",
+   "Tyrel Bauer"
   ],
   "inj": {
-   "Josh Morrissey": "IR",
-   "Vladislav Namestnikov": "IR"
+   "Nick Bjugstad": "IR",
+   "Vladislav Namestnikov": "IR",
+   "Josh Morrissey": "IR"
   }
  },
  "STL": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Dylan Holloway",
@@ -484,15 +483,15 @@
    "Jake Neighbours",
    "Dalibor Dvorsky",
    "Pavel Buchnevich",
-   "Aleksanteri Kaskimaki",
+   "Alexey Toropchenko",
    "Pius Suter",
-   "Otto Stenberg",
+   "Aleksanteri Kaskimaki",
    "Philip Broberg",
-   "Colton Parayko",
-   "Adam Jiříček",
-   "Justin Barron",
+   "Brandon Carlo",
    "Cam Fowler",
-   "Brandon Carlo"
+   "Colton Parayko",
+   "Justin Barron",
+   "Adam Jiříček"
   ],
   "inj": {
    "Logan Mailloux": "IR",
@@ -503,7 +502,7 @@
   }
  },
  "VGK": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivan Barbashev",
@@ -559,7 +558,7 @@
   }
  },
  "MIN": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kirill Kaprizov",
@@ -622,7 +621,7 @@
   }
  },
  "CAR": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "William Carrier",
@@ -632,11 +631,11 @@
    "Logan Stankoven",
    "Jackson Blake",
    "Taylor Hall",
-   "Seth Jarvis",
    "Jordan Martinook",
+   "Seth Jarvis",
    "Eric Robinson",
    "Jesperi Kotkaniemi",
-   "Skyler Brind'Amour",
+   "Nicolas Deslauriers",
    "Jaccob Slavin",
    "Jalen Chatfield",
    "K'Andre Miller",
@@ -646,9 +645,8 @@
   ],
   "inj": {
    "Jordan Staal": "IR",
-   "Taylor Hall": "IR",
-   "Alexander Nikishin": "IR",
-   "Mark Jankowski": "IR"
+   "Mark Jankowski": "IR",
+   "Taylor Hall": "IR"
   }
  },
  "SEA": {
@@ -680,21 +678,21 @@
   }
  },
  "UTA": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
-   "Logan Cooley",
-   "Vincent Trocheck",
-   "Dylan Guenther",
    "Clayton Keller",
    "Nick Schmaltz",
    "Lawson Crouse",
+   "Logan Cooley",
+   "Vincent Trocheck",
+   "Dylan Guenther",
    "Anders Lee",
    "Barrett Hayton",
    "Kailer Yamamoto",
    "Jack McBain",
    "Kevin Stenlund",
-   "Daniil But",
+   "Liam O'Brien",
    "Mikhail Sergachev",
    "MacKenzie Weegar",
    "Nate Schmidt",
@@ -708,7 +706,7 @@
   }
  },
  "VAN": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake DeBrusk",
@@ -765,21 +763,21 @@
   }
  },
  "CHI": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Roman Kantserov",
    "Connor Bedard",
+   "Ryan Greene",
+   "Oliver Moore",
+   "Frank Nazar",
    "Patrick Kane",
    "Tyler Bertuzzi",
    "Anton Frondell",
-   "Jordan Greenway",
-   "Teuvo Teravainen",
-   "Frank Nazar",
    "Ryan Donato",
    "Cole Smith",
-   "Ryan Greene",
-   "Andrew Mangiapane",
+   "Jordan Greenway",
+   "Teuvo Teravainen",
    "Alex Vlasic",
    "Ian Cole",
    "Wyatt Kaiser",
@@ -792,7 +790,7 @@
   }
  },
  "MTL": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cole Caufield",
@@ -811,7 +809,7 @@
    "Noah Dobson",
    "Kaiden Guhle",
    "Mike Matheson",
-   "Arber Xhekaj",
+   "Adam Engstrom",
    "Alexandre Carrier"
   ],
   "inj": {
@@ -905,7 +903,7 @@
   }
  },
  "CBJ": {
-  "asof": "2026-10-27T07:34Z",
+  "asof": "2026-10-27T17:26Z",
   "source": "Daily Faceoff",
   "lines": [
    "Valeri Nichushkin",

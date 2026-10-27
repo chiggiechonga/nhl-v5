@@ -1,17 +1,15 @@
 {
- "mode": "players",
- "at": "2026-10-27T15:03+00:00",
+ "mode": "plan",
+ "at": "2026-10-27T17:26+00:00",
  "ok": [
-  "players_base refreshed: 684 updated, 1 added"
+  "11 games on 2026-10-27",
+  "Daily Faceoff goalies parsed for 22 teams",
+  "lineups refreshed for 22/22 teams",
+  "Kalshi: 11 NHL games priced, 7 new rows",
+  "logging 6 game(s): ['2026-10-27_CBJ@PHI', '2026-10-27_FLA@WPG', '2026-10-27_LAK@CHI', '2026-10-27_MTL@STL', '2026-10-27_NJD@DAL', '2026-10-27_OTT@VGK']"
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-27T03:50+00:00",
-   "n_ok": 4,
-   "problems": []
-  },
   {
    "mode": "plan",
    "at": "2026-10-27T04:16+00:00",
@@ -64,6 +62,12 @@
    "mode": "players",
    "at": "2026-10-27T15:03+00:00",
    "n_ok": 1,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-27T17:26+00:00",
+   "n_ok": 5,
    "problems": []
   }
  ]
