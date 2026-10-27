@@ -1,26 +1,12 @@
 {
- "mode": "plan",
- "at": "2026-10-27T01:44+00:00",
+ "mode": "grade",
+ "at": "2026-10-27T02:09+00:00",
  "ok": [
-  "3 games on 2026-10-26",
-  "Daily Faceoff goalies parsed for 6 teams",
-  "Kalshi: 3 NHL games priced, 0 new rows",
-  "nothing new to log (no new games, no goalie changes)"
+  "graded 2026-10-26_LAK@NYR: 6-3, shots 26-26",
+  "1 games and 10 player rows added"
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-26T21:54+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
-  {
-   "mode": "plan",
-   "at": "2026-10-26T22:20+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
   {
    "mode": "plan",
    "at": "2026-10-26T22:45+00:00",
@@ -67,6 +53,18 @@
    "mode": "plan",
    "at": "2026-10-27T01:44+00:00",
    "n_ok": 4,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-27T02:09+00:00",
+   "n_ok": 4,
+   "problems": []
+  },
+  {
+   "mode": "grade",
+   "at": "2026-10-27T02:09+00:00",
+   "n_ok": 2,
    "problems": []
   }
  ]

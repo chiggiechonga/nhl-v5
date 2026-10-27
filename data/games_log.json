@@ -922,5 +922,17 @@
   "winner": "MIN",
   "date": "2026-10-25",
   "id": "2026-10-25_MIN@VAN"
+ },
+ {
+  "away": "LAK",
+  "home": "NYR",
+  "ag": 6,
+  "hg": 3,
+  "a_sh": 26,
+  "h_sh": 26,
+  "ot": null,
+  "winner": "LAK",
+  "date": "2026-10-26",
+  "id": "2026-10-26_LAK@NYR"
  }
 ]
