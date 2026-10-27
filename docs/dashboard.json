@@ -2717,6 +2717,34 @@
    "source": "Kalshi moneyline",
    "home_prob": 0.415,
    "note": "auto 22:49Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%"
+  },
+  {
+   "date": "2026-10-27",
+   "game": "BOS@CAR",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.635,
+   "note": "auto 23:41Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%"
+  },
+  {
+   "date": "2026-10-27",
+   "game": "MTL@STL",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.475,
+   "note": "auto 23:41Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%"
+  },
+  {
+   "date": "2026-10-27",
+   "game": "NJD@DAL",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.525,
+   "note": "auto 23:41Z; mid of bid/ask; O5.5 goals 50%; O6.5 goals 38%"
+  },
+  {
+   "date": "2026-10-27",
+   "game": "FLA@WPG",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.465,
+   "note": "auto 23:41Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 46%"
   }
  ],
  "lineups": {
@@ -2780,7 +2808,7 @@
    }
   },
   "BOS": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "JJ Peterka",
@@ -2805,7 +2833,7 @@
    "inj": {}
   },
   "CAR": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -2817,9 +2845,9 @@
     "Jordan Martinook",
     "Mark Jankowski",
     "Seth Jarvis",
-    "Taylor Hall",
-    "Jesperi Kotkaniemi",
     "Eric Robinson",
+    "Jesperi Kotkaniemi",
+    "Nicolas Deslauriers",
     "Jaccob Slavin",
     "Jalen Chatfield",
     "K'Andre Miller",
@@ -2829,12 +2857,11 @@
    ],
    "inj": {
     "Jordan Staal": "IR",
-    "Mark Jankowski": "IR",
     "Taylor Hall": "IR"
    }
   },
   "LAK": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -2863,7 +2890,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -2890,7 +2917,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -2918,7 +2945,7 @@
    }
   },
   "STL": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Dylan Holloway",
@@ -2949,7 +2976,7 @@
    }
   },
   "NYI": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Simon Holmstrom",
@@ -2979,7 +3006,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -3006,7 +3033,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Arseny Gritsyuk",
@@ -3033,7 +3060,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Kiviranta",
@@ -3042,9 +3069,9 @@
     "Jason Robertson",
     "Roope Hintz",
     "Tyler Seguin",
-    "Jamie Benn",
-    "Arttu Hyry",
     "Dylan Hryckowian",
+    "Arttu Hyry",
+    "Jamie Benn",
     "Colin Blackwell",
     "Justin Hryckowian",
     "Matthew Seminoff",
@@ -3064,7 +3091,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -3094,7 +3121,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -3123,7 +3150,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -3153,7 +3180,7 @@
    }
   },
   "UTA": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Clayton Keller",
@@ -3181,7 +3208,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -3210,7 +3237,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -3239,7 +3266,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3266,7 +3293,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cutter Gauthier",
@@ -3296,7 +3323,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -3326,7 +3353,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-10-27T23:15Z",
+   "asof": "2026-10-27T23:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivar Stenberg",
@@ -3371,22 +3398,16 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-27T22:49+00:00",
+  "at": "2026-10-27T23:15+00:00",
   "ok": [
    "11 games on 2026-10-27",
    "Daily Faceoff goalies parsed for 22 teams",
-   "lineups refreshed for 22/22 teams",
-   "Kalshi: 11 NHL games priced, 2 new rows",
+   "lineups refreshed for 20/20 teams",
+   "Kalshi: 11 NHL games priced, 0 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-27T18:53+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-27T19:20+00:00",
@@ -3438,6 +3459,12 @@
    {
     "mode": "plan",
     "at": "2026-10-27T22:49+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-27T23:15+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -3501,5 +3528,5 @@
    "cum": 14.54
   }
  ],
- "made": "2026-10-27T23:15+00:00"
+ "made": "2026-10-27T23:41+00:00"
 }
