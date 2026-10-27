@@ -946,5 +946,17 @@
   "winner": "CGY",
   "date": "2026-10-26",
   "id": "2026-10-26_TOR@CGY"
+ },
+ {
+  "away": "DET",
+  "home": "EDM",
+  "ag": 4,
+  "hg": 3,
+  "a_sh": 29,
+  "h_sh": 28,
+  "ot": "SO",
+  "winner": "DET",
+  "date": "2026-10-26",
+  "id": "2026-10-26_DET@EDM"
  }
 ]

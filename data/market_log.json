@@ -522,5 +522,12 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.445,
   "note": "auto 04:16Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "VAN@ANA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.655,
+  "note": "auto 04:42Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%"
  }
 ]
