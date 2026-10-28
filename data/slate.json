@@ -13,7 +13,7 @@
    "time": "7:30 ET",
    "start": "2026-10-28T23:30:00Z",
    "gid": 2026020199,
-   "started": false,
+   "started": true,
    "goalie_a": "Joseph Woll",
    "status_a": "unconfirmed",
    "goalie_h": "Logan Thompson",
