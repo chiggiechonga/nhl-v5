@@ -1,26 +1,12 @@
 {
- "mode": "plan",
- "at": "2026-10-28T03:57+00:00",
+ "mode": "grade",
+ "at": "2026-10-28T04:22+00:00",
  "ok": [
-  "11 games on 2026-10-27",
-  "Daily Faceoff goalies parsed for 22 teams",
-  "Kalshi: 4 NHL games priced, 0 new rows",
-  "nothing new to log (no new games, no goalie changes)"
+  "graded 2026-10-27_MIN@UTA: 3-1, shots 30-27",
+  "1 games and 10 player rows added"
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-28T01:24+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
-  {
-   "mode": "plan",
-   "at": "2026-10-28T01:49+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
   {
    "mode": "grade",
    "at": "2026-10-28T01:50+00:00",
@@ -67,6 +53,18 @@
    "mode": "plan",
    "at": "2026-10-28T03:57+00:00",
    "n_ok": 4,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-28T04:22+00:00",
+   "n_ok": 5,
+   "problems": []
+  },
+  {
+   "mode": "grade",
+   "at": "2026-10-28T04:22+00:00",
+   "n_ok": 2,
    "problems": []
   }
  ]
