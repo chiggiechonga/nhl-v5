@@ -781,5 +781,12 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.445,
   "note": "auto 20:45Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%"
+ },
+ {
+  "date": "2026-10-28",
+  "game": "NJD@COL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.575,
+  "note": "auto 22:03Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 50%"
  }
 ]
