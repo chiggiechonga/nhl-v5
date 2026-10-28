@@ -60,7 +60,7 @@
   }
  },
  "PHI": {
-  "asof": "2026-10-28T06:54Z",
+  "asof": "2026-10-28T17:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Trevor Zegras",
@@ -76,11 +76,11 @@
    "Sean Couturier",
    "Noel Acciari",
    "Travis Sanheim",
-   "Oliver Bonk",
-   "Cam York",
    "Jamie Drysdale",
+   "Cam York",
+   "Nick Seeler",
    "Hunter McDonald",
-   "Nick Seeler"
+   "Oliver Bonk"
   ],
   "inj": {
    "Nikita Grebenkin": "IR",
@@ -119,7 +119,7 @@
   }
  },
  "NJD": {
-  "asof": "2026-10-28T06:54Z",
+  "asof": "2026-10-28T17:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Arseny Gritsyuk",
@@ -290,7 +290,7 @@
   }
  },
  "TOR": {
-  "asof": "2026-10-28T06:54Z",
+  "asof": "2026-10-28T17:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
@@ -532,7 +532,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-10-28T06:54Z",
+  "asof": "2026-10-28T17:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -590,7 +590,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-10-28T06:54Z",
+  "asof": "2026-10-28T17:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -619,8 +619,8 @@
    "Matthew Savoie": "IR",
    "Jason Dickinson": "IR",
    "Devon Levi": "IR",
-   "Mattias Ekholm": "IR",
-   "Zach Hyman": "IR"
+   "Zach Hyman": "IR",
+   "Mattias Ekholm": "IR"
   }
  },
  "CAR": {
@@ -652,7 +652,7 @@
   }
  },
  "SEA": {
-  "asof": "2026-10-28T06:54Z",
+  "asof": "2026-10-28T17:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Bobby McMann",
@@ -848,7 +848,7 @@
   }
  },
  "COL": {
-  "asof": "2026-10-28T06:54Z",
+  "asof": "2026-10-28T17:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artturi Lehkonen",
@@ -871,12 +871,11 @@
    "Brent Burns"
   ],
   "inj": {
-   "Nicolas Roy": "IR",
    "Zachary L'Heureux": "IR"
   }
  },
  "WSH": {
-  "asof": "2026-10-28T06:54Z",
+  "asof": "2026-10-28T17:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Aliaksei Protas",

@@ -746,5 +746,33 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.66,
   "note": "auto 06:06Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%"
+ },
+ {
+  "date": "2026-10-28",
+  "game": "PHI@WSH",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.685,
+  "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 42%"
+ },
+ {
+  "date": "2026-10-28",
+  "game": "CGY@EDM",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.625,
+  "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%"
+ },
+ {
+  "date": "2026-10-28",
+  "game": "NJD@COL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.565,
+  "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 50%"
+ },
+ {
+  "date": "2026-10-28",
+  "game": "TOR@SEA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.435,
+  "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%"
  }
 ]
