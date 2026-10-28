@@ -704,5 +704,12 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.465,
   "note": "auto 23:41Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 46%"
+ },
+ {
+  "date": "2026-10-27",
+  "game": "OTT@VGK",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.605,
+  "note": "auto 00:33Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%"
  }
 ]
