@@ -1221,7 +1221,7 @@
  ],
  "lineups": {
   "PHI": {
-   "asof": "2026-10-28T19:53Z",
+   "asof": "2026-10-28T20:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Trevor Zegras",
@@ -1251,7 +1251,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-10-28T19:53Z",
+   "asof": "2026-10-28T20:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -1280,7 +1280,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-28T19:53Z",
+   "asof": "2026-10-28T20:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1308,7 +1308,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-28T19:53Z",
+   "asof": "2026-10-28T20:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1342,7 +1342,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-10-28T19:53Z",
+   "asof": "2026-10-28T20:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Arseny Gritsyuk",
@@ -1369,7 +1369,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-28T19:53Z",
+   "asof": "2026-10-28T20:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -1396,7 +1396,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-28T19:53Z",
+   "asof": "2026-10-28T20:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -1429,7 +1429,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-28T19:53Z",
+   "asof": "2026-10-28T20:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1475,7 +1475,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-28T19:27+00:00",
+  "at": "2026-10-28T19:53+00:00",
   "ok": [
    "4 games on 2026-10-28",
    "Daily Faceoff goalies parsed for 8 teams",
@@ -1485,12 +1485,6 @@
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-28T05:40+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "grade",
     "at": "2026-10-28T05:40+00:00",
@@ -1542,6 +1536,12 @@
    {
     "mode": "plan",
     "at": "2026-10-28T19:27+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-28T19:53+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1613,5 +1613,5 @@
    "cum": 12.27
   }
  ],
- "made": "2026-10-28T19:53+00:00"
+ "made": "2026-10-28T20:19+00:00"
 }
