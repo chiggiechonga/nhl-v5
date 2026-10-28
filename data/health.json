@@ -1,25 +1,15 @@
 {
  "mode": "grade",
- "at": "2026-10-28T02:40+00:00",
+ "at": "2026-10-28T03:06+00:00",
  "ok": [
-  "graded 2026-10-27_LAK@CHI: 1-2, shots 26-27",
-  "graded 2026-10-27_NJD@DAL: 5-1, shots 27-17",
-  "2 games and 20 player rows added"
+  "graded 2026-10-27_BOS@CAR: 1-2, shots 15-30",
+  "graded 2026-10-27_MTL@STL: 2-0, shots 20-46",
+  "graded 2026-10-27_NYI@NSH: 4-3 SO, shots 28-23",
+  "graded 2026-10-27_FLA@WPG: 5-1, shots 24-25",
+  "4 games and 40 player rows added"
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-27T23:41+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
-  {
-   "mode": "plan",
-   "at": "2026-10-28T00:07+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
   {
    "mode": "plan",
    "at": "2026-10-28T00:33+00:00",
@@ -66,6 +56,18 @@
    "mode": "grade",
    "at": "2026-10-28T02:40+00:00",
    "n_ok": 3,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-28T03:06+00:00",
+   "n_ok": 4,
+   "problems": []
+  },
+  {
+   "mode": "grade",
+   "at": "2026-10-28T03:06+00:00",
+   "n_ok": 5,
    "problems": []
   }
  ]

@@ -994,5 +994,53 @@
   "winner": "NJD",
   "date": "2026-10-27",
   "id": "2026-10-27_NJD@DAL"
+ },
+ {
+  "away": "BOS",
+  "home": "CAR",
+  "ag": 1,
+  "hg": 2,
+  "a_sh": 15,
+  "h_sh": 30,
+  "ot": null,
+  "winner": "CAR",
+  "date": "2026-10-27",
+  "id": "2026-10-27_BOS@CAR"
+ },
+ {
+  "away": "MTL",
+  "home": "STL",
+  "ag": 2,
+  "hg": 0,
+  "a_sh": 20,
+  "h_sh": 46,
+  "ot": null,
+  "winner": "MTL",
+  "date": "2026-10-27",
+  "id": "2026-10-27_MTL@STL"
+ },
+ {
+  "away": "NYI",
+  "home": "NSH",
+  "ag": 4,
+  "hg": 3,
+  "a_sh": 28,
+  "h_sh": 23,
+  "ot": "SO",
+  "winner": "NYI",
+  "date": "2026-10-27",
+  "id": "2026-10-27_NYI@NSH"
+ },
+ {
+  "away": "FLA",
+  "home": "WPG",
+  "ag": 5,
+  "hg": 1,
+  "a_sh": 24,
+  "h_sh": 25,
+  "ot": null,
+  "winner": "FLA",
+  "date": "2026-10-27",
+  "id": "2026-10-27_FLA@WPG"
  }
 ]
