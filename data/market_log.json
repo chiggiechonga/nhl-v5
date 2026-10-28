@@ -739,5 +739,12 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.475,
   "note": "auto 04:22Z; mid of bid/ask; O5.5 goals 63%; O6.5 goals 52%"
+ },
+ {
+  "date": "2026-10-28",
+  "game": "CGY@EDM",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.66,
+  "note": "auto 06:06Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%"
  }
 ]
