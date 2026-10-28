@@ -3157,7 +3157,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-10-28T00:33Z",
+   "asof": "2026-10-28T00:39Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -3187,7 +3187,7 @@
    }
   },
   "UTA": {
-   "asof": "2026-10-28T00:33Z",
+   "asof": "2026-10-28T00:39Z",
    "source": "Daily Faceoff",
    "lines": [
     "Clayton Keller",
@@ -3215,7 +3215,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-10-28T00:33Z",
+   "asof": "2026-10-28T00:39Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -3244,7 +3244,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-10-28T00:33Z",
+   "asof": "2026-10-28T00:39Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -3273,7 +3273,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-28T00:33Z",
+   "asof": "2026-10-28T00:39Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3300,7 +3300,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-10-28T00:33Z",
+   "asof": "2026-10-28T00:39Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cutter Gauthier",
@@ -3330,7 +3330,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-10-28T00:33Z",
+   "asof": "2026-10-28T00:39Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -3360,7 +3360,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-10-28T00:33Z",
+   "asof": "2026-10-28T00:39Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivar Stenberg",
@@ -3405,22 +3405,16 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-28T00:07+00:00",
+  "at": "2026-10-28T00:33+00:00",
   "ok": [
    "11 games on 2026-10-27",
    "Daily Faceoff goalies parsed for 22 teams",
    "lineups refreshed for 8/8 teams",
-   "Kalshi: 11 NHL games priced, 0 new rows",
+   "Kalshi: 11 NHL games priced, 1 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-27T20:12+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-27T20:38+00:00",
@@ -3472,6 +3466,12 @@
    {
     "mode": "plan",
     "at": "2026-10-28T00:07+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-28T00:33+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -3535,5 +3535,5 @@
    "cum": 14.54
   }
  ],
- "made": "2026-10-28T00:33+00:00"
+ "made": "2026-10-28T00:40+00:00"
 }
