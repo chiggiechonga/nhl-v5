@@ -132,7 +132,7 @@
    "time": "10:30 ET",
    "start": "2026-10-28T02:30:00Z",
    "gid": 2026020198,
-   "started": false,
+   "started": true,
    "goalie_a": "Colten Ellis",
    "status_a": "unconfirmed",
    "goalie_h": "Yaroslav Askarov",

@@ -970,5 +970,29 @@
   "winner": "CBJ",
   "date": "2026-10-27",
   "id": "2026-10-27_CBJ@PHI"
+ },
+ {
+  "away": "LAK",
+  "home": "CHI",
+  "ag": 1,
+  "hg": 2,
+  "a_sh": 26,
+  "h_sh": 27,
+  "ot": null,
+  "winner": "CHI",
+  "date": "2026-10-27",
+  "id": "2026-10-27_LAK@CHI"
+ },
+ {
+  "away": "NJD",
+  "home": "DAL",
+  "ag": 5,
+  "hg": 1,
+  "a_sh": 27,
+  "h_sh": 17,
+  "ot": null,
+  "winner": "NJD",
+  "date": "2026-10-27",
+  "id": "2026-10-27_NJD@DAL"
  }
 ]
