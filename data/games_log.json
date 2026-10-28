@@ -1054,5 +1054,17 @@
   "winner": "MIN",
   "date": "2026-10-27",
   "id": "2026-10-27_MIN@UTA"
+ },
+ {
+  "away": "OTT",
+  "home": "VGK",
+  "ag": 1,
+  "hg": 4,
+  "a_sh": 26,
+  "h_sh": 29,
+  "ot": null,
+  "winner": "VGK",
+  "date": "2026-10-27",
+  "id": "2026-10-27_OTT@VGK"
  }
 ]
