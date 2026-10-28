@@ -1,9 +1,9 @@
 {
  "summary": {
-  "n": 89,
-  "brier5": 0.23663208491132454,
-  "ll5": 0.6659809102249491,
-  "acc5": 0.6292134831460674,
+  "n": 90,
+  "brier5": 0.23872703815252916,
+  "ll5": 0.6703112957091757,
+  "acc5": 0.6222222222222222,
   "n_h2h": 42,
   "brier4_h2h": 0.2340558066666667,
   "brier5_h2h": 0.2308742635566758,
@@ -11,11 +11,11 @@
   "ll5_h2h": 0.654203680258315,
   "acc4_h2h": 0.5714285714285714,
   "acc5_h2h": 0.6666666666666666,
-  "tot_bias5": -0.02097405433834309,
-  "tot_mae5": 1.7461892718465357,
-  "tot_bias4": -0.035375,
-  "shot_mae5": 4.560588926859598,
-  "shot_bias5": -0.45592718875347776
+  "tot_bias5": -0.07057383781863565,
+  "tot_mae5": 1.776619997354515,
+  "tot_bias4": -0.08537078651685392,
+  "shot_mae5": 4.6185867377597924,
+  "shot_bias5": -0.4727370787002812
  },
  "daily": [
   {
@@ -92,8 +92,8 @@
   },
   {
    "date": "2026-10-27",
-   "n": 9,
-   "b5": 0.2452402110768208,
+   "n": 10,
+   "b5": 0.263233977631113,
    "b4": null
   }
  ],
@@ -259,6 +259,24 @@
    "k_price": 0.605,
    "k_pnl": 6.53,
    "pick": "VGK"
+  },
+  {
+   "away": "VAN",
+   "home": "ANA",
+   "score": "6-5",
+   "ot": "OT",
+   "winner": "VAN",
+   "p5": 0.6520566513883148,
+   "p4": null,
+   "tot5": 6.515045432435327,
+   "tot_act": 11,
+   "sh_act": [
+    33,
+    23
+   ],
+   "k_price": 0.665,
+   "k_pnl": -10.0,
+   "pick": "ANA"
   }
  ],
  "graded_date": "2026-10-27",
@@ -1150,7 +1168,7 @@
  ],
  "lineups": {
   "PHI": {
-   "asof": "2026-10-28T04:48Z",
+   "asof": "2026-10-28T05:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Trevor Zegras",
@@ -1180,7 +1198,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-10-28T04:48Z",
+   "asof": "2026-10-28T05:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -1209,7 +1227,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-28T04:48Z",
+   "asof": "2026-10-28T05:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1237,7 +1255,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-28T04:48Z",
+   "asof": "2026-10-28T05:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1271,7 +1289,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-10-28T04:48Z",
+   "asof": "2026-10-28T05:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Arseny Gritsyuk",
@@ -1298,7 +1316,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-28T04:48Z",
+   "asof": "2026-10-28T05:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -1326,7 +1344,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-28T04:48Z",
+   "asof": "2026-10-28T05:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -1359,7 +1377,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-28T04:48Z",
+   "asof": "2026-10-28T05:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1390,22 +1408,22 @@
  },
  "slate_label": "Wed Oct 28",
  "slate_note": "",
- "n_games": 89,
+ "n_games": 90,
  "target": 300,
  "refit": "2026-11-23",
  "player_cal": {
-  "n": 434,
-  "pt_act": 248,
-  "pt_exp": 217.7,
-  "g_act": 121,
-  "g_exp": 103.6,
-  "n_shots": 343,
-  "sh3_act": 126,
-  "sh3_exp": 119.2
+  "n": 444,
+  "pt_act": 255,
+  "pt_exp": 222.6,
+  "g_act": 126,
+  "g_exp": 105.8,
+  "n_shots": 353,
+  "sh3_act": 130,
+  "sh3_exp": 121.9
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-28T04:48+00:00",
+  "at": "2026-10-28T05:13+00:00",
   "ok": [
    "4 games on 2026-10-28",
    "Daily Faceoff goalies parsed for 8 teams",
@@ -1415,18 +1433,6 @@
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-28T02:15+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
-   {
-    "mode": "plan",
-    "at": "2026-10-28T02:40+00:00",
-    "n_ok": 4,
-    "problems": []
-   },
    {
     "mode": "grade",
     "at": "2026-10-28T02:40+00:00",
@@ -1472,6 +1478,18 @@
    {
     "mode": "plan",
     "at": "2026-10-28T04:48+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "grade",
+    "at": "2026-10-28T04:48+00:00",
+    "n_ok": 2,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-28T05:13+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1536,12 +1554,12 @@
   },
   {
    "date": "2026-10-27",
-   "games": 9,
-   "bets": 9,
+   "games": 10,
+   "bets": 10,
    "wins": 5,
-   "pnl": 0.64,
-   "cum": 15.18
+   "pnl": -9.36,
+   "cum": 5.18
   }
  ],
- "made": "2026-10-28T04:48+00:00"
+ "made": "2026-10-28T05:14+00:00"
 }

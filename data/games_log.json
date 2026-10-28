@@ -1066,5 +1066,17 @@
   "winner": "VGK",
   "date": "2026-10-27",
   "id": "2026-10-27_OTT@VGK"
+ },
+ {
+  "away": "VAN",
+  "home": "ANA",
+  "ag": 6,
+  "hg": 5,
+  "a_sh": 33,
+  "h_sh": 23,
+  "ot": "OT",
+  "winner": "VAN",
+  "date": "2026-10-27",
+  "id": "2026-10-27_VAN@ANA"
  }
 ]

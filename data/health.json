@@ -1,24 +1,12 @@
 {
  "mode": "grade",
- "at": "2026-10-28T04:48+00:00",
+ "at": "2026-10-28T05:14+00:00",
  "ok": [
-  "graded 2026-10-27_OTT@VGK: 1-4, shots 26-29",
+  "graded 2026-10-27_VAN@ANA: 6-5 OT, shots 33-23",
   "1 games and 10 player rows added"
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-28T02:40+00:00",
-   "n_ok": 4,
-   "problems": []
-  },
-  {
-   "mode": "grade",
-   "at": "2026-10-28T02:40+00:00",
-   "n_ok": 3,
-   "problems": []
-  },
   {
    "mode": "plan",
    "at": "2026-10-28T03:06+00:00",
@@ -64,6 +52,18 @@
   {
    "mode": "grade",
    "at": "2026-10-28T04:48+00:00",
+   "n_ok": 2,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-28T05:13+00:00",
+   "n_ok": 5,
+   "problems": []
+  },
+  {
+   "mode": "grade",
+   "at": "2026-10-28T05:14+00:00",
    "n_ok": 2,
    "problems": []
   }
