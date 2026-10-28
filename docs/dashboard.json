@@ -1195,33 +1195,33 @@
    "game": "PHI@WSH",
    "source": "Kalshi moneyline",
    "home_prob": 0.685,
-   "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 42%"
+   "note": "auto 18:09Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 42%"
   },
   {
    "date": "2026-10-28",
    "game": "CGY@EDM",
    "source": "Kalshi moneyline",
    "home_prob": 0.625,
-   "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%"
+   "note": "auto 18:09Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%"
   },
   {
    "date": "2026-10-28",
    "game": "NJD@COL",
    "source": "Kalshi moneyline",
    "home_prob": 0.565,
-   "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 50%"
+   "note": "auto 18:09Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 50%"
   },
   {
    "date": "2026-10-28",
    "game": "TOR@SEA",
    "source": "Kalshi moneyline",
    "home_prob": 0.435,
-   "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%"
+   "note": "auto 18:09Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%"
   }
  ],
  "lineups": {
   "PHI": {
-   "asof": "2026-10-28T17:52Z",
+   "asof": "2026-10-28T18:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Trevor Zegras",
@@ -1251,7 +1251,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-10-28T17:52Z",
+   "asof": "2026-10-28T18:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -1280,7 +1280,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-28T17:52Z",
+   "asof": "2026-10-28T18:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1297,10 +1297,10 @@
     "Adam Klapka",
     "Kevin Bahl",
     "Simon Nemec",
-    "Jacob Middleton",
-    "Zach Whitecloud",
     "Yan Kuznetsov",
-    "Zayne Parekh"
+    "Zayne Parekh",
+    "Jacob Middleton",
+    "Zach Whitecloud"
    ],
    "inj": {
     "Jonathan Huberdeau": "IR",
@@ -1308,7 +1308,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-28T17:52Z",
+   "asof": "2026-10-28T18:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1342,7 +1342,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-10-28T17:52Z",
+   "asof": "2026-10-28T18:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Arseny Gritsyuk",
@@ -1369,7 +1369,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-28T17:52Z",
+   "asof": "2026-10-28T18:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -1396,7 +1396,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-28T17:52Z",
+   "asof": "2026-10-28T18:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -1429,7 +1429,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-28T17:52Z",
+   "asof": "2026-10-28T18:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1609,5 +1609,5 @@
    "cum": 12.27
   }
  ],
- "made": "2026-10-28T17:52+00:00"
+ "made": "2026-10-28T18:09+00:00"
 }

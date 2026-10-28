@@ -60,7 +60,7 @@
   }
  },
  "PHI": {
-  "asof": "2026-10-28T17:52Z",
+  "asof": "2026-10-28T18:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Trevor Zegras",
@@ -119,7 +119,7 @@
   }
  },
  "NJD": {
-  "asof": "2026-10-28T17:52Z",
+  "asof": "2026-10-28T18:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Arseny Gritsyuk",
@@ -290,7 +290,7 @@
   }
  },
  "TOR": {
-  "asof": "2026-10-28T17:52Z",
+  "asof": "2026-10-28T18:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
@@ -532,7 +532,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-10-28T17:52Z",
+  "asof": "2026-10-28T18:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -549,10 +549,10 @@
    "Adam Klapka",
    "Kevin Bahl",
    "Simon Nemec",
-   "Jacob Middleton",
-   "Zach Whitecloud",
    "Yan Kuznetsov",
-   "Zayne Parekh"
+   "Zayne Parekh",
+   "Jacob Middleton",
+   "Zach Whitecloud"
   ],
   "inj": {
    "Jonathan Huberdeau": "IR",
@@ -590,7 +590,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-10-28T17:52Z",
+  "asof": "2026-10-28T18:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -652,7 +652,7 @@
   }
  },
  "SEA": {
-  "asof": "2026-10-28T17:52Z",
+  "asof": "2026-10-28T18:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Bobby McMann",
@@ -848,7 +848,7 @@
   }
  },
  "COL": {
-  "asof": "2026-10-28T17:52Z",
+  "asof": "2026-10-28T18:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artturi Lehkonen",
@@ -875,7 +875,7 @@
   }
  },
  "WSH": {
-  "asof": "2026-10-28T17:52Z",
+  "asof": "2026-10-28T18:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Aliaksei Protas",
