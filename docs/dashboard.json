@@ -413,7 +413,7 @@
    "o55": 0.6488900798208376,
    "o65": 0.4987943311543885,
    "p00": 0.0015893565176974913,
-   "goalie_a": "Anthony Stolarz",
+   "goalie_a": "Sergei Bobrovsky",
    "goalie_h": "Philipp Grubauer",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
@@ -1221,7 +1221,7 @@
  ],
  "lineups": {
   "PHI": {
-   "asof": "2026-10-28T18:35Z",
+   "asof": "2026-10-28T19:01Z",
    "source": "Daily Faceoff",
    "lines": [
     "Trevor Zegras",
@@ -1251,7 +1251,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-10-28T18:35Z",
+   "asof": "2026-10-28T19:01Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -1280,7 +1280,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-28T18:35Z",
+   "asof": "2026-10-28T19:01Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1308,7 +1308,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-28T18:35Z",
+   "asof": "2026-10-28T19:01Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1342,7 +1342,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-10-28T18:35Z",
+   "asof": "2026-10-28T19:01Z",
    "source": "Daily Faceoff",
    "lines": [
     "Arseny Gritsyuk",
@@ -1369,7 +1369,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-28T18:35Z",
+   "asof": "2026-10-28T19:01Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -1396,16 +1396,16 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-28T18:35Z",
+   "asof": "2026-10-28T19:01Z",
    "source": "Daily Faceoff",
    "lines": [
-    "Easton Cowan",
+    "Gavin McKenna",
     "Auston Matthews",
     "Jack Roslovic",
-    "Kirill Marchenko",
+    "Easton Cowan",
     "Nick Paul",
     "William Nylander",
-    "Gavin McKenna",
+    "Bo Groulx",
     "Colton Sissons",
     "Vinni Lettieri",
     "Brandon Duhaime",
@@ -1429,7 +1429,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-28T18:35Z",
+   "asof": "2026-10-28T19:01Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1475,22 +1475,16 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-28T18:09+00:00",
+  "at": "2026-10-28T18:35+00:00",
   "ok": [
    "4 games on 2026-10-28",
    "Daily Faceoff goalies parsed for 8 teams",
    "lineups refreshed for 8/8 teams",
-   "Kalshi: 4 NHL games priced, 4 new rows",
+   "Kalshi: 4 NHL games priced, 0 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "grade",
-    "at": "2026-10-28T04:48+00:00",
-    "n_ok": 2,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-28T05:13+00:00",
@@ -1542,6 +1536,12 @@
    {
     "mode": "plan",
     "at": "2026-10-28T18:09+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-28T18:35+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1613,5 +1613,5 @@
    "cum": 12.27
   }
  ],
- "made": "2026-10-28T18:35+00:00"
+ "made": "2026-10-28T19:01+00:00"
 }
