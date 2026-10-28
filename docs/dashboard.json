@@ -3305,7 +3305,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-10-28T01:49Z",
+   "asof": "2026-10-28T02:15Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -3335,7 +3335,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-10-28T01:49Z",
+   "asof": "2026-10-28T02:15Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivar Stenberg",
@@ -3379,23 +3379,14 @@
   "sh3_exp": 91.2
  },
  "health": {
-  "mode": "plan",
-  "at": "2026-10-28T01:49+00:00",
+  "mode": "grade",
+  "at": "2026-10-28T01:50+00:00",
   "ok": [
-   "11 games on 2026-10-27",
-   "Daily Faceoff goalies parsed for 22 teams",
-   "lineups refreshed for 6/6 teams",
-   "Kalshi: 10 NHL games priced, 0 new rows",
-   "nothing new to log (no new games, no goalie changes)"
+   "graded 2026-10-27_CBJ@PHI: 4-3 OT, shots 15-31",
+   "1 games and 10 player rows added"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-27T21:57+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-27T22:24+00:00",
@@ -3448,6 +3439,12 @@
     "mode": "plan",
     "at": "2026-10-28T01:49+00:00",
     "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "grade",
+    "at": "2026-10-28T01:50+00:00",
+    "n_ok": 2,
     "problems": []
    }
   ]
@@ -3518,5 +3515,5 @@
    "cum": 23.59
   }
  ],
- "made": "2026-10-28T01:50+00:00"
+ "made": "2026-10-28T02:15+00:00"
 }
