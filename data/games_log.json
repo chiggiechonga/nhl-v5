@@ -958,5 +958,17 @@
   "winner": "DET",
   "date": "2026-10-26",
   "id": "2026-10-26_DET@EDM"
+ },
+ {
+  "away": "CBJ",
+  "home": "PHI",
+  "ag": 4,
+  "hg": 3,
+  "a_sh": 15,
+  "h_sh": 31,
+  "ot": "OT",
+  "winner": "CBJ",
+  "date": "2026-10-27",
+  "id": "2026-10-27_CBJ@PHI"
  }
 ]

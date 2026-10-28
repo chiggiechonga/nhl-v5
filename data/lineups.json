@@ -30,7 +30,7 @@
   }
  },
  "BUF": {
-  "asof": "2026-10-28T01:24Z",
+  "asof": "2026-10-28T01:49Z",
   "source": "Daily Faceoff",
   "lines": [
    "Zach Benson",
@@ -90,7 +90,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-10-28T01:24Z",
+  "asof": "2026-10-28T01:49Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -146,7 +146,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-10-28T01:24Z",
+  "asof": "2026-10-28T01:49Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cutter Gauthier",
@@ -176,7 +176,7 @@
   }
  },
  "SJS": {
-  "asof": "2026-10-28T01:24Z",
+  "asof": "2026-10-28T01:49Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivar Stenberg",
@@ -502,7 +502,7 @@
   }
  },
  "VGK": {
-  "asof": "2026-10-28T01:24Z",
+  "asof": "2026-10-28T01:49Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivan Barbashev",
@@ -513,10 +513,10 @@
    "Mitch Marner",
    "Trevor Connelly",
    "Tomas Hertl",
-   "Raphael Lavoie",
-   "Marc Gatcomb",
-   "Nic Dowd",
    "Braeden Bowman",
+   "Raphael Lavoie",
+   "Nic Dowd",
+   "Marc Gatcomb",
    "Brayden McNabb",
    "Shea Theodore",
    "Jeremy Lauzon",
@@ -706,7 +706,7 @@
   }
  },
  "VAN": {
-  "asof": "2026-10-28T01:24Z",
+  "asof": "2026-10-28T01:49Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake DeBrusk",
