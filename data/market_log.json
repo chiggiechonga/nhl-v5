@@ -788,5 +788,12 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.575,
   "note": "auto 22:03Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 50%"
+ },
+ {
+  "date": "2026-10-28",
+  "game": "PHI@WSH",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.695,
+  "note": "auto 23:21Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 42%"
  }
 ]
