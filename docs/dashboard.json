@@ -1238,6 +1238,13 @@
    "source": "Kalshi moneyline",
    "home_prob": 0.695,
    "note": "auto 23:21Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 42%"
+  },
+  {
+   "date": "2026-10-28",
+   "game": "CGY@EDM",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.635,
+   "note": "auto 00:12Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%"
   }
  ],
  "lineups": {
@@ -1300,7 +1307,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-28T23:46Z",
+   "asof": "2026-10-29T00:12Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1328,7 +1335,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-10-28T23:46Z",
+   "asof": "2026-10-29T00:12Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1362,7 +1369,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-10-28T23:46Z",
+   "asof": "2026-10-29T00:12Z",
    "source": "Daily Faceoff",
    "lines": [
     "Arseny Gritsyuk",
@@ -1389,7 +1396,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-28T23:46Z",
+   "asof": "2026-10-29T00:12Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -1416,7 +1423,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-28T23:46Z",
+   "asof": "2026-10-29T00:12Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -1449,7 +1456,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-28T23:46Z",
+   "asof": "2026-10-29T00:12Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1495,22 +1502,16 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-28T23:21+00:00",
+  "at": "2026-10-28T23:46+00:00",
   "ok": [
    "4 games on 2026-10-28",
    "Daily Faceoff goalies parsed for 8 teams",
-   "lineups refreshed for 8/8 teams",
-   "Kalshi: 4 NHL games priced, 1 new rows",
+   "lineups refreshed for 6/6 teams",
+   "Kalshi: 4 NHL games priced, 0 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-28T19:27+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-28T19:53+00:00",
@@ -1562,6 +1563,12 @@
    {
     "mode": "plan",
     "at": "2026-10-28T23:21+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-28T23:46+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1633,5 +1640,5 @@
    "cum": 12.27
   }
  ],
- "made": "2026-10-28T23:46+00:00"
+ "made": "2026-10-29T00:12+00:00"
 }
