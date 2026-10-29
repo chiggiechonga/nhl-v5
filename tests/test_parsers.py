@@ -60,7 +60,23 @@ class T(unittest.TestCase):
         r = kalshi.parse(ms, dt.date(2026, 10, 25))
         self.assertAlmostEqual(r['NYI@DAL']['home_prob'], 0.56); self.assertAlmostEqual(r['NYI@DAL']['over55'], 0.52)
         self.assertIn('TBL@NJD', r)
+        sp=[{'ticker':'KXNHLSPREAD-26OCT25NYIDAL-DAL1','event_ticker':'KXNHLSPREAD-26OCT25NYIDAL','yes_bid':30,'yes_ask':34},
+            {'ticker':'KXNHLSPREAD-26OCT25NYIDAL-NYI1','event_ticker':'KXNHLSPREAD-26OCT25NYIDAL','yes_bid':18,'yes_ask':22},
+            {'ticker':'KXNHLSPREAD-26OCT25NYIDAL-DAL2','event_ticker':'KXNHLSPREAD-26OCT25NYIDAL','yes_bid':10,'yes_ask':12}]
+        r2=kalshi.parse(ms+sp, dt.date(2026,10,25))
+        self.assertAlmostEqual(r2['NYI@DAL']['pl_a'],1-0.32)   # NYI +1.5 covers unless DAL wins by 2+
+        self.assertAlmostEqual(r2['NYI@DAL']['pl_h'],1-0.20)
+        self.assertNotIn('pl_h', r['TBL@NJD'])
         self.assertEqual(kalshi.parse(ms, dt.date(2026, 10, 26)), {})
+
+
+
+class M(unittest.TestCase):
+    def test_puckline_probs(self):
+        import nhl_v5 as m
+        hm, am = m.pl_probs(3.3, 3.0)
+        self.assertTrue(.55 < am < .9 and .55 < hm < .9)
+        self.assertGreater(hm + am, 1.2)   # both teams can cover +1.5 in the same game
 
 
 if __name__ == '__main__': unittest.main()

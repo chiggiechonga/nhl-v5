@@ -64,13 +64,29 @@ def parse(ms, date):
         elif series == 'KXNHLTOTAL':
             strike = m.get('floor_strike')
             if strike in (5.5, 6.5): slot['over%d' % int(strike * 10)] = p
+        elif series == 'KXNHLSPREAD':
+            # 'TEAM wins by over N-0.5 goals?'  ticker suffix = TEAM + N (N=1 -> over 1.5). Only the 1.5 line is used.
+            sm = re.fullmatch(r'([A-Z]+?)(\d)', suffix)
+            if sm and sm.group(2) == '1' and team(sm.group(1)) in (a, h): slot['wins2_' + team(sm.group(1))] = p
     for slot in res.values():
         if 'home_prob' not in slot and 'away_prob' in slot: slot['home_prob'] = round(1 - slot['away_prob'], 4)
+    for key, slot in res.items():
+        a, h = key.split('@')
+        # team +1.5 covers = the opponent does NOT win by 2+ goals
+        if 'wins2_' + h in slot: slot['pl_a'] = round(1 - slot['wins2_' + h], 4)
+        if 'wins2_' + a in slot: slot['pl_h'] = round(1 - slot['wins2_' + a], 4)
     return {k: v for k, v in res.items() if 'home_prob' in v}
+
+
+LAST = {}
 
 
 def fetch(date):
     ms = markets('KXNHLGAME')
-    try: ms += markets('KXNHLTOTAL')
-    except Exception: pass
+    LAST.clear()
+    for s in ('KXNHLTOTAL', 'KXNHLSPREAD'):
+        try:
+            extra = markets(s); ms += extra; LAST[s] = extra
+        except Exception as e:
+            LAST[s + '_error'] = str(e)
     return parse(ms, date)

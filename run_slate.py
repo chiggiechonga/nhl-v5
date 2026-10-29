@@ -12,6 +12,12 @@ D = m.D
 DOCS = os.path.join(ROOT, 'docs')
 
 
+import re
+def _o55(x):
+    mm = re.search(r'O5\.5 (?:goals )?(\d+)%', x.get('note', ''))
+    return int(mm.group(1)) / 100 if mm else None
+
+
 def build(log=True, only=None):
     slate = json.load(open(D + '/slate.json'))
     lineups = json.load(open(D + '/lineups.json'))
@@ -64,7 +70,7 @@ def build(log=True, only=None):
     if os.path.exists(hp):
         health = json.load(open(hp))
     out = dict(summary=S, daily=daily, graded=graded, graded_date=last, games=gms, players=allp,
-               market=[x for x in market if x['date'] == slate['date']],
+               market=[dict(x, over55=x.get('over55', _o55(x))) for x in market if x['date'] == slate['date']],
                lineups={t: lineups[t] for g in games for t in g if t in lineups},
                slate_label=slate['label'], slate_note=slate.get('note', ''), n_games=len(rows), target=300, refit='2026-11-23',
                player_cal=player_calibration(), health=health, kalshi_days=kdays,

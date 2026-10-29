@@ -102,11 +102,22 @@ def plan(h):
             k = f"{g['away']}@{g['home']}"; v = km.get(k)
             if not v or nhl_api.started(g, now): continue   # after puck drop the price is live, not pregame
             prior = [x for x in M if x['date'] == str(today) and x['game'] == k and x['source'] == 'Kalshi moneyline']
-            if not prior or abs(prior[-1]['home_prob'] - v['home_prob']) >= 0.005:
+            def moved(key, tol):
+                a_, b_ = (prior[-1].get(key) if prior else None), v.get(key)
+                return (a_ is None) != (b_ is None) or (a_ is not None and abs(a_ - b_) >= tol)
+            if not prior or moved('home_prob', 0.005) or moved('over55', 0.01) or moved('pl_h', 0.01) or moved('pl_a', 0.01):
                 extra = ''.join(f"; O{x[4]}.{x[5]} goals {int(round(v[x]*100))}%" for x in ('over55', 'over65') if x in v)
-                M.append({'date': str(today), 'game': k, 'source': 'Kalshi moneyline', 'home_prob': v['home_prob'],
-                          'note': f"auto {now.strftime('%H:%MZ')}; mid of bid/ask{extra}"}); added += 1
+                row = {'date': str(today), 'game': k, 'source': 'Kalshi moneyline', 'home_prob': v['home_prob'],
+                       'note': f"auto {now.strftime('%H:%MZ')}; mid of bid/ask{extra}"}
+                for key in ('over55', 'over65', 'pl_h', 'pl_a'):
+                    if key in v: row[key] = v[key]
+                M.append(row); added += 1
         h.ok(f'Kalshi: {len(km)} NHL games priced, {added} new rows')
+        sp = kalshi.LAST.get('KXNHLSPREAD') or []
+        if sp and not any('pl_h' in x or 'pl_a' in x for x in km.values()):
+            h.problem(f'Kalshi spread markets found ({len(sp)}) but none matched a game today; sample saved to data/debug/kalshi_spread.json')
+            debug('kalshi_spread.json', sp[:3])
+        elif not sp: h.problem('Kalshi spread markets: none returned (+1.5 legs will use model odds)')
     except Exception as e:
         h.problem(f'Kalshi failed: {e}')
 

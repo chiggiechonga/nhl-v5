@@ -49,6 +49,18 @@ def grid(lh,la):
                 elif i==j: pt+=p
                 if i==0 and j==0: p00+=p
     return ph,pt,tot,p00
+def pl_probs(lh,la):
+    """Puck line +1.5 cover probabilities from the same goal model (regulation margin; an OT/SO loss is a 1-goal loss).
+    Returns (home +1.5 covers, away +1.5 covers). Pure addition: nothing about the win probability changes."""
+    hm=am=0.0
+    for m,w in((.85,.25),(1,.5),(1.15,.25)):
+        x=pois(lh*m); y=pois(la*m)
+        for i in range(16):
+            for j in range(16):
+                p=w*x[i]*y[j]
+                if i-j>=-1: hm+=p      # home loses by at most 1 (or wins)
+                if j-i>=-1: am+=p
+    return hm,am
 def logit(p): p=min(max(p,1e-6),1-1e-6); return math.log(p/(1-p))
 sig=lambda z:1/(1+math.exp(-z))
 
@@ -60,7 +72,7 @@ def project(R,away,home,P=PARAMS,b2b=(),gf_a=1.0,gf_h=1.0):
     p=sig(P['CAL_A']*logit(raw)+P['CAL_B'])
     ov=lambda x:sum(tot[k] for k in range(len(tot)) if k>x)
     return dict(away=away,home=home,lh=lh,la=la,sh=sh,sa=sa,p_home_raw=raw,p_home=p,total=lh+la,
-                o45=ov(4),o55=ov(5),o65=ov(6),p00=p00)
+                o45=ov(4),o55=ov(5),o65=ov(6),p00=p00,pl_h=pl_probs(lh,la)[0],pl_a=pl_probs(lh,la)[1])
 
 def update(R,g,P=PARAMS):
     pr=rates(R,g['away'],g['home'],P)

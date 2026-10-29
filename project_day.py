@@ -73,7 +73,7 @@ def project_slate(date,slate,goalies,status,b2b=(),market=None,write=True,lineup
         now=datetime.datetime.now(datetime.UTC).isoformat(timespec='minutes')+'Z'
         for g in (x for x in gms if only is None or x['id'] in only):
             P.append(dict(id=g['id'],date=date,model='v5',pass_no=npass,made_at=now,away=g['away'],home=g['home'],p_home=round(g['p_home'],4),total=round(g['total'],3),
-                shots_h=round(g['sh'],2),shots_a=round(g['sa'],2),o55=round(g['o55'],4),goalie_a=g['goalie_a'],goalie_h=g['goalie_h'],goalie_status_a=g['goalie_status_a'],goalie_status_h=g['goalie_status_h'],roster_snapshot={t:(lineups or {}).get(t) for t in(g['away'],g['home'])},
+                shots_h=round(g['sh'],2),shots_a=round(g['sa'],2),o55=round(g['o55'],4),pl_h=round(g['pl_h'],4),pl_a=round(g['pl_a'],4),goalie_a=g['goalie_a'],goalie_h=g['goalie_h'],goalie_status_a=g['goalie_status_a'],goalie_status_h=g['goalie_status_h'],roster_snapshot={t:(lineups or {}).get(t) for t in(g['away'],g['home'])},
                 players=[q for q in allp if q['team'] in(g['away'],g['home'])],params=m.PARAMS))
         json.dump(P,open(D+'/predictions_log.json','w'),indent=1)
     return R,gms,allp

@@ -193,6 +193,8 @@
    "o55": 0.5630115901776512,
    "o65": 0.4077905461102533,
    "p00": 0.0027717969721732373,
+   "pl_h": 0.8235839775673294,
+   "pl_a": 0.6288318007710229,
    "goalie_a": "Stuart Skinner",
    "goalie_h": "Andrei Vasilevskiy",
    "goalie_status_a": "unconfirmed",
@@ -225,6 +227,8 @@
    "o55": 0.5978674560234261,
    "o65": 0.443777892091798,
    "p00": 0.002229400185924539,
+   "pl_h": 0.7321617841416076,
+   "pl_a": 0.7290046988889436,
    "goalie_a": "Karel Vejmelka",
    "goalie_h": "Arturs Silovs",
    "goalie_status_a": "unconfirmed",
@@ -257,6 +261,8 @@
    "o55": 0.5920000561812586,
    "o65": 0.4376315922481286,
    "p00": 0.002314143655311672,
+   "pl_h": 0.8571748052964037,
+   "pl_a": 0.5693009538702896,
    "goalie_a": "Jet Greaves",
    "goalie_h": "Pyotr Kochetkov",
    "goalie_status_a": "unconfirmed",
@@ -289,6 +295,8 @@
    "o55": 0.542106910233095,
    "o65": 0.38680325731180715,
    "p00": 0.003145664843085683,
+   "pl_h": 0.8391816975480891,
+   "pl_a": 0.6116042604398773,
    "goalie_a": "Spencer Knight",
    "goalie_h": "John Gibson",
    "goalie_status_a": "unconfirmed",
@@ -321,6 +329,8 @@
    "o55": 0.5523893651200399,
    "o65": 0.3970713576489113,
    "p00": 0.0029568829519466292,
+   "pl_h": 0.729202613630933,
+   "pl_a": 0.7423960705593701,
    "goalie_a": "Jeremy Swayman",
    "goalie_h": "Joel Hofer",
    "goalie_status_a": "unconfirmed",
@@ -353,6 +363,8 @@
    "o55": 0.5974030624948319,
    "o65": 0.4432900913868625,
    "p00": 0.002236019403282675,
+   "pl_h": 0.7191682411567,
+   "pl_a": 0.7418866186971006,
    "goalie_a": "Logan Thompson",
    "goalie_h": "Juuse Saros",
    "goalie_status_a": "unconfirmed",
@@ -387,6 +399,8 @@
    "o55": 0.5181194052163542,
    "o65": 0.3632575958419885,
    "p00": 0.003625954701987431,
+   "pl_h": 0.7975742516601441,
+   "pl_a": 0.6752968261634976,
    "goalie_a": "Jakub Dobes",
    "goalie_h": "Jake Oettinger",
    "goalie_status_a": "unconfirmed",
@@ -419,6 +433,8 @@
    "o55": 0.5556288424491187,
    "o65": 0.40032831281825565,
    "p00": 0.002899387519241347,
+   "pl_h": 0.7942563565541512,
+   "pl_a": 0.6697766030413993,
    "goalie_a": "Ilya Sorokin",
    "goalie_h": "Jesper Wallstedt",
    "goalie_status_a": "unconfirmed",
@@ -451,6 +467,8 @@
    "o55": 0.6179074995027111,
    "o65": 0.46504730278141243,
    "p00": 0.0019580531940959324,
+   "pl_h": 0.7324887275038076,
+   "pl_a": 0.7240402065189178,
    "goalie_a": "Ukko-Pekka Luukkonen",
    "goalie_h": "Lukas Dostal",
    "goalie_status_a": "unconfirmed",
@@ -483,6 +501,8 @@
    "o55": 0.5453328507618771,
    "o65": 0.3900133014433083,
    "p00": 0.0030853964118909946,
+   "pl_h": 0.7192975235675765,
+   "pl_a": 0.7534968800164975,
    "goalie_a": "Samuel Ersson",
    "goalie_h": "Darcy Kuemper",
    "goalie_status_a": "unconfirmed",
@@ -515,6 +535,8 @@
    "o55": 0.6249990202464042,
    "o65": 0.4726778668132922,
    "p00": 0.0018684328734749837,
+   "pl_h": 0.80151451526542,
+   "pl_a": 0.6427211892966,
    "goalie_a": "Leevi Merilainen",
    "goalie_h": "Alex Nedeljkovic",
    "goalie_status_a": "unconfirmed",
@@ -2522,98 +2544,112 @@
    "game": "WPG@TBL",
    "source": "Kalshi moneyline",
    "home_prob": 0.685,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "over55": 0.56
   },
   {
    "date": "2026-10-29",
    "game": "UTA@PIT",
    "source": "Kalshi moneyline",
    "home_prob": 0.455,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 56%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 56%",
+   "over55": 0.66
   },
   {
    "date": "2026-10-29",
    "game": "CBJ@CAR",
    "source": "Kalshi moneyline",
    "home_prob": 0.695,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "over55": 0.56
   },
   {
    "date": "2026-10-29",
    "game": "CHI@DET",
    "source": "Kalshi moneyline",
    "home_prob": 0.625,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "over55": 0.56
   },
   {
    "date": "2026-10-29",
    "game": "BOS@STL",
    "source": "Kalshi moneyline",
    "home_prob": 0.505,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 44%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 44%",
+   "over55": 0.55
   },
   {
    "date": "2026-10-29",
    "game": "WSH@NSH",
    "source": "Kalshi moneyline",
    "home_prob": 0.505,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
+   "over55": 0.6
   },
   {
    "date": "2026-10-29",
    "game": "MTL@DAL",
    "source": "Kalshi moneyline",
    "home_prob": 0.595,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "over55": 0.56
   },
   {
    "date": "2026-10-29",
    "game": "NYI@MIN",
    "source": "Kalshi moneyline",
    "home_prob": 0.635,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 53%; O6.5 goals 42%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 53%; O6.5 goals 42%",
+   "over55": 0.53
   },
   {
    "date": "2026-10-29",
    "game": "BUF@ANA",
    "source": "Kalshi moneyline",
    "home_prob": 0.445,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%",
+   "over55": 0.64
   },
   {
    "date": "2026-10-29",
    "game": "OTT@LAK",
    "source": "Kalshi moneyline",
    "home_prob": 0.495,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 44%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 44%",
+   "over55": 0.55
   },
   {
    "date": "2026-10-29",
    "game": "VAN@SJS",
    "source": "Kalshi moneyline",
    "home_prob": 0.625,
-   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 55%"
+   "note": "auto 04:01Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 55%",
+   "over55": 0.64
   },
   {
    "date": "2026-10-29",
    "game": "BOS@STL",
    "source": "Kalshi moneyline",
    "home_prob": 0.51,
-   "note": "auto 08:18Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 44%"
+   "note": "auto 08:18Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 44%",
+   "over55": 0.54
   },
   {
    "date": "2026-10-29",
    "game": "BUF@ANA",
    "source": "Kalshi moneyline",
    "home_prob": 0.45,
-   "note": "auto 08:18Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%"
+   "note": "auto 08:18Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%",
+   "over55": 0.64
   },
   {
    "date": "2026-10-29",
    "game": "OTT@LAK",
    "source": "Kalshi moneyline",
    "home_prob": 0.49,
-   "note": "auto 08:18Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%"
+   "note": "auto 08:18Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%",
+   "over55": 0.54
   }
  ],
  "lineups": {
@@ -3274,22 +3310,16 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-29T06:11+00:00",
+  "at": "2026-10-29T08:18+00:00",
   "ok": [
    "11 games on 2026-10-29",
    "Daily Faceoff goalies parsed for 22 teams",
    "lineups refreshed for 22/22 teams",
-   "Kalshi: 11 NHL games priced, 0 new rows",
+   "Kalshi: 11 NHL games priced, 3 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-29T03:36+00:00",
-    "n_ok": 4,
-    "problems": []
-   },
    {
     "mode": "grade",
     "at": "2026-10-29T03:36+00:00",
@@ -3341,6 +3371,12 @@
    {
     "mode": "plan",
     "at": "2026-10-29T06:11+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-29T08:18+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -3420,5 +3456,5 @@
    "cum": 41.78
   }
  ],
- "made": "2026-10-29T08:19+00:00"
+ "made": "2026-10-29T08:51+00:00"
 }
