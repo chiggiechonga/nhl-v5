@@ -365,7 +365,7 @@
    "p00": 0.002236019403282675,
    "pl_h": 0.7191682411567,
    "pl_a": 0.7418866186971006,
-   "goalie_a": "Logan Thompson",
+   "goalie_a": "Charlie Lindgren",
    "goalie_h": "Juuse Saros",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
@@ -469,8 +469,8 @@
    "p00": 0.0019580531940959324,
    "pl_h": 0.7324887275038076,
    "pl_a": 0.7240402065189178,
-   "goalie_a": "Ukko-Pekka Luukkonen",
-   "goalie_h": "Lukas Dostal",
+   "goalie_a": "Colten Ellis",
+   "goalie_h": "Ville Husso",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -503,7 +503,7 @@
    "p00": 0.0030853964118909946,
    "pl_h": 0.7192975235675765,
    "pl_a": 0.7534968800164975,
-   "goalie_a": "Samuel Ersson",
+   "goalie_a": "Jonas Johansson",
    "goalie_h": "Darcy Kuemper",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
@@ -538,7 +538,7 @@
    "pl_h": 0.80151451526542,
    "pl_a": 0.6427211892966,
    "goalie_a": "Leevi Merilainen",
-   "goalie_h": "Alex Nedeljkovic",
+   "goalie_h": "Yaroslav Askarov",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -573,7 +573,7 @@
    "sog3": 0.5516,
    "sog4": 0.3406,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Mark Scheifele",
@@ -591,7 +591,7 @@
    "sog3": 0.2992,
    "sog4": 0.1349,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Gabriel Vilardi",
@@ -609,7 +609,7 @@
    "sog3": 0.2298,
    "sog4": 0.0919,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Cole Perfetti",
@@ -627,7 +627,7 @@
    "sog3": 0.3188,
    "sog4": 0.1482,
    "dtd": false,
-   "basis": "2025-26 68 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 68 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Neal Pionk",
@@ -645,7 +645,7 @@
    "sog3": 0.2589,
    "sog4": 0.1092,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Nikita Kucherov",
@@ -663,7 +663,7 @@
    "sog3": 0.539,
    "sog4": 0.3284,
    "dtd": false,
-   "basis": "2025-26 76 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 76 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Jake Guentzel",
@@ -681,7 +681,25 @@
    "sog3": 0.4882,
    "sog4": 0.2816,
    "dtd": false,
-   "basis": "2025-26 81 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 81 GP + 2026-27 11 GP (stats as of Oct 29)"
+  },
+  {
+   "name": "Brandon Hagel",
+   "team": "TBL",
+   "opp": "WPG",
+   "pos": "F",
+   "p_pt": 0.624,
+   "p_g": 0.3891,
+   "ep": 0.978,
+   "sog": 3.89,
+   "sog2_raw": 0.8479,
+   "sog3_raw": 0.686,
+   "sog4_raw": 0.5094,
+   "sog2": 0.797,
+   "sog3": 0.6174,
+   "sog4": 0.4075,
+   "dtd": false,
+   "basis": "2025-26 71 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Brayden Point",
@@ -699,7 +717,7 @@
    "sog3": 0.3477,
    "sog4": 0.1685,
    "dtd": false,
-   "basis": "2025-26 63 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 63 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Charle-Edouard D'Astous",
@@ -717,25 +735,7 @@
    "sog3": 0.2824,
    "sog4": 0.124,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 10 GP (stats as of Oct 28)"
-  },
-  {
-   "name": "Pontus Holmberg",
-   "team": "TBL",
-   "opp": "WPG",
-   "pos": "F",
-   "p_pt": 0.3758,
-   "p_g": 0.1919,
-   "ep": 0.471,
-   "sog": 2.05,
-   "sog2_raw": 0.5758,
-   "sog3_raw": 0.3344,
-   "sog4_raw": 0.1702,
-   "sog2": 0.5413,
-   "sog3": 0.3009,
-   "sog4": 0.1361,
-   "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 10 GP (stats as of Oct 29)"
   },
   {
    "name": "Clayton Keller",
@@ -753,7 +753,7 @@
    "sog3": 0.4086,
    "sog4": 0.2146,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Nick Schmaltz",
@@ -771,7 +771,7 @@
    "sog3": 0.4097,
    "sog4": 0.2154,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Mikhail Sergachev",
@@ -789,7 +789,7 @@
    "sog3": 0.3299,
    "sog4": 0.1559,
    "dtd": false,
-   "basis": "2025-26 78 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 78 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Dylan Guenther",
@@ -807,7 +807,7 @@
    "sog3": 0.4949,
    "sog4": 0.2876,
    "dtd": false,
-   "basis": "2025-26 79 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 79 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Logan Cooley",
@@ -825,7 +825,7 @@
    "sog3": 0.2167,
    "sog4": 0.0844,
    "dtd": false,
-   "basis": "2025-26 54 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 54 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Sidney Crosby",
@@ -843,7 +843,7 @@
    "sog3": 0.2929,
    "sog4": 0.1308,
    "dtd": false,
-   "basis": "2025-26 68 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 68 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Erik Karlsson",
@@ -861,7 +861,7 @@
    "sog3": 0.2812,
    "sog4": 0.1232,
    "dtd": false,
-   "basis": "2025-26 75 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 75 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Rickard Rakell",
@@ -879,7 +879,7 @@
    "sog3": 0.3887,
    "sog4": 0.199,
    "dtd": false,
-   "basis": "2025-26 60 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 60 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Hendrix Lapierre",
@@ -897,7 +897,7 @@
    "sog3": 0.1367,
    "sog4": 0.0437,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 8 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 8 GP (stats as of Oct 29)"
   },
   {
    "name": "Tommy Novak",
@@ -915,7 +915,7 @@
    "sog3": 0.1669,
    "sog4": 0.0581,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Kent Johnson",
@@ -933,7 +933,7 @@
    "sog3": 0.1861,
    "sog4": 0.0678,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 10 GP (stats as of Oct 29)"
   },
   {
    "name": "Matthew Knies",
@@ -951,7 +951,7 @@
    "sog3": 0.1623,
    "sog4": 0.0558,
    "dtd": false,
-   "basis": "2025-26 79 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 79 GP + 2026-27 10 GP (stats as of Oct 29)"
   },
   {
    "name": "Charlie Coyle",
@@ -969,7 +969,7 @@
    "sog3": 0.1289,
    "sog4": 0.0402,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 10 GP (stats as of Oct 29)"
   },
   {
    "name": "Adam Fantilli",
@@ -987,7 +987,7 @@
    "sog3": 0.2763,
    "sog4": 0.1201,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 10 GP (stats as of Oct 29)"
   },
   {
    "name": "Valeri Nichushkin",
@@ -1005,7 +1005,7 @@
    "sog3": 0.1275,
    "sog4": 0.0396,
    "dtd": false,
-   "basis": "2025-26 72 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 72 GP + 2026-27 10 GP (stats as of Oct 29)"
   },
   {
    "name": "Sebastian Aho",
@@ -1023,7 +1023,7 @@
    "sog3": 0.4678,
    "sog4": 0.2636,
    "dtd": false,
-   "basis": "2025-26 79 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 79 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Andrei Svechnikov",
@@ -1041,7 +1041,7 @@
    "sog3": 0.4655,
    "sog4": 0.2616,
    "dtd": false,
-   "basis": "2025-26 79 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 79 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Nikolaj Ehlers",
@@ -1059,7 +1059,7 @@
    "sog3": 0.408,
    "sog4": 0.2141,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Shayne Gostisbehere",
@@ -1077,7 +1077,7 @@
    "sog3": 0.321,
    "sog4": 0.1497,
    "dtd": false,
-   "basis": "2025-26 55 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 55 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Jackson Blake",
@@ -1095,7 +1095,7 @@
    "sog3": 0.4219,
    "sog4": 0.2252,
    "dtd": false,
-   "basis": "2025-26 81 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 81 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Connor Bedard",
@@ -1113,7 +1113,7 @@
    "sog3": 0.4367,
    "sog4": 0.2373,
    "dtd": false,
-   "basis": "2025-26 69 GP + 2026-27 6 GP (stats as of Oct 28)"
+   "basis": "2025-26 69 GP + 2026-27 6 GP (stats as of Oct 29)"
   },
   {
    "name": "Patrick Kane",
@@ -1131,7 +1131,7 @@
    "sog3": 0.2944,
    "sog4": 0.1318,
    "dtd": false,
-   "basis": "2025-26 67 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 67 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Anton Frondell",
@@ -1149,7 +1149,7 @@
    "sog3": 0.3448,
    "sog4": 0.1664,
    "dtd": false,
-   "basis": "2025-26 12 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 12 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Tyler Bertuzzi",
@@ -1167,7 +1167,7 @@
    "sog3": 0.1999,
    "sog4": 0.0752,
    "dtd": false,
-   "basis": "2025-26 79 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 79 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Frank Nazar",
@@ -1185,7 +1185,7 @@
    "sog3": 0.2273,
    "sog4": 0.0905,
    "dtd": false,
-   "basis": "2025-26 66 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 66 GP + 2026-27 10 GP (stats as of Oct 29)"
   },
   {
    "name": "Alex DeBrincat",
@@ -1203,7 +1203,7 @@
    "sog3": 0.6282,
    "sog4": 0.4192,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Lucas Raymond",
@@ -1221,25 +1221,7 @@
    "sog3": 0.4435,
    "sog4": 0.243,
    "dtd": false,
-   "basis": "2025-26 80 GP + 2026-27 12 GP (stats as of Oct 28)"
-  },
-  {
-   "name": "Dylan Larkin",
-   "team": "DET",
-   "opp": "CHI",
-   "pos": "F",
-   "p_pt": 0.5426,
-   "p_g": 0.3082,
-   "ep": 0.782,
-   "sog": 3.5,
-   "sog2_raw": 0.8114,
-   "sog3_raw": 0.6284,
-   "sog4_raw": 0.4428,
-   "sog2": 0.7627,
-   "sog3": 0.5655,
-   "sog4": 0.3542,
-   "dtd": false,
-   "basis": "2025-26 74 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 80 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Viktor Arvidsson",
@@ -1257,7 +1239,7 @@
    "sog3": 0.4201,
    "sog4": 0.2238,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Moritz Seider",
@@ -1275,7 +1257,25 @@
    "sog3": 0.3787,
    "sog4": 0.1914,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
+  },
+  {
+   "name": "Michael Brandsegg-Nyg\u00e5rd",
+   "team": "DET",
+   "opp": "CHI",
+   "pos": "F",
+   "p_pt": 0.4275,
+   "p_g": 0.1608,
+   "ep": 0.558,
+   "sog": 2.46,
+   "sog2_raw": 0.6632,
+   "sog3_raw": 0.4301,
+   "sog4_raw": 0.2473,
+   "sog2": 0.6234,
+   "sog3": 0.3871,
+   "sog4": 0.1978,
+   "dtd": false,
+   "basis": "2025-26 0 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "David Pastrnak",
@@ -1293,7 +1293,7 @@
    "sog3": 0.5129,
    "sog4": 0.3039,
    "dtd": false,
-   "basis": "2025-26 77 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 77 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Charlie McAvoy",
@@ -1311,7 +1311,7 @@
    "sog3": 0.1684,
    "sog4": 0.0588,
    "dtd": false,
-   "basis": "2025-26 69 GP + 2026-27 7 GP (stats as of Oct 28)"
+   "basis": "2025-26 69 GP + 2026-27 7 GP (stats as of Oct 29)"
   },
   {
    "name": "Morgan Geekie",
@@ -1329,7 +1329,7 @@
    "sog3": 0.2296,
    "sog4": 0.0918,
    "dtd": false,
-   "basis": "2025-26 81 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 81 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Pavel Zacha",
@@ -1347,7 +1347,7 @@
    "sog3": 0.1961,
    "sog4": 0.0731,
    "dtd": false,
-   "basis": "2025-26 78 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 78 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Elias Lindholm",
@@ -1365,7 +1365,7 @@
    "sog3": 0.1996,
    "sog4": 0.075,
    "dtd": false,
-   "basis": "2025-26 69 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 69 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Dylan Holloway",
@@ -1383,7 +1383,7 @@
    "sog3": 0.4816,
    "sog4": 0.2757,
    "dtd": false,
-   "basis": "2025-26 59 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 59 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Robert Thomas",
@@ -1401,7 +1401,7 @@
    "sog3": 0.2005,
    "sog4": 0.0755,
    "dtd": false,
-   "basis": "2025-26 64 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 64 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Jimmy Snuggerud",
@@ -1419,7 +1419,7 @@
    "sog3": 0.4299,
    "sog4": 0.2317,
    "dtd": false,
-   "basis": "2025-26 70 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 70 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Mason McTavish",
@@ -1437,7 +1437,7 @@
    "sog3": 0.3287,
    "sog4": 0.155,
    "dtd": false,
-   "basis": "2025-26 75 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 75 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Pavel Buchnevich",
@@ -1455,97 +1455,97 @@
    "sog3": 0.2862,
    "sog4": 0.1264,
    "dtd": false,
-   "basis": "2025-26 81 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 81 GP + 2026-27 11 GP (stats as of Oct 29)"
+  },
+  {
+   "name": "Jack St. Ivany",
+   "team": "WSH",
+   "opp": "NSH",
+   "pos": "D",
+   "p_pt": 0.664,
+   "p_g": 0.0836,
+   "ep": 1.091,
+   "sog": 1.49,
+   "sog2_raw": 0.4235,
+   "sog3_raw": 0.1974,
+   "sog4_raw": 0.0794,
+   "sog2": 0.3981,
+   "sog3": 0.1777,
+   "sog4": 0.0635,
+   "dtd": false,
+   "basis": "2025-26 0 GP + 2026-27 1 GP (stats as of Oct 29)"
   },
   {
    "name": "Alex Tuch",
    "team": "WSH",
    "opp": "NSH",
    "pos": "F",
-   "p_pt": 0.5253,
-   "p_g": 0.3526,
-   "ep": 0.745,
-   "sog": 2.54,
-   "sog2_raw": 0.6774,
-   "sog3_raw": 0.4471,
-   "sog4_raw": 0.2621,
-   "sog2": 0.6368,
-   "sog3": 0.4024,
-   "sog4": 0.2097,
+   "p_pt": 0.5383,
+   "p_g": 0.3758,
+   "ep": 0.773,
+   "sog": 2.61,
+   "sog2_raw": 0.6896,
+   "sog3_raw": 0.462,
+   "sog4_raw": 0.2754,
+   "sog2": 0.6483,
+   "sog3": 0.4158,
+   "sog4": 0.2203,
    "dtd": false,
-   "basis": "2025-26 79 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 79 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Dylan Strome",
    "team": "WSH",
    "opp": "NSH",
    "pos": "F",
-   "p_pt": 0.4914,
-   "p_g": 0.1997,
-   "ep": 0.676,
+   "p_pt": 0.5181,
+   "p_g": 0.1948,
+   "ep": 0.73,
    "sog": 1.97,
-   "sog2_raw": 0.5567,
-   "sog3_raw": 0.3152,
-   "sog4_raw": 0.156,
-   "sog2": 0.5233,
-   "sog3": 0.2836,
-   "sog4": 0.1248,
+   "sog2_raw": 0.557,
+   "sog3_raw": 0.3154,
+   "sog4_raw": 0.1562,
+   "sog2": 0.5235,
+   "sog3": 0.2839,
+   "sog4": 0.1249,
    "dtd": false,
-   "basis": "2025-26 80 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 80 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
-   "name": "Tom Wilson",
+   "name": "Pierre-Luc Dubois",
    "team": "WSH",
    "opp": "NSH",
    "pos": "F",
-   "p_pt": 0.4838,
-   "p_g": 0.2662,
-   "ep": 0.661,
-   "sog": 2.16,
-   "sog2_raw": 0.5999,
-   "sog3_raw": 0.3594,
-   "sog4_raw": 0.1893,
-   "sog2": 0.5639,
-   "sog3": 0.3235,
-   "sog4": 0.1514,
+   "p_pt": 0.4802,
+   "p_g": 0.1478,
+   "ep": 0.654,
+   "sog": 1.71,
+   "sog2_raw": 0.4878,
+   "sog3_raw": 0.2509,
+   "sog4_raw": 0.112,
+   "sog2": 0.4585,
+   "sog3": 0.2258,
+   "sog4": 0.0896,
    "dtd": false,
-   "basis": "2025-26 72 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 6 GP (stats as of Oct 29)"
   },
   {
    "name": "Jakob Chychrun",
    "team": "WSH",
    "opp": "NSH",
    "pos": "D",
-   "p_pt": 0.4737,
-   "p_g": 0.2035,
-   "ep": 0.642,
-   "sog": 2.87,
-   "sog2_raw": 0.7323,
-   "sog3_raw": 0.5163,
-   "sog4_raw": 0.3262,
-   "sog2": 0.6883,
-   "sog3": 0.4647,
-   "sog4": 0.261,
+   "p_pt": 0.4771,
+   "p_g": 0.1984,
+   "ep": 0.648,
+   "sog": 2.82,
+   "sog2_raw": 0.7244,
+   "sog3_raw": 0.5059,
+   "sog4_raw": 0.3162,
+   "sog2": 0.6809,
+   "sog3": 0.4553,
+   "sog4": 0.253,
    "dtd": false,
-   "basis": "2025-26 80 GP + 2026-27 10 GP (stats as of Oct 28)"
-  },
-  {
-   "name": "Alex Ovechkin",
-   "team": "WSH",
-   "opp": "NSH",
-   "pos": "F",
-   "p_pt": 0.4435,
-   "p_g": 0.2352,
-   "ep": 0.586,
-   "sog": 2.54,
-   "sog2_raw": 0.6768,
-   "sog3_raw": 0.4464,
-   "sog4_raw": 0.2615,
-   "sog2": 0.6362,
-   "sog3": 0.4017,
-   "sog4": 0.2092,
-   "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 80 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Filip Forsberg",
@@ -1563,7 +1563,7 @@
    "sog3": 0.4663,
    "sog4": 0.2623,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Ryan O'Reilly",
@@ -1581,7 +1581,7 @@
    "sog3": 0.2913,
    "sog4": 0.1298,
    "dtd": false,
-   "basis": "2025-26 81 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 81 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Steven Stamkos",
@@ -1599,7 +1599,7 @@
    "sog3": 0.3614,
    "sog4": 0.1785,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Roman Josi",
@@ -1617,25 +1617,25 @@
    "sog3": 0.4087,
    "sog4": 0.2147,
    "dtd": false,
-   "basis": "2025-26 68 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 68 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
-   "name": "Daemon Hunt",
+   "name": "Jonathan Marchessault",
    "team": "NSH",
    "opp": "WSH",
-   "pos": "D",
-   "p_pt": 0.3605,
-   "p_g": 0.0855,
-   "ep": 0.447,
-   "sog": 1.91,
-   "sog2_raw": 0.5418,
-   "sog3_raw": 0.3006,
-   "sog4_raw": 0.1456,
-   "sog2": 0.5093,
-   "sog3": 0.2706,
-   "sog4": 0.1165,
+   "pos": "F",
+   "p_pt": 0.3448,
+   "p_g": 0.1523,
+   "ep": 0.423,
+   "sog": 2.02,
+   "sog2_raw": 0.5697,
+   "sog3_raw": 0.3282,
+   "sog4_raw": 0.1655,
+   "sog2": 0.5356,
+   "sog3": 0.2954,
+   "sog4": 0.1324,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 2 GP (stats as of Oct 28)"
+   "basis": "2025-26 62 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Cole Caufield",
@@ -1653,7 +1653,7 @@
    "sog3": 0.4326,
    "sog4": 0.234,
    "dtd": false,
-   "basis": "2025-26 81 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 81 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Lane Hutson",
@@ -1671,7 +1671,7 @@
    "sog3": 0.1556,
    "sog4": 0.0525,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Juraj Slafkovsky",
@@ -1689,7 +1689,7 @@
    "sog3": 0.2845,
    "sog4": 0.1253,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Chris Kreider",
@@ -1707,7 +1707,7 @@
    "sog3": 0.1014,
    "sog4": 0.0287,
    "dtd": false,
-   "basis": "2025-26 75 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 75 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Mike Matheson",
@@ -1717,15 +1717,15 @@
    "p_pt": 0.3175,
    "p_g": 0.1168,
    "ep": 0.382,
-   "sog": 1.56,
-   "sog2_raw": 0.4444,
-   "sog3_raw": 0.2141,
-   "sog4_raw": 0.0891,
-   "sog2": 0.4177,
-   "sog3": 0.1927,
-   "sog4": 0.0713,
+   "sog": 1.62,
+   "sog2_raw": 0.4628,
+   "sog3_raw": 0.2294,
+   "sog4_raw": 0.0984,
+   "sog2": 0.4351,
+   "sog3": 0.2064,
+   "sog4": 0.0787,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 8 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 8 GP (stats as of Oct 29)"
   },
   {
    "name": "Mikko Rantanen",
@@ -1743,7 +1743,7 @@
    "sog3": 0.3867,
    "sog4": 0.1975,
    "dtd": false,
-   "basis": "2025-26 64 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 64 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Jason Robertson",
@@ -1761,7 +1761,7 @@
    "sog3": 0.6357,
    "sog4": 0.4273,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Wyatt Johnston",
@@ -1779,7 +1779,7 @@
    "sog3": 0.4844,
    "sog4": 0.2782,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 10 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 10 GP (stats as of Oct 29)"
   },
   {
    "name": "Roope Hintz",
@@ -1797,7 +1797,7 @@
    "sog3": 0.4244,
    "sog4": 0.2273,
    "dtd": false,
-   "basis": "2025-26 53 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 53 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Miro Heiskanen",
@@ -1815,7 +1815,7 @@
    "sog3": 0.3332,
    "sog4": 0.1582,
    "dtd": false,
-   "basis": "2025-26 77 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 77 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Bo Horvat",
@@ -1833,7 +1833,7 @@
    "sog3": 0.4594,
    "sog4": 0.2564,
    "dtd": false,
-   "basis": "2025-26 68 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 68 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Matthew Schaefer",
@@ -1851,7 +1851,7 @@
    "sog3": 0.4182,
    "sog4": 0.2222,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Brayden Schenn",
@@ -1869,7 +1869,7 @@
    "sog3": 0.1669,
    "sog4": 0.0581,
    "dtd": false,
-   "basis": "2025-26 80 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 80 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Simon Holmstrom",
@@ -1887,7 +1887,7 @@
    "sog3": 0.1163,
    "sog4": 0.0348,
    "dtd": false,
-   "basis": "2025-26 79 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 79 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Jean-Gabriel Pageau",
@@ -1905,7 +1905,7 @@
    "sog3": 0.0805,
    "sog4": 0.0208,
    "dtd": false,
-   "basis": "2025-26 74 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 74 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Kirill Kaprizov",
@@ -1923,7 +1923,7 @@
    "sog3": 0.5877,
    "sog4": 0.3765,
    "dtd": false,
-   "basis": "2025-26 78 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 78 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Quinn Hughes",
@@ -1941,7 +1941,7 @@
    "sog3": 0.4539,
    "sog4": 0.2517,
    "dtd": false,
-   "basis": "2025-26 74 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 74 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Matt Boldy",
@@ -1959,7 +1959,7 @@
    "sog3": 0.6235,
    "sog4": 0.4141,
    "dtd": false,
-   "basis": "2025-26 76 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 76 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Joel Eriksson Ek",
@@ -1977,7 +1977,7 @@
    "sog3": 0.5197,
    "sog4": 0.3102,
    "dtd": false,
-   "basis": "2025-26 70 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 70 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Maxim Shabanov",
@@ -1995,7 +1995,7 @@
    "sog3": 0.2207,
    "sog4": 0.0866,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Tage Thompson",
@@ -2013,7 +2013,7 @@
    "sog3": 0.5827,
    "sog4": 0.3715,
    "dtd": false,
-   "basis": "2025-26 81 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 81 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Rasmus Dahlin",
@@ -2023,15 +2023,15 @@
    "p_pt": 0.5292,
    "p_g": 0.1911,
    "ep": 0.753,
-   "sog": 2.63,
-   "sog2_raw": 0.693,
-   "sog3_raw": 0.4661,
-   "sog4_raw": 0.2791,
-   "sog2": 0.6514,
-   "sog3": 0.4195,
-   "sog4": 0.2233,
+   "sog": 2.66,
+   "sog2_raw": 0.698,
+   "sog3_raw": 0.4723,
+   "sog4_raw": 0.2847,
+   "sog2": 0.6561,
+   "sog3": 0.4251,
+   "sog4": 0.2278,
    "dtd": false,
-   "basis": "2025-26 77 GP + 2026-27 9 GP (stats as of Oct 28)"
+   "basis": "2025-26 77 GP + 2026-27 9 GP (stats as of Oct 29)"
   },
   {
    "name": "Jack Quinn",
@@ -2049,7 +2049,7 @@
    "sog3": 0.3895,
    "sog4": 0.1997,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Zach Benson",
@@ -2067,7 +2067,7 @@
    "sog3": 0.267,
    "sog4": 0.1142,
    "dtd": false,
-   "basis": "2025-26 65 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 65 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Noah Ostlund",
@@ -2085,7 +2085,7 @@
    "sog3": 0.2976,
    "sog4": 0.1339,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Leo Carlsson",
@@ -2103,7 +2103,7 @@
    "sog3": 0.2811,
    "sog4": 0.1232,
    "dtd": false,
-   "basis": "2025-26 70 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 70 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Cutter Gauthier",
@@ -2121,7 +2121,7 @@
    "sog3": 0.5141,
    "sog4": 0.305,
    "dtd": false,
-   "basis": "2025-26 76 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 76 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Jackson LaCombe",
@@ -2139,7 +2139,7 @@
    "sog3": 0.1347,
    "sog4": 0.0428,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Beckett Sennecke",
@@ -2157,7 +2157,7 @@
    "sog3": 0.3071,
    "sog4": 0.1402,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Mikael Granlund",
@@ -2175,7 +2175,7 @@
    "sog3": 0.2167,
    "sog4": 0.0844,
    "dtd": false,
-   "basis": "2025-26 58 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 58 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Tim Stutzle",
@@ -2193,7 +2193,7 @@
    "sog3": 0.3213,
    "sog4": 0.1499,
    "dtd": false,
-   "basis": "2025-26 80 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 80 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Drake Batherson",
@@ -2211,7 +2211,7 @@
    "sog3": 0.301,
    "sog4": 0.1361,
    "dtd": false,
-   "basis": "2025-26 79 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 79 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Jake Sanderson",
@@ -2229,7 +2229,7 @@
    "sog3": 0.3162,
    "sog4": 0.1464,
    "dtd": false,
-   "basis": "2025-26 67 GP + 2026-27 5 GP (stats as of Oct 28)"
+   "basis": "2025-26 67 GP + 2026-27 5 GP (stats as of Oct 29)"
   },
   {
    "name": "Shane Pinto",
@@ -2247,7 +2247,7 @@
    "sog3": 0.2937,
    "sog4": 0.1314,
    "dtd": false,
-   "basis": "2025-26 72 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 72 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Dylan Cozens",
@@ -2265,7 +2265,7 @@
    "sog3": 0.3471,
    "sog4": 0.1681,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Artemi Panarin",
@@ -2283,7 +2283,7 @@
    "sog3": 0.4324,
    "sog4": 0.2338,
    "dtd": false,
-   "basis": "2025-26 78 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 78 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Adrian Kempe",
@@ -2301,7 +2301,7 @@
    "sog3": 0.442,
    "sog4": 0.2417,
    "dtd": false,
-   "basis": "2025-26 81 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 81 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Alex Laferriere",
@@ -2319,7 +2319,7 @@
    "sog3": 0.3439,
    "sog4": 0.1658,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Brandt Clarke",
@@ -2337,7 +2337,7 @@
    "sog3": 0.2471,
    "sog4": 0.1021,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Quinton Byfield",
@@ -2355,7 +2355,7 @@
    "sog3": 0.3268,
    "sog4": 0.1537,
    "dtd": false,
-   "basis": "2025-26 79 GP + 2026-27 9 GP (stats as of Oct 28)"
+   "basis": "2025-26 79 GP + 2026-27 9 GP (stats as of Oct 29)"
   },
   {
    "name": "Brock Boeser",
@@ -2373,7 +2373,7 @@
    "sog3": 0.285,
    "sog4": 0.1257,
    "dtd": false,
-   "basis": "2025-26 75 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 75 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Jonathan Lekkerim\u00e4ki",
@@ -2391,7 +2391,7 @@
    "sog3": 0.2419,
    "sog4": 0.099,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Filip Hronek",
@@ -2409,7 +2409,7 @@
    "sog3": 0.1648,
    "sog4": 0.057,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 14 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 14 GP (stats as of Oct 29)"
   },
   {
    "name": "Marco Rossi",
@@ -2427,7 +2427,7 @@
    "sog3": 0.154,
    "sog4": 0.0518,
    "dtd": false,
-   "basis": "2025-26 50 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 50 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Jake DeBrusk",
@@ -2445,7 +2445,7 @@
    "sog3": 0.399,
    "sog4": 0.207,
    "dtd": false,
-   "basis": "2025-26 81 GP + 2026-27 12 GP (stats as of Oct 28)"
+   "basis": "2025-26 81 GP + 2026-27 12 GP (stats as of Oct 29)"
   },
   {
    "name": "Macklin Celebrini",
@@ -2463,7 +2463,7 @@
    "sog3": 0.6736,
    "sog4": 0.4699,
    "dtd": false,
-   "basis": "2025-26 82 GP + 2026-27 11 GP (stats as of Oct 28)"
+   "basis": "2025-26 82 GP + 2026-27 11 GP (stats as of Oct 29)"
   },
   {
    "name": "Will Smith",
@@ -2481,7 +2481,7 @@
    "sog3": 0.4897,
    "sog4": 0.2828,
    "dtd": false,
-   "basis": "2025-26 69 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 69 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Tyler Toffoli",
@@ -2499,7 +2499,7 @@
    "sog3": 0.4164,
    "sog4": 0.2208,
    "dtd": false,
-   "basis": "2025-26 79 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 79 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Ivar Stenberg",
@@ -2517,7 +2517,7 @@
    "sog3": 0.2819,
    "sog4": 0.1237,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 13 GP (stats as of Oct 29)"
   },
   {
    "name": "Jacob Trouba",
@@ -2535,7 +2535,7 @@
    "sog3": 0.2698,
    "sog4": 0.116,
    "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 13 GP (stats as of Oct 28)"
+   "basis": "2025-26 0 GP + 2026-27 13 GP (stats as of Oct 29)"
   }
  ],
  "market": [
@@ -2650,11 +2650,110 @@
    "home_prob": 0.49,
    "note": "auto 08:18Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%",
    "over55": 0.54
+  },
+  {
+   "date": "2026-10-29",
+   "game": "WPG@TBL",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.675,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 46%",
+   "over55": 0.565,
+   "over65": 0.455
+  },
+  {
+   "date": "2026-10-29",
+   "game": "UTA@PIT",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.455,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
+   "over55": 0.66,
+   "over65": 0.545
+  },
+  {
+   "date": "2026-10-29",
+   "game": "CBJ@CAR",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.7,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "over55": 0.555,
+   "over65": 0.435
+  },
+  {
+   "date": "2026-10-29",
+   "game": "CHI@DET",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.585,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 53%; O6.5 goals 42%",
+   "over55": 0.53,
+   "over65": 0.415
+  },
+  {
+   "date": "2026-10-29",
+   "game": "BOS@STL",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.505,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "over55": 0.555,
+   "over65": 0.435
+  },
+  {
+   "date": "2026-10-29",
+   "game": "WSH@NSH",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.505,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 61%; O6.5 goals 50%",
+   "over55": 0.61,
+   "over65": 0.495
+  },
+  {
+   "date": "2026-10-29",
+   "game": "MTL@DAL",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.605,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%",
+   "over55": 0.535,
+   "over65": 0.425
+  },
+  {
+   "date": "2026-10-29",
+   "game": "NYI@MIN",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.645,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%",
+   "over55": 0.535,
+   "over65": 0.415
+  },
+  {
+   "date": "2026-10-29",
+   "game": "BUF@ANA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.425,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%",
+   "over55": 0.645,
+   "over65": 0.535
+  },
+  {
+   "date": "2026-10-29",
+   "game": "OTT@LAK",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.465,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%",
+   "over55": 0.535,
+   "over65": 0.425
+  },
+  {
+   "date": "2026-10-29",
+   "game": "VAN@SJS",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.605,
+   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 55%",
+   "over55": 0.645,
+   "over65": 0.545
   }
  ],
  "lineups": {
   "WPG": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -2671,10 +2770,10 @@
     "Brad Lambert",
     "Dylan Samberg",
     "Neal Pionk",
-    "Elias Salomonsson",
-    "Dylan DeMelo",
     "Mario Ferraro",
-    "Tyrel Bauer"
+    "Dylan DeMelo",
+    "Haydn Fleury",
+    "Elias Salomonsson"
    ],
    "inj": {
     "Nick Bjugstad": "IR",
@@ -2683,7 +2782,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gage Goncalves",
@@ -2707,13 +2806,11 @@
    ],
    "inj": {
     "Yanni Gourde": "IR",
-    "Victor Hedman": "IR",
-    "Zemgus Girgensons": "IR",
-    "Brandon Hagel": "IR"
+    "Zemgus Girgensons": "IR"
    }
   },
   "UTA": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Clayton Keller",
@@ -2732,8 +2829,8 @@
     "MacKenzie Weegar",
     "Nate Schmidt",
     "Andrew Peeke",
-    "Dmitri Simashev",
-    "Nick DeSimone"
+    "Artem Duda",
+    "Dmitri Simashev"
    ],
    "inj": {
     "Michael Carcone": "IR",
@@ -2741,7 +2838,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tommy Novak",
@@ -2775,7 +2872,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Valeri Nichushkin",
@@ -2787,7 +2884,7 @@
     "Sean Monahan",
     "Cole Sillinger",
     "Conor Garland",
-    "Dmitri Voronkov",
+    "Danton Heinen",
     "Luca Del Bel Belluz",
     "Ryan Lomberg",
     "Zach Werenski",
@@ -2803,7 +2900,7 @@
    }
   },
   "CAR": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -2831,21 +2928,21 @@
    }
   },
   "CHI": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
     "Connor Bedard",
-    "Ryan Greene",
-    "Oliver Moore",
-    "Frank Nazar",
-    "Patrick Kane",
+    "Teuvo Teravainen",
     "Tyler Bertuzzi",
     "Anton Frondell",
     "Ryan Donato",
+    "Oliver Moore",
+    "Frank Nazar",
+    "Patrick Kane",
     "Cole Smith",
+    "Ryan Greene",
     "Jordan Greenway",
-    "Teuvo Teravainen",
     "Alex Vlasic",
     "Ian Cole",
     "Wyatt Kaiser",
@@ -2858,37 +2955,37 @@
    }
   },
   "DET": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
     "Emmitt Finnie",
     "Viktor Arvidsson",
     "Michael Brandsegg-Nyg\u00e5rd",
-    "Dylan Larkin",
+    "Andrew Copp",
     "Lucas Raymond",
     "Michael Rasmussen",
-    "Andrew Copp",
     "J.T. Compher",
-    "Carter Mazur",
     "Nate Danielson",
+    "Carter Mazur",
     "Keegan Kolesar",
     "Ben Chiarot",
     "Moritz Seider",
     "William Wallinder",
     "Justin Faulk",
     "Andreas Englund",
-    "Anton Johansson"
+    "Anton Johansson",
+    "Axel Sandin-Pellikka"
    ],
    "inj": {
     "Marco Kasper": "IR",
     "Mason Appleton": "IR",
     "Simon Edvinsson": "IR",
-    "Daniil Tarasov": "IR"
+    "Dylan Larkin": "IR"
    }
   },
   "BOS": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "JJ Peterka",
@@ -2907,13 +3004,13 @@
     "Charlie McAvoy",
     "Nikita Zadorov",
     "Will Borgen",
-    "Frederic Brunet",
-    "Mason Lohrei"
+    "Mason Lohrei",
+    "Connor Clifton"
    ],
    "inj": {}
   },
   "STL": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Neighbours",
@@ -2943,7 +3040,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -2971,7 +3068,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -2979,9 +3076,10 @@
     "Mavrik Bourque",
     "Filip Forsberg",
     "Alex Kerfoot",
-    "Jonathan Marchessault",
+    "Vitali Pinchuk",
     "Nils Hoglander",
     "Matthew Wood",
+    "Jonathan Marchessault",
     "Ross Colton",
     "Jack Drury",
     "Adam Edstrom",
@@ -2990,15 +3088,14 @@
     "Nicolas Hague",
     "Jayden Struble",
     "Brady Skjei",
-    "Nick Perbix",
-    "Daemon Hunt"
+    "Nick Perbix"
    ],
    "inj": {
     "William Trudeau": "IR"
    }
   },
   "MTL": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -3026,26 +3123,26 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
-    "Joel Kiviranta",
+    "Sam Steel",
     "Wyatt Johnston",
     "Mikko Rantanen",
     "Jason Robertson",
     "Roope Hintz",
     "Tyler Seguin",
-    "Justin Hryckowian",
+    "Joel Kiviranta",
     "Arttu Hyry",
     "Jamie Benn",
-    "Dylan Hryckowian",
     "Colin Blackwell",
+    "Justin Hryckowian",
     "Matthew Seminoff",
     "Thomas Harley",
     "Miro Heiskanen",
     "Lian Bichsel",
     "Nils Lundkvist",
-    "Kyle Capobianco",
+    "Trey Taylor",
     "Tyler Myers"
    ],
    "inj": {
@@ -3053,12 +3150,11 @@
     "Oskar Back": "IR",
     "Esa Lindell": "IR",
     "Radek Faksa": "IR",
-    "Sam Steel": "IR",
     "Kyle Capobianco": "IR"
    }
   },
   "NYI": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Simon Holmstrom",
@@ -3070,15 +3166,15 @@
     "Ondrej Palat",
     "Jean-Gabriel Pageau",
     "Anthony Duclair",
+    "Kyle MacLean",
     "Casey Cizikas",
     "Mitchell Chaffee",
     "Logan Stanley",
     "Matthew Schaefer",
     "Adam Pelech",
     "Ryan Pulock",
-    "Scott Mayfield",
     "Tony DeAngelo",
-    "Matthew Kessel"
+    "Scott Mayfield"
    ],
    "inj": {
     "Mathew Barzal": "IR",
@@ -3088,7 +3184,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -3118,7 +3214,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -3148,7 +3244,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3178,7 +3274,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -3195,19 +3291,18 @@
     "Andre Burakovsky",
     "Jake Sanderson",
     "Artem Zub",
-    "Tyler Kleven",
+    "Thomas Chabot",
     "Jordan Spence",
-    "Nikolas Matinpalo",
+    "Tyler Kleven",
     "Carter Yakemchuk"
    ],
    "inj": {
     "William Eklund": "IR",
-    "Thomas Chabot": "IR",
     "Linus Ullmark": "IR"
    }
   },
   "LAK": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -3221,7 +3316,7 @@
     "Joel Armia",
     "Andre Lee",
     "Samuel Helenius",
-    "Jared Wright",
+    "Martin Chromiak",
     "Erik Gustafsson",
     "Brandt Clarke",
     "Mikey Anderson",
@@ -3238,7 +3333,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3265,7 +3360,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-10-29T08:18Z",
+   "asof": "2026-10-29T17:59Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivar Stenberg",
@@ -3309,23 +3404,13 @@
   "sh3_exp": 140.3
  },
  "health": {
-  "mode": "plan",
-  "at": "2026-10-29T08:18+00:00",
+  "mode": "players",
+  "at": "2026-10-29T15:45+00:00",
   "ok": [
-   "11 games on 2026-10-29",
-   "Daily Faceoff goalies parsed for 22 teams",
-   "lineups refreshed for 22/22 teams",
-   "Kalshi: 11 NHL games priced, 3 new rows",
-   "nothing new to log (no new games, no goalie changes)"
+   "players_base refreshed: 689 updated, 2 added"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "grade",
-    "at": "2026-10-29T03:36+00:00",
-    "n_ok": 2,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-29T04:01+00:00",
@@ -3378,6 +3463,12 @@
     "mode": "plan",
     "at": "2026-10-29T08:18+00:00",
     "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "players",
+    "at": "2026-10-29T15:45+00:00",
+    "n_ok": 1,
     "problems": []
    }
   ]
@@ -3456,5 +3547,5 @@
    "cum": 41.78
   }
  ],
- "made": "2026-10-29T08:53+00:00"
+ "made": "2026-10-29T18:00+00:00"
 }

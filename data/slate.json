@@ -73,7 +73,7 @@
    "start": "2026-10-30T00:00:00Z",
    "gid": 2026020208,
    "started": false,
-   "goalie_a": "Logan Thompson",
+   "goalie_a": "Charlie Lindgren",
    "status_a": "unconfirmed",
    "goalie_h": "Juuse Saros",
    "status_h": "unconfirmed"
@@ -109,9 +109,9 @@
    "start": "2026-10-30T02:00:00Z",
    "gid": 2026020211,
    "started": false,
-   "goalie_a": "Ukko-Pekka Luukkonen",
+   "goalie_a": "Colten Ellis",
    "status_a": "unconfirmed",
-   "goalie_h": "Lukas Dostal",
+   "goalie_h": "Ville Husso",
    "status_h": "unconfirmed"
   },
   {
@@ -121,7 +121,7 @@
    "start": "2026-10-30T02:00:00Z",
    "gid": 2026020212,
    "started": false,
-   "goalie_a": "Samuel Ersson",
+   "goalie_a": "Jonas Johansson",
    "status_a": "unconfirmed",
    "goalie_h": "Darcy Kuemper",
    "status_h": "unconfirmed"
@@ -135,7 +135,7 @@
    "started": false,
    "goalie_a": "Leevi Merilainen",
    "status_a": "unconfirmed",
-   "goalie_h": "Alex Nedeljkovic",
+   "goalie_h": "Yaroslav Askarov",
    "status_h": "unconfirmed"
   }
  ]
