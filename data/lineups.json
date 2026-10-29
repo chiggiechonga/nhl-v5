@@ -30,33 +30,34 @@
   }
  },
  "BUF": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
-   "Zach Benson",
+   "Peyton Krebs",
    "Tage Thompson",
-   "Konsta Helenius",
+   "Zach Benson",
    "Josh Doan",
    "Noah Ostlund",
    "Jack Quinn",
    "Jason Zucker",
-   "Josh Norris",
    "Ryan McLeod",
-   "Peyton Krebs",
+   "Josh Norris",
    "Tyson Kozak",
+   "Sam Carrick",
    "Beck Malenstyn",
    "Mattias Samuelsson",
    "Rasmus Dahlin",
    "Olen Zellweger",
    "Owen Power",
-   "Zach Metsa",
+   "Dennis Gilbert",
    "Louis Crevier"
   ],
   "inj": {
    "Matt Grzelcyk": "IR",
    "Conor Timmins": "IR",
    "Alex Lyon": "IR",
-   "Jiri Kulich": "IR"
+   "Jiri Kulich": "IR",
+   "Konsta Helenius": "IR"
   }
  },
  "PHI": {
@@ -90,7 +91,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -146,7 +147,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -176,7 +177,7 @@
   }
  },
  "SJS": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivar Stenberg",
@@ -204,7 +205,7 @@
   }
  },
  "PIT": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Tommy Novak",
@@ -238,7 +239,7 @@
   }
  },
  "BOS": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "JJ Peterka",
@@ -263,7 +264,7 @@
   "inj": {}
  },
  "NSH": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Steven Stamkos",
@@ -353,7 +354,7 @@
   }
  },
  "NYI": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Simon Holmstrom",
@@ -383,7 +384,7 @@
   }
  },
  "LAK": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
@@ -412,7 +413,7 @@
   }
  },
  "DAL": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Sam Steel",
@@ -443,7 +444,7 @@
   }
  },
  "WPG": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kyle Connor",
@@ -472,7 +473,7 @@
   }
  },
  "STL": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake Neighbours",
@@ -559,7 +560,7 @@
   }
  },
  "MIN": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kirill Kaprizov",
@@ -624,7 +625,7 @@
   }
  },
  "CAR": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "William Carrier",
@@ -681,7 +682,7 @@
   }
  },
  "UTA": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Clayton Keller",
@@ -709,7 +710,7 @@
   }
  },
  "VAN": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake DeBrusk",
@@ -736,7 +737,7 @@
   }
  },
  "DET": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex DeBrincat",
@@ -766,7 +767,7 @@
   }
  },
  "CHI": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Roman Kantserov",
@@ -793,7 +794,7 @@
   }
  },
  "MTL": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cole Caufield",
@@ -821,7 +822,7 @@
   }
  },
  "TBL": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Gage Goncalves",
@@ -876,7 +877,7 @@
   }
  },
  "WSH": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Aliaksei Protas",
@@ -904,7 +905,7 @@
   }
  },
  "CBJ": {
-  "asof": "2026-10-29T18:43Z",
+  "asof": "2026-10-29T19:09Z",
   "source": "Daily Faceoff",
   "lines": [
    "Valeri Nichushkin",
