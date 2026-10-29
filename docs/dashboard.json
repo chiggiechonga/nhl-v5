@@ -470,7 +470,7 @@
    "pl_h": 0.7324887275038076,
    "pl_a": 0.7240402065189178,
    "goalie_a": "Colten Ellis",
-   "goalie_h": "Ville Husso",
+   "goalie_h": "Lukas Dostal",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -2938,6 +2938,15 @@
    "note": "auto 22:39Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
    "over55": 0.655,
    "over65": 0.545
+  },
+  {
+   "date": "2026-10-29",
+   "game": "CHI@DET",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.59,
+   "note": "auto 23:04Z; mid of bid/ask; O5.5 goals 52%; O6.5 goals 40%",
+   "over55": 0.525,
+   "over65": 0.405
   }
  ],
  "lineups": {
@@ -3112,7 +3121,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -3139,7 +3148,7 @@
    }
   },
   "DET": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -3169,7 +3178,7 @@
    }
   },
   "BOS": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "JJ Peterka",
@@ -3194,7 +3203,7 @@
    "inj": {}
   },
   "STL": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Neighbours",
@@ -3224,7 +3233,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -3252,7 +3261,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -3279,7 +3288,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -3307,7 +3316,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Sam Steel",
@@ -3338,7 +3347,7 @@
    }
   },
   "NYI": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Simon Holmstrom",
@@ -3368,7 +3377,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -3399,7 +3408,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Peyton Krebs",
@@ -3430,7 +3439,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3460,7 +3469,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -3489,7 +3498,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -3518,7 +3527,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3545,7 +3554,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-10-29T22:40Z",
+   "asof": "2026-10-29T23:04Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivar Stenberg",
@@ -3758,5 +3767,5 @@
    "cum": 41.78
   }
  ],
- "made": "2026-10-29T22:41+00:00"
+ "made": "2026-10-29T23:05+00:00"
 }
