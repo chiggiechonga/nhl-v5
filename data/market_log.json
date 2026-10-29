@@ -1132,5 +1132,14 @@
   "note": "auto 21:47Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 42%",
   "over55": 0.545,
   "over65": 0.425
+ },
+ {
+  "date": "2026-10-29",
+  "game": "UTA@PIT",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.435,
+  "note": "auto 22:13Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 56%",
+  "over55": 0.665,
+  "over65": 0.555
  }
 ]
