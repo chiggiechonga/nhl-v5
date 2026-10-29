@@ -1126,5 +1126,17 @@
   "winner": "COL",
   "date": "2026-10-28",
   "id": "2026-10-28_NJD@COL"
+ },
+ {
+  "away": "TOR",
+  "home": "SEA",
+  "ag": 4,
+  "hg": 5,
+  "a_sh": 22,
+  "h_sh": 17,
+  "ot": null,
+  "winner": "SEA",
+  "date": "2026-10-28",
+  "id": "2026-10-28_TOR@SEA"
  }
 ]

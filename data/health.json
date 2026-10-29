@@ -1,27 +1,12 @@
 {
- "mode": "plan",
- "at": "2026-10-29T04:27+00:00",
+ "mode": "grade",
+ "at": "2026-10-29T04:53+00:00",
  "ok": [
-  "11 games on 2026-10-29",
-  "Daily Faceoff goalies parsed for 22 teams",
-  "lineups refreshed for 22/22 teams",
-  "Kalshi: 11 NHL games priced, 0 new rows",
-  "nothing new to log (no new games, no goalie changes)"
+  "graded 2026-10-28_TOR@SEA: 4-5, shots 22-17",
+  "1 games and 10 player rows added"
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-29T01:54+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
-  {
-   "mode": "plan",
-   "at": "2026-10-29T02:19+00:00",
-   "n_ok": 4,
-   "problems": []
-  },
   {
    "mode": "grade",
    "at": "2026-10-29T02:19+00:00",
@@ -68,6 +53,18 @@
    "mode": "plan",
    "at": "2026-10-29T04:27+00:00",
    "n_ok": 5,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-29T04:53+00:00",
+   "n_ok": 5,
+   "problems": []
+  },
+  {
+   "mode": "grade",
+   "at": "2026-10-29T04:53+00:00",
+   "n_ok": 2,
    "problems": []
   }
  ]
