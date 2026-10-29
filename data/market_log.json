@@ -802,5 +802,12 @@
   "source": "Kalshi moneyline",
   "home_prob": 0.635,
   "note": "auto 00:12Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%"
+ },
+ {
+  "date": "2026-10-28",
+  "game": "TOR@SEA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.455,
+  "note": "auto 01:47Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%"
  }
 ]

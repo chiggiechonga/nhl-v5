@@ -1245,6 +1245,13 @@
    "source": "Kalshi moneyline",
    "home_prob": 0.635,
    "note": "auto 00:12Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%"
+  },
+  {
+   "date": "2026-10-28",
+   "game": "TOR@SEA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.455,
+   "note": "auto 01:47Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%"
   }
  ],
  "lineups": {
@@ -1423,7 +1430,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-29T01:29Z",
+   "asof": "2026-10-29T01:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -1456,7 +1463,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-29T01:29Z",
+   "asof": "2026-10-29T01:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1502,7 +1509,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-29T01:03+00:00",
+  "at": "2026-10-29T01:29+00:00",
   "ok": [
    "4 games on 2026-10-28",
    "Daily Faceoff goalies parsed for 8 teams",
@@ -1512,12 +1519,6 @@
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-28T21:12+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-28T21:38+00:00",
@@ -1569,6 +1570,12 @@
    {
     "mode": "plan",
     "at": "2026-10-29T01:03+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-29T01:29+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1640,5 +1647,5 @@
    "cum": 12.27
   }
  ],
- "made": "2026-10-29T01:29+00:00"
+ "made": "2026-10-29T01:47+00:00"
 }
