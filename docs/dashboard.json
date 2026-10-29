@@ -2794,11 +2794,38 @@
    "note": "auto 20:02Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 42%",
    "over55": 0.545,
    "over65": 0.425
+  },
+  {
+   "date": "2026-10-29",
+   "game": "WPG@TBL",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.665,
+   "note": "auto 20:28Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "over55": 0.565,
+   "over65": 0.445
+  },
+  {
+   "date": "2026-10-29",
+   "game": "NYI@MIN",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.645,
+   "note": "auto 20:28Z; mid of bid/ask; O5.5 goals 52%; O6.5 goals 40%",
+   "over55": 0.525,
+   "over65": 0.405
+  },
+  {
+   "date": "2026-10-29",
+   "game": "BUF@ANA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.425,
+   "note": "auto 20:28Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 55%",
+   "over55": 0.645,
+   "over65": 0.545
   }
  ],
  "lineups": {
   "WPG": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -2827,7 +2854,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gage Goncalves",
@@ -2855,7 +2882,7 @@
    }
   },
   "UTA": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Clayton Keller",
@@ -2883,7 +2910,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tommy Novak",
@@ -2917,7 +2944,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Valeri Nichushkin",
@@ -2945,7 +2972,7 @@
    }
   },
   "CAR": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -2973,7 +3000,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -3000,7 +3027,7 @@
    }
   },
   "DET": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -3030,7 +3057,7 @@
    }
   },
   "BOS": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "JJ Peterka",
@@ -3055,7 +3082,7 @@
    "inj": {}
   },
   "STL": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Neighbours",
@@ -3085,7 +3112,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -3113,7 +3140,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -3140,7 +3167,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -3168,7 +3195,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Sam Steel",
@@ -3199,7 +3226,7 @@
    }
   },
   "NYI": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Simon Holmstrom",
@@ -3229,7 +3256,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -3260,7 +3287,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Peyton Krebs",
@@ -3291,7 +3318,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3321,7 +3348,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -3350,7 +3377,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -3379,7 +3406,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3406,7 +3433,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-10-29T20:02Z",
+   "asof": "2026-10-29T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivar Stenberg",
@@ -3451,24 +3478,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-29T19:35+00:00",
+  "at": "2026-10-29T20:02+00:00",
   "ok": [
    "11 games on 2026-10-29",
    "Daily Faceoff goalies parsed for 22 teams",
    "lineups refreshed for 22/22 teams",
-   "Kalshi: 11 NHL games priced, 0 new rows",
+   "Kalshi: 11 NHL games priced, 1 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
    "Kalshi spread markets found (100) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "grade",
-    "at": "2026-10-29T04:53+00:00",
-    "n_ok": 2,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-29T05:19+00:00",
@@ -3526,6 +3547,14 @@
    {
     "mode": "plan",
     "at": "2026-10-29T19:35+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (100) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-29T20:02+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (100) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -3607,5 +3636,5 @@
    "cum": 41.78
   }
  ],
- "made": "2026-10-29T20:02+00:00"
+ "made": "2026-10-29T20:28+00:00"
 }
