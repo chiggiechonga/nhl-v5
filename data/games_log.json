@@ -1102,5 +1102,17 @@
   "winner": "WSH",
   "date": "2026-10-28",
   "id": "2026-10-28_PHI@WSH"
+ },
+ {
+  "away": "CGY",
+  "home": "EDM",
+  "ag": 0,
+  "hg": 4,
+  "a_sh": 24,
+  "h_sh": 32,
+  "ot": null,
+  "winner": "EDM",
+  "date": "2026-10-28",
+  "id": "2026-10-28_CGY@EDM"
  }
 ]
