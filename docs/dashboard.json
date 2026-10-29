@@ -1339,22 +1339,14 @@
   "sh3_exp": 129.0
  },
  "health": {
-  "mode": "plan",
+  "mode": "grade",
   "at": "2026-10-29T02:19+00:00",
   "ok": [
-   "4 games on 2026-10-28",
-   "Daily Faceoff goalies parsed for 8 teams",
-   "Kalshi: 3 NHL games priced, 0 new rows",
-   "nothing new to log (no new games, no goalie changes)"
+   "graded 2026-10-28_PHI@WSH: 2-5, shots 25-30",
+   "1 games and 10 player rows added"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-28T22:29+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-28T22:55+00:00",
@@ -1407,6 +1399,12 @@
     "mode": "plan",
     "at": "2026-10-29T02:19+00:00",
     "n_ok": 4,
+    "problems": []
+   },
+   {
+    "mode": "grade",
+    "at": "2026-10-29T02:19+00:00",
+    "n_ok": 2,
     "problems": []
    }
   ]
@@ -1485,5 +1483,5 @@
    "cum": 16.66
   }
  ],
- "made": "2026-10-29T02:19+00:00"
+ "made": "2026-10-29T02:45+00:00"
 }
