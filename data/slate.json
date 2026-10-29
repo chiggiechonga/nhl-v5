@@ -37,7 +37,7 @@
    "time": "9:00 ET",
    "start": "2026-10-29T01:00:00Z",
    "gid": 2026020201,
-   "started": false,
+   "started": true,
    "goalie_a": "Jake Allen",
    "status_a": "unconfirmed",
    "goalie_h": "Mackenzie Blackwood",
