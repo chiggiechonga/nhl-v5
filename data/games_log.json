@@ -1090,5 +1090,17 @@
   "winner": "BUF",
   "date": "2026-10-27",
   "id": "2026-10-27_BUF@SJS"
+ },
+ {
+  "away": "PHI",
+  "home": "WSH",
+  "ag": 2,
+  "hg": 5,
+  "a_sh": 25,
+  "h_sh": 30,
+  "ot": null,
+  "winner": "WSH",
+  "date": "2026-10-28",
+  "id": "2026-10-28_PHI@WSH"
  }
 ]
