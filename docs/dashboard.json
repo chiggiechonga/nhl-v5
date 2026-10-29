@@ -1423,7 +1423,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-29T01:03Z",
+   "asof": "2026-10-29T01:29Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -1456,7 +1456,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-29T01:03Z",
+   "asof": "2026-10-29T01:29Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1502,22 +1502,16 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-29T00:38+00:00",
+  "at": "2026-10-29T01:03+00:00",
   "ok": [
    "4 games on 2026-10-28",
    "Daily Faceoff goalies parsed for 8 teams",
-   "lineups refreshed for 4/4 teams",
+   "lineups refreshed for 2/2 teams",
    "Kalshi: 4 NHL games priced, 0 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-28T20:45+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-28T21:12+00:00",
@@ -1569,6 +1563,12 @@
    {
     "mode": "plan",
     "at": "2026-10-29T00:38+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-29T01:03+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1640,5 +1640,5 @@
    "cum": 12.27
   }
  ],
- "made": "2026-10-29T01:03+00:00"
+ "made": "2026-10-29T01:29+00:00"
 }
