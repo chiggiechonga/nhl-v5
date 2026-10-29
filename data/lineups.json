@@ -30,7 +30,7 @@
   }
  },
  "BUF": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Peyton Krebs",
@@ -91,7 +91,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -147,7 +147,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -177,7 +177,7 @@
   }
  },
  "SJS": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivar Stenberg",
@@ -234,7 +234,7 @@
   }
  },
  "BOS": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "JJ Peterka",
@@ -259,15 +259,14 @@
   "inj": {}
  },
  "NSH": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Steven Stamkos",
    "Ryan O'Reilly",
-   "Mavrik Bourque",
    "Filip Forsberg",
    "Alex Kerfoot",
-   "Vitali Pinchuk",
+   "Mavrik Bourque",
    "Nils Hoglander",
    "Matthew Wood",
    "Jonathan Marchessault",
@@ -276,10 +275,11 @@
    "Adam Edstrom",
    "Roman Josi",
    "Adam Wilsby",
+   "Brady Skjei",
+   "Nick Perbix",
    "Nicolas Hague",
    "Jayden Struble",
-   "Brady Skjei",
-   "Nick Perbix"
+   "Daemon Hunt"
   ],
   "inj": {
    "William Trudeau": "IR"
@@ -349,7 +349,7 @@
   }
  },
  "NYI": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Simon Holmstrom",
@@ -379,7 +379,7 @@
   }
  },
  "LAK": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
@@ -408,7 +408,7 @@
   }
  },
  "DAL": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Sam Steel",
@@ -468,7 +468,7 @@
   }
  },
  "STL": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake Neighbours",
@@ -555,7 +555,7 @@
   }
  },
  "MIN": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kirill Kaprizov",
@@ -705,7 +705,7 @@
   }
  },
  "VAN": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake DeBrusk",
@@ -789,7 +789,7 @@
   }
  },
  "MTL": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cole Caufield",
@@ -807,13 +807,14 @@
    "Lane Hutson",
    "Noah Dobson",
    "Kaiden Guhle",
-   "Mike Matheson",
-   "Adam Engstrom",
-   "Alexandre Carrier"
+   "Alexandre Carrier",
+   "Arber Xhekaj",
+   "Adam Engstrom"
   ],
   "inj": {
    "Ivan Demidov": "IR",
-   "Sam Montembeault": "IR"
+   "Sam Montembeault": "IR",
+   "Mike Matheson": "IR"
   }
  },
  "TBL": {
@@ -872,7 +873,7 @@
   }
  },
  "WSH": {
-  "asof": "2026-10-29T23:30Z",
+  "asof": "2026-10-29T23:56Z",
   "source": "Daily Faceoff",
   "lines": [
    "Aliaksei Protas",
