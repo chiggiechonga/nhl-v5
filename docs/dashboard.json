@@ -1251,7 +1251,7 @@
    "game": "TOR@SEA",
    "source": "Kalshi moneyline",
    "home_prob": 0.455,
-   "note": "auto 01:47Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%"
+   "note": "auto 01:54Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%"
   }
  ],
  "lineups": {
@@ -1430,7 +1430,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-29T01:47Z",
+   "asof": "2026-10-29T01:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -1463,7 +1463,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-29T01:47Z",
+   "asof": "2026-10-29T01:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1647,5 +1647,5 @@
    "cum": 12.27
   }
  ],
- "made": "2026-10-29T01:47+00:00"
+ "made": "2026-10-29T01:54+00:00"
 }
