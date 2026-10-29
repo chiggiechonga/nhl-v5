@@ -28544,7 +28544,7 @@
   "date": "2026-10-29",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-29T18:00+00:00Z",
+  "made_at": "2026-10-29T18:17+00:00Z",
   "away": "WSH",
   "home": "NSH",
   "p_home": 0.4855,
@@ -28560,7 +28560,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "WSH": {
-    "asof": "2026-10-29T17:59Z",
+    "asof": "2026-10-29T18:16Z",
     "source": "Daily Faceoff",
     "lines": [
      "Aliaksei Protas",
@@ -28588,7 +28588,7 @@
     }
    },
    "NSH": {
-    "asof": "2026-10-29T17:59Z",
+    "asof": "2026-10-29T18:16Z",
     "source": "Daily Faceoff",
     "lines": [
      "Steven Stamkos",
@@ -28816,7 +28816,7 @@
   "date": "2026-10-29",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-29T18:00+00:00Z",
+  "made_at": "2026-10-29T18:17+00:00Z",
   "away": "BUF",
   "home": "ANA",
   "p_home": 0.5054,
@@ -28832,7 +28832,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "BUF": {
-    "asof": "2026-10-29T17:59Z",
+    "asof": "2026-10-29T18:16Z",
     "source": "Daily Faceoff",
     "lines": [
      "Zach Benson",
@@ -28862,7 +28862,7 @@
     }
    },
    "ANA": {
-    "asof": "2026-10-29T17:59Z",
+    "asof": "2026-10-29T18:16Z",
     "source": "Daily Faceoff",
     "lines": [
      "Alex Killorn",
@@ -29093,7 +29093,7 @@
   "date": "2026-10-29",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-29T18:00+00:00Z",
+  "made_at": "2026-10-29T18:17+00:00Z",
   "away": "OTT",
   "home": "LAK",
   "p_home": 0.4778,
@@ -29109,7 +29109,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "OTT": {
-    "asof": "2026-10-29T17:59Z",
+    "asof": "2026-10-29T18:16Z",
     "source": "Daily Faceoff",
     "lines": [
      "Fabian Zetterlund",
@@ -29137,7 +29137,7 @@
     }
    },
    "LAK": {
-    "asof": "2026-10-29T17:59Z",
+    "asof": "2026-10-29T18:16Z",
     "source": "Daily Faceoff",
     "lines": [
      "Artemi Panarin",
@@ -29369,7 +29369,7 @@
   "date": "2026-10-29",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-29T18:00+00:00Z",
+  "made_at": "2026-10-29T18:17+00:00Z",
   "away": "VAN",
   "home": "SJS",
   "p_home": 0.6003,
@@ -29385,7 +29385,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "VAN": {
-    "asof": "2026-10-29T17:59Z",
+    "asof": "2026-10-29T18:16Z",
     "source": "Daily Faceoff",
     "lines": [
      "Jake DeBrusk",
@@ -29412,7 +29412,7 @@
     }
    },
    "SJS": {
-    "asof": "2026-10-29T17:59Z",
+    "asof": "2026-10-29T18:16Z",
     "source": "Daily Faceoff",
     "lines": [
      "Ivar Stenberg",
