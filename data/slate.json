@@ -48,7 +48,7 @@
    "time": "7:30 ET",
    "start": "2026-10-29T23:30:00Z",
    "gid": 2026020203,
-   "started": false,
+   "started": true,
    "goalie_a": "Spencer Knight",
    "status_a": "unconfirmed",
    "goalie_h": "John Gibson",

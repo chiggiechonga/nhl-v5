@@ -30,7 +30,7 @@
   }
  },
  "BUF": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Peyton Krebs",
@@ -91,7 +91,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -147,7 +147,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -177,7 +177,7 @@
   }
  },
  "SJS": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivar Stenberg",
@@ -234,7 +234,7 @@
   }
  },
  "BOS": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "JJ Peterka",
@@ -259,7 +259,7 @@
   "inj": {}
  },
  "NSH": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Steven Stamkos",
@@ -349,7 +349,7 @@
   }
  },
  "NYI": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Simon Holmstrom",
@@ -379,7 +379,7 @@
   }
  },
  "LAK": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
@@ -408,7 +408,7 @@
   }
  },
  "DAL": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Sam Steel",
@@ -468,7 +468,7 @@
   }
  },
  "STL": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake Neighbours",
@@ -555,7 +555,7 @@
   }
  },
  "MIN": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kirill Kaprizov",
@@ -705,7 +705,7 @@
   }
  },
  "VAN": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake DeBrusk",
@@ -789,7 +789,7 @@
   }
  },
  "MTL": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cole Caufield",
@@ -872,7 +872,7 @@
   }
  },
  "WSH": {
-  "asof": "2026-10-29T23:04Z",
+  "asof": "2026-10-29T23:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Aliaksei Protas",
