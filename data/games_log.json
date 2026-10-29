@@ -1114,5 +1114,17 @@
   "winner": "EDM",
   "date": "2026-10-28",
   "id": "2026-10-28_CGY@EDM"
+ },
+ {
+  "away": "NJD",
+  "home": "COL",
+  "ag": 2,
+  "hg": 5,
+  "a_sh": 22,
+  "h_sh": 44,
+  "ot": null,
+  "winner": "COL",
+  "date": "2026-10-28",
+  "id": "2026-10-28_NJD@COL"
  }
 ]

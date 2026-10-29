@@ -1,24 +1,12 @@
 {
  "mode": "grade",
- "at": "2026-10-29T03:36+00:00",
+ "at": "2026-10-29T04:02+00:00",
  "ok": [
-  "graded 2026-10-28_CGY@EDM: 0-4, shots 24-32",
+  "graded 2026-10-28_NJD@COL: 2-5, shots 22-44",
   "1 games and 10 player rows added"
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-29T00:38+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
-  {
-   "mode": "plan",
-   "at": "2026-10-29T01:03+00:00",
-   "n_ok": 5,
-   "problems": []
-  },
   {
    "mode": "plan",
    "at": "2026-10-29T01:29+00:00",
@@ -64,6 +52,18 @@
   {
    "mode": "grade",
    "at": "2026-10-29T03:36+00:00",
+   "n_ok": 2,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-29T04:01+00:00",
+   "n_ok": 5,
+   "problems": []
+  },
+  {
+   "mode": "grade",
+   "at": "2026-10-29T04:02+00:00",
    "n_ok": 2,
    "problems": []
   }
