@@ -1369,7 +1369,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-10-29T00:12Z",
+   "asof": "2026-10-29T00:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Arseny Gritsyuk",
@@ -1396,7 +1396,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-29T00:12Z",
+   "asof": "2026-10-29T00:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -1423,7 +1423,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-29T00:12Z",
+   "asof": "2026-10-29T00:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -1456,7 +1456,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-29T00:12Z",
+   "asof": "2026-10-29T00:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1502,22 +1502,16 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-28T23:46+00:00",
+  "at": "2026-10-29T00:12+00:00",
   "ok": [
    "4 games on 2026-10-28",
    "Daily Faceoff goalies parsed for 8 teams",
    "lineups refreshed for 6/6 teams",
-   "Kalshi: 4 NHL games priced, 0 new rows",
+   "Kalshi: 4 NHL games priced, 1 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-28T19:53+00:00",
-    "n_ok": 5,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-28T20:19+00:00",
@@ -1569,6 +1563,12 @@
    {
     "mode": "plan",
     "at": "2026-10-28T23:46+00:00",
+    "n_ok": 5,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-29T00:12+00:00",
     "n_ok": 5,
     "problems": []
    }
@@ -1640,5 +1640,5 @@
    "cum": 12.27
   }
  ],
- "made": "2026-10-29T00:12+00:00"
+ "made": "2026-10-29T00:38+00:00"
 }
