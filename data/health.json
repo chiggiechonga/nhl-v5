@@ -1,21 +1,11 @@
 {
- "mode": "plan",
- "at": "2026-10-29T08:18+00:00",
+ "mode": "players",
+ "at": "2026-10-29T15:45+00:00",
  "ok": [
-  "11 games on 2026-10-29",
-  "Daily Faceoff goalies parsed for 22 teams",
-  "lineups refreshed for 22/22 teams",
-  "Kalshi: 11 NHL games priced, 3 new rows",
-  "nothing new to log (no new games, no goalie changes)"
+  "players_base refreshed: 689 updated, 2 added"
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "grade",
-   "at": "2026-10-29T03:36+00:00",
-   "n_ok": 2,
-   "problems": []
-  },
   {
    "mode": "plan",
    "at": "2026-10-29T04:01+00:00",
@@ -68,6 +58,12 @@
    "mode": "plan",
    "at": "2026-10-29T08:18+00:00",
    "n_ok": 5,
+   "problems": []
+  },
+  {
+   "mode": "players",
+   "at": "2026-10-29T15:45+00:00",
+   "n_ok": 1,
    "problems": []
   }
  ]

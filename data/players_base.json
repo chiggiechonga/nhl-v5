@@ -7,12 +7,12 @@
   "g25": 27.0,
   "a25": 50.0,
   "s25": 228.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 4.0,
   "a26": 10.0,
-  "s26": 45.0,
+  "s26": 47.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nico Hischier",
@@ -22,12 +22,12 @@
   "g25": 28.0,
   "a25": 38.0,
   "s25": 211.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 7.0,
   "a26": 2.0,
-  "s26": 29.0,
+  "s26": 32.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jesper Bratt",
@@ -37,12 +37,12 @@
   "g25": 22.0,
   "a25": 49.0,
   "s25": 178.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 2.0,
   "a26": 9.0,
-  "s26": 26.0,
+  "s26": 28.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Timo Meier",
@@ -52,12 +52,12 @@
   "g25": 24.0,
   "a25": 20.0,
   "s25": 269.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 1.0,
   "a26": 4.0,
-  "s26": 46.0,
+  "s26": 47.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dougie Hamilton",
@@ -67,12 +67,12 @@
   "g25": 12.0,
   "a25": 27.0,
   "s25": 203.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 1.0,
   "a26": 5.0,
-  "s26": 31.0,
+  "s26": 33.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Arseny Gritsyuk",
@@ -82,12 +82,12 @@
   "g25": 13.0,
   "a25": 18.0,
   "s25": 149.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 6.0,
   "a26": 4.0,
-  "s26": 26.0,
+  "s26": 27.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Luke Hughes",
@@ -97,12 +97,12 @@
   "g25": 6.0,
   "a25": 29.0,
   "s25": 150.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 4.0,
   "a26": 2.0,
   "s26": 34.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex DeBrincat",
@@ -117,7 +117,7 @@
   "a26": 7.0,
   "s26": 44.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Lucas Raymond",
@@ -132,7 +132,7 @@
   "a26": 8.0,
   "s26": 37.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dylan Larkin",
@@ -147,7 +147,7 @@
   "a26": 4.0,
   "s26": 32.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Moritz Seider",
@@ -162,7 +162,7 @@
   "a26": 6.0,
   "s26": 23.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sam Reinhart",
@@ -177,7 +177,7 @@
   "a26": 4.0,
   "s26": 39.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brady Tkachuk",
@@ -192,7 +192,7 @@
   "a26": 7.0,
   "s26": 40.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matthew Tkachuk",
@@ -207,7 +207,7 @@
   "a26": 16.0,
   "s26": 27.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sam Bennett",
@@ -222,7 +222,7 @@
   "a26": 3.0,
   "s26": 32.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Anton Lundell",
@@ -237,7 +237,7 @@
   "a26": 2.0,
   "s26": 34.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Seth Jones",
@@ -252,7 +252,7 @@
   "a26": 14.0,
   "s26": 36.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adam Fantilli",
@@ -267,7 +267,7 @@
   "a26": 2.0,
   "s26": 29.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Charlie Coyle",
@@ -282,7 +282,7 @@
   "a26": 7.0,
   "s26": 17.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matthew Knies",
@@ -297,7 +297,7 @@
   "a26": 3.0,
   "s26": 18.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Valeri Nichushkin",
@@ -312,7 +312,7 @@
   "a26": 5.0,
   "s26": 13.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kent Johnson",
@@ -327,7 +327,7 @@
   "a26": 4.0,
   "s26": 22.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Boone Jenner",
@@ -337,12 +337,12 @@
   "g25": 13.0,
   "a25": 25.0,
   "s25": 132.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 4.0,
   "a26": 1.0,
   "s26": 25.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Denton Mateychuk",
@@ -357,7 +357,7 @@
   "a26": 1.0,
   "s26": 21.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tage Thompson",
@@ -372,7 +372,7 @@
   "a26": 5.0,
   "s26": 51.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Rasmus Dahlin",
@@ -385,9 +385,9 @@
   "gp26": 9.0,
   "g26": 2.0,
   "a26": 3.0,
-  "s26": 27.0,
+  "s26": 28.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Josh Doan",
@@ -402,7 +402,7 @@
   "a26": 1.0,
   "s26": 17.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jack Quinn",
@@ -417,7 +417,7 @@
   "a26": 5.0,
   "s26": 34.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zach Benson",
@@ -432,7 +432,7 @@
   "a26": 7.0,
   "s26": 26.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Owen Power",
@@ -447,7 +447,7 @@
   "a26": 9.0,
   "s26": 16.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick Suzuki",
@@ -462,7 +462,7 @@
   "a26": 7.0,
   "s26": 26.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cole Caufield",
@@ -477,7 +477,7 @@
   "a26": 4.0,
   "s26": 39.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Lane Hutson",
@@ -492,7 +492,7 @@
   "a26": 7.0,
   "s26": 23.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Juraj Slafkovsky",
@@ -507,7 +507,7 @@
   "a26": 6.0,
   "s26": 32.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Chris Kreider",
@@ -522,7 +522,7 @@
   "a26": 3.0,
   "s26": 10.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zachary Bolduc",
@@ -537,7 +537,7 @@
   "a26": 2.0,
   "s26": 20.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex Ovechkin",
@@ -547,12 +547,12 @@
   "g25": 32.0,
   "a25": 32.0,
   "s25": 244.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 1.0,
   "a26": 3.0,
-  "s26": 14.0,
+  "s26": 16.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tom Wilson",
@@ -562,12 +562,12 @@
   "g25": 30.0,
   "a25": 32.0,
   "s25": 153.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 2.0,
   "a26": 3.0,
-  "s26": 22.0,
+  "s26": 23.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex Tuch",
@@ -577,12 +577,12 @@
   "g25": 33.0,
   "a25": 33.0,
   "s25": 195.0,
-  "gp26": 10.0,
-  "g26": 7.0,
+  "gp26": 11.0,
+  "g26": 9.0,
   "a26": 2.0,
-  "s26": 27.0,
+  "s26": 32.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dylan Strome",
@@ -592,12 +592,12 @@
   "g25": 19.0,
   "a25": 39.0,
   "s25": 143.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 3.0,
-  "a26": 6.0,
-  "s26": 24.0,
+  "a26": 9.0,
+  "s26": 26.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jakob Chychrun",
@@ -607,12 +607,12 @@
   "g25": 26.0,
   "a25": 34.0,
   "s25": 221.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 1.0,
-  "a26": 6.0,
-  "s26": 31.0,
+  "a26": 7.0,
+  "s26": 32.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sebastian Aho",
@@ -627,7 +627,7 @@
   "a26": 11.0,
   "s26": 43.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Andrei Svechnikov",
@@ -642,7 +642,7 @@
   "a26": 7.0,
   "s26": 40.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nikolaj Ehlers",
@@ -657,7 +657,7 @@
   "a26": 7.0,
   "s26": 30.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Logan Stankoven",
@@ -672,7 +672,7 @@
   "a26": 3.0,
   "s26": 43.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Shayne Gostisbehere",
@@ -687,7 +687,7 @@
   "a26": 7.0,
   "s26": 25.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matty Beniers",
@@ -697,12 +697,12 @@
   "g25": 20.0,
   "a25": 30.0,
   "s25": 149.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 3.0,
-  "a26": 2.0,
+  "a26": 4.0,
   "s26": 13.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jared McCann",
@@ -717,7 +717,7 @@
   "a26": 5.0,
   "s26": 28.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Bobby McMann",
@@ -727,12 +727,12 @@
   "g25": 29.0,
   "a25": 17.0,
   "s25": 183.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 3.0,
   "a26": 2.0,
-  "s26": 30.0,
+  "s26": 34.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Vince Dunn",
@@ -742,12 +742,12 @@
   "g25": 11.0,
   "a25": 33.0,
   "s25": 179.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 2.0,
-  "a26": 6.0,
-  "s26": 22.0,
+  "a26": 7.0,
+  "s26": 24.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Chandler Stephenson",
@@ -757,12 +757,12 @@
   "g25": 16.0,
   "a25": 33.0,
   "s25": 93.0,
-  "gp26": 12.0,
-  "g26": 1.0,
-  "a26": 8.0,
-  "s26": 8.0,
+  "gp26": 13.0,
+  "g26": 2.0,
+  "a26": 9.0,
+  "s26": 9.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matvei Michkov",
@@ -772,12 +772,12 @@
   "g25": 20.0,
   "a25": 31.0,
   "s25": 163.0,
-  "gp26": 14.0,
-  "g26": 8.0,
+  "gp26": 15.0,
+  "g26": 9.0,
   "a26": 2.0,
-  "s26": 20.0,
+  "s26": 21.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Owen Tippett",
@@ -792,7 +792,7 @@
   "a26": 1.0,
   "s26": 21.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Christian Dvorak",
@@ -802,12 +802,12 @@
   "g25": 18.0,
   "a25": 33.0,
   "s25": 151.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 2.0,
   "a26": 3.0,
-  "s26": 18.0,
+  "s26": 19.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Travis Sanheim",
@@ -817,12 +817,12 @@
   "g25": 11.0,
   "a25": 26.0,
   "s25": 95.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 1.0,
   "a26": 4.0,
   "s26": 27.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nikita Kucherov",
@@ -837,7 +837,7 @@
   "a26": 10.0,
   "s26": 31.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jake Guentzel",
@@ -852,7 +852,7 @@
   "a26": 5.0,
   "s26": 29.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brandon Hagel",
@@ -867,7 +867,7 @@
   "a26": 6.0,
   "s26": 50.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brayden Point",
@@ -882,7 +882,7 @@
   "a26": 7.0,
   "s26": 22.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mika Zibanejad",
@@ -897,7 +897,7 @@
   "a26": 8.0,
   "s26": 25.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alexis Lafreniere",
@@ -912,7 +912,7 @@
   "a26": 7.0,
   "s26": 32.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Pavel Dorofeyev",
@@ -927,7 +927,7 @@
   "a26": 5.0,
   "s26": 42.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Gabe Perreault",
@@ -942,7 +942,7 @@
   "a26": 3.0,
   "s26": 28.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Vladislav Gavrikov",
@@ -957,7 +957,7 @@
   "a26": 5.0,
   "s26": 20.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Robert Thomas",
@@ -972,7 +972,7 @@
   "a26": 5.0,
   "s26": 12.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jimmy Snuggerud",
@@ -987,7 +987,7 @@
   "a26": 2.0,
   "s26": 27.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dylan Holloway",
@@ -1002,7 +1002,7 @@
   "a26": 7.0,
   "s26": 28.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Pavel Buchnevich",
@@ -1017,7 +1017,7 @@
   "a26": 4.0,
   "s26": 19.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tim Stutzle",
@@ -1032,7 +1032,7 @@
   "a26": 8.0,
   "s26": 25.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Drake Batherson",
@@ -1047,7 +1047,7 @@
   "a26": 6.0,
   "s26": 29.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Shane Pinto",
@@ -1062,7 +1062,7 @@
   "a26": 5.0,
   "s26": 26.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Claude Giroux",
@@ -1077,7 +1077,7 @@
   "a26": 6.0,
   "s26": 18.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dylan Cozens",
@@ -1092,7 +1092,7 @@
   "a26": 4.0,
   "s26": 28.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Thomas Chabot",
@@ -1107,7 +1107,7 @@
   "a26": 3.0,
   "s26": 19.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Elias Pettersson",
@@ -1122,7 +1122,7 @@
   "a26": 1.0,
   "s26": 13.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brock Boeser",
@@ -1137,7 +1137,7 @@
   "a26": 8.0,
   "s26": 22.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jake DeBrusk",
@@ -1152,7 +1152,7 @@
   "a26": 5.0,
   "s26": 26.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Filip Hronek",
@@ -1167,7 +1167,7 @@
   "a26": 9.0,
   "s26": 14.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Marco Rossi",
@@ -1182,7 +1182,7 @@
   "a26": 2.0,
   "s26": 18.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Bo Horvat",
@@ -1197,7 +1197,7 @@
   "a26": 7.0,
   "s26": 38.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matthew Schaefer",
@@ -1212,7 +1212,7 @@
   "a26": 9.0,
   "s26": 44.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Anders Lee",
@@ -1227,7 +1227,7 @@
   "a26": 3.0,
   "s26": 23.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brayden Schenn",
@@ -1242,7 +1242,7 @@
   "a26": 5.0,
   "s26": 24.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Emil Heineman",
@@ -1257,7 +1257,7 @@
   "a26": 3.0,
   "s26": 19.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sidney Crosby",
@@ -1272,7 +1272,7 @@
   "a26": 4.0,
   "s26": 22.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Evgeni Malkin",
@@ -1287,7 +1287,7 @@
   "a26": 3.0,
   "s26": 22.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Bryan Rust",
@@ -1302,7 +1302,7 @@
   "a26": 2.0,
   "s26": 9.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Erik Karlsson",
@@ -1317,7 +1317,7 @@
   "a26": 11.0,
   "s26": 20.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tommy Novak",
@@ -1332,7 +1332,7 @@
   "a26": 5.0,
   "s26": 18.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Egor Chinakhov",
@@ -1347,7 +1347,7 @@
   "a26": 1.0,
   "s26": 14.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tyler Bertuzzi",
@@ -1362,7 +1362,7 @@
   "a26": 3.0,
   "s26": 15.0,
   "old": "CHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Frank Nazar",
@@ -1377,7 +1377,7 @@
   "a26": 2.0,
   "s26": 16.0,
   "old": "CHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Donato",
@@ -1392,7 +1392,7 @@
   "a26": 1.0,
   "s26": 14.0,
   "old": "CHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Andre Burakovsky",
@@ -1407,7 +1407,7 @@
   "a26": 0.0,
   "s26": 2.0,
   "old": "CHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kirill Kaprizov",
@@ -1422,7 +1422,7 @@
   "a26": 9.0,
   "s26": 48.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matt Boldy",
@@ -1437,7 +1437,7 @@
   "a26": 7.0,
   "s26": 61.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Quinn Hughes",
@@ -1452,7 +1452,7 @@
   "a26": 15.0,
   "s26": 40.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Joel Eriksson Ek",
@@ -1467,7 +1467,7 @@
   "a26": 7.0,
   "s26": 48.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Hartman",
@@ -1482,7 +1482,7 @@
   "a26": 2.0,
   "s26": 15.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mark Scheifele",
@@ -1497,7 +1497,7 @@
   "a26": 6.0,
   "s26": 28.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kyle Connor",
@@ -1512,7 +1512,7 @@
   "a26": 3.0,
   "s26": 52.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Gabriel Vilardi",
@@ -1527,7 +1527,7 @@
   "a26": 5.0,
   "s26": 23.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cole Perfetti",
@@ -1542,7 +1542,7 @@
   "a26": 3.0,
   "s26": 35.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nathan MacKinnon",
@@ -1552,12 +1552,12 @@
   "g25": 53.0,
   "a25": 74.0,
   "s25": 350.0,
-  "gp26": 12.0,
-  "g26": 7.0,
+  "gp26": 13.0,
+  "g26": 8.0,
   "a26": 14.0,
-  "s26": 50.0,
+  "s26": 52.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Martin Necas",
@@ -1567,12 +1567,12 @@
   "g25": 38.0,
   "a25": 62.0,
   "s25": 206.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 6.0,
   "a26": 10.0,
-  "s26": 24.0,
+  "s26": 28.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cale Makar",
@@ -1582,12 +1582,12 @@
   "g25": 20.0,
   "a25": 59.0,
   "s25": 199.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 3.0,
   "a26": 8.0,
-  "s26": 28.0,
+  "s26": 34.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brock Nelson",
@@ -1597,12 +1597,12 @@
   "g25": 33.0,
   "a25": 32.0,
   "s25": 186.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 3.0,
   "a26": 5.0,
-  "s26": 21.0,
+  "s26": 24.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nazem Kadri",
@@ -1612,12 +1612,12 @@
   "g25": 16.0,
   "a25": 34.0,
   "s25": 213.0,
-  "gp26": 12.0,
-  "g26": 1.0,
-  "a26": 7.0,
-  "s26": 31.0,
+  "gp26": 13.0,
+  "g26": 2.0,
+  "a26": 8.0,
+  "s26": 33.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Artturi Lehkonen",
@@ -1627,12 +1627,12 @@
   "g25": 21.0,
   "a25": 27.0,
   "s25": 153.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 10.0,
-  "a26": 4.0,
-  "s26": 22.0,
+  "a26": 5.0,
+  "s26": 24.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jason Robertson",
@@ -1647,7 +1647,7 @@
   "a26": 8.0,
   "s26": 39.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Wyatt Johnston",
@@ -1662,7 +1662,7 @@
   "a26": 6.0,
   "s26": 27.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mikko Rantanen",
@@ -1677,7 +1677,7 @@
   "a26": 8.0,
   "s26": 24.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Miro Heiskanen",
@@ -1692,7 +1692,7 @@
   "a26": 5.0,
   "s26": 22.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Roope Hintz",
@@ -1707,7 +1707,7 @@
   "a26": 5.0,
   "s26": 25.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jack Eichel",
@@ -1722,7 +1722,7 @@
   "a26": 13.0,
   "s26": 38.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mitch Marner",
@@ -1737,7 +1737,7 @@
   "a26": 11.0,
   "s26": 30.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mark Stone",
@@ -1752,7 +1752,7 @@
   "a26": 8.0,
   "s26": 29.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tomas Hertl",
@@ -1767,7 +1767,7 @@
   "a26": 3.0,
   "s26": 33.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Shea Theodore",
@@ -1782,7 +1782,7 @@
   "a26": 3.0,
   "s26": 31.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Filip Forsberg",
@@ -1797,7 +1797,7 @@
   "a26": 10.0,
   "s26": 32.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan O'Reilly",
@@ -1812,7 +1812,7 @@
   "a26": 6.0,
   "s26": 27.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Steven Stamkos",
@@ -1827,7 +1827,7 @@
   "a26": 8.0,
   "s26": 24.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jonathan Marchessault",
@@ -1842,7 +1842,7 @@
   "a26": 3.0,
   "s26": 22.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Auston Matthews",
@@ -1852,12 +1852,12 @@
   "g25": 27.0,
   "a25": 26.0,
   "s25": 227.0,
-  "gp26": 14.0,
-  "g26": 9.0,
-  "a26": 11.0,
-  "s26": 40.0,
+  "gp26": 15.0,
+  "g26": 10.0,
+  "a26": 13.0,
+  "s26": 44.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "William Nylander",
@@ -1867,12 +1867,12 @@
   "g25": 30.0,
   "a25": 49.0,
   "s25": 156.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 9.0,
   "a26": 10.0,
-  "s26": 41.0,
+  "s26": 44.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "John Tavares",
@@ -1887,7 +1887,7 @@
   "a26": 5.0,
   "s26": 17.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kirill Marchenko",
@@ -1902,7 +1902,7 @@
   "a26": 8.0,
   "s26": 35.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Morgan Rielly",
@@ -1912,12 +1912,12 @@
   "g25": 11.0,
   "a25": 25.0,
   "s25": 141.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 0.0,
   "a26": 10.0,
   "s26": 18.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Clayton Keller",
@@ -1932,7 +1932,7 @@
   "a26": 11.0,
   "s26": 29.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick Schmaltz",
@@ -1947,7 +1947,7 @@
   "a26": 7.0,
   "s26": 35.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dylan Guenther",
@@ -1962,7 +1962,7 @@
   "a26": 5.0,
   "s26": 39.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Logan Cooley",
@@ -1977,7 +1977,7 @@
   "a26": 8.0,
   "s26": 16.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mikhail Sergachev",
@@ -1992,7 +1992,7 @@
   "a26": 12.0,
   "s26": 32.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matt Coronato",
@@ -2002,12 +2002,12 @@
   "g25": 18.0,
   "a25": 27.0,
   "s25": 197.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 2.0,
   "a26": 8.0,
-  "s26": 26.0,
+  "s26": 29.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mikael Backlund",
@@ -2017,12 +2017,12 @@
   "g25": 17.0,
   "a25": 26.0,
   "s25": 186.0,
-  "gp26": 9.0,
+  "gp26": 10.0,
   "g26": 2.0,
   "a26": 1.0,
-  "s26": 25.0,
+  "s26": 27.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Morgan Frost",
@@ -2032,12 +2032,12 @@
   "g25": 22.0,
   "a25": 21.0,
   "s25": 140.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 3.0,
   "a26": 4.0,
-  "s26": 23.0,
+  "s26": 24.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Joel Farabee",
@@ -2047,12 +2047,12 @@
   "g25": 20.0,
   "a25": 18.0,
   "s25": 142.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 3.0,
   "a26": 8.0,
-  "s26": 26.0,
+  "s26": 29.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cutter Gauthier",
@@ -2067,7 +2067,7 @@
   "a26": 5.0,
   "s26": 38.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Leo Carlsson",
@@ -2082,7 +2082,7 @@
   "a26": 11.0,
   "s26": 15.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Beckett Sennecke",
@@ -2097,7 +2097,7 @@
   "a26": 3.0,
   "s26": 29.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jackson LaCombe",
@@ -2112,7 +2112,7 @@
   "a26": 11.0,
   "s26": 7.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mikael Granlund",
@@ -2127,7 +2127,7 @@
   "a26": 6.0,
   "s26": 19.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Connor McDavid",
@@ -2137,12 +2137,12 @@
   "g25": 48.0,
   "a25": 90.0,
   "s25": 306.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 8.0,
-  "a26": 26.0,
-  "s26": 30.0,
+  "a26": 28.0,
+  "s26": 33.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Leon Draisaitl",
@@ -2152,12 +2152,12 @@
   "g25": 35.0,
   "a25": 62.0,
   "s25": 186.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 12.0,
   "a26": 12.0,
-  "s26": 46.0,
+  "s26": 48.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Evan Bouchard",
@@ -2167,12 +2167,12 @@
   "g25": 21.0,
   "a25": 74.0,
   "s25": 221.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 7.0,
-  "a26": 14.0,
-  "s26": 35.0,
+  "a26": 15.0,
+  "s26": 39.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Vasily Podkolzin",
@@ -2182,12 +2182,12 @@
   "g25": 19.0,
   "a25": 18.0,
   "s25": 139.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 8.0,
   "a26": 5.0,
-  "s26": 27.0,
+  "s26": 29.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adrian Kempe",
@@ -2202,7 +2202,7 @@
   "a26": 5.0,
   "s26": 36.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Quinton Byfield",
@@ -2217,7 +2217,7 @@
   "a26": 1.0,
   "s26": 22.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Artemi Panarin",
@@ -2232,7 +2232,7 @@
   "a26": 4.0,
   "s26": 32.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex Laferriere",
@@ -2247,7 +2247,7 @@
   "a26": 7.0,
   "s26": 23.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "David Pastrnak",
@@ -2262,7 +2262,7 @@
   "a26": 11.0,
   "s26": 43.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Morgan Geekie",
@@ -2277,7 +2277,7 @@
   "a26": 8.0,
   "s26": 14.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Pavel Zacha",
@@ -2292,7 +2292,7 @@
   "a26": 5.0,
   "s26": 20.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Charlie McAvoy",
@@ -2307,7 +2307,7 @@
   "a26": 5.0,
   "s26": 9.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Casey Mittelstadt",
@@ -2322,7 +2322,7 @@
   "a26": 3.0,
   "s26": 19.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Macklin Celebrini",
@@ -2337,7 +2337,7 @@
   "a26": 10.0,
   "s26": 44.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Will Smith",
@@ -2352,7 +2352,7 @@
   "a26": 4.0,
   "s26": 35.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tyler Toffoli",
@@ -2367,7 +2367,7 @@
   "a26": 5.0,
   "s26": 28.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Collin Graf",
@@ -2382,7 +2382,7 @@
   "a26": 1.0,
   "s26": 18.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Patrick Kane",
@@ -2397,7 +2397,7 @@
   "a26": 7.0,
   "s26": 22.0,
   "old": "CHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Trevor Zegras",
@@ -2407,12 +2407,12 @@
   "g25": 26.0,
   "a25": 41.0,
   "s25": 167.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 4.0,
-  "a26": 8.0,
-  "s26": 30.0,
+  "a26": 9.0,
+  "s26": 34.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Darren Raddysh",
@@ -2422,12 +2422,12 @@
   "g25": 22.0,
   "a25": 48.0,
   "s25": 212.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 0.0,
-  "a26": 6.0,
-  "s26": 32.0,
+  "a26": 8.0,
+  "s26": 33.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Evan Rodrigues",
@@ -2437,12 +2437,12 @@
   "g25": 11.0,
   "a25": 20.0,
   "s25": 160.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 2.0,
   "a26": 3.0,
-  "s26": 16.0,
+  "s26": 17.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Emmitt Finnie",
@@ -2457,7 +2457,7 @@
   "a26": 3.0,
   "s26": 24.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mason McTavish",
@@ -2472,7 +2472,7 @@
   "a26": 4.0,
   "s26": 36.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Pius Suter",
@@ -2487,7 +2487,7 @@
   "a26": 3.0,
   "s26": 15.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dawson Mercer",
@@ -2502,7 +2502,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jonas Siegenthaler",
@@ -2512,12 +2512,12 @@
   "g25": 0.0,
   "a25": 16.0,
   "s25": 60.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 0.0,
   "a26": 2.0,
-  "s26": 3.0,
+  "s26": 4.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex Killorn",
@@ -2532,7 +2532,7 @@
   "a26": 3.0,
   "s26": 19.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Michael Amadio",
@@ -2547,7 +2547,7 @@
   "a26": 3.0,
   "s26": 15.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Fabian Zetterlund",
@@ -2562,7 +2562,7 @@
   "a26": 4.0,
   "s26": 26.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ridly Greig",
@@ -2577,7 +2577,7 @@
   "a26": 2.0,
   "s26": 16.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jake Sanderson",
@@ -2592,7 +2592,7 @@
   "a26": 4.0,
   "s26": 12.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Michael Misa",
@@ -2607,7 +2607,7 @@
   "a26": 4.0,
   "s26": 13.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alexander Wennberg",
@@ -2622,7 +2622,7 @@
   "a26": 3.0,
   "s26": 14.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dmitry Orlov",
@@ -2637,7 +2637,7 @@
   "a26": 3.0,
   "s26": 13.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Benjamin Kindel",
@@ -2652,7 +2652,7 @@
   "a26": 2.0,
   "s26": 23.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Rickard Rakell",
@@ -2667,7 +2667,7 @@
   "a26": 3.0,
   "s26": 30.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kris Letang",
@@ -2682,7 +2682,7 @@
   "a26": 6.0,
   "s26": 23.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Carter Verhaeghe",
@@ -2697,7 +2697,7 @@
   "a26": 3.0,
   "s26": 25.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Gustav Forsling",
@@ -2712,7 +2712,7 @@
   "a26": 1.0,
   "s26": 16.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Eetu Luostarinen",
@@ -2727,7 +2727,7 @@
   "a26": 0.0,
   "s26": 17.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Fraser Minten",
@@ -2742,7 +2742,7 @@
   "a26": 5.0,
   "s26": 32.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Elias Lindholm",
@@ -2757,7 +2757,7 @@
   "a26": 7.0,
   "s26": 23.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mason Lohrei",
@@ -2772,7 +2772,7 @@
   "a26": 3.0,
   "s26": 12.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Hampus Lindholm",
@@ -2787,7 +2787,7 @@
   "a26": 3.0,
   "s26": 15.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Roman Josi",
@@ -2802,7 +2802,7 @@
   "a26": 11.0,
   "s26": 29.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matthew Wood",
@@ -2817,7 +2817,7 @@
   "a26": 2.0,
   "s26": 19.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brady Skjei",
@@ -2832,7 +2832,7 @@
   "a26": 3.0,
   "s26": 14.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Easton Cowan",
@@ -2842,12 +2842,12 @@
   "g25": 11.0,
   "a25": 18.0,
   "s25": 92.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 6.0,
-  "a26": 7.0,
-  "s26": 29.0,
+  "a26": 8.0,
+  "s26": 32.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adam Fox",
@@ -2862,7 +2862,7 @@
   "a26": 16.0,
   "s26": 17.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "J.T. Miller",
@@ -2877,7 +2877,7 @@
   "a26": 6.0,
   "s26": 22.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "William Cuylle",
@@ -2892,7 +2892,7 @@
   "a26": 4.0,
   "s26": 33.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Simon Holmstrom",
@@ -2907,7 +2907,7 @@
   "a26": 2.0,
   "s26": 19.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jean-Gabriel Pageau",
@@ -2922,7 +2922,7 @@
   "a26": 5.0,
   "s26": 15.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Anthony Duclair",
@@ -2937,7 +2937,7 @@
   "a26": 2.0,
   "s26": 14.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tony DeAngelo",
@@ -2952,7 +2952,7 @@
   "a26": 3.0,
   "s26": 14.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brandt Clarke",
@@ -2967,7 +2967,7 @@
   "a26": 5.0,
   "s26": 21.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Trevor Moore",
@@ -2982,7 +2982,7 @@
   "a26": 2.0,
   "s26": 20.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Thomas Harley",
@@ -2997,7 +2997,7 @@
   "a26": 5.0,
   "s26": 22.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sam Steel",
@@ -3012,7 +3012,7 @@
   "a26": 2.0,
   "s26": 13.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jamie Benn",
@@ -3027,7 +3027,7 @@
   "a26": 2.0,
   "s26": 15.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adam Lowry",
@@ -3042,7 +3042,7 @@
   "a26": 3.0,
   "s26": 11.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex Iafallo",
@@ -3057,7 +3057,7 @@
   "a26": 2.0,
   "s26": 18.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Josh Morrissey",
@@ -3072,7 +3072,7 @@
   "a26": 3.0,
   "s26": 12.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Philip Broberg",
@@ -3087,7 +3087,7 @@
   "a26": 4.0,
   "s26": 29.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jake Neighbours",
@@ -3102,7 +3102,7 @@
   "a26": 3.0,
   "s26": 23.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cam Fowler",
@@ -3117,7 +3117,7 @@
   "a26": 4.0,
   "s26": 13.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ivan Barbashev",
@@ -3132,7 +3132,7 @@
   "a26": 9.0,
   "s26": 17.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brett Howden",
@@ -3147,7 +3147,7 @@
   "a26": 3.0,
   "s26": 22.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Rasmus Andersson",
@@ -3162,7 +3162,7 @@
   "a26": 3.0,
   "s26": 24.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Noah Hanifin",
@@ -3177,7 +3177,7 @@
   "a26": 3.0,
   "s26": 17.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Yegor Sharangovich",
@@ -3187,12 +3187,12 @@
   "g25": 15.0,
   "a25": 14.0,
   "s25": 142.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 2.0,
   "a26": 2.0,
-  "s26": 18.0,
+  "s26": 19.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matvei Gridin",
@@ -3202,12 +3202,12 @@
   "g25": 6.0,
   "a25": 14.0,
   "s25": 70.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 4.0,
   "a26": 4.0,
-  "s26": 25.0,
+  "s26": 26.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Danila Yurov",
@@ -3222,7 +3222,7 @@
   "a26": 1.0,
   "s26": 19.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jared Spurgeon",
@@ -3237,7 +3237,7 @@
   "a26": 4.0,
   "s26": 13.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mattias Ekholm",
@@ -3247,12 +3247,12 @@
   "g25": 6.0,
   "a25": 35.0,
   "s25": 131.0,
-  "gp26": 10.0,
-  "g26": 1.0,
+  "gp26": 11.0,
+  "g26": 2.0,
   "a26": 2.0,
-  "s26": 9.0,
+  "s26": 12.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zach Hyman",
@@ -3267,7 +3267,7 @@
   "a26": 0.0,
   "s26": 12.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jackson Blake",
@@ -3282,7 +3282,7 @@
   "a26": 11.0,
   "s26": 42.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sean Walker",
@@ -3297,7 +3297,7 @@
   "a26": 6.0,
   "s26": 27.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Taylor Hall",
@@ -3312,7 +3312,7 @@
   "a26": 2.0,
   "s26": 17.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "K'Andre Miller",
@@ -3327,7 +3327,7 @@
   "a26": 3.0,
   "s26": 19.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kaapo Kakko",
@@ -3337,12 +3337,12 @@
   "g25": 13.0,
   "a25": 27.0,
   "s25": 78.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 2.0,
   "a26": 8.0,
   "s26": 11.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jordan Eberle",
@@ -3352,12 +3352,12 @@
   "g25": 26.0,
   "a25": 29.0,
   "s25": 168.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 4.0,
-  "a26": 5.0,
-  "s26": 30.0,
+  "a26": 6.0,
+  "s26": 31.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Frederick Gaudreau",
@@ -3367,12 +3367,12 @@
   "g25": 7.0,
   "a25": 17.0,
   "s25": 70.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 6.0,
-  "a26": 2.0,
+  "a26": 3.0,
   "s26": 14.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brandon Montour",
@@ -3382,12 +3382,12 @@
   "g25": 11.0,
   "a25": 21.0,
   "s25": 174.0,
-  "gp26": 11.0,
-  "g26": 2.0,
+  "gp26": 12.0,
+  "g26": 3.0,
   "a26": 7.0,
-  "s26": 20.0,
+  "s26": 21.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Barrett Hayton",
@@ -3402,7 +3402,7 @@
   "a26": 7.0,
   "s26": 26.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "John Marino",
@@ -3417,7 +3417,7 @@
   "a26": 3.0,
   "s26": 8.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Lawson Crouse",
@@ -3432,7 +3432,7 @@
   "a26": 3.0,
   "s26": 20.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Linus Karlsson",
@@ -3447,7 +3447,7 @@
   "a26": 6.0,
   "s26": 28.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Andrew Copp",
@@ -3462,7 +3462,7 @@
   "a26": 1.0,
   "s26": 22.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mattias Samuelsson",
@@ -3477,7 +3477,7 @@
   "a26": 5.0,
   "s26": 17.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Peyton Krebs",
@@ -3492,7 +3492,7 @@
   "a26": 4.0,
   "s26": 6.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Anton Frondell",
@@ -3507,7 +3507,7 @@
   "g26": 1.0,
   "a26": 5.0,
   "s26": 20.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Teuvo Teravainen",
@@ -3522,7 +3522,7 @@
   "g26": 2.0,
   "a26": 4.0,
   "s26": 10.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Connor Bedard",
@@ -3537,7 +3537,7 @@
   "g26": 2.0,
   "a26": 4.0,
   "s26": 14.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Wyatt Kaiser",
@@ -3552,7 +3552,7 @@
   "g26": 1.0,
   "a26": 3.0,
   "s26": 8.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Roman Kantserov",
@@ -3567,7 +3567,7 @@
   "g26": 5.0,
   "a26": 0.0,
   "s26": 22.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Oliver Moore",
@@ -3582,7 +3582,7 @@
   "g26": 2.0,
   "a26": 1.0,
   "s26": 16.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Artyom Levshunov",
@@ -3597,7 +3597,7 @@
   "g26": 1.0,
   "a26": 2.0,
   "s26": 18.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex Vlasic",
@@ -3612,7 +3612,7 @@
   "g26": 0.0,
   "a26": 2.0,
   "s26": 9.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cole Smith",
@@ -3627,7 +3627,7 @@
   "g26": 1.0,
   "a26": 1.0,
   "s26": 13.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sam Rinzel",
@@ -3642,7 +3642,7 @@
   "g26": 1.0,
   "a26": 1.0,
   "s26": 12.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick Lardis",
@@ -3657,7 +3657,7 @@
   "g26": 0.0,
   "a26": 2.0,
   "s26": 6.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Greene",
@@ -3672,7 +3672,7 @@
   "g26": 1.0,
   "a26": 2.0,
   "s26": 11.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jordan Greenway",
@@ -3687,7 +3687,7 @@
   "g26": 1.0,
   "a26": 0.0,
   "s26": 17.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Bowen Byram",
@@ -3702,7 +3702,7 @@
   "g26": 0.0,
   "a26": 1.0,
   "s26": 5.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kevin Korchinski",
@@ -3717,7 +3717,7 @@
   "g26": 0.0,
   "a26": 1.0,
   "s26": 2.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Andrew Mangiapane",
@@ -3732,7 +3732,7 @@
   "g26": 0.0,
   "a26": 1.0,
   "s26": 1.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ethan Del Mastro",
@@ -3747,7 +3747,7 @@
   "g26": 0.0,
   "a26": 0.0,
   "s26": 4.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ian Cole",
@@ -3762,7 +3762,7 @@
   "g26": 0.0,
   "a26": 0.0,
   "s26": 6.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dominic Toninato",
@@ -3777,7 +3777,7 @@
   "g26": 0.0,
   "a26": 0.0,
   "s26": 1.0,
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Frank Vatrano",
@@ -3792,7 +3792,7 @@
   "a26": 1.0,
   "s26": 7.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "A.J. Greer",
@@ -3807,7 +3807,7 @@
   "a26": 2.0,
   "s26": 20.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Poehling",
@@ -3822,7 +3822,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Judd Caulfield",
@@ -3837,7 +3837,7 @@
   "a26": 2.0,
   "s26": 11.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Drew Helleson",
@@ -3852,7 +3852,7 @@
   "a26": 0.0,
   "s26": 7.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nikita Nesterenko",
@@ -3867,7 +3867,7 @@
   "a26": 1.0,
   "s26": 13.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sam Colangelo",
@@ -3882,7 +3882,7 @@
   "a26": 3.0,
   "s26": 11.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jeff Malott",
@@ -3897,7 +3897,7 @@
   "a26": 3.0,
   "s26": 11.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tyson Hinds",
@@ -3912,7 +3912,7 @@
   "a26": 0.0,
   "s26": 16.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tristan Luneau",
@@ -3927,7 +3927,7 @@
   "a26": 5.0,
   "s26": 11.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Pavel Mintyukov",
@@ -3942,7 +3942,7 @@
   "a26": 2.0,
   "s26": 5.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Noah Warren",
@@ -3957,7 +3957,7 @@
   "a26": 4.0,
   "s26": 9.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Travis Mitchell",
@@ -3972,7 +3972,7 @@
   "a26": 1.0,
   "s26": 5.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Roger McQueen",
@@ -3987,7 +3987,7 @@
   "a26": 0.0,
   "s26": 8.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tim Washe",
@@ -4002,7 +4002,7 @@
   "a26": 3.0,
   "s26": 14.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nikita Klepov",
@@ -4017,7 +4017,7 @@
   "a26": 0.0,
   "s26": 0.0,
   "old": "ANA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sean Kuraly",
@@ -4032,7 +4032,7 @@
   "a26": 0.0,
   "s26": 8.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Connor Clifton",
@@ -4047,7 +4047,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nikita Zadorov",
@@ -4062,7 +4062,7 @@
   "a26": 4.0,
   "s26": 12.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Will Borgen",
@@ -4077,7 +4077,7 @@
   "a26": 2.0,
   "s26": 8.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tanner Jeannot",
@@ -4092,7 +4092,7 @@
   "a26": 2.0,
   "s26": 8.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mark Kastelic",
@@ -4107,7 +4107,7 @@
   "a26": 4.0,
   "s26": 17.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jonathan Aspirot",
@@ -4122,7 +4122,7 @@
   "a26": 0.0,
   "s26": 4.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "JJ Peterka",
@@ -4137,7 +4137,7 @@
   "a26": 5.0,
   "s26": 23.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Marat Khusnutdinov",
@@ -4152,7 +4152,7 @@
   "a26": 3.0,
   "s26": 12.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Frederic Brunet",
@@ -4167,7 +4167,7 @@
   "a26": 3.0,
   "s26": 8.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matthew Poitras",
@@ -4182,7 +4182,7 @@
   "a26": 3.0,
   "s26": 13.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "James Hagens",
@@ -4197,7 +4197,7 @@
   "a26": 5.0,
   "s26": 25.0,
   "old": "BOS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sam Carrick",
@@ -4212,7 +4212,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dennis Gilbert",
@@ -4227,7 +4227,7 @@
   "a26": 1.0,
   "s26": 1.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Beck Malenstyn",
@@ -4242,7 +4242,7 @@
   "a26": 2.0,
   "s26": 7.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Justin Danforth",
@@ -4257,7 +4257,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Josh Norris",
@@ -4272,7 +4272,7 @@
   "a26": 1.0,
   "s26": 15.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan McLeod",
@@ -4287,7 +4287,7 @@
   "a26": 2.0,
   "s26": 12.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Louis Crevier",
@@ -4302,7 +4302,7 @@
   "a26": 1.0,
   "s26": 12.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Olen Zellweger",
@@ -4317,7 +4317,7 @@
   "a26": 2.0,
   "s26": 26.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tyson Kozak",
@@ -4332,7 +4332,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jiri Kulich",
@@ -4347,7 +4347,7 @@
   "a26": 2.0,
   "s26": 9.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Noah Ostlund",
@@ -4362,7 +4362,7 @@
   "a26": 5.0,
   "s26": 25.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zach Metsa",
@@ -4377,7 +4377,7 @@
   "a26": 2.0,
   "s26": 5.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Konsta Helenius",
@@ -4392,7 +4392,7 @@
   "a26": 2.0,
   "s26": 12.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jordan Staal",
@@ -4407,7 +4407,7 @@
   "a26": 0.0,
   "s26": 6.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nicolas Deslauriers",
@@ -4422,7 +4422,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mike Reilly",
@@ -4437,7 +4437,7 @@
   "a26": 2.0,
   "s26": 9.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mark Jankowski",
@@ -4452,7 +4452,7 @@
   "a26": 1.0,
   "s26": 15.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jordan Martinook",
@@ -4467,7 +4467,7 @@
   "a26": 5.0,
   "s26": 20.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jaccob Slavin",
@@ -4482,7 +4482,7 @@
   "a26": 3.0,
   "s26": 26.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "William Carrier",
@@ -4497,7 +4497,7 @@
   "a26": 8.0,
   "s26": 25.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jalen Chatfield",
@@ -4512,7 +4512,7 @@
   "a26": 2.0,
   "s26": 20.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Juuso Välimäki",
@@ -4527,7 +4527,7 @@
   "a26": 1.0,
   "s26": 5.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Eric Robinson",
@@ -4542,7 +4542,7 @@
   "a26": 4.0,
   "s26": 22.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jesperi Kotkaniemi",
@@ -4557,7 +4557,7 @@
   "a26": 3.0,
   "s26": 12.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Bradly Nadeau",
@@ -4572,7 +4572,7 @@
   "a26": 2.0,
   "s26": 3.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Felix Unger Sörum",
@@ -4587,7 +4587,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Erik Gudbranson",
@@ -4602,7 +4602,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Damon Severson",
@@ -4617,7 +4617,7 @@
   "a26": 3.0,
   "s26": 6.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Carson Soucy",
@@ -4632,7 +4632,7 @@
   "a26": 1.0,
   "s26": 5.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sean Monahan",
@@ -4647,7 +4647,7 @@
   "a26": 2.0,
   "s26": 12.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Danton Heinen",
@@ -4662,7 +4662,7 @@
   "a26": 0.0,
   "s26": 6.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zach Werenski",
@@ -4677,7 +4677,7 @@
   "a26": 8.0,
   "s26": 29.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Conor Garland",
@@ -4692,7 +4692,7 @@
   "a26": 0.0,
   "s26": 11.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Lomberg",
@@ -4707,7 +4707,7 @@
   "a26": 0.0,
   "s26": 16.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mathieu Olivier",
@@ -4722,7 +4722,7 @@
   "a26": 1.0,
   "s26": 16.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jake Christiansen",
@@ -4737,7 +4737,7 @@
   "a26": 1.0,
   "s26": 3.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dmitri Voronkov",
@@ -4752,7 +4752,7 @@
   "a26": 2.0,
   "s26": 8.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Emil Andrae",
@@ -4767,7 +4767,7 @@
   "a26": 2.0,
   "s26": 1.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cole Sillinger",
@@ -4782,7 +4782,7 @@
   "a26": 3.0,
   "s26": 15.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Luca Del Bel Belluz",
@@ -4797,7 +4797,7 @@
   "a26": 0.0,
   "s26": 2.0,
   "old": "CBJ",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Strome",
@@ -4807,12 +4807,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 2.0,
   "a26": 2.0,
-  "s26": 26.0,
+  "s26": 30.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jake Middleton",
@@ -4822,12 +4822,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 1.0,
   "a26": 1.0,
-  "s26": 12.0,
+  "s26": 13.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zach Whitecloud",
@@ -4837,12 +4837,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 0.0,
   "a26": 0.0,
-  "s26": 12.0,
+  "s26": 13.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kevin Bahl",
@@ -4852,12 +4852,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 1.0,
   "a26": 1.0,
   "s26": 10.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Martin Pospisil",
@@ -4867,12 +4867,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 2.0,
   "a26": 2.0,
-  "s26": 18.0,
+  "s26": 21.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Yan Kuznetsov",
@@ -4882,12 +4882,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 0.0,
   "a26": 2.0,
-  "s26": 12.0,
+  "s26": 13.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brennan Othmann",
@@ -4897,12 +4897,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 5.0,
+  "gp26": 6.0,
   "g26": 0.0,
   "a26": 0.0,
   "s26": 5.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Simon Nemec",
@@ -4912,12 +4912,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 0.0,
   "a26": 5.0,
   "s26": 17.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adam Klapka",
@@ -4927,12 +4927,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 2.0,
   "a26": 2.0,
-  "s26": 15.0,
+  "s26": 17.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jonathan Castagna",
@@ -4942,12 +4942,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 8.0,
+  "gp26": 9.0,
   "g26": 0.0,
   "a26": 1.0,
   "s26": 6.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Samuel Honzek",
@@ -4962,7 +4962,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Aydar Suniev",
@@ -4972,12 +4972,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 8.0,
+  "gp26": 9.0,
   "g26": 3.0,
   "a26": 1.0,
   "s26": 16.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zayne Parekh",
@@ -4987,12 +4987,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 1.0,
   "a26": 3.0,
-  "s26": 21.0,
+  "s26": 22.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Maxim Tsyplakov",
@@ -5007,7 +5007,7 @@
   "a26": 1.0,
   "s26": 3.0,
   "old": "CGY",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brent Burns",
@@ -5017,12 +5017,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 0.0,
-  "a26": 3.0,
-  "s26": 15.0,
+  "a26": 5.0,
+  "s26": 19.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jaden Schwartz",
@@ -5032,12 +5032,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
-  "g26": 3.0,
-  "a26": 4.0,
-  "s26": 19.0,
+  "gp26": 13.0,
+  "g26": 4.0,
+  "a26": 5.0,
+  "s26": 22.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Josh Manson",
@@ -5047,12 +5047,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 1.0,
   "a26": 3.0,
   "s26": 12.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Gabriel Landeskog",
@@ -5062,12 +5062,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
-  "g26": 4.0,
+  "gp26": 13.0,
+  "g26": 5.0,
   "a26": 3.0,
-  "s26": 15.0,
+  "s26": 16.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brett Kulak",
@@ -5077,12 +5077,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 0.0,
   "a26": 4.0,
-  "s26": 9.0,
+  "s26": 12.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Devon Toews",
@@ -5092,12 +5092,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 4.0,
-  "a26": 6.0,
-  "s26": 17.0,
+  "a26": 7.0,
+  "s26": 21.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Noah Juulsen",
@@ -5112,7 +5112,7 @@
   "a26": 1.0,
   "s26": 4.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nicolas Roy",
@@ -5122,12 +5122,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 6.0,
+  "gp26": 7.0,
   "g26": 2.0,
-  "a26": 2.0,
+  "a26": 3.0,
   "s26": 10.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Parker Kelly",
@@ -5137,12 +5137,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
-  "g26": 1.0,
+  "gp26": 13.0,
+  "g26": 2.0,
   "a26": 4.0,
-  "s26": 12.0,
+  "s26": 15.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zachary L'Heureux",
@@ -5157,7 +5157,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Fedor Svechkov",
@@ -5167,12 +5167,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 2.0,
-  "a26": 4.0,
+  "a26": 5.0,
   "s26": 11.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Gavin Brindley",
@@ -5187,7 +5187,7 @@
   "a26": 1.0,
   "s26": 3.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sam Malinski",
@@ -5197,12 +5197,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 0.0,
-  "a26": 3.0,
-  "s26": 11.0,
+  "a26": 5.0,
+  "s26": 14.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "T.J. Hughes",
@@ -5212,12 +5212,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 2.0,
   "a26": 2.0,
-  "s26": 26.0,
+  "s26": 29.0,
   "old": "COL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tyler Myers",
@@ -5232,7 +5232,7 @@
   "a26": 1.0,
   "s26": 7.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tyler Seguin",
@@ -5247,7 +5247,7 @@
   "a26": 3.0,
   "s26": 30.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Colin Blackwell",
@@ -5262,7 +5262,7 @@
   "a26": 1.0,
   "s26": 13.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Radek Faksa",
@@ -5277,7 +5277,7 @@
   "a26": 1.0,
   "s26": 9.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Esa Lindell",
@@ -5292,7 +5292,7 @@
   "a26": 0.0,
   "s26": 4.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kyle Capobianco",
@@ -5307,7 +5307,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Oskar Bäck",
@@ -5322,7 +5322,7 @@
   "a26": 1.0,
   "s26": 4.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nils Lundkvist",
@@ -5337,7 +5337,7 @@
   "a26": 3.0,
   "s26": 10.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Joel Kiviranta",
@@ -5352,7 +5352,7 @@
   "a26": 1.0,
   "s26": 12.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Lian Bichsel",
@@ -5367,7 +5367,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Justin Hryckowian",
@@ -5382,7 +5382,7 @@
   "a26": 0.0,
   "s26": 14.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Arttu Hyry",
@@ -5397,7 +5397,7 @@
   "a26": 0.0,
   "s26": 19.0,
   "old": "DAL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ben Chiarot",
@@ -5412,7 +5412,7 @@
   "a26": 1.0,
   "s26": 9.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Justin Faulk",
@@ -5427,7 +5427,7 @@
   "a26": 3.0,
   "s26": 18.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "J.T. Compher",
@@ -5442,7 +5442,7 @@
   "a26": 2.0,
   "s26": 5.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Andreas Englund",
@@ -5457,7 +5457,7 @@
   "a26": 0.0,
   "s26": 4.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Viktor Arvidsson",
@@ -5472,7 +5472,7 @@
   "a26": 5.0,
   "s26": 31.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Keegan Kolesar",
@@ -5487,7 +5487,7 @@
   "a26": 0.0,
   "s26": 4.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Michael Rasmussen",
@@ -5502,7 +5502,7 @@
   "a26": 2.0,
   "s26": 16.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sheldon Dries",
@@ -5517,7 +5517,7 @@
   "a26": 0.0,
   "s26": 5.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Albert Johansson",
@@ -5532,7 +5532,7 @@
   "a26": 3.0,
   "s26": 10.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "William Wallinder",
@@ -5547,7 +5547,7 @@
   "a26": 1.0,
   "s26": 7.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Carter Mazur",
@@ -5562,7 +5562,7 @@
   "a26": 1.0,
   "s26": 8.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nate Danielson",
@@ -5577,7 +5577,7 @@
   "a26": 2.0,
   "s26": 5.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Axel Sandin-Pellikka",
@@ -5592,7 +5592,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Michael Brandsegg-Nygård",
@@ -5607,7 +5607,7 @@
   "a26": 6.0,
   "s26": 28.0,
   "old": "DET",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Connor Murphy",
@@ -5617,12 +5617,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 0.0,
   "a26": 1.0,
-  "s26": 11.0,
+  "s26": 14.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jason Dickinson",
@@ -5632,12 +5632,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 3.0,
+  "gp26": 4.0,
   "g26": 0.0,
-  "a26": 1.0,
-  "s26": 2.0,
+  "a26": 2.0,
+  "s26": 4.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kasperi Kapanen",
@@ -5647,12 +5647,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
-  "g26": 3.0,
+  "gp26": 13.0,
+  "g26": 4.0,
   "a26": 2.0,
-  "s26": 17.0,
+  "s26": 19.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jake Walman",
@@ -5667,7 +5667,7 @@
   "a26": 1.0,
   "s26": 10.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mathieu Joseph",
@@ -5677,12 +5677,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
-  "g26": 2.0,
+  "gp26": 13.0,
+  "g26": 3.0,
   "a26": 3.0,
-  "s26": 11.0,
+  "s26": 13.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Shea",
@@ -5692,12 +5692,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 1.0,
   "a26": 3.0,
   "s26": 10.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Trent Frederic",
@@ -5707,12 +5707,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 1.0,
   "a26": 0.0,
   "s26": 10.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Max Jones",
@@ -5727,7 +5727,7 @@
   "a26": 0.0,
   "s26": 5.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex Formenton",
@@ -5737,12 +5737,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
-  "g26": 1.0,
+  "gp26": 13.0,
+  "g26": 2.0,
   "a26": 3.0,
-  "s26": 13.0,
+  "s26": 14.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ty Emberson",
@@ -5752,12 +5752,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 0.0,
   "a26": 1.0,
   "s26": 7.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Filip Hallander",
@@ -5772,7 +5772,7 @@
   "a26": 2.0,
   "s26": 3.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Shakir Mukhamadullin",
@@ -5782,12 +5782,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 7.0,
+  "gp26": 8.0,
   "g26": 1.0,
   "a26": 0.0,
-  "s26": 4.0,
+  "s26": 5.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Colton Dach",
@@ -5797,12 +5797,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 8.0,
+  "gp26": 9.0,
   "g26": 1.0,
   "a26": 1.0,
-  "s26": 14.0,
+  "s26": 16.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Isaac Howard",
@@ -5812,12 +5812,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 1.0,
   "a26": 2.0,
-  "s26": 10.0,
+  "s26": 12.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Josh Samanski",
@@ -5832,7 +5832,7 @@
   "a26": 1.0,
   "s26": 0.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Owen Michaels",
@@ -5842,12 +5842,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 2.0,
   "a26": 2.0,
-  "s26": 9.0,
+  "s26": 10.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Lars Eller",
@@ -5862,7 +5862,7 @@
   "a26": 5.0,
   "s26": 11.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dmitry Kulikov",
@@ -5877,7 +5877,7 @@
   "a26": 2.0,
   "s26": 5.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Radko Gudas",
@@ -5892,7 +5892,7 @@
   "a26": 0.0,
   "s26": 4.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Garnet Hathaway",
@@ -5907,7 +5907,7 @@
   "a26": 0.0,
   "s26": 4.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Aaron Ekblad",
@@ -5922,7 +5922,7 @@
   "a26": 4.0,
   "s26": 14.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sam Lafferty",
@@ -5937,7 +5937,7 @@
   "a26": 0.0,
   "s26": 4.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Bokondji Imama",
@@ -5952,7 +5952,7 @@
   "a26": 0.0,
   "s26": 8.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Niko Mikkola",
@@ -5967,7 +5967,7 @@
   "a26": 2.0,
   "s26": 20.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cole Schwindt",
@@ -5982,7 +5982,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sandis Vilmanis",
@@ -5997,7 +5997,7 @@
   "a26": 1.0,
   "s26": 17.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Uvis Balinskis",
@@ -6012,7 +6012,7 @@
   "a26": 1.0,
   "s26": 3.0,
   "old": "FLA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Corey Perry",
@@ -6027,7 +6027,7 @@
   "a26": 1.0,
   "s26": 9.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Drew Doughty",
@@ -6042,7 +6042,7 @@
   "a26": 3.0,
   "s26": 11.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brian Dumoulin",
@@ -6057,7 +6057,7 @@
   "a26": 0.0,
   "s26": 9.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Erik Haula",
@@ -6072,7 +6072,7 @@
   "a26": 3.0,
   "s26": 18.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mats Zuccarello",
@@ -6087,7 +6087,7 @@
   "a26": 1.0,
   "s26": 4.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Joel Edmundson",
@@ -6102,7 +6102,7 @@
   "a26": 1.0,
   "s26": 14.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Joel Armia",
@@ -6117,7 +6117,7 @@
   "a26": 2.0,
   "s26": 15.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Scott Laughton",
@@ -6132,7 +6132,7 @@
   "a26": 2.0,
   "s26": 16.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cody Ceci",
@@ -6147,7 +6147,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Erik Gustafsson",
@@ -6162,7 +6162,7 @@
   "a26": 2.0,
   "s26": 7.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mikey Anderson",
@@ -6177,7 +6177,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex Turcotte",
@@ -6192,7 +6192,7 @@
   "a26": 1.0,
   "s26": 1.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Samuel Helenius",
@@ -6207,7 +6207,7 @@
   "a26": 0.0,
   "s26": 8.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jared Wright",
@@ -6222,7 +6222,7 @@
   "a26": 1.0,
   "s26": 7.0,
   "old": "LAK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick Foligno",
@@ -6237,7 +6237,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zach Bogosian",
@@ -6252,7 +6252,7 @@
   "a26": 0.0,
   "s26": 16.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Marcus Foligno",
@@ -6267,7 +6267,7 @@
   "a26": 0.0,
   "s26": 4.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tyler Pitlick",
@@ -6282,7 +6282,7 @@
   "a26": 0.0,
   "s26": 10.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Blake Coleman",
@@ -6297,7 +6297,7 @@
   "a26": 1.0,
   "s26": 33.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jonas Brodin",
@@ -6312,7 +6312,7 @@
   "a26": 3.0,
   "s26": 15.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Olli Maatta",
@@ -6325,9 +6325,9 @@
   "gp26": 10.0,
   "g26": 1.0,
   "a26": 2.0,
-  "s26": 4.0,
+  "s26": 5.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Michael McCarron",
@@ -6342,7 +6342,7 @@
   "a26": 5.0,
   "s26": 27.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Yakov Trenin",
@@ -6357,7 +6357,7 @@
   "a26": 2.0,
   "s26": 15.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nico Sturm",
@@ -6372,7 +6372,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Bobby Brink",
@@ -6387,7 +6387,7 @@
   "a26": 5.0,
   "s26": 19.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Daemon Hunt",
@@ -6402,7 +6402,7 @@
   "a26": 1.0,
   "s26": 4.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matt Kiersted",
@@ -6417,7 +6417,7 @@
   "a26": 1.0,
   "s26": 8.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Rieger Lorenz",
@@ -6432,7 +6432,7 @@
   "a26": 1.0,
   "s26": 2.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "David Spacek",
@@ -6447,7 +6447,7 @@
   "a26": 0.0,
   "s26": 8.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Maxim Shabanov",
@@ -6462,7 +6462,7 @@
   "a26": 5.0,
   "s26": 17.0,
   "old": "MIN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Phillip Danault",
@@ -6477,7 +6477,7 @@
   "a26": 3.0,
   "s26": 18.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mike Matheson",
@@ -6490,9 +6490,9 @@
   "gp26": 8.0,
   "g26": 1.0,
   "a26": 3.0,
-  "s26": 14.0,
+  "s26": 15.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Josh Anderson",
@@ -6507,7 +6507,7 @@
   "a26": 2.0,
   "s26": 27.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jake Evans",
@@ -6522,7 +6522,7 @@
   "a26": 1.0,
   "s26": 10.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alexandre Carrier",
@@ -6537,7 +6537,7 @@
   "a26": 4.0,
   "s26": 12.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alexandre Texier",
@@ -6552,7 +6552,7 @@
   "a26": 3.0,
   "s26": 15.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Noah Dobson",
@@ -6567,7 +6567,7 @@
   "a26": 3.0,
   "s26": 26.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kirby Dach",
@@ -6582,7 +6582,7 @@
   "a26": 3.0,
   "s26": 8.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jayden Struble",
@@ -6597,7 +6597,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex Newhook",
@@ -6612,7 +6612,7 @@
   "a26": 3.0,
   "s26": 12.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kaiden Guhle",
@@ -6627,7 +6627,7 @@
   "a26": 2.0,
   "s26": 11.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Oliver Kapanen",
@@ -6642,7 +6642,7 @@
   "a26": 0.0,
   "s26": 8.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Arber Xhekaj",
@@ -6657,7 +6657,7 @@
   "a26": 0.0,
   "s26": 6.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Owen Beck",
@@ -6672,7 +6672,7 @@
   "a26": 1.0,
   "s26": 4.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adam Engstrom",
@@ -6687,7 +6687,7 @@
   "a26": 0.0,
   "s26": 5.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Florian Xhekaj",
@@ -6702,7 +6702,7 @@
   "a26": 0.0,
   "s26": 5.0,
   "old": "MTL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brenden Dillon",
@@ -6712,12 +6712,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 7.0,
+  "gp26": 8.0,
   "g26": 0.0,
   "a26": 0.0,
   "s26": 1.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Stefan Noesen",
@@ -6732,7 +6732,7 @@
   "a26": 2.0,
   "s26": 6.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Connor Brown",
@@ -6742,12 +6742,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 4.0,
-  "g26": 0.0,
+  "gp26": 5.0,
+  "g26": 2.0,
   "a26": 1.0,
-  "s26": 4.0,
+  "s26": 6.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brett Pesce",
@@ -6757,12 +6757,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 1.0,
   "a26": 4.0,
   "s26": 12.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Anthony Mantha",
@@ -6772,12 +6772,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 3.0,
   "a26": 2.0,
-  "s26": 14.0,
+  "s26": 16.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cody Glass",
@@ -6787,12 +6787,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 1.0,
-  "a26": 0.0,
+  "a26": 1.0,
   "s26": 19.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jesper Boqvist",
@@ -6802,12 +6802,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 4.0,
   "a26": 2.0,
-  "s26": 16.0,
+  "s26": 17.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Johnathan Kovacevic",
@@ -6822,7 +6822,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Declan Chisholm",
@@ -6832,12 +6832,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 1.0,
   "a26": 1.0,
   "s26": 4.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Luke Evangelista",
@@ -6847,12 +6847,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 9.0,
+  "gp26": 10.0,
   "g26": 3.0,
   "a26": 5.0,
   "s26": 25.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Amadeus Lombardi",
@@ -6862,12 +6862,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 0.0,
-  "a26": 3.0,
-  "s26": 17.0,
+  "a26": 4.0,
+  "s26": 21.0,
   "old": "NJD",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alexander Kerfoot",
@@ -6882,7 +6882,7 @@
   "a26": 3.0,
   "s26": 12.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ross Colton",
@@ -6897,7 +6897,7 @@
   "a26": 2.0,
   "s26": 15.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nicolas Hague",
@@ -6912,7 +6912,7 @@
   "a26": 1.0,
   "s26": 10.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick Perbix",
@@ -6927,7 +6927,7 @@
   "a26": 0.0,
   "s26": 6.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jack Drury",
@@ -6942,7 +6942,7 @@
   "a26": 1.0,
   "s26": 16.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nils Hoglander",
@@ -6957,7 +6957,7 @@
   "a26": 2.0,
   "s26": 16.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adam Edstrom",
@@ -6972,7 +6972,7 @@
   "a26": 0.0,
   "s26": 19.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jack Ahcan",
@@ -6987,7 +6987,7 @@
   "a26": 1.0,
   "s26": 0.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mavrik Bourque",
@@ -7002,7 +7002,7 @@
   "a26": 2.0,
   "s26": 13.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adam Wilsby",
@@ -7017,7 +7017,7 @@
   "a26": 5.0,
   "s26": 14.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "William Trudeau",
@@ -7032,7 +7032,7 @@
   "a26": 0.0,
   "s26": 2.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Reid Schaefer",
@@ -7047,7 +7047,7 @@
   "a26": 0.0,
   "s26": 5.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Vitali Pinchuk",
@@ -7062,7 +7062,7 @@
   "a26": 1.0,
   "s26": 4.0,
   "old": "NSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kyle Palmieri",
@@ -7075,9 +7075,9 @@
   "gp26": 12.0,
   "g26": 3.0,
   "a26": 1.0,
-  "s26": 24.0,
+  "s26": 23.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Casey Cizikas",
@@ -7092,7 +7092,7 @@
   "a26": 1.0,
   "s26": 8.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ondrej Palat",
@@ -7107,7 +7107,7 @@
   "a26": 2.0,
   "s26": 13.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adam Pelech",
@@ -7122,7 +7122,7 @@
   "a26": 2.0,
   "s26": 14.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Pulock",
@@ -7137,7 +7137,7 @@
   "a26": 1.0,
   "s26": 8.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Logan Stanley",
@@ -7152,7 +7152,7 @@
   "a26": 5.0,
   "s26": 7.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alexander Romanov",
@@ -7167,7 +7167,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kyle MacLean",
@@ -7182,7 +7182,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matias Maccelli",
@@ -7197,7 +7197,7 @@
   "a26": 4.0,
   "s26": 13.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mitchell Chaffee",
@@ -7212,7 +7212,7 @@
   "a26": 0.0,
   "s26": 2.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matthew Kessel",
@@ -7227,7 +7227,7 @@
   "a26": 1.0,
   "s26": 8.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Calum Ritchie",
@@ -7242,7 +7242,7 @@
   "a26": 1.0,
   "s26": 7.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Victor Eklund",
@@ -7257,7 +7257,7 @@
   "a26": 1.0,
   "s26": 18.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Justin Dowling",
@@ -7272,7 +7272,7 @@
   "a26": 1.0,
   "s26": 0.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Oliver Bjorkstrand",
@@ -7287,7 +7287,7 @@
   "a26": 2.0,
   "s26": 20.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Marcus Pettersson",
@@ -7302,7 +7302,7 @@
   "a26": 2.0,
   "s26": 9.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Taylor Raddysh",
@@ -7317,7 +7317,7 @@
   "a26": 1.0,
   "s26": 3.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Eeli Tolvanen",
@@ -7332,7 +7332,7 @@
   "a26": 1.0,
   "s26": 15.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sean Durzi",
@@ -7347,7 +7347,7 @@
   "a26": 3.0,
   "s26": 12.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Joseph Veleno",
@@ -7362,7 +7362,7 @@
   "a26": 0.0,
   "s26": 2.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tye Kartye",
@@ -7377,7 +7377,7 @@
   "a26": 6.0,
   "s26": 21.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Braden Schneider",
@@ -7392,7 +7392,7 @@
   "a26": 2.0,
   "s26": 20.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jaroslav Chmelar",
@@ -7407,7 +7407,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Noah Laba",
@@ -7422,7 +7422,7 @@
   "a26": 4.0,
   "s26": 11.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cole Beaudoin",
@@ -7437,7 +7437,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alberts Smits",
@@ -7452,7 +7452,7 @@
   "a26": 0.0,
   "s26": 6.0,
   "old": "NYR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick Cousins",
@@ -7467,7 +7467,7 @@
   "a26": 1.0,
   "s26": 8.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Warren Foegele",
@@ -7482,7 +7482,7 @@
   "a26": 3.0,
   "s26": 14.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Hayden Hodgson",
@@ -7497,7 +7497,7 @@
   "a26": 0.0,
   "s26": 0.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cameron Crotty",
@@ -7512,7 +7512,7 @@
   "a26": 0.0,
   "s26": 0.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jordan Spence",
@@ -7527,7 +7527,7 @@
   "a26": 2.0,
   "s26": 14.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tyler Kleven",
@@ -7542,7 +7542,7 @@
   "a26": 1.0,
   "s26": 17.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Artem Zub",
@@ -7557,7 +7557,7 @@
   "a26": 2.0,
   "s26": 5.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "William Eklund",
@@ -7572,7 +7572,7 @@
   "a26": 1.0,
   "s26": 9.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Stephen Halliday",
@@ -7587,7 +7587,7 @@
   "a26": 2.0,
   "s26": 19.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nikolas Matinpalo",
@@ -7602,7 +7602,7 @@
   "a26": 2.0,
   "s26": 8.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Hoyt Stanley",
@@ -7617,7 +7617,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Carter Yakemchuk",
@@ -7632,7 +7632,7 @@
   "a26": 2.0,
   "s26": 20.0,
   "old": "OTT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick Seeler",
@@ -7642,12 +7642,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 0.0,
-  "a26": 3.0,
-  "s26": 8.0,
+  "a26": 4.0,
+  "s26": 10.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sean Couturier",
@@ -7657,12 +7657,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
-  "g26": 0.0,
+  "gp26": 15.0,
+  "g26": 1.0,
   "a26": 3.0,
-  "s26": 16.0,
+  "s26": 19.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Rasmus Ristolainen",
@@ -7677,7 +7677,7 @@
   "a26": 0.0,
   "s26": 5.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Michael Bunting",
@@ -7692,7 +7692,7 @@
   "a26": 1.0,
   "s26": 10.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Travis Konecny",
@@ -7707,7 +7707,7 @@
   "a26": 3.0,
   "s26": 8.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Noel Acciari",
@@ -7717,12 +7717,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 1.0,
   "a26": 0.0,
   "s26": 12.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Carl Grundstrom",
@@ -7737,7 +7737,7 @@
   "a26": 0.0,
   "s26": 5.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jack Studnicka",
@@ -7752,7 +7752,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Noah Cates",
@@ -7762,12 +7762,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 1.0,
   "a26": 2.0,
-  "s26": 12.0,
+  "s26": 13.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Simon Benoit",
@@ -7782,7 +7782,7 @@
   "a26": 0.0,
   "s26": 7.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cam York",
@@ -7792,12 +7792,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 6.0,
+  "gp26": 7.0,
   "g26": 0.0,
   "a26": 0.0,
-  "s26": 8.0,
+  "s26": 9.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jacob Gaucher",
@@ -7807,12 +7807,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 3.0,
+  "gp26": 4.0,
   "g26": 0.0,
   "a26": 0.0,
   "s26": 2.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jamie Drysdale",
@@ -7822,12 +7822,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 1.0,
   "a26": 2.0,
-  "s26": 20.0,
+  "s26": 21.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tyson Foerster",
@@ -7837,12 +7837,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 13.0,
+  "gp26": 14.0,
   "g26": 2.0,
   "a26": 1.0,
-  "s26": 31.0,
+  "s26": 32.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "David Jiricek",
@@ -7857,7 +7857,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Alex Bump",
@@ -7867,12 +7867,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 7.0,
+  "gp26": 8.0,
   "g26": 0.0,
   "a26": 0.0,
-  "s26": 16.0,
+  "s26": 19.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Hunter McDonald",
@@ -7882,12 +7882,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 4.0,
+  "gp26": 5.0,
   "g26": 0.0,
   "a26": 0.0,
-  "s26": 2.0,
+  "s26": 3.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cole Knuble",
@@ -7897,12 +7897,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 4.0,
+  "gp26": 5.0,
   "g26": 2.0,
   "a26": 0.0,
-  "s26": 9.0,
+  "s26": 11.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Denver Barkey",
@@ -7912,12 +7912,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 0.0,
-  "a26": 4.0,
-  "s26": 7.0,
+  "a26": 5.0,
+  "s26": 8.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Oliver Bonk",
@@ -7927,12 +7927,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 8.0,
+  "gp26": 9.0,
   "g26": 0.0,
   "a26": 5.0,
-  "s26": 9.0,
+  "s26": 10.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Porter Martone",
@@ -7942,12 +7942,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 3.0,
   "a26": 3.0,
-  "s26": 17.0,
+  "s26": 19.0,
   "old": "PHI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Trevor van Riemsdyk",
@@ -7962,7 +7962,7 @@
   "a26": 0.0,
   "s26": 2.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Samuel Girard",
@@ -7977,7 +7977,7 @@
   "a26": 6.0,
   "s26": 12.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Connor Dewar",
@@ -7992,7 +7992,7 @@
   "a26": 3.0,
   "s26": 21.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Spencer Stastney",
@@ -8007,7 +8007,7 @@
   "a26": 2.0,
   "s26": 5.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Blake Lizotte",
@@ -8022,7 +8022,7 @@
   "a26": 4.0,
   "s26": 13.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kaedan Korczak",
@@ -8037,7 +8037,7 @@
   "a26": 5.0,
   "s26": 12.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick Robertson",
@@ -8052,7 +8052,7 @@
   "a26": 0.0,
   "s26": 23.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Elmer Soderblom",
@@ -8067,7 +8067,7 @@
   "a26": 1.0,
   "s26": 5.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Hendrix Lapierre",
@@ -8082,7 +8082,7 @@
   "a26": 4.0,
   "s26": 8.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ilya Solovyov",
@@ -8097,7 +8097,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ville Koivunen",
@@ -8112,7 +8112,7 @@
   "a26": 3.0,
   "s26": 11.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Declan Carlile",
@@ -8127,7 +8127,7 @@
   "a26": 2.0,
   "s26": 19.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Andrei Kuzmenko",
@@ -8142,7 +8142,7 @@
   "a26": 1.0,
   "s26": 7.0,
   "old": "PIT",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adam Larsson",
@@ -8152,12 +8152,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 0.0,
   "a26": 2.0,
   "s26": 12.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Lindgren",
@@ -8172,7 +8172,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Josh Mahura",
@@ -8182,12 +8182,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 9.0,
-  "g26": 0.0,
+  "gp26": 10.0,
+  "g26": 1.0,
   "a26": 2.0,
-  "s26": 6.0,
+  "s26": 7.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cale Fleury",
@@ -8197,12 +8197,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 4.0,
+  "gp26": 5.0,
   "g26": 0.0,
   "a26": 1.0,
   "s26": 4.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Curtis Douglas",
@@ -8217,7 +8217,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mackie Samoskevich",
@@ -8227,12 +8227,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 11.0,
+  "gp26": 12.0,
   "g26": 5.0,
-  "a26": 1.0,
+  "a26": 3.0,
   "s26": 19.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Winterton",
@@ -8242,12 +8242,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 2.0,
   "a26": 4.0,
-  "s26": 18.0,
+  "s26": 19.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryker Evans",
@@ -8257,12 +8257,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
-  "g26": 2.0,
+  "gp26": 13.0,
+  "g26": 3.0,
   "a26": 4.0,
-  "s26": 10.0,
+  "s26": 12.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ville Ottavainen",
@@ -8277,7 +8277,7 @@
   "a26": 0.0,
   "s26": 13.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Shane Wright",
@@ -8287,12 +8287,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
+  "gp26": 13.0,
   "g26": 3.0,
   "a26": 1.0,
   "s26": 19.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ben Meyers",
@@ -8302,12 +8302,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 1.0,
-  "a26": 4.0,
-  "s26": 9.0,
+  "a26": 5.0,
+  "s26": 11.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Berkly Catton",
@@ -8317,12 +8317,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 12.0,
-  "g26": 3.0,
+  "gp26": 13.0,
+  "g26": 4.0,
   "a26": 6.0,
-  "s26": 23.0,
+  "s26": 24.0,
   "old": "SEA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Barclay Goodrow",
@@ -8337,7 +8337,7 @@
   "a26": 1.0,
   "s26": 12.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jacob Trouba",
@@ -8352,7 +8352,7 @@
   "a26": 6.0,
   "s26": 17.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Darnell Nurse",
@@ -8367,7 +8367,7 @@
   "a26": 1.0,
   "s26": 24.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mason Marchment",
@@ -8382,7 +8382,7 @@
   "a26": 1.0,
   "s26": 23.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kiefer Sherwood",
@@ -8397,7 +8397,7 @@
   "a26": 4.0,
   "s26": 24.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ty Dellandrea",
@@ -8412,7 +8412,7 @@
   "a26": 1.0,
   "s26": 5.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Michael Kesselring",
@@ -8427,7 +8427,7 @@
   "a26": 2.0,
   "s26": 15.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nolan Allan",
@@ -8442,7 +8442,7 @@
   "a26": 0.0,
   "s26": 8.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zack Ostapchuk",
@@ -8457,7 +8457,7 @@
   "a26": 0.0,
   "s26": 12.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Luca Cagnoni",
@@ -8472,7 +8472,7 @@
   "a26": 1.0,
   "s26": 13.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Sam Dickinson",
@@ -8487,7 +8487,7 @@
   "a26": 2.0,
   "s26": 9.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Igor Chernyshov",
@@ -8502,7 +8502,7 @@
   "a26": 2.0,
   "s26": 12.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ivar Stenberg",
@@ -8517,7 +8517,7 @@
   "a26": 6.0,
   "s26": 18.0,
   "old": "SJS",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Colton Parayko",
@@ -8532,7 +8532,7 @@
   "a26": 4.0,
   "s26": 18.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ross Johnston",
@@ -8547,7 +8547,7 @@
   "a26": 1.0,
   "s26": 3.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brandon Carlo",
@@ -8562,7 +8562,7 @@
   "a26": 1.0,
   "s26": 8.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dillon Dube",
@@ -8577,7 +8577,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jonatan Berggren",
@@ -8592,7 +8592,7 @@
   "a26": 3.0,
   "s26": 19.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Connor McMichael",
@@ -8607,7 +8607,7 @@
   "a26": 5.0,
   "s26": 20.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Justin Barron",
@@ -8622,7 +8622,7 @@
   "a26": 4.0,
   "s26": 14.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dylan Peterson",
@@ -8637,7 +8637,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zach Dean",
@@ -8652,7 +8652,7 @@
   "a26": 0.0,
   "s26": 0.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Aleksanteri Kaskimaki",
@@ -8667,7 +8667,7 @@
   "a26": 1.0,
   "s26": 6.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dalibor Dvorsky",
@@ -8682,7 +8682,7 @@
   "a26": 1.0,
   "s26": 19.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Theo Lindstein",
@@ -8697,7 +8697,7 @@
   "a26": 1.0,
   "s26": 3.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Otto Stenberg",
@@ -8712,7 +8712,7 @@
   "a26": 1.0,
   "s26": 2.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Adam Jiricek",
@@ -8727,7 +8727,7 @@
   "a26": 1.0,
   "s26": 19.0,
   "old": "STL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan McDonagh",
@@ -8742,7 +8742,7 @@
   "a26": 2.0,
   "s26": 7.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "John Carlson",
@@ -8757,7 +8757,7 @@
   "a26": 2.0,
   "s26": 28.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Victor Hedman",
@@ -8772,7 +8772,7 @@
   "a26": 2.0,
   "s26": 13.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zemgus Girgensons",
@@ -8787,7 +8787,7 @@
   "a26": 1.0,
   "s26": 14.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Erik Cernak",
@@ -8802,7 +8802,7 @@
   "a26": 2.0,
   "s26": 15.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Anthony Cirelli",
@@ -8817,7 +8817,7 @@
   "a26": 2.0,
   "s26": 16.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jeffrey Viel",
@@ -8832,7 +8832,7 @@
   "a26": 0.0,
   "s26": 6.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Charle-Edouard D'Astous",
@@ -8847,7 +8847,7 @@
   "a26": 4.0,
   "s26": 16.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Pontus Holmberg",
@@ -8862,7 +8862,7 @@
   "a26": 3.0,
   "s26": 19.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ilya Mikheyev",
@@ -8877,7 +8877,7 @@
   "a26": 2.0,
   "s26": 15.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Max Crozier",
@@ -8892,7 +8892,7 @@
   "a26": 3.0,
   "s26": 11.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Gage Goncalves",
@@ -8907,7 +8907,7 @@
   "a26": 1.0,
   "s26": 10.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "J.J. Moser",
@@ -8922,7 +8922,7 @@
   "a26": 0.0,
   "s26": 12.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Emil Lilleberg",
@@ -8937,7 +8937,7 @@
   "a26": 0.0,
   "s26": 2.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Conor Geekie",
@@ -8952,7 +8952,7 @@
   "a26": 0.0,
   "s26": 14.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dominic James",
@@ -8967,7 +8967,7 @@
   "a26": 1.0,
   "s26": 2.0,
   "old": "TBL",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Oliver Ekman-Larsson",
@@ -8977,12 +8977,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 0.0,
   "a26": 1.0,
   "s26": 11.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Chris Tanev",
@@ -8997,7 +8997,7 @@
   "a26": 1.0,
   "s26": 1.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Colton Sissons",
@@ -9007,12 +9007,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 2.0,
   "a26": 3.0,
   "s26": 16.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Teddy Blueger",
@@ -9022,12 +9022,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 1.0,
   "a26": 1.0,
   "s26": 16.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jake McCabe",
@@ -9037,12 +9037,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 0.0,
   "a26": 2.0,
-  "s26": 16.0,
+  "s26": 17.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick Paul",
@@ -9052,12 +9052,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 2.0,
   "a26": 3.0,
   "s26": 14.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jack Roslovic",
@@ -9067,12 +9067,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
-  "g26": 5.0,
-  "a26": 8.0,
-  "s26": 37.0,
+  "gp26": 15.0,
+  "g26": 6.0,
+  "a26": 9.0,
+  "s26": 38.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Troy Stecher",
@@ -9082,12 +9082,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 2.0,
-  "a26": 2.0,
-  "s26": 14.0,
+  "a26": 3.0,
+  "s26": 17.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brandon Duhaime",
@@ -9097,12 +9097,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
+  "gp26": 15.0,
   "g26": 1.0,
   "a26": 3.0,
   "s26": 13.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zack MacEwen",
@@ -9112,12 +9112,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 8.0,
+  "gp26": 9.0,
   "g26": 1.0,
   "a26": 2.0,
-  "s26": 8.0,
+  "s26": 9.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Vinni Lettieri",
@@ -9127,12 +9127,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 5.0,
+  "gp26": 6.0,
   "g26": 1.0,
   "a26": 0.0,
   "s26": 7.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Bo Groulx",
@@ -9142,12 +9142,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 6.0,
+  "gp26": 7.0,
   "g26": 0.0,
   "a26": 0.0,
-  "s26": 3.0,
+  "s26": 4.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick Blankenburg",
@@ -9162,7 +9162,7 @@
   "a26": 0.0,
   "s26": 6.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Gavin McKenna",
@@ -9172,12 +9172,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 14.0,
-  "g26": 3.0,
-  "a26": 5.0,
-  "s26": 23.0,
+  "gp26": 15.0,
+  "g26": 5.0,
+  "a26": 6.0,
+  "s26": 26.0,
   "old": "TOR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Vincent Trocheck",
@@ -9192,7 +9192,7 @@
   "a26": 4.0,
   "s26": 23.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nate Schmidt",
@@ -9207,7 +9207,7 @@
   "a26": 2.0,
   "s26": 13.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "MacKenzie Weegar",
@@ -9222,7 +9222,7 @@
   "a26": 2.0,
   "s26": 26.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kevin Stenlund",
@@ -9237,7 +9237,7 @@
   "a26": 4.0,
   "s26": 11.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Andrew Peeke",
@@ -9252,7 +9252,7 @@
   "a26": 3.0,
   "s26": 11.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Michael Carcone",
@@ -9267,7 +9267,7 @@
   "a26": 1.0,
   "s26": 17.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Kailer Yamamoto",
@@ -9282,7 +9282,7 @@
   "a26": 4.0,
   "s26": 20.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nick DeSimone",
@@ -9297,7 +9297,7 @@
   "a26": 0.0,
   "s26": 3.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jack McBain",
@@ -9312,7 +9312,7 @@
   "a26": 2.0,
   "s26": 11.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dmitri Simashev",
@@ -9327,7 +9327,7 @@
   "a26": 2.0,
   "s26": 15.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Daniil But",
@@ -9342,7 +9342,7 @@
   "a26": 2.0,
   "s26": 13.0,
   "old": "UTA",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Luke Schenn",
@@ -9357,7 +9357,7 @@
   "a26": 2.0,
   "s26": 6.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brendan Gallagher",
@@ -9372,7 +9372,7 @@
   "a26": 1.0,
   "s26": 12.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jamie Oleksiak",
@@ -9387,7 +9387,7 @@
   "a26": 3.0,
   "s26": 8.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Filip Chytil",
@@ -9402,7 +9402,7 @@
   "a26": 2.0,
   "s26": 10.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Paul Cotter",
@@ -9417,7 +9417,7 @@
   "a26": 3.0,
   "s26": 10.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Drew O'Connor",
@@ -9432,7 +9432,7 @@
   "a26": 2.0,
   "s26": 14.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Aatu Räty",
@@ -9447,7 +9447,7 @@
   "a26": 0.0,
   "s26": 4.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Arshdeep Bains",
@@ -9462,7 +9462,7 @@
   "a26": 2.0,
   "s26": 8.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jonathan Lekkerimäki",
@@ -9477,7 +9477,7 @@
   "a26": 6.0,
   "s26": 23.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Liam Ohgren",
@@ -9492,7 +9492,7 @@
   "a26": 3.0,
   "s26": 15.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Victor Mancini",
@@ -9507,7 +9507,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Max Sasson",
@@ -9522,7 +9522,7 @@
   "a26": 2.0,
   "s26": 15.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tom Willander",
@@ -9537,7 +9537,7 @@
   "a26": 3.0,
   "s26": 9.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Zeev Buium",
@@ -9552,7 +9552,7 @@
   "a26": 4.0,
   "s26": 12.0,
   "old": "VAN",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brayden McNabb",
@@ -9567,7 +9567,7 @@
   "a26": 7.0,
   "s26": 17.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nic Dowd",
@@ -9582,7 +9582,7 @@
   "a26": 3.0,
   "s26": 5.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "William Karlsson",
@@ -9597,7 +9597,7 @@
   "a26": 3.0,
   "s26": 23.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Victor Olofsson",
@@ -9612,7 +9612,7 @@
   "a26": 1.0,
   "s26": 9.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Parker Wotherspoon",
@@ -9627,7 +9627,7 @@
   "a26": 0.0,
   "s26": 5.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jeremy Lauzon",
@@ -9642,7 +9642,7 @@
   "a26": 0.0,
   "s26": 21.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dylan Coghlan",
@@ -9657,7 +9657,7 @@
   "a26": 1.0,
   "s26": 11.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Raphael Lavoie",
@@ -9672,7 +9672,7 @@
   "a26": 2.0,
   "s26": 11.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Marc Gatcomb",
@@ -9687,7 +9687,7 @@
   "a26": 1.0,
   "s26": 25.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Braeden Bowman",
@@ -9702,7 +9702,7 @@
   "a26": 3.0,
   "s26": 17.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Trevor Connelly",
@@ -9717,7 +9717,7 @@
   "a26": 5.0,
   "s26": 24.0,
   "old": "VGK",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Nino Niederreiter",
@@ -9732,7 +9732,7 @@
   "a26": 0.0,
   "s26": 9.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dylan DeMelo",
@@ -9747,7 +9747,7 @@
   "a26": 2.0,
   "s26": 8.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Vladislav Namestnikov",
@@ -9762,7 +9762,7 @@
   "a26": 1.0,
   "s26": 7.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Haydn Fleury",
@@ -9777,7 +9777,7 @@
   "a26": 1.0,
   "s26": 7.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Mario Ferraro",
@@ -9792,7 +9792,7 @@
   "a26": 0.0,
   "s26": 16.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dylan Samberg",
@@ -9807,7 +9807,7 @@
   "a26": 3.0,
   "s26": 13.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Neal Pionk",
@@ -9822,7 +9822,7 @@
   "a26": 6.0,
   "s26": 24.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Morgan Barron",
@@ -9837,22 +9837,22 @@
   "a26": 2.0,
   "s26": 11.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jack St. Ivany",
-  "team": "WPG",
+  "team": "WSH",
   "pos": "D",
   "gp25": 0.0,
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 4.0,
+  "gp26": 1.0,
   "g26": 0.0,
-  "a26": 0.0,
+  "a26": 2.0,
   "s26": 1.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cole Koepke",
@@ -9867,7 +9867,7 @@
   "a26": 0.0,
   "s26": 8.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Tyrel Bauer",
@@ -9882,7 +9882,7 @@
   "a26": 0.0,
   "s26": 4.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Isak Rosen",
@@ -9897,7 +9897,7 @@
   "a26": 1.0,
   "s26": 15.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Brad Lambert",
@@ -9912,7 +9912,7 @@
   "a26": 1.0,
   "s26": 4.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Viggo Björck",
@@ -9927,7 +9927,7 @@
   "a26": 0.0,
   "s26": 11.0,
   "old": "WPG",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Justin Holl",
@@ -9942,7 +9942,7 @@
   "a26": 0.0,
   "s26": 2.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Dylan McIlrath",
@@ -9957,7 +9957,7 @@
   "a26": 0.0,
   "s26": 0.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Anthony Beauvillier",
@@ -9967,12 +9967,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 1.0,
   "a26": 1.0,
-  "s26": 9.0,
+  "s26": 11.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Matt Roy",
@@ -9982,12 +9982,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 4.0,
+  "gp26": 5.0,
   "g26": 0.0,
-  "a26": 0.0,
-  "s26": 2.0,
+  "a26": 1.0,
+  "s26": 3.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jordan Kyrou",
@@ -9997,12 +9997,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
-  "g26": 2.0,
+  "gp26": 11.0,
+  "g26": 4.0,
   "a26": 6.0,
-  "s26": 15.0,
+  "s26": 18.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Pierre-Luc Dubois",
@@ -10012,12 +10012,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 5.0,
+  "gp26": 6.0,
   "g26": 1.0,
-  "a26": 3.0,
-  "s26": 8.0,
+  "a26": 5.0,
+  "s26": 9.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Vincent Desharnais",
@@ -10032,7 +10032,7 @@
   "a26": 3.0,
   "s26": 3.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Timothy Liljegren",
@@ -10042,12 +10042,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 1.0,
   "a26": 0.0,
-  "s26": 5.0,
+  "s26": 6.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Martin Fehérváry",
@@ -10057,12 +10057,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 0.0,
   "a26": 2.0,
-  "s26": 4.0,
+  "s26": 5.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Aliaksei Protas",
@@ -10072,12 +10072,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
-  "g26": 0.0,
+  "gp26": 11.0,
+  "g26": 1.0,
   "a26": 2.0,
-  "s26": 13.0,
+  "s26": 16.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Justin Sourdif",
@@ -10087,12 +10087,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 8.0,
+  "gp26": 9.0,
   "g26": 1.0,
   "a26": 1.0,
-  "s26": 8.0,
+  "s26": 9.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ivan Miroshnichenko",
@@ -10107,7 +10107,7 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Leonard",
@@ -10117,12 +10117,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 4.0,
   "a26": 4.0,
-  "s26": 25.0,
+  "s26": 29.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Cole Hutson",
@@ -10132,12 +10132,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 2.0,
   "a26": 3.0,
-  "s26": 22.0,
+  "s26": 23.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ilya Protas",
@@ -10147,12 +10147,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 10.0,
+  "gp26": 11.0,
   "g26": 1.0,
   "a26": 4.0,
   "s26": 9.0,
   "old": "WSH",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Ryan Nugent-Hopkins",
@@ -10162,12 +10162,12 @@
   "g25": 0.0,
   "a25": 0.0,
   "s25": 0.0,
-  "gp26": 3.0,
+  "gp26": 4.0,
   "g26": 1.0,
-  "a26": 2.0,
-  "s26": 10.0,
+  "a26": 4.0,
+  "s26": 12.0,
   "old": "EDM",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Jason Zucker",
@@ -10182,7 +10182,7 @@
   "a26": 0.0,
   "s26": 9.0,
   "old": "BUF",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Seth Jarvis",
@@ -10197,7 +10197,7 @@
   "a26": 2.0,
   "s26": 6.0,
   "old": "CAR",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
  },
  {
   "name": "Scott Mayfield",
@@ -10212,6 +10212,36 @@
   "a26": 0.0,
   "s26": 1.0,
   "old": "NYI",
-  "asof": "Oct 28"
+  "asof": "Oct 29"
+ },
+ {
+  "name": "Logan O'Connor",
+  "team": "COL",
+  "pos": "F",
+  "gp25": 0.0,
+  "g25": 0.0,
+  "a25": 0.0,
+  "s25": 0.0,
+  "gp26": 3.0,
+  "g26": 0.0,
+  "a26": 0.0,
+  "s26": 6.0,
+  "old": "COL",
+  "asof": "Oct 29"
+ },
+ {
+  "name": "Dakota Mermis",
+  "team": "TOR",
+  "pos": "D",
+  "gp25": 0.0,
+  "g25": 0.0,
+  "a25": 0.0,
+  "s25": 0.0,
+  "gp26": 3.0,
+  "g26": 0.0,
+  "a26": 0.0,
+  "s26": 1.0,
+  "old": "TOR",
+  "asof": "Oct 29"
  }
 ]
