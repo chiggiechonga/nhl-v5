@@ -299,20 +299,24 @@ $('#hl').innerHTML=H.at?'Last automatic run: '+esc(new Date(H.at).toLocaleString
 const now=new Date();
 
 const EMOJI={ANA:'🦆',BOS:'🐻',BUF:'🦬',CGY:'🔥',CAR:'🌀',CHI:'🪶',COL:'⛰️',CBJ:'🔵',DAL:'⭐',DET:'🐙',EDM:'🛢️',FLA:'🐆',LAK:'👑',MIN:'🌲',MTL:'⚜️',NSH:'🐯',NJD:'😈',NYI:'🏝️',NYR:'🗽',OTT:'🏛️',PHI:'🧡',PIT:'🐧',SJS:'🦈',SEA:'🦑',STL:'🎵',TBL:'⚡',TOR:'🍁',UTA:'🏔️',VAN:'🐳',VGK:'⚔️',WSH:'🦅',WPG:'✈️'};
-// One leg per game: the model's most likely of {favorite ML, underdog +1.5, over/under 5.5}. The favorite's +1.5 is left out (it pays almost nothing).
-function pickLeg(g){
-  const m=market(g), k=m&&/kalshi/i.test(m.source)?m:null, ok=v=>v!=null&&v>.02&&v<.98;
-  const homeFav=g.p_home>=.5, fav=homeFav?g.home:g.away, dog=homeFav?g.away:g.home;
-  const c=[{kind:'ml',team:fav,label:EMOJI[fav]+' '+fav+' ML',p:Math.max(g.p_home,1-g.p_home),
-      mk:k?(homeFav?k.home_prob:1-k.home_prob):null},
-    {kind:'pl',team:dog,label:EMOJI[dog]+' '+dog+' +1.5',p:homeFav?g.pl_a:g.pl_h,
-      mk:k?(homeFav?k.pl_a:k.pl_h):null}];
-  const over=g.o55>=.5;
-  c.push({kind:'tot',over,label:'🥅 '+g.away+'/'+g.home+' '+(over?'O':'U')+'5.5',p:over?g.o55:1-g.o55,
-      mk:k&&k.over55!=null?(over?k.over55:1-k.over55):null});
-  const best=c.filter(x=>x.p!=null).sort((a,b)=>b.p-a.p)[0];
-  const real=ok(best.mk); best.price=real?best.mk:best.p; best.model=!real; best.dec=1/best.price; best.g=g;
-  return best;
+// One leg per game, mixed like a cheat sheet. Each game has three candidate bets (favorite ML, underdog +1.5, over/under 5.5).
+// To keep the card from being all one type, a game gets the bet type where the model is strongest compared with the other games
+// on the slate (z-score within the type). The favorite's +1.5 is left out because it pays almost nothing.
+function candLegs(g){
+  const m=market(g), k=m&&/kalshi/i.test(m.source)?m:null;
+  const homeFav=g.p_home>=.5, fav=homeFav?g.home:g.away, dog=homeFav?g.away:g.home, over=g.o55>=.5;
+  return [{kind:'ml',team:fav,label:EMOJI[fav]+' '+fav+' ML',p:Math.max(g.p_home,1-g.p_home),mk:k?(homeFav?k.home_prob:1-k.home_prob):null},
+    {kind:'pl',team:dog,label:EMOJI[dog]+' '+dog+' +1.5',p:homeFav?g.pl_a:g.pl_h,mk:k?(homeFav?k.pl_a:k.pl_h):null},
+    {kind:'tot',over,label:'🥅 '+g.away+'/'+g.home+' '+(over?'O':'U')+'5.5',p:over?g.o55:1-g.o55,mk:k&&k.over55!=null?(over?k.over55:1-k.over55):null}]
+    .filter(x=>x.p!=null).map(x=>(x.g=g,x));
+}
+function pickLegs(games){
+  const all=games.map(candLegs), ok=v=>v!=null&&v>.02&&v<.98;
+  const st={};for(const kind of ['ml','pl','tot']){const ps=all.flatMap(c=>c.filter(x=>x.kind===kind).map(x=>x.p));
+    const mu=ps.reduce((a,b)=>a+b,0)/(ps.length||1), sd=Math.sqrt(ps.reduce((a,b)=>a+(b-mu)**2,0)/(ps.length||1))||1;st[kind]={mu,sd}}
+  return all.map(c=>{
+    const best=c.slice().sort((a,b)=>((b.p-st[b.kind].mu)/st[b.kind].sd)-((a.p-st[a.kind].mu)/st[a.kind].sd))[0];
+    const real=ok(best.mk);best.price=real?best.mk:best.p;best.model=!real;best.dec=1/best.price;return best});
 }
 function legResult(l){
   const f=l.g.final;if(!f)return '';
@@ -322,7 +326,7 @@ function legResult(l){
   const tot=ag+hg-(f.ot==='SO'?1:0);return (l.over?tot>5:tot<6)?'w':'l';
 }
 function receipt(){
-  const legs=DATA.games.map(pickLeg).map(l=>{l.res=legResult(l);return l});
+  const legs=pickLegs(DATA.games).map(l=>{l.res=legResult(l);return l});
   if(!legs.length)return '';
   const D=legs.reduce((a,l)=>a*l.dec,1), win=10*D-10;
   const fm=v=>'$'+v.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
@@ -332,7 +336,7 @@ function receipt(){
     ${legs.map((l,i)=>`<div class="leg ${l.res}"><span>${i+1}.</span><span>${esc(l.label)}${l.res==='w'?' ✓':l.res==='l'?' ✗':''}</span><span>${l.dec.toFixed(2)}${l.model?'†':''}</span></div>`).join('')}
     <div class="rule"></div><div class="tot"><span>TOTAL ODDS</span><span>${D.toFixed(2)}</span></div>
     <div class="tot"><span>BET AMOUNT</span><span>$10.00</span></div><div class="tot"><span>${allWon?'WON':lost?'NO WIN':'POTENTIAL WIN'}</span><span>${fm(win)}</span></div></div>
-    <p class="small" style="margin:6px 0 0;font-size:12px">For each game, the leg the model likes most: the favorite's moneyline, the underdog +1.5, or over/under 5.5 goals. Odds are decimal, from Kalshi's pregame price${anyModel?'; † means Kalshi had no price saved for that leg, so it uses the model\'s own odds':''}. Before fees. A ${legs.length}-leg parlay almost never hits.</p></section>`;
+    <p class="small" style="margin:6px 0 0;font-size:12px">Each game gets one leg: the favorite's moneyline, the underdog +1.5, or over/under 5.5 goals, whichever the model likes most compared with the other games today (so the card mixes bet types, not always the single safest one). Odds are decimal, from Kalshi's pregame price${anyModel?'; † means Kalshi had no price saved for that leg, so it uses the model\'s own odds':''}. Before fees. A ${legs.length}-leg parlay almost never hits.</p></section>`;
 }
 function market(g){
   const mk=DATA.market.filter(m=>m.game===g.away+'@'+g.home);
