@@ -1042,5 +1042,14 @@
   "note": "auto 19:09Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 55%",
   "over55": 0.635,
   "over65": 0.545
+ },
+ {
+  "date": "2026-10-29",
+  "game": "MTL@DAL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.615,
+  "note": "auto 20:02Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 42%",
+  "over55": 0.545,
+  "over65": 0.425
  }
 ]
