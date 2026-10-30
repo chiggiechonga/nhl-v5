@@ -12,7 +12,7 @@
    "time": "6:00 ET",
    "start": "2026-10-30T22:00:00Z",
    "gid": 2026020214,
-   "started": false,
+   "started": true,
    "goalie_a": "Connor Hellebuyck",
    "status_a": "unconfirmed",
    "goalie_h": "Adin Hill",
