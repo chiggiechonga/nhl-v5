@@ -1007,7 +1007,7 @@
  ],
  "lineups": {
   "NJD": {
-   "asof": "2026-10-30T05:02Z",
+   "asof": "2026-10-30T05:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -1034,7 +1034,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-10-30T05:02Z",
+   "asof": "2026-10-30T05:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -1063,7 +1063,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-10-30T05:02Z",
+   "asof": "2026-10-30T05:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Perfetti",
@@ -1092,7 +1092,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-10-30T05:02Z",
+   "asof": "2026-10-30T05:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1122,7 +1122,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-30T05:02Z",
+   "asof": "2026-10-30T05:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1151,7 +1151,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-30T05:02Z",
+   "asof": "2026-10-30T05:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1197,27 +1197,15 @@
   "sh3_exp": 177.0
  },
  "health": {
-  "mode": "plan",
+  "mode": "grade",
   "at": "2026-10-30T05:02+00:00",
   "ok": [
-   "3 games on 2026-10-30",
-   "Daily Faceoff goalies parsed for 6 teams",
-   "lineups refreshed for 6/6 teams",
-   "Kalshi: 3 NHL games priced, 1 new rows",
-   "nothing new to log (no new games, no goalie changes)"
+   "graded 2026-10-29_BUF@ANA: 7-6, shots 30-35",
+   "graded 2026-10-29_OTT@LAK: 5-6 OT, shots 22-38",
+   "2 games and 20 player rows added"
   ],
-  "problems": [
-   "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-  ],
+  "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-30T02:29+00:00",
-    "n_ok": 4,
-    "problems": [
-     "Kalshi spread markets found (124) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "grade",
     "at": "2026-10-30T02:29+00:00",
@@ -1283,6 +1271,12 @@
     "problems": [
      "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
+   },
+   {
+    "mode": "grade",
+    "at": "2026-10-30T05:02+00:00",
+    "n_ok": 3,
+    "problems": []
    }
   ]
  },
@@ -1368,5 +1362,5 @@
    "cum": 14.49
   }
  ],
- "made": "2026-10-30T05:02+00:00"
+ "made": "2026-10-30T05:28+00:00"
 }
