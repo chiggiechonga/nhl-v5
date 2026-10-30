@@ -1012,11 +1012,20 @@
    "note": "auto 05:54Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 44%",
    "over55": 0.575,
    "over65": 0.445
+  },
+  {
+   "date": "2026-10-30",
+   "game": "NJD@VGK",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.525,
+   "note": "auto 08:38Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 46%",
+   "over55": 0.57,
+   "over65": 0.455
   }
  ],
  "lineups": {
   "NJD": {
-   "asof": "2026-10-30T06:20Z",
+   "asof": "2026-10-30T08:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -1043,7 +1052,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-10-30T06:20Z",
+   "asof": "2026-10-30T08:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -1072,7 +1081,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-10-30T06:20Z",
+   "asof": "2026-10-30T08:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Perfetti",
@@ -1101,7 +1110,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-10-30T06:20Z",
+   "asof": "2026-10-30T08:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1131,7 +1140,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-30T06:20Z",
+   "asof": "2026-10-30T08:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1160,7 +1169,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-30T06:20Z",
+   "asof": "2026-10-30T08:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1497,5 +1506,5 @@
    "hit": 1
   }
  },
- "made": "2026-10-30T06:43+00:00"
+ "made": "2026-10-30T08:38+00:00"
 }
