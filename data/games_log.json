@@ -1234,5 +1234,17 @@
   "winner": "NYI",
   "date": "2026-10-29",
   "id": "2026-10-29_NYI@MIN"
+ },
+ {
+  "away": "VAN",
+  "home": "SJS",
+  "ag": 2,
+  "hg": 3,
+  "a_sh": 25,
+  "h_sh": 24,
+  "ot": null,
+  "winner": "SJS",
+  "date": "2026-10-29",
+  "id": "2026-10-29_VAN@SJS"
  }
 ]

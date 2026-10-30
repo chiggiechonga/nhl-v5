@@ -1,9 +1,9 @@
 {
  "summary": {
-  "n": 103,
-  "brier5": 0.23560011691338384,
-  "ll5": 0.6638491643605893,
-  "acc5": 0.6310679611650486,
+  "n": 104,
+  "brier5": 0.23487099206332016,
+  "ll5": 0.6623731989299613,
+  "acc5": 0.6346153846153846,
   "n_h2h": 42,
   "brier4_h2h": 0.2340558066666667,
   "brier5_h2h": 0.2308742635566758,
@@ -11,11 +11,11 @@
   "ll5_h2h": 0.654203680258315,
   "acc4_h2h": 0.5714285714285714,
   "acc5_h2h": 0.6666666666666666,
-  "tot_bias5": -0.07139276705128422,
-  "tot_mae5": 1.7611257865618029,
-  "tot_bias4": -0.0843235294117647,
-  "shot_mae5": 4.726603687153398,
-  "shot_bias5": -0.2963191685289909
+  "tot_bias5": -0.056165058080794125,
+  "tot_mae5": 1.7587331248244749,
+  "tot_bias4": -0.0688252427184466,
+  "shot_mae5": 4.721824487516807,
+  "shot_bias5": -0.25280103301478934
  },
  "daily": [
   {
@@ -104,8 +104,8 @@
   },
   {
    "date": "2026-10-29",
-   "n": 8,
-   "b5": 0.22326976474847235,
+   "n": 9,
+   "b5": 0.21621436116605997,
    "b4": null
   }
  ],
@@ -217,6 +217,24 @@
    "k_price": 0.455,
    "k_pnl": -10.0,
    "pick": "PIT"
+  },
+  {
+   "away": "VAN",
+   "home": "SJS",
+   "score": "2-3",
+   "ot": null,
+   "winner": "SJS",
+   "p5": 0.600286186745115,
+   "p4": null,
+   "tot5": 6.512288965879686,
+   "tot_act": 5,
+   "sh_act": [
+    25,
+    24
+   ],
+   "k_price": 0.605,
+   "k_pnl": 6.53,
+   "pick": "SJS"
   },
   {
    "away": "WPG",
@@ -931,11 +949,20 @@
    "note": "auto 04:11Z; mid of bid/ask; O5.5 goals 59%; O6.5 goals 48%",
    "over55": 0.59,
    "over65": 0.475
+  },
+  {
+   "date": "2026-10-30",
+   "game": "SEA@CGY",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.49,
+   "note": "auto 04:36Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%",
+   "over55": 0.585,
+   "over65": 0.475
   }
  ],
  "lineups": {
   "NJD": {
-   "asof": "2026-10-30T04:11Z",
+   "asof": "2026-10-30T04:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -962,7 +989,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-10-30T04:11Z",
+   "asof": "2026-10-30T04:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -991,7 +1018,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-10-30T04:11Z",
+   "asof": "2026-10-30T04:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Perfetti",
@@ -1020,7 +1047,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-10-30T04:11Z",
+   "asof": "2026-10-30T04:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1050,7 +1077,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-30T04:11Z",
+   "asof": "2026-10-30T04:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1079,7 +1106,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-30T04:11Z",
+   "asof": "2026-10-30T04:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1111,48 +1138,33 @@
  },
  "slate_label": "Fri Oct 30",
  "slate_note": "",
- "n_games": 103,
+ "n_games": 104,
  "target": 300,
  "refit": "2026-11-23",
  "player_cal": {
-  "n": 572,
-  "pt_act": 323,
-  "pt_exp": 287.1,
-  "g_act": 158,
-  "g_exp": 136.1,
-  "n_shots": 481,
-  "sh3_act": 181,
-  "sh3_exp": 166.8
+  "n": 582,
+  "pt_act": 326,
+  "pt_exp": 292.0,
+  "g_act": 159,
+  "g_exp": 138.4,
+  "n_shots": 491,
+  "sh3_act": 184,
+  "sh3_exp": 170.2
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-30T03:45+00:00",
+  "at": "2026-10-30T04:36+00:00",
   "ok": [
-   "11 games on 2026-10-29",
-   "Daily Faceoff goalies parsed for 22 teams",
-   "Kalshi: 3 NHL games priced, 0 new rows",
+   "3 games on 2026-10-30",
+   "Daily Faceoff goalies parsed for 6 teams",
+   "lineups refreshed for 6/6 teams",
+   "Kalshi: 3 NHL games priced, 1 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (98) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (92) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-30T01:13+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (144) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
-   {
-    "mode": "plan",
-    "at": "2026-10-30T01:38+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (146) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-10-30T02:04+00:00",
@@ -1209,6 +1221,22 @@
     "n_ok": 4,
     "problems": [
      "Kalshi spread markets found (98) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-30T04:11+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (100) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-30T04:36+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (92) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -1288,12 +1316,12 @@
   },
   {
    "date": "2026-10-29",
-   "games": 8,
-   "bets": 8,
-   "wins": 4,
-   "pnl": -13.82,
-   "cum": 27.96
+   "games": 9,
+   "bets": 9,
+   "wins": 5,
+   "pnl": -7.29,
+   "cum": 34.49
   }
  ],
- "made": "2026-10-30T04:11+00:00"
+ "made": "2026-10-30T04:36+00:00"
 }
