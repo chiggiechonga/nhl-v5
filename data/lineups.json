@@ -1,6 +1,6 @@
 {
  "FLA": {
-  "asof": "2026-10-30T21:42Z",
+  "asof": "2026-10-30T21:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brady Tkachuk",
@@ -120,7 +120,7 @@
   }
  },
  "NJD": {
-  "asof": "2026-10-30T21:42Z",
+  "asof": "2026-10-30T21:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Timo Meier",
@@ -132,15 +132,15 @@
    "Anthony Mantha",
    "Evan Rodrigues",
    "Jesper Boqvist",
+   "Amadeus Lombardi",
    "Cody Glass",
    "Connor Brown",
    "Luke Hughes",
    "Brett Pesce",
    "Jonas Siegenthaler",
    "Dougie Hamilton",
-   "Brenden Dillon",
-   "Johnathan Kovacevic",
-   "Declan Chisholm"
+   "Declan Chisholm",
+   "Johnathan Kovacevic"
   ],
   "inj": {
    "Seamus Casey": "IR"
@@ -439,7 +439,7 @@
   }
  },
  "WPG": {
-  "asof": "2026-10-30T21:42Z",
+  "asof": "2026-10-30T21:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cole Perfetti",
@@ -498,16 +498,16 @@
   }
  },
  "VGK": {
-  "asof": "2026-10-30T21:42Z",
+  "asof": "2026-10-30T21:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivan Barbashev",
    "Jack Eichel",
    "Mark Stone",
-   "Brett Howden",
+   "Trevor Connelly",
    "William Karlsson",
    "Mitch Marner",
-   "Trevor Connelly",
+   "Brett Howden",
    "Tomas Hertl",
    "Braeden Bowman",
    "Jonas Rondbjerg",
@@ -526,7 +526,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-10-30T21:42Z",
+  "asof": "2026-10-30T21:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -649,7 +649,7 @@
   }
  },
  "SEA": {
-  "asof": "2026-10-30T21:42Z",
+  "asof": "2026-10-30T21:52Z",
   "source": "Daily Faceoff",
   "lines": [
    "Bobby McMann",
