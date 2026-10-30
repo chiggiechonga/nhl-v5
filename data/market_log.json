@@ -1294,5 +1294,32 @@
   "note": "auto 01:38Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 55%",
   "over55": 0.645,
   "over65": 0.545
+ },
+ {
+  "date": "2026-10-30",
+  "game": "NJD@VGK",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.515,
+  "note": "auto 04:11Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 46%",
+  "over55": 0.565,
+  "over65": 0.46
+ },
+ {
+  "date": "2026-10-30",
+  "game": "WPG@FLA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.665,
+  "note": "auto 04:11Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+  "over55": 0.565,
+  "over65": 0.445
+ },
+ {
+  "date": "2026-10-30",
+  "game": "SEA@CGY",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.485,
+  "note": "auto 04:11Z; mid of bid/ask; O5.5 goals 59%; O6.5 goals 48%",
+  "over55": 0.59,
+  "over65": 0.475
  }
 ]

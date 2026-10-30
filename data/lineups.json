@@ -1,6 +1,6 @@
 {
  "FLA": {
-  "asof": "2026-10-27T23:41Z",
+  "asof": "2026-10-30T04:11Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brady Tkachuk",
@@ -120,15 +120,15 @@
   }
  },
  "NJD": {
-  "asof": "2026-10-29T00:38Z",
+  "asof": "2026-10-30T04:11Z",
   "source": "Daily Faceoff",
   "lines": [
-   "Arseny Gritsyuk",
-   "Jack Hughes",
-   "Jesper Bratt",
    "Timo Meier",
    "Nico Hischier",
    "Luke Evangelista",
+   "Arseny Gritsyuk",
+   "Jack Hughes",
+   "Jesper Bratt",
    "Anthony Mantha",
    "Evan Rodrigues",
    "Jesper Boqvist",
@@ -139,8 +139,8 @@
    "Brett Pesce",
    "Jonas Siegenthaler",
    "Dougie Hamilton",
-   "Declan Chisholm",
-   "Brenden Dillon"
+   "Brenden Dillon",
+   "Declan Chisholm"
   ],
   "inj": {
    "Seamus Casey": "IR"
@@ -439,7 +439,7 @@
   }
  },
  "WPG": {
-  "asof": "2026-10-29T22:40Z",
+  "asof": "2026-10-30T04:11Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cole Perfetti",
@@ -498,7 +498,7 @@
   }
  },
  "VGK": {
-  "asof": "2026-10-28T01:49Z",
+  "asof": "2026-10-30T04:11Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivan Barbashev",
@@ -527,7 +527,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-10-29T00:12Z",
+  "asof": "2026-10-30T04:11Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -551,7 +551,9 @@
   ],
   "inj": {
    "Jonathan Huberdeau": "IR",
-   "Samuel Honzek": "IR"
+   "Samuel Honzek": "IR",
+   "Brennan Othmann": "IR",
+   "Devin Cooley": "IR"
   }
  },
  "MIN": {
@@ -648,21 +650,21 @@
   }
  },
  "SEA": {
-  "asof": "2026-10-29T01:54Z",
+  "asof": "2026-10-30T04:11Z",
   "source": "Daily Faceoff",
   "lines": [
    "Bobby McMann",
    "Matty Beniers",
    "Jordan Eberle",
-   "Jani Nyman",
    "Chandler Stephenson",
+   "Frederick Gaudreau",
    "Mackie Samoskevich",
    "Kaapo Kakko",
    "Berkly Catton",
    "Shane Wright",
    "Ben Meyers",
-   "Frederick Gaudreau",
    "Ryan Winterton",
+   "Jani Nyman",
    "Vince Dunn",
    "Adam Larsson",
    "Ryker Evans",
