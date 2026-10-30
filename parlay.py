@@ -83,7 +83,7 @@ def days(P, M, G, stake=10.0, manual=()):
         for p, l in zip(ps, legs):
             ok = leg_result(l, p['away'], p['home'], Gd[p['id']])
             types[l['kind']][0] += 1; types[l['kind']][1] += int(ok)
-            rows.append(dict(label=label(l, p['away'], p['home']), kind=l['kind'], dec=round(l['dec'], 3), model=l['model'], hit=ok))
+            rows.append(dict(label=label(l, p['away'], p['home']), kind=l['kind'], dec=round(l['dec'], 3), model=l['model'], hit=ok, pnl=round(stake * l['dec'] - stake, 2) if ok else -stake))
         D = 1.0
         for r in rows: D *= r['dec']
         won = all(r['hit'] for r in rows)
@@ -102,7 +102,7 @@ def days(P, M, G, stake=10.0, manual=()):
             away, home = l['game'].split('@')
             ok = leg_result(l, away, home, Gd[gid])
             types[l['kind']][0] += 1; types[l['kind']][1] += int(ok)
-            rows.append(dict(label=label(l, away, home), kind=l['kind'], dec=l['dec'], model=l['model'], hit=ok))
+            rows.append(dict(label=label(l, away, home), kind=l['kind'], dec=l['dec'], model=l['model'], hit=ok, pnl=round(stake * l['dec'] - stake, 2) if ok else -stake))
         D = mrow.get('odds_shown') or 1.0
         if not mrow.get('odds_shown'):
             for r in rows: D *= r['dec']
@@ -111,4 +111,7 @@ def days(P, M, G, stake=10.0, manual=()):
                         pnl=round(stake * D - stake, 2) if won else -stake, source=mrow.get('source', 'manual')))
     res.sort(key=lambda r: r['date']); cum = 0.0
     for r in res: cum = round(cum + r['pnl'], 2); r['cum'] = cum
+    c2 = 0.0
+    for r in res:
+        r['singles'] = round(sum(l['pnl'] for l in r['legs']), 2); c2 = round(c2 + r['singles'], 2); r['singles_cum'] = c2
     return res, {k: dict(n=v[0], hit=v[1]) for k, v in types.items()}

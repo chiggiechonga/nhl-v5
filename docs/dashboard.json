@@ -1388,77 +1388,88 @@
      "kind": "ml",
      "dec": 1.46,
      "model": false,
-     "hit": true
+     "hit": true,
+     "pnl": 4.6
     },
     {
      "label": "PIT +1.5",
      "kind": "pl",
      "dec": 1.37,
      "model": true,
-     "hit": true
+     "hit": true,
+     "pnl": 3.7
     },
     {
      "label": "CAR ML",
      "kind": "ml",
      "dec": 1.44,
      "model": false,
-     "hit": true
+     "hit": true,
+     "pnl": 4.4
     },
     {
      "label": "DET ML",
      "kind": "ml",
      "dec": 1.6,
      "model": false,
-     "hit": true
+     "hit": true,
+     "pnl": 6.0
     },
     {
      "label": "STL +1.5",
      "kind": "pl",
      "dec": 1.37,
      "model": true,
-     "hit": true
+     "hit": true,
+     "pnl": 3.7
     },
     {
      "label": "NSH +1.5",
      "kind": "pl",
      "dec": 1.4,
      "model": true,
-     "hit": true
+     "hit": true,
+     "pnl": 4.0
     },
     {
      "label": "MTL +1.5",
      "kind": "pl",
      "dec": 1.45,
      "model": true,
-     "hit": true
+     "hit": true,
+     "pnl": 4.5
     },
     {
      "label": "MIN ML",
      "kind": "ml",
      "dec": 1.57,
      "model": false,
-     "hit": false
+     "hit": false,
+     "pnl": -10.0
     },
     {
      "label": "BUF/ANA O5.5",
      "kind": "tot",
      "dec": 1.56,
      "model": false,
-     "hit": true
+     "hit": true,
+     "pnl": 5.6
     },
     {
      "label": "LAK +1.5",
      "kind": "pl",
      "dec": 1.39,
      "model": true,
-     "hit": true
+     "hit": true,
+     "pnl": 3.9
     },
     {
      "label": "VAN/SJS O5.5",
      "kind": "tot",
      "dec": 1.56,
      "model": false,
-     "hit": false
+     "hit": false,
+     "pnl": -10.0
     }
    ],
    "n": 11,
@@ -1467,7 +1478,9 @@
    "won": false,
    "pnl": -10.0,
    "source": "screenshot",
-   "cum": -10.0
+   "cum": -10.0,
+   "singles": 20.4,
+   "singles_cum": 20.4
   }
  ],
  "parlay_types": {
@@ -1484,5 +1497,5 @@
    "hit": 1
   }
  },
- "made": "2026-10-30T06:42+00:00"
+ "made": "2026-10-30T06:43+00:00"
 }
