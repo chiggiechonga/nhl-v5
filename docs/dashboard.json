@@ -1075,11 +1075,20 @@
    "note": "auto 21:26Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 46%",
    "over55": 0.575,
    "over65": 0.465
+  },
+  {
+   "date": "2026-10-30",
+   "game": "NJD@VGK",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.505,
+   "note": "auto 21:42Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "over55": 0.56,
+   "over65": 0.445
   }
  ],
  "lineups": {
   "NJD": {
-   "asof": "2026-10-30T21:26Z",
+   "asof": "2026-10-30T21:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -1106,7 +1115,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-10-30T21:26Z",
+   "asof": "2026-10-30T21:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -1130,12 +1139,11 @@
    ],
    "inj": {
     "Parker Wotherspoon": "IR",
-    "Victor Olofsson": "IR",
-    "Carter Hart": "IR"
+    "Victor Olofsson": "IR"
    }
   },
   "WPG": {
-   "asof": "2026-10-30T21:26Z",
+   "asof": "2026-10-30T21:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Perfetti",
@@ -1164,7 +1172,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-10-30T21:26Z",
+   "asof": "2026-10-30T21:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1194,7 +1202,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-30T21:26Z",
+   "asof": "2026-10-30T21:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1223,7 +1231,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-30T21:26Z",
+   "asof": "2026-10-30T21:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1270,26 +1278,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-30T21:00+00:00",
+  "at": "2026-10-30T21:26+00:00",
   "ok": [
    "3 games on 2026-10-30",
    "Daily Faceoff goalies parsed for 6 teams",
    "lineups refreshed for 6/6 teams",
-   "Kalshi: 3 NHL games priced, 1 new rows",
+   "Kalshi: 3 NHL games priced, 2 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
    "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-30T09:15+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "players",
     "at": "2026-10-30T15:27+00:00",
@@ -1355,6 +1355,14 @@
    {
     "mode": "plan",
     "at": "2026-10-30T21:00+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-30T21:26+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -1562,5 +1570,5 @@
    "hit": 1
   }
  },
- "made": "2026-10-30T21:26+00:00"
+ "made": "2026-10-30T21:42+00:00"
 }
