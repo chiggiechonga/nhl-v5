@@ -1384,5 +1384,14 @@
   "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
   "over55": 0.595,
   "over65": 0.485
+ },
+ {
+  "date": "2026-10-30",
+  "game": "NJD@VGK",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.505,
+  "note": "auto 21:00Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+  "over55": 0.555,
+  "over65": 0.445
  }
 ]
