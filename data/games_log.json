@@ -1138,5 +1138,41 @@
   "winner": "SEA",
   "date": "2026-10-28",
   "id": "2026-10-28_TOR@SEA"
+ },
+ {
+  "away": "WPG",
+  "home": "TBL",
+  "ag": 4,
+  "hg": 6,
+  "a_sh": 21,
+  "h_sh": 31,
+  "ot": null,
+  "winner": "TBL",
+  "date": "2026-10-29",
+  "id": "2026-10-29_WPG@TBL"
+ },
+ {
+  "away": "UTA",
+  "home": "PIT",
+  "ag": 4,
+  "hg": 3,
+  "a_sh": 34,
+  "h_sh": 34,
+  "ot": "OT",
+  "winner": "UTA",
+  "date": "2026-10-29",
+  "id": "2026-10-29_UTA@PIT"
+ },
+ {
+  "away": "CBJ",
+  "home": "CAR",
+  "ag": 2,
+  "hg": 3,
+  "a_sh": 26,
+  "h_sh": 27,
+  "ot": null,
+  "winner": "CAR",
+  "date": "2026-10-29",
+  "id": "2026-10-29_CBJ@CAR"
  }
 ]
