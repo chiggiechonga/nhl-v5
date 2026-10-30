@@ -1363,7 +1363,7 @@
   "game": "NJD@VGK",
   "source": "Kalshi moneyline",
   "home_prob": 0.505,
-  "note": "auto 17:41Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 44%",
+  "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 44%",
   "over55": 0.545,
   "over65": 0.445
  },
@@ -1372,7 +1372,7 @@
   "game": "WPG@FLA",
   "source": "Kalshi moneyline",
   "home_prob": 0.675,
-  "note": "auto 17:41Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 46%",
+  "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 46%",
   "over55": 0.585,
   "over65": 0.465
  },
@@ -1381,8 +1381,8 @@
   "game": "SEA@CGY",
   "source": "Kalshi moneyline",
   "home_prob": 0.495,
-  "note": "auto 17:41Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 49%",
+  "note": "auto 17:59Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
   "over55": 0.595,
-  "over65": 0.49
+  "over65": 0.485
  }
 ]
