@@ -518,7 +518,7 @@ $('#p-grade').innerHTML=`<div class="intro"><h1>Report card · ${esc(fmtD(DATA.g
 // ---------- profit calendar
 (function(){
   const host=$('#cal');if(!host||!KD.length)return;
-  const PD=(DATA.parlay_days||[]).map(d=>({date:d.date,pnl:d.pnl,cum:d.cum,bets:d.n,wins:d.hits,games:d.n,won:d.won,odds:d.odds,legs:d.legs}));
+  const PD=(DATA.parlay_days||[]).map(d=>({date:d.date,pnl:d.pnl,cum:d.cum,bets:d.n,wins:d.hits,games:d.n,won:d.won,odds:d.odds,legs:d.legs,src:d.source}));
   let src='singles';let SRC=KD, by={};
   const useSrc=s=>{src=s;SRC=s==='parlay'?PD:KD;by={};SRC.forEach(d=>by[d.date]=d)};useSrc('singles');
   const MN=['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -550,7 +550,7 @@ $('#p-grade').innerHTML=`<div class="intro"><h1>Report card · ${esc(fmtD(DATA.g
       const PT=DATA.parlay_types||{},nm={ml:'ML',pl:'+1.5',tot:'O/U 5.5'};
       if(src==='parlay'&&Object.values(PT).some(v=>v.n))body+=`<div class="cal-sum"><span>All legs so far: ${Object.keys(nm).map(k=>nm[k]+' '+PT[k].hit+'/'+PT[k].n).join(' · ')}</span></div>`;
       body+=`<div class="cal-sum"><span>${MN[M]} total <b class="${T.p>=0?'good':'bad'}">${T.days?money(T.p):'–'}</b></span><span>${T.days} day${T.days===1?'':'s'} · ${T.w} of ${T.b} ${src==='parlay'?'legs hit':'bets won'}</span></div>
-        <div class="cal-det">${r&&r.date.startsWith(Y+'-'+pad(M+1))?src==='parlay'?`${esc(fmtD(r.date))}: ${r.wins} of ${r.bets} legs hit at ${r.odds.toFixed(2)} odds, ticket ${r.won?'won':'lost'} <b class="${r.pnl>=0?'good':'bad'}">${money(r.pnl)}</b> · running total ${money(r.cum)}<br><span class="dim">${r.legs.map(l=>esc(l.label)+(l.hit?' ✓':' ✗')).join(' · ')}</span>`:`${esc(fmtD(r.date))}: ${r.wins} of ${r.bets} won, <b class="${r.pnl>=0?'good':'bad'}">${money(r.pnl)}</b>${r.games>r.bets?` (${r.bets} of ${r.games} games had a Kalshi price)`:''} · running total ${money(r.cum)}`:(SRC.length?'Tap a day for details.':'No finished cheat sheets yet. A day counts once all its games are final.')}</div>`;
+        <div class="cal-det">${r&&r.date.startsWith(Y+'-'+pad(M+1))?src==='parlay'?`${esc(fmtD(r.date))}: ${r.wins} of ${r.bets} legs hit at ${r.odds.toFixed(2)} odds, ticket ${r.won?'won':'lost'} <b class="${r.pnl>=0?'good':'bad'}">${money(r.pnl)}</b> · running total ${money(r.cum)}${r.src?' · entered from a screenshot of the ticket':''}<br><span class="dim">${r.legs.map(l=>esc(l.label)+(l.hit?' ✓':' ✗')).join(' · ')}</span>`:`${esc(fmtD(r.date))}: ${r.wins} of ${r.bets} won, <b class="${r.pnl>=0?'good':'bad'}">${money(r.pnl)}</b>${r.games>r.bets?` (${r.bets} of ${r.games} games had a Kalshi price)`:''} · running total ${money(r.cum)}`:(SRC.length?'Tap a day for details.':'No finished cheat sheets yet. A day counts once all its games are final.')}</div>`;
     }else{
       body='<div class="cal-year">';
       for(let m=0;m<12;m++){const T=mTot(Y,m),lead=new Date(Y,m,1).getDay(),nd=new Date(Y,m+1,0).getDate();

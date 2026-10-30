@@ -66,7 +66,8 @@ def build(log=True, only=None):
     for g, r in zip(graded, lastrows):
         g['k_price'] = r.get('k_price'); g['k_pnl'] = r.get('k_pnl'); g['pick'] = r['home'] if r['p5'] > .5 else r['away']
     import parlay
-    PD, PT = parlay.days(json.load(open(D + '/predictions_log.json')), market, list(G.values()))
+    PD, PT = parlay.days(json.load(open(D + '/predictions_log.json')), market, list(G.values()),
+                         manual=json.load(open(D + '/parlay_manual.json')) if os.path.exists(D + '/parlay_manual.json') else ())
     health = {}
     hp = os.path.join(D, 'health.json')
     if os.path.exists(hp):

@@ -60,7 +60,7 @@ def o55_of(row):
     return int(m.group(1)) / 100 if m else None
 
 
-def days(P, M, G, stake=10.0):
+def days(P, M, G, stake=10.0, manual=()):
     """P predictions_log, M market_log, G games_log -> list of graded days + per-type hit rates."""
     Gd = {g['id']: g for g in G}
     mk = {}
@@ -90,4 +90,25 @@ def days(P, M, G, stake=10.0):
         pnl = round(stake * D - stake, 2) if won else -stake
         cum = round(cum + pnl, 2)
         res.append(dict(date=d, legs=rows, n=len(rows), hits=sum(r['hit'] for r in rows), odds=round(D, 2), won=won, pnl=pnl, cum=cum))
+    # tickets entered by hand from a screenshot (days the log could not rebuild); graded by the same rules from games_log
+    have = {r['date'] for r in res}
+    for mrow in manual:
+        d = mrow['date']
+        if d in have: continue
+        gids = [f"{d}_{l['game']}" for l in mrow['legs']]
+        if any(i not in Gd for i in gids): continue          # not all final yet
+        rows = []
+        for l, gid in zip(mrow['legs'], gids):
+            away, home = l['game'].split('@')
+            ok = leg_result(l, away, home, Gd[gid])
+            types[l['kind']][0] += 1; types[l['kind']][1] += int(ok)
+            rows.append(dict(label=label(l, away, home), kind=l['kind'], dec=l['dec'], model=l['model'], hit=ok))
+        D = mrow.get('odds_shown') or 1.0
+        if not mrow.get('odds_shown'):
+            for r in rows: D *= r['dec']
+        won = all(r['hit'] for r in rows)
+        res.append(dict(date=d, legs=rows, n=len(rows), hits=sum(r['hit'] for r in rows), odds=round(D, 2), won=won,
+                        pnl=round(stake * D - stake, 2) if won else -stake, source=mrow.get('source', 'manual')))
+    res.sort(key=lambda r: r['date']); cum = 0.0
+    for r in res: cum = round(cum + r['pnl'], 2); r['cum'] = cum
     return res, {k: dict(n=v[0], hit=v[1]) for k, v in types.items()}

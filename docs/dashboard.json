@@ -1379,20 +1379,110 @@
    "cum": 14.49
   }
  ],
- "parlay_days": [],
+ "parlay_days": [
+  {
+   "date": "2026-10-29",
+   "legs": [
+    {
+     "label": "TBL ML",
+     "kind": "ml",
+     "dec": 1.46,
+     "model": false,
+     "hit": true
+    },
+    {
+     "label": "PIT +1.5",
+     "kind": "pl",
+     "dec": 1.37,
+     "model": true,
+     "hit": true
+    },
+    {
+     "label": "CAR ML",
+     "kind": "ml",
+     "dec": 1.44,
+     "model": false,
+     "hit": true
+    },
+    {
+     "label": "DET ML",
+     "kind": "ml",
+     "dec": 1.6,
+     "model": false,
+     "hit": true
+    },
+    {
+     "label": "STL +1.5",
+     "kind": "pl",
+     "dec": 1.37,
+     "model": true,
+     "hit": true
+    },
+    {
+     "label": "NSH +1.5",
+     "kind": "pl",
+     "dec": 1.4,
+     "model": true,
+     "hit": true
+    },
+    {
+     "label": "MTL +1.5",
+     "kind": "pl",
+     "dec": 1.45,
+     "model": true,
+     "hit": true
+    },
+    {
+     "label": "MIN ML",
+     "kind": "ml",
+     "dec": 1.57,
+     "model": false,
+     "hit": false
+    },
+    {
+     "label": "BUF/ANA O5.5",
+     "kind": "tot",
+     "dec": 1.56,
+     "model": false,
+     "hit": true
+    },
+    {
+     "label": "LAK +1.5",
+     "kind": "pl",
+     "dec": 1.39,
+     "model": true,
+     "hit": true
+    },
+    {
+     "label": "VAN/SJS O5.5",
+     "kind": "tot",
+     "dec": 1.56,
+     "model": false,
+     "hit": false
+    }
+   ],
+   "n": 11,
+   "hits": 9,
+   "odds": 68.31,
+   "won": false,
+   "pnl": -10.0,
+   "source": "screenshot",
+   "cum": -10.0
+  }
+ ],
  "parlay_types": {
   "ml": {
-   "n": 0,
-   "hit": 0
+   "n": 4,
+   "hit": 3
   },
   "pl": {
-   "n": 0,
-   "hit": 0
+   "n": 5,
+   "hit": 5
   },
   "tot": {
-   "n": 0,
-   "hit": 0
+   "n": 2,
+   "hit": 1
   }
  },
- "made": "2026-10-30T06:38+00:00"
+ "made": "2026-10-30T06:42+00:00"
 }
