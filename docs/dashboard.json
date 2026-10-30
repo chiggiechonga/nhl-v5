@@ -397,7 +397,7 @@
    "p00": 0.002167346218144006,
    "pl_h": 0.7568570036575558,
    "pl_a": 0.7020049740661105,
-   "goalie_a": "Joey Daccord",
+   "goalie_a": "Philipp Grubauer",
    "goalie_h": "Dustin Wolf",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
@@ -1211,7 +1211,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-30T23:08Z",
+   "asof": "2026-10-30T23:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1240,7 +1240,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-30T23:08Z",
+   "asof": "2026-10-30T23:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1287,26 +1287,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-30T22:43+00:00",
+  "at": "2026-10-30T23:08+00:00",
   "ok": [
    "3 games on 2026-10-30",
    "Daily Faceoff goalies parsed for 6 teams",
-   "lineups refreshed for 4/4 teams",
-   "Kalshi: 3 NHL games priced, 1 new rows",
+   "lineups refreshed for 2/2 teams",
+   "Kalshi: 3 NHL games priced, 0 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (78) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-30T18:51+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-10-30T19:16+00:00",
@@ -1377,6 +1369,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-30T23:08+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (78) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -1581,5 +1581,5 @@
    "hit": 1
   }
  },
- "made": "2026-10-30T23:08+00:00"
+ "made": "2026-10-30T23:34+00:00"
 }
