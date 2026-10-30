@@ -470,7 +470,7 @@
    "pl_h": 0.7324887275038076,
    "pl_a": 0.7240402065189178,
    "goalie_a": "Colten Ellis",
-   "goalie_h": "Lukas Dostal",
+   "goalie_h": "Ville Husso",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -3028,6 +3028,15 @@
    "note": "auto 01:13Z; mid of bid/ask; O5.5 goals 52%; O6.5 goals 42%",
    "over55": 0.525,
    "over65": 0.415
+  },
+  {
+   "date": "2026-10-29",
+   "game": "BUF@ANA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.425,
+   "note": "auto 01:38Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 55%",
+   "over55": 0.645,
+   "over65": 0.545
   }
  ],
  "lineups": {
@@ -3490,7 +3499,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-10-30T01:13Z",
+   "asof": "2026-10-30T01:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Peyton Krebs",
@@ -3521,7 +3530,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-10-30T01:13Z",
+   "asof": "2026-10-30T01:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3551,7 +3560,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-10-30T01:13Z",
+   "asof": "2026-10-30T01:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -3580,7 +3589,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-10-30T01:13Z",
+   "asof": "2026-10-30T01:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -3609,7 +3618,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-30T01:13Z",
+   "asof": "2026-10-30T01:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3636,7 +3645,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-10-30T01:13Z",
+   "asof": "2026-10-30T01:38Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivar Stenberg",
@@ -3681,7 +3690,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-30T00:47+00:00",
+  "at": "2026-10-30T01:13+00:00",
   "ok": [
    "11 games on 2026-10-29",
    "Daily Faceoff goalies parsed for 22 teams",
@@ -3690,17 +3699,9 @@
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (136) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (144) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-29T20:54+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (100) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-10-29T21:20+00:00",
@@ -3771,6 +3772,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (136) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-30T01:13+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (144) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -3849,5 +3858,5 @@
    "cum": 41.78
   }
  ],
- "made": "2026-10-30T01:13+00:00"
+ "made": "2026-10-30T01:38+00:00"
 }
