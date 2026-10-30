@@ -1,6 +1,6 @@
 {
  "FLA": {
-  "asof": "2026-10-30T22:17Z",
+  "asof": "2026-10-30T22:43Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brady Tkachuk",
@@ -439,7 +439,7 @@
   }
  },
  "WPG": {
-  "asof": "2026-10-30T22:17Z",
+  "asof": "2026-10-30T22:43Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cole Perfetti",
@@ -453,13 +453,13 @@
    "Alex Iafallo",
    "Cole Koepke",
    "Morgan Barron",
-   "Brad Lambert",
    "Dylan Samberg",
    "Neal Pionk",
    "Mario Ferraro",
    "Dylan DeMelo",
    "Haydn Fleury",
-   "Elias Salomonsson"
+   "Elias Salomonsson",
+   "Tyrel Bauer"
   ],
   "inj": {
    "Nick Bjugstad": "IR",
@@ -526,7 +526,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-10-30T22:17Z",
+  "asof": "2026-10-30T22:43Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -649,7 +649,7 @@
   }
  },
  "SEA": {
-  "asof": "2026-10-30T22:17Z",
+  "asof": "2026-10-30T22:43Z",
   "source": "Daily Faceoff",
   "lines": [
    "Bobby McMann",
