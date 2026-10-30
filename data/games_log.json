@@ -1174,5 +1174,17 @@
   "winner": "CAR",
   "date": "2026-10-29",
   "id": "2026-10-29_CBJ@CAR"
+ },
+ {
+  "away": "CHI",
+  "home": "DET",
+  "ag": 1,
+  "hg": 4,
+  "a_sh": 19,
+  "h_sh": 29,
+  "ot": null,
+  "winner": "DET",
+  "date": "2026-10-29",
+  "id": "2026-10-29_CHI@DET"
  }
 ]
