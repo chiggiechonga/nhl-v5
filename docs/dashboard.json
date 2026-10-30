@@ -1052,7 +1052,7 @@
  ],
  "lineups": {
   "NJD": {
-   "asof": "2026-10-30T19:16Z",
+   "asof": "2026-10-30T19:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -1079,7 +1079,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-10-30T19:16Z",
+   "asof": "2026-10-30T19:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -1108,7 +1108,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-10-30T19:16Z",
+   "asof": "2026-10-30T19:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Perfetti",
@@ -1137,7 +1137,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-10-30T19:16Z",
+   "asof": "2026-10-30T19:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1167,7 +1167,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-10-30T19:16Z",
+   "asof": "2026-10-30T19:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1196,7 +1196,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-30T19:16Z",
+   "asof": "2026-10-30T19:42Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1243,7 +1243,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-30T18:51+00:00",
+  "at": "2026-10-30T19:16+00:00",
   "ok": [
    "3 games on 2026-10-30",
    "Daily Faceoff goalies parsed for 6 teams",
@@ -1255,12 +1255,6 @@
    "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "grade",
-    "at": "2026-10-30T05:02+00:00",
-    "n_ok": 3,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-30T05:28+00:00",
@@ -1326,6 +1320,14 @@
    {
     "mode": "plan",
     "at": "2026-10-30T18:51+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-30T19:16+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -1533,5 +1535,5 @@
    "hit": 1
   }
  },
- "made": "2026-10-30T19:17+00:00"
+ "made": "2026-10-30T19:43+00:00"
 }
