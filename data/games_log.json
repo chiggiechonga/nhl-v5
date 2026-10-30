@@ -1186,5 +1186,53 @@
   "winner": "DET",
   "date": "2026-10-29",
   "id": "2026-10-29_CHI@DET"
+ },
+ {
+  "away": "BOS",
+  "home": "STL",
+  "ag": 1,
+  "hg": 4,
+  "a_sh": 32,
+  "h_sh": 18,
+  "ot": null,
+  "winner": "STL",
+  "date": "2026-10-29",
+  "id": "2026-10-29_BOS@STL"
+ },
+ {
+  "away": "WSH",
+  "home": "NSH",
+  "ag": 4,
+  "hg": 3,
+  "a_sh": 29,
+  "h_sh": 28,
+  "ot": null,
+  "winner": "WSH",
+  "date": "2026-10-29",
+  "id": "2026-10-29_WSH@NSH"
+ },
+ {
+  "away": "MTL",
+  "home": "DAL",
+  "ag": 5,
+  "hg": 2,
+  "a_sh": 21,
+  "h_sh": 19,
+  "ot": null,
+  "winner": "MTL",
+  "date": "2026-10-29",
+  "id": "2026-10-29_MTL@DAL"
+ },
+ {
+  "away": "NYI",
+  "home": "MIN",
+  "ag": 4,
+  "hg": 3,
+  "a_sh": 26,
+  "h_sh": 25,
+  "ot": "OT",
+  "winner": "NYI",
+  "date": "2026-10-29",
+  "id": "2026-10-29_NYI@MIN"
  }
 ]
