@@ -1,8 +1,8 @@
 {
  "mode": "grade",
- "at": "2026-10-30T02:09+00:00",
+ "at": "2026-10-30T02:29+00:00",
  "ok": [
-  "graded 2026-10-29_CHI@DET: 1-4, shots 19-29",
+  "graded 2026-10-29_CHI@DET: 1-4, shots 19-31",
   "1 games and 10 player rows added"
  ],
  "problems": [],
@@ -71,15 +71,15 @@
   },
   {
    "mode": "plan",
-   "at": "2026-10-30T02:09+00:00",
+   "at": "2026-10-30T02:29+00:00",
    "n_ok": 4,
    "problems": [
-    "Kalshi spread markets found (122) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    "Kalshi spread markets found (124) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
    ]
   },
   {
    "mode": "grade",
-   "at": "2026-10-30T02:09+00:00",
+   "at": "2026-10-30T02:29+00:00",
    "n_ok": 2,
    "problems": []
   }
