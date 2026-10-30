@@ -79,4 +79,28 @@ class M(unittest.TestCase):
         self.assertGreater(hm + am, 1.2)   # both teams can cover +1.5 in the same game
 
 
+class PL(unittest.TestCase):
+    def test_parlay_days(self):
+        import parlay
+        def p(i, a, h, ph, o55, plh, pla, n=1): return dict(id=i, date='2026-10-30', model='v5', pass_no=n, made_at='2026-10-30T10:00Z', away=a, home=h, p_home=ph, o55=o55, pl_h=plh, pl_a=pla)
+        P = [p('2026-10-30_AAA@BBB', 'AAA', 'BBB', .70, .55, .88, .60), p('2026-10-30_CCC@DDD', 'CCC', 'DDD', .52, .66, .73, .73),
+             p('2026-10-30_EEE@FFF', 'EEE', 'FFF', .55, .52, .80, .70), p('2026-10-30_GGG@HHH', 'GGG', 'HHH', .60, .54, .85, .66)]
+        G = [dict(id='2026-10-30_AAA@BBB', ag=1, hg=4, ot=None, winner='BBB'), dict(id='2026-10-30_CCC@DDD', ag=4, hg=3, ot='SO', winner='CCC'),
+             dict(id='2026-10-30_EEE@FFF', ag=2, hg=3, ot='OT', winner='FFF'), dict(id='2026-10-30_GGG@HHH', ag=3, hg=1, ot=None, winner='GGG')]
+        d, ty = parlay.days(P, [], G)
+        self.assertEqual(len(d), 1); self.assertEqual(d[0]['n'], 4)
+        self.assertTrue(all(l['model'] for l in d[0]['legs']))          # no Kalshi rows -> model odds, flagged
+        self.assertEqual(sum(v['n'] for v in ty.values()), 4)
+        self.assertEqual(d[0]['pnl'], round(10 * d[0]['odds'] - 10, 2) if d[0]['won'] else -10)
+        # a game that is not final yet keeps the whole day out of the record
+        self.assertEqual(parlay.days(P, [], G[:3])[0], [])
+        # result rules
+        g = dict(ag=4, hg=3, ot='SO', winner='AAA')
+        self.assertTrue(parlay.leg_result(dict(kind='tot', over=True), 'AAA', 'BBB', g))      # 4-3 SO = 6 real goals (SO goal not counted): over 5.5
+        self.assertFalse(parlay.leg_result(dict(kind='tot', over=False), 'AAA', 'BBB', g))
+        self.assertTrue(parlay.leg_result(dict(kind='tot', over=False), 'AAA', 'BBB', dict(ag=3, hg=2, ot='SO', winner='AAA')))   # 3-2 SO = 4 goals
+        self.assertTrue(parlay.leg_result(dict(kind='pl', team='BBB'), 'AAA', 'BBB', g))      # lost by 1
+        self.assertFalse(parlay.leg_result(dict(kind='pl', team='BBB'), 'AAA', 'BBB', dict(ag=5, hg=3, ot=None, winner='AAA')))
+
+
 if __name__ == '__main__': unittest.main()

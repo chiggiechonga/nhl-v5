@@ -65,6 +65,8 @@ def build(log=True, only=None):
     for d in kdays: cum = round(cum + d['pnl'], 2); d['cum'] = cum
     for g, r in zip(graded, lastrows):
         g['k_price'] = r.get('k_price'); g['k_pnl'] = r.get('k_pnl'); g['pick'] = r['home'] if r['p5'] > .5 else r['away']
+    import parlay
+    PD, PT = parlay.days(json.load(open(D + '/predictions_log.json')), market, list(G.values()))
     health = {}
     hp = os.path.join(D, 'health.json')
     if os.path.exists(hp):
@@ -73,7 +75,7 @@ def build(log=True, only=None):
                market=[dict(x, over55=x.get('over55', _o55(x))) for x in market if x['date'] == slate['date']],
                lineups={t: lineups[t] for g in games for t in g if t in lineups},
                slate_label=slate['label'], slate_note=slate.get('note', ''), n_games=len(rows), target=300, refit='2026-11-23',
-               player_cal=player_calibration(), health=health, kalshi_days=kdays,
+               player_cal=player_calibration(), health=health, kalshi_days=kdays, parlay_days=PD, parlay_types=PT,
                made=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='minutes'))
     os.makedirs(DOCS, exist_ok=True)
     json.dump(out, open(os.path.join(DOCS, 'dashboard.json'), 'w'), indent=1, default=float)
