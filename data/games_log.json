@@ -1246,5 +1246,29 @@
   "winner": "SJS",
   "date": "2026-10-29",
   "id": "2026-10-29_VAN@SJS"
+ },
+ {
+  "away": "BUF",
+  "home": "ANA",
+  "ag": 7,
+  "hg": 6,
+  "a_sh": 30,
+  "h_sh": 35,
+  "ot": null,
+  "winner": "BUF",
+  "date": "2026-10-29",
+  "id": "2026-10-29_BUF@ANA"
+ },
+ {
+  "away": "OTT",
+  "home": "LAK",
+  "ag": 5,
+  "hg": 6,
+  "a_sh": 22,
+  "h_sh": 38,
+  "ot": "OT",
+  "winner": "LAK",
+  "date": "2026-10-29",
+  "id": "2026-10-29_OTT@LAK"
  }
 ]
