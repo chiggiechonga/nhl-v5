@@ -36,7 +36,7 @@
    "time": "8:00 ET",
    "start": "2026-10-31T00:00:00Z",
    "gid": 2026020216,
-   "started": false,
+   "started": true,
    "goalie_a": "Philipp Grubauer",
    "status_a": "unconfirmed",
    "goalie_h": "Dustin Wolf",
