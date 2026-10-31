@@ -122,7 +122,7 @@
   "last_price_dollars": "0.0000",
   "latest_expiration_time": "2026-11-05T02:00:00Z",
   "market_type": "binary",
-  "no_ask_dollars": "0.8800",
+  "no_ask_dollars": "0.8700",
   "no_bid_dollars": "0.8200",
   "no_sub_title": "Calgary wins by over 2.5 goals",
   "notional_value_dollars": "1.0000",
@@ -154,8 +154,8 @@
   "volume_fp": "0.00",
   "yes_ask_dollars": "0.1800",
   "yes_ask_size_fp": "2179.00",
-  "yes_bid_dollars": "0.1200",
-  "yes_bid_size_fp": "2101.00",
+  "yes_bid_dollars": "0.1300",
+  "yes_bid_size_fp": "5.00",
   "yes_sub_title": "Calgary wins by over 2.5 goals"
  }
 ]
