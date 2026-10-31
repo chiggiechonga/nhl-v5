@@ -1,20 +1,16 @@
 {
- "mode": "grade",
- "at": "2026-10-31T02:07+00:00",
+ "mode": "plan",
+ "at": "2026-10-31T02:32+00:00",
  "ok": [
-  "graded 2026-10-30_WPG@FLA: 2-5, shots 24-38",
-  "1 games and 10 player rows added"
+  "3 games on 2026-10-30",
+  "Daily Faceoff goalies parsed for 6 teams",
+  "Kalshi: 1 NHL games priced, 0 new rows",
+  "nothing new to log (no new games, no goalie changes)"
  ],
- "problems": [],
+ "problems": [
+  "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+ ],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-30T23:08+00:00",
-   "n_ok": 5,
-   "problems": [
-    "Kalshi spread markets found (78) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-   ]
-  },
   {
    "mode": "plan",
    "at": "2026-10-30T23:34+00:00",
@@ -82,6 +78,14 @@
    "at": "2026-10-31T02:07+00:00",
    "n_ok": 2,
    "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-31T02:32+00:00",
+   "n_ok": 4,
+   "problems": [
+    "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   ]
   }
  ]
 }
