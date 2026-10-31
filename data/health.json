@@ -1,25 +1,17 @@
 {
  "mode": "plan",
- "at": "2026-10-31T17:02+00:00",
+ "at": "2026-10-31T17:28+00:00",
  "ok": [
   "10 games on 2026-10-31",
   "Daily Faceoff goalies parsed for 20 teams",
   "lineups refreshed for 16/16 teams",
-  "Kalshi: 10 NHL games priced, 8 new rows",
-  "logging 4 game(s): ['2026-10-31_OTT@SJS', '2026-10-31_PIT@MTL', '2026-10-31_TBL@NSH', '2026-10-31_TOR@VAN']"
+  "Kalshi: 10 NHL games priced, 2 new rows",
+  "nothing new to log (no new games, no goalie changes)"
  ],
  "problems": [
-  "Kalshi spread markets found (78) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+  "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
  ],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-31T03:51+00:00",
-   "n_ok": 4,
-   "problems": [
-    "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-   ]
-  },
   {
    "mode": "plan",
    "at": "2026-10-31T04:16+00:00",
@@ -88,6 +80,14 @@
    "n_ok": 5,
    "problems": [
     "Kalshi spread markets found (78) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   ]
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-31T17:28+00:00",
+   "n_ok": 5,
+   "problems": [
+    "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
    ]
   }
  ]
