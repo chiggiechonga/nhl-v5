@@ -3214,7 +3214,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-10-31T23:31Z",
+   "asof": "2026-10-31T23:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Valeri Nichushkin",
@@ -3226,7 +3226,6 @@
     "Sean Monahan",
     "Cole Sillinger",
     "Conor Garland",
-    "Danton Heinen",
     "Luca Del Bel Belluz",
     "Ryan Lomberg",
     "Zach Werenski",
@@ -3234,15 +3233,15 @@
     "Jake Christiansen",
     "Denton Mateychuk",
     "Dante Fabbro",
-    "Erik Gudbranson"
+    "Erik Gudbranson",
+    "Ivan Provorov"
    ],
    "inj": {
-    "Isac Lundestrom": "IR",
-    "Ivan Provorov": "IR"
+    "Isac Lundestrom": "IR"
    }
   },
   "DAL": {
-   "asof": "2026-10-31T23:31Z",
+   "asof": "2026-10-31T23:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Sam Steel",
@@ -3251,10 +3250,10 @@
     "Jason Robertson",
     "Roope Hintz",
     "Tyler Seguin",
-    "Joel Kiviranta",
+    "David Perron",
     "Arttu Hyry",
     "Jamie Benn",
-    "David Perron",
+    "Joel Kiviranta",
     "Justin Hryckowian",
     "Colin Blackwell",
     "Esa Lindell",
@@ -3272,7 +3271,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-31T23:31Z",
+   "asof": "2026-10-31T23:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -3302,7 +3301,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-31T23:31Z",
+   "asof": "2026-10-31T23:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3690,5 +3689,5 @@
    "hit": 2
   }
  },
- "made": "2026-10-31T23:31+00:00"
+ "made": "2026-10-31T23:52+00:00"
 }
