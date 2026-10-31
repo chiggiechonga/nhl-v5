@@ -34324,280 +34324,11 @@
   }
  },
  {
-  "id": "2026-10-31_CHI@BOS",
-  "date": "2026-10-31",
-  "model": "v5",
-  "pass_no": 2,
-  "made_at": "2026-10-31T16:48+00:00Z",
-  "away": "CHI",
-  "home": "BOS",
-  "p_home": 0.665,
-  "total": 5.944,
-  "shots_h": 29.84,
-  "shots_a": 21.36,
-  "o55": 0.5403,
-  "pl_h": 0.8509,
-  "pl_a": 0.5938,
-  "goalie_a": "Arvid Soderblom",
-  "goalie_h": "Michael DiPietro",
-  "goalie_status_a": "unconfirmed",
-  "goalie_status_h": "unconfirmed",
-  "roster_snapshot": {
-   "CHI": {
-    "asof": "2026-10-31T16:47Z",
-    "source": "Daily Faceoff",
-    "lines": [
-     "Roman Kantserov",
-     "Connor Bedard",
-     "Ryan Donato",
-     "Tyler Bertuzzi",
-     "Anton Frondell",
-     "Andrew Mangiapane",
-     "Oliver Moore",
-     "Frank Nazar",
-     "Patrick Kane",
-     "Cole Smith",
-     "Ryan Greene",
-     "Jordan Greenway",
-     "Alex Vlasic",
-     "Ian Cole",
-     "Wyatt Kaiser",
-     "Artyom Levshunov",
-     "Sam Rinzel",
-     "Ethan Del Mastro"
-    ],
-    "inj": {
-     "Bowen Byram": "IR"
-    }
-   },
-   "BOS": {
-    "asof": "2026-10-31T16:47Z",
-    "source": "Daily Faceoff",
-    "lines": [
-     "JJ Peterka",
-     "Pavel Zacha",
-     "David Pastrnak",
-     "Marat Khusnutdinov",
-     "Fraser Minten",
-     "Morgan Geekie",
-     "Casey Mittelstadt",
-     "Elias Lindholm",
-     "James Hagens",
-     "Tanner Jeannot",
-     "Sean Kuraly",
-     "Mark Kastelic",
-     "Hampus Lindholm",
-     "Charlie McAvoy",
-     "Nikita Zadorov",
-     "Will Borgen",
-     "Mason Lohrei",
-     "Jonathan Aspirot"
-    ],
-    "inj": {}
-   }
-  },
-  "players": [
-   {
-    "name": "Connor Bedard",
-    "team": "CHI",
-    "opp": "BOS",
-    "pos": "F",
-    "p_pt": 0.5838,
-    "p_g": 0.2994,
-    "ep": 0.877,
-    "sog": 2.71,
-    "sog2_raw": 0.7066,
-    "sog3_raw": 0.4831,
-    "sog4_raw": 0.2947,
-    "sog2": 0.6642,
-    "sog3": 0.4348,
-    "sog4": 0.2358,
-    "dtd": false,
-    "basis": "2025-26 69 GP + 2026-27 7 GP (stats as of Oct 31)"
-   },
-   {
-    "name": "Patrick Kane",
-    "team": "CHI",
-    "opp": "BOS",
-    "pos": "F",
-    "p_pt": 0.4686,
-    "p_g": 0.1398,
-    "ep": 0.632,
-    "sog": 1.96,
-    "sog2_raw": 0.5552,
-    "sog3_raw": 0.3137,
-    "sog4_raw": 0.1549,
-    "sog2": 0.5219,
-    "sog3": 0.2823,
-    "sog4": 0.1239,
-    "dtd": false,
-    "basis": "2025-26 67 GP + 2026-27 13 GP (stats as of Oct 31)"
-   },
-   {
-    "name": "Anton Frondell",
-    "team": "CHI",
-    "opp": "BOS",
-    "pos": "F",
-    "p_pt": 0.4141,
-    "p_g": 0.145,
-    "ep": 0.535,
-    "sog": 2.17,
-    "sog2_raw": 0.6029,
-    "sog3_raw": 0.3626,
-    "sog4_raw": 0.1917,
-    "sog2": 0.5667,
-    "sog3": 0.3263,
-    "sog4": 0.1534,
-    "dtd": false,
-    "basis": "2025-26 12 GP + 2026-27 13 GP (stats as of Oct 31)"
-   },
-   {
-    "name": "Tyler Bertuzzi",
-    "team": "CHI",
-    "opp": "BOS",
-    "pos": "F",
-    "p_pt": 0.3962,
-    "p_g": 0.2304,
-    "ep": 0.504,
-    "sog": 1.53,
-    "sog2_raw": 0.4359,
-    "sog3_raw": 0.2072,
-    "sog4_raw": 0.0851,
-    "sog2": 0.4097,
-    "sog3": 0.1865,
-    "sog4": 0.068,
-    "dtd": false,
-    "basis": "2025-26 79 GP + 2026-27 13 GP (stats as of Oct 31)"
-   },
-   {
-    "name": "Frank Nazar",
-    "team": "CHI",
-    "opp": "BOS",
-    "pos": "F",
-    "p_pt": 0.3738,
-    "p_g": 0.1796,
-    "ep": 0.468,
-    "sog": 1.67,
-    "sog2_raw": 0.4772,
-    "sog3_raw": 0.2416,
-    "sog4_raw": 0.1061,
-    "sog2": 0.4486,
-    "sog3": 0.2175,
-    "sog4": 0.0848,
-    "dtd": false,
-    "basis": "2025-26 66 GP + 2026-27 11 GP (stats as of Oct 31)"
-   },
-   {
-    "name": "David Pastrnak",
-    "team": "BOS",
-    "opp": "CHI",
-    "pos": "F",
-    "p_pt": 0.7106,
-    "p_g": 0.3319,
-    "ep": 1.24,
-    "sog": 3.72,
-    "sog2_raw": 0.8332,
-    "sog3_raw": 0.6623,
-    "sog4_raw": 0.4815,
-    "sog2": 0.7833,
-    "sog3": 0.5961,
-    "sog4": 0.3852,
-    "dtd": false,
-    "basis": "2025-26 77 GP + 2026-27 14 GP (stats as of Oct 31)"
-   },
-   {
-    "name": "Charlie McAvoy",
-    "team": "BOS",
-    "opp": "CHI",
-    "pos": "D",
-    "p_pt": 0.5578,
-    "p_g": 0.1348,
-    "ep": 0.816,
-    "sog": 1.82,
-    "sog2_raw": 0.5192,
-    "sog3_raw": 0.2793,
-    "sog4_raw": 0.1308,
-    "sog2": 0.4881,
-    "sog3": 0.2513,
-    "sog4": 0.1046,
-    "dtd": false,
-    "basis": "2025-26 69 GP + 2026-27 8 GP (stats as of Oct 31)"
-   },
-   {
-    "name": "Morgan Geekie",
-    "team": "BOS",
-    "opp": "CHI",
-    "pos": "F",
-    "p_pt": 0.5213,
-    "p_g": 0.2741,
-    "ep": 0.737,
-    "sog": 2.07,
-    "sog2_raw": 0.5812,
-    "sog3_raw": 0.3399,
-    "sog4_raw": 0.1743,
-    "sog2": 0.5464,
-    "sog3": 0.3059,
-    "sog4": 0.1394,
-    "dtd": false,
-    "basis": "2025-26 81 GP + 2026-27 14 GP (stats as of Oct 31)"
-   },
-   {
-    "name": "Pavel Zacha",
-    "team": "BOS",
-    "opp": "CHI",
-    "pos": "F",
-    "p_pt": 0.5166,
-    "p_g": 0.2725,
-    "ep": 0.727,
-    "sog": 1.84,
-    "sog2_raw": 0.5235,
-    "sog3_raw": 0.2832,
-    "sog4_raw": 0.1335,
-    "sog2": 0.4921,
-    "sog3": 0.2549,
-    "sog4": 0.1068,
-    "dtd": false,
-    "basis": "2025-26 78 GP + 2026-27 13 GP (stats as of Oct 31)"
-   },
-   {
-    "name": "Elias Lindholm",
-    "team": "BOS",
-    "opp": "CHI",
-    "pos": "F",
-    "p_pt": 0.5022,
-    "p_g": 0.2209,
-    "ep": 0.698,
-    "sog": 1.86,
-    "sog2_raw": 0.5284,
-    "sog3_raw": 0.2878,
-    "sog4_raw": 0.1366,
-    "sog2": 0.4967,
-    "sog3": 0.259,
-    "sog4": 0.1093,
-    "dtd": false,
-    "basis": "2025-26 69 GP + 2026-27 14 GP (stats as of Oct 31)"
-   }
-  ],
-  "params": {
-   "KG": 0.03,
-   "KS": 0.09,
-   "XG_SHOT_W": 0.65,
-   "KEEP_G": 0.65,
-   "KEEP_S": 0.75,
-   "HOME_G": 0.09,
-   "HOME_S": 0.55,
-   "B2B_S": 0.98,
-   "SCALE": 1.0,
-   "CAL_A": 1.0,
-   "CAL_B": 0.0
-  }
- },
- {
   "id": "2026-10-31_TBL@NSH",
   "date": "2026-10-31",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-31T16:48+00:00Z",
+  "made_at": "2026-10-31T17:02+00:00Z",
   "away": "TBL",
   "home": "NSH",
   "p_home": 0.4324,
@@ -34613,7 +34344,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "TBL": {
-    "asof": "2026-10-31T16:47Z",
+    "asof": "2026-10-31T17:02Z",
     "source": "Daily Faceoff",
     "lines": [
      "Jake Guentzel",
@@ -34641,7 +34372,7 @@
     }
    },
    "NSH": {
-    "asof": "2026-10-31T16:47Z",
+    "asof": "2026-10-31T17:02Z",
     "source": "Daily Faceoff",
     "lines": [
      "Steven Stamkos",
@@ -34869,7 +34600,7 @@
   "date": "2026-10-31",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-31T16:48+00:00Z",
+  "made_at": "2026-10-31T17:02+00:00Z",
   "away": "OTT",
   "home": "SJS",
   "p_home": 0.4516,
@@ -34885,7 +34616,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "OTT": {
-    "asof": "2026-10-31T16:47Z",
+    "asof": "2026-10-31T17:02Z",
     "source": "Daily Faceoff",
     "lines": [
      "Fabian Zetterlund",
@@ -34916,7 +34647,7 @@
     }
    },
    "SJS": {
-    "asof": "2026-10-31T16:47Z",
+    "asof": "2026-10-31T17:02Z",
     "source": "Daily Faceoff",
     "lines": [
      "Ivar Stenberg",
@@ -35145,7 +34876,7 @@
   "date": "2026-10-31",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-31T16:48+00:00Z",
+  "made_at": "2026-10-31T17:02+00:00Z",
   "away": "PIT",
   "home": "MTL",
   "p_home": 0.5149,
@@ -35161,7 +34892,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "PIT": {
-    "asof": "2026-10-31T16:47Z",
+    "asof": "2026-10-31T17:02Z",
     "source": "Daily Faceoff",
     "lines": [
      "Tommy Novak",
@@ -35190,7 +34921,7 @@
     }
    },
    "MTL": {
-    "asof": "2026-10-31T16:47Z",
+    "asof": "2026-10-31T17:02Z",
     "source": "Daily Faceoff",
     "lines": [
      "Cole Caufield",
@@ -35420,7 +35151,7 @@
   "date": "2026-10-31",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-10-31T16:48+00:00Z",
+  "made_at": "2026-10-31T17:02+00:00Z",
   "away": "TOR",
   "home": "VAN",
   "p_home": 0.4479,
@@ -35436,7 +35167,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "TOR": {
-    "asof": "2026-10-31T16:47Z",
+    "asof": "2026-10-31T17:02Z",
     "source": "Daily Faceoff",
     "lines": [
      "Gavin McKenna",
@@ -35468,7 +35199,7 @@
     }
    },
    "VAN": {
-    "asof": "2026-10-31T16:47Z",
+    "asof": "2026-10-31T17:02Z",
     "source": "Daily Faceoff",
     "lines": [
      "Jake DeBrusk",
