@@ -1318,5 +1318,17 @@
   "winner": "STL",
   "date": "2026-10-31",
   "id": "2026-10-31_STL@DET"
+ },
+ {
+  "away": "CHI",
+  "home": "BOS",
+  "ag": 4,
+  "hg": 5,
+  "a_sh": 41,
+  "h_sh": 32,
+  "ot": "OT",
+  "winner": "BOS",
+  "date": "2026-10-31",
+  "id": "2026-10-31_CHI@BOS"
  }
 ]
