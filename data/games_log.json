@@ -1354,5 +1354,29 @@
   "winner": "EDM",
   "date": "2026-10-31",
   "id": "2026-10-31_EDM@NYI"
+ },
+ {
+  "away": "BUF",
+  "home": "LAK",
+  "ag": 3,
+  "hg": 2,
+  "a_sh": 31,
+  "h_sh": 29,
+  "ot": null,
+  "winner": "BUF",
+  "date": "2026-10-31",
+  "id": "2026-10-31_BUF@LAK"
+ },
+ {
+  "away": "OTT",
+  "home": "SJS",
+  "ag": 5,
+  "hg": 1,
+  "a_sh": 35,
+  "h_sh": 23,
+  "ot": null,
+  "winner": "OTT",
+  "date": "2026-10-31",
+  "id": "2026-10-31_OTT@SJS"
  }
 ]
