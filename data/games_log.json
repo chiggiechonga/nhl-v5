@@ -1270,5 +1270,17 @@
   "winner": "LAK",
   "date": "2026-10-29",
   "id": "2026-10-29_OTT@LAK"
+ },
+ {
+  "away": "NJD",
+  "home": "VGK",
+  "ag": 5,
+  "hg": 2,
+  "a_sh": 32,
+  "h_sh": 21,
+  "ot": null,
+  "winner": "NJD",
+  "date": "2026-10-30",
+  "id": "2026-10-30_NJD@VGK"
  }
 ]
