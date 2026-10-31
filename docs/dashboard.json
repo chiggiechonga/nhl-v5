@@ -2968,7 +2968,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-10-31T20:23Z",
+   "asof": "2026-10-31T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tommy Novak",
@@ -2997,7 +2997,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-10-31T20:23Z",
+   "asof": "2026-10-31T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -3026,7 +3026,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-31T20:23Z",
+   "asof": "2026-10-31T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -3058,7 +3058,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-31T20:23Z",
+   "asof": "2026-10-31T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3086,7 +3086,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-10-31T20:23Z",
+   "asof": "2026-10-31T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Valeri Nichushkin",
@@ -3114,7 +3114,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-31T20:23Z",
+   "asof": "2026-10-31T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Sam Steel",
@@ -3144,7 +3144,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-31T20:23Z",
+   "asof": "2026-10-31T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -3174,7 +3174,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-31T20:23Z",
+   "asof": "2026-10-31T20:28Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3557,5 +3557,5 @@
    "hit": 2
   }
  },
- "made": "2026-10-31T20:24+00:00"
+ "made": "2026-10-31T20:28+00:00"
 }
