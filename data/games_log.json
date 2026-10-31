@@ -1330,5 +1330,29 @@
   "winner": "BOS",
   "date": "2026-10-31",
   "id": "2026-10-31_CHI@BOS"
+ },
+ {
+  "away": "TBL",
+  "home": "NSH",
+  "ag": 4,
+  "hg": 5,
+  "a_sh": 26,
+  "h_sh": 33,
+  "ot": "SO",
+  "winner": "NSH",
+  "date": "2026-10-31",
+  "id": "2026-10-31_TBL@NSH"
+ },
+ {
+  "away": "EDM",
+  "home": "NYI",
+  "ag": 4,
+  "hg": 0,
+  "a_sh": 24,
+  "h_sh": 18,
+  "ot": null,
+  "winner": "EDM",
+  "date": "2026-10-31",
+  "id": "2026-10-31_EDM@NYI"
  }
 ]
