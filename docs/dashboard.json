@@ -2588,6 +2588,15 @@
    "note": "auto 17:54Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
    "over55": 0.555,
    "over65": 0.445
+  },
+  {
+   "date": "2026-10-31",
+   "game": "BUF@LAK",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.445,
+   "note": "auto 18:20Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 46%",
+   "over55": 0.565,
+   "over65": 0.455
   }
  ],
  "lineups": {
@@ -2823,7 +2832,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Peyton Krebs",
@@ -2854,7 +2863,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -2883,7 +2892,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -2914,7 +2923,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivar Stenberg",
@@ -2942,7 +2951,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tommy Novak",
@@ -2971,7 +2980,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -3000,7 +3009,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -3032,7 +3041,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3060,7 +3069,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Valeri Nichushkin",
@@ -3088,7 +3097,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Sam Steel",
@@ -3118,7 +3127,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -3148,7 +3157,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-31T17:54Z",
+   "asof": "2026-10-31T18:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3193,26 +3202,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-31T17:28+00:00",
+  "at": "2026-10-31T17:54+00:00",
   "ok": [
    "10 games on 2026-10-31",
    "Daily Faceoff goalies parsed for 20 teams",
    "lineups refreshed for 16/16 teams",
    "Kalshi: 10 NHL games priced, 2 new rows",
-   "nothing new to log (no new games, no goalie changes)"
+   "logging 1 game(s): ['2026-10-31_OTT@SJS']"
   ],
   "problems": [
    "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-31T04:16+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-10-31T04:42+00:00",
@@ -3278,6 +3279,14 @@
    {
     "mode": "plan",
     "at": "2026-10-31T17:28+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-31T17:54+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -3530,5 +3539,5 @@
    "hit": 2
   }
  },
- "made": "2026-10-31T17:54+00:00"
+ "made": "2026-10-31T18:20+00:00"
 }
