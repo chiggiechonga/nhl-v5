@@ -1282,5 +1282,17 @@
   "winner": "NJD",
   "date": "2026-10-30",
   "id": "2026-10-30_NJD@VGK"
+ },
+ {
+  "away": "WPG",
+  "home": "FLA",
+  "ag": 2,
+  "hg": 5,
+  "a_sh": 24,
+  "h_sh": 38,
+  "ot": null,
+  "winner": "FLA",
+  "date": "2026-10-30",
+  "id": "2026-10-30_WPG@FLA"
  }
 ]
