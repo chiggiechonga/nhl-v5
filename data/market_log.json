@@ -1573,5 +1573,23 @@
   "note": "auto 06:59Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%",
   "over55": 0.64,
   "over65": 0.535
+ },
+ {
+  "date": "2026-10-31",
+  "game": "TOR@VAN",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.39,
+  "note": "auto 07:39Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%",
+  "over55": 0.64,
+  "over65": 0.535
+ },
+ {
+  "date": "2026-10-31",
+  "game": "CGY@COL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.785,
+  "note": "auto 07:39Z; mid of bid/ask; O5.5 goals 63%; O6.5 goals 50%",
+  "over55": 0.63,
+  "over65": 0.505
  }
 ]
