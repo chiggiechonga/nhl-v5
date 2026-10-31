@@ -1708,5 +1708,14 @@
   "note": "auto 18:20Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 46%",
   "over55": 0.565,
   "over65": 0.455
+ },
+ {
+  "date": "2026-10-31",
+  "game": "CGY@COL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.795,
+  "note": "auto 18:45Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%",
+  "over55": 0.625,
+  "over65": 0.495
  }
 ]
