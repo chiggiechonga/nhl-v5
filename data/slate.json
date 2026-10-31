@@ -13,9 +13,9 @@
    "start": "2026-10-31T17:00:00Z",
    "gid": 2026020217,
    "started": false,
-   "goalie_a": "Spencer Knight",
+   "goalie_a": "Arvid Soderblom",
    "status_a": "unconfirmed",
-   "goalie_h": "Jeremy Swayman",
+   "goalie_h": "Michael DiPietro",
    "status_h": "unconfirmed"
   },
   {
@@ -39,7 +39,7 @@
    "started": false,
    "goalie_a": "Andrei Vasilevskiy",
    "status_a": "unconfirmed",
-   "goalie_h": "Juuse Saros",
+   "goalie_h": "Justus Annunen",
    "status_h": "unconfirmed"
   },
   {
@@ -73,7 +73,7 @@
    "start": "2026-10-31T20:00:00Z",
    "gid": 2026020222,
    "started": false,
-   "goalie_a": "Jonas Johansson",
+   "goalie_a": "Samuel Ersson",
    "status_a": "unconfirmed",
    "goalie_h": "Yaroslav Askarov",
    "status_h": "unconfirmed"
@@ -85,9 +85,9 @@
    "start": "2026-10-31T23:00:00Z",
    "gid": 2026020223,
    "started": false,
-   "goalie_a": "Arturs Silovs",
+   "goalie_a": "Sergei Murashov",
    "status_a": "unconfirmed",
-   "goalie_h": "Jakub Dobes",
+   "goalie_h": "Jacob Fowler",
    "status_h": "unconfirmed"
   },
   {
@@ -99,7 +99,7 @@
    "started": false,
    "goalie_a": "Anthony Stolarz",
    "status_a": "unconfirmed",
-   "goalie_h": "Leevi Merilainen",
+   "goalie_h": "Kevin Lankinen",
    "status_h": "unconfirmed"
   },
   {
