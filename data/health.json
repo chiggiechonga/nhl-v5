@@ -1,21 +1,17 @@
 {
- "mode": "grade",
- "at": "2026-10-31T20:53+00:00",
+ "mode": "plan",
+ "at": "2026-10-31T21:19+00:00",
  "ok": [
-  "graded 2026-10-31_TBL@NSH: 4-5 SO, shots 26-33",
-  "graded 2026-10-31_EDM@NYI: 4-0, shots 24-18",
-  "2 games and 20 player rows added"
+  "10 games on 2026-10-31",
+  "Daily Faceoff goalies parsed for 20 teams",
+  "lineups refreshed for 8/8 teams",
+  "Kalshi: 6 NHL games priced, 1 new rows",
+  "nothing new to log (no new games, no goalie changes)"
  ],
- "problems": [],
+ "problems": [
+  "Kalshi spread markets found (64) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+ ],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-31T18:20+00:00",
-   "n_ok": 5,
-   "problems": [
-    "Kalshi spread markets found (86) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-   ]
-  },
   {
    "mode": "plan",
    "at": "2026-10-31T18:45+00:00",
@@ -81,6 +77,14 @@
    "at": "2026-10-31T20:53+00:00",
    "n_ok": 3,
    "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-31T21:19+00:00",
+   "n_ok": 5,
+   "problems": [
+    "Kalshi spread markets found (64) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   ]
   }
  ]
 }

@@ -2668,6 +2668,15 @@
    "note": "auto 20:53Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 50%",
    "over55": 0.635,
    "over65": 0.495
+  },
+  {
+   "date": "2026-10-31",
+   "game": "TOR@VAN",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.355,
+   "note": "auto 21:19Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 55%",
+   "over55": 0.645,
+   "over65": 0.545
   }
  ],
  "lineups": {
@@ -3023,7 +3032,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-10-31T20:53Z",
+   "asof": "2026-10-31T21:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tommy Novak",
@@ -3052,7 +3061,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-10-31T20:53Z",
+   "asof": "2026-10-31T21:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -3081,7 +3090,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-31T20:53Z",
+   "asof": "2026-10-31T21:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -3113,7 +3122,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-31T20:53Z",
+   "asof": "2026-10-31T21:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3141,7 +3150,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-10-31T20:53Z",
+   "asof": "2026-10-31T21:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Valeri Nichushkin",
@@ -3169,7 +3178,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-31T20:53Z",
+   "asof": "2026-10-31T21:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Sam Steel",
@@ -3199,7 +3208,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-31T20:53Z",
+   "asof": "2026-10-31T21:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -3229,7 +3238,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-31T20:53Z",
+   "asof": "2026-10-31T21:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3273,27 +3282,15 @@
   "sh3_exp": 201.0
  },
  "health": {
-  "mode": "plan",
+  "mode": "grade",
   "at": "2026-10-31T20:53+00:00",
   "ok": [
-   "10 games on 2026-10-31",
-   "Daily Faceoff goalies parsed for 20 teams",
-   "lineups refreshed for 8/8 teams",
-   "Kalshi: 6 NHL games priced, 1 new rows",
-   "nothing new to log (no new games, no goalie changes)"
+   "graded 2026-10-31_TBL@NSH: 4-5 SO, shots 26-33",
+   "graded 2026-10-31_EDM@NYI: 4-0, shots 24-18",
+   "2 games and 20 player rows added"
   ],
-  "problems": [
-   "Kalshi spread markets found (64) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-  ],
+  "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-31T17:54+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-10-31T18:20+00:00",
@@ -3361,6 +3358,12 @@
     "problems": [
      "Kalshi spread markets found (64) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
+   },
+   {
+    "mode": "grade",
+    "at": "2026-10-31T20:53+00:00",
+    "n_ok": 3,
+    "problems": []
    }
   ]
  },
@@ -3617,5 +3620,5 @@
    "hit": 2
   }
  },
- "made": "2026-10-31T20:53+00:00"
+ "made": "2026-10-31T21:19+00:00"
 }
