@@ -1681,5 +1681,23 @@
   "note": "auto 17:28Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 51%",
   "over55": 0.615,
   "over65": 0.51
+ },
+ {
+  "date": "2026-10-31",
+  "game": "TBL@NSH",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.375,
+  "note": "auto 17:54Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
+  "over55": 0.595,
+  "over65": 0.485
+ },
+ {
+  "date": "2026-10-31",
+  "game": "EDM@NYI",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.505,
+  "note": "auto 17:54Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+  "over55": 0.555,
+  "over65": 0.445
  }
 ]

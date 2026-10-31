@@ -360,7 +360,7 @@
    "pl_h": 0.6932270421581347,
    "pl_a": 0.7688071825424934,
    "goalie_a": "Samuel Ersson",
-   "goalie_h": "Yaroslav Askarov",
+   "goalie_h": "Alex Nedeljkovic",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -2570,6 +2570,24 @@
    "note": "auto 17:28Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 51%",
    "over55": 0.615,
    "over65": 0.51
+  },
+  {
+   "date": "2026-10-31",
+   "game": "TBL@NSH",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.375,
+   "note": "auto 17:54Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
+   "over55": 0.595,
+   "over65": 0.485
+  },
+  {
+   "date": "2026-10-31",
+   "game": "EDM@NYI",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.505,
+   "note": "auto 17:54Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "over55": 0.555,
+   "over65": 0.445
   }
  ],
  "lineups": {
@@ -2687,7 +2705,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -2701,13 +2719,13 @@
     "Gage Goncalves",
     "Jeffrey Viel",
     "Conor Geekie",
+    "Scott Sabourin",
     "J.J. Moser",
     "Ryan McDonagh",
     "John Carlson",
     "Charle-Edouard D'Astous",
     "Victor Hedman",
-    "Erik Cernak",
-    "Emil Lilleberg"
+    "Maxwell Crozier"
    ],
    "inj": {
     "Yanni Gourde": "IR",
@@ -2715,17 +2733,18 @@
    }
   },
   "NSH": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
     "Ryan O'Reilly",
     "Mavrik Bourque",
     "Filip Forsberg",
-    "Matthew Wood",
-    "Nils Hoglander",
     "Alex Kerfoot",
+    "Nils Hoglander",
+    "Reid Schaefer",
     "Jonathan Marchessault",
+    "Matthew Wood",
     "Ross Colton",
     "Jack Drury",
     "Adam Edstrom",
@@ -2733,16 +2752,15 @@
     "Adam Wilsby",
     "Brady Skjei",
     "Nick Perbix",
-    "Nicolas Hague",
-    "Jayden Struble",
-    "Daemon Hunt"
+    "Daemon Hunt",
+    "Jayden Struble"
    ],
    "inj": {
     "William Trudeau": "IR"
    }
   },
   "EDM": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -2774,7 +2792,7 @@
    }
   },
   "NYI": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Simon Holmstrom",
@@ -2805,7 +2823,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Peyton Krebs",
@@ -2836,7 +2854,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -2865,7 +2883,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -2896,7 +2914,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivar Stenberg",
@@ -2924,7 +2942,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tommy Novak",
@@ -2953,7 +2971,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -2982,7 +3000,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -3014,7 +3032,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3042,7 +3060,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Valeri Nichushkin",
@@ -3070,7 +3088,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Sam Steel",
@@ -3100,7 +3118,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -3130,7 +3148,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-31T17:28Z",
+   "asof": "2026-10-31T17:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3175,26 +3193,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-31T17:02+00:00",
+  "at": "2026-10-31T17:28+00:00",
   "ok": [
    "10 games on 2026-10-31",
    "Daily Faceoff goalies parsed for 20 teams",
    "lineups refreshed for 16/16 teams",
-   "Kalshi: 10 NHL games priced, 8 new rows",
-   "logging 4 game(s): ['2026-10-31_OTT@SJS', '2026-10-31_PIT@MTL', '2026-10-31_TBL@NSH', '2026-10-31_TOR@VAN']"
+   "Kalshi: 10 NHL games priced, 2 new rows",
+   "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (78) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-31T03:51+00:00",
-    "n_ok": 4,
-    "problems": [
-     "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-10-31T04:16+00:00",
@@ -3263,6 +3273,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (78) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-31T17:28+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -3512,5 +3530,5 @@
    "hit": 2
   }
  },
- "made": "2026-10-31T17:28+00:00"
+ "made": "2026-10-31T17:54+00:00"
 }
