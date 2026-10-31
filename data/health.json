@@ -1,6 +1,6 @@
 {
  "mode": "plan",
- "at": "2026-10-31T01:16+00:00",
+ "at": "2026-10-31T01:41+00:00",
  "ok": [
   "3 games on 2026-10-30",
   "Daily Faceoff goalies parsed for 6 teams",
@@ -11,14 +11,6 @@
   "Kalshi spread markets found (86) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
  ],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-10-30T21:52+00:00",
-   "n_ok": 5,
-   "problems": [
-    "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-   ]
-  },
   {
    "mode": "plan",
    "at": "2026-10-30T22:17+00:00",
@@ -84,6 +76,14 @@
   {
    "mode": "plan",
    "at": "2026-10-31T01:16+00:00",
+   "n_ok": 4,
+   "problems": [
+    "Kalshi spread markets found (86) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   ]
+  },
+  {
+   "mode": "plan",
+   "at": "2026-10-31T01:41+00:00",
    "n_ok": 4,
    "problems": [
     "Kalshi spread markets found (86) but none matched a game today; sample saved to data/debug/kalshi_spread.json"

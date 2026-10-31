@@ -1117,22 +1117,18 @@
   "sh3_exp": 180.5
  },
  "health": {
-  "mode": "grade",
-  "at": "2026-10-31T00:50+00:00",
+  "mode": "plan",
+  "at": "2026-10-31T01:16+00:00",
   "ok": [
-   "graded 2026-10-30_NJD@VGK: 5-2, shots 32-21",
-   "1 games and 10 player rows added"
+   "3 games on 2026-10-30",
+   "Daily Faceoff goalies parsed for 6 teams",
+   "Kalshi: 2 NHL games priced, 0 new rows",
+   "nothing new to log (no new games, no goalie changes)"
   ],
-  "problems": [],
+  "problems": [
+   "Kalshi spread markets found (86) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+  ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-30T21:26+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-10-30T21:52+00:00",
@@ -1202,6 +1198,14 @@
     "at": "2026-10-31T00:50+00:00",
     "n_ok": 2,
     "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-31T01:16+00:00",
+    "n_ok": 4,
+    "problems": [
+     "Kalshi spread markets found (86) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
    }
   ]
  },
@@ -1413,5 +1417,5 @@
    "hit": 1
   }
  },
- "made": "2026-10-31T01:16+00:00"
+ "made": "2026-10-31T01:41+00:00"
 }
