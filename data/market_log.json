@@ -1744,5 +1744,14 @@
   "note": "auto 21:19Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 55%",
   "over55": 0.645,
   "over65": 0.545
+ },
+ {
+  "date": "2026-10-31",
+  "game": "TOR@VAN",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.355,
+  "note": "auto 22:36Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
+  "over55": 0.655,
+  "over65": 0.545
  }
 ]

@@ -2677,6 +2677,15 @@
    "note": "auto 21:19Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 55%",
    "over55": 0.645,
    "over65": 0.545
+  },
+  {
+   "date": "2026-10-31",
+   "game": "TOR@VAN",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.355,
+   "note": "auto 22:36Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
+   "over55": 0.655,
+   "over65": 0.545
   }
  ],
  "lineups": {
@@ -3032,7 +3041,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-10-31T22:10Z",
+   "asof": "2026-10-31T22:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tommy Novak",
@@ -3061,7 +3070,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-10-31T22:10Z",
+   "asof": "2026-10-31T22:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -3090,7 +3099,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-10-31T22:10Z",
+   "asof": "2026-10-31T22:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Gavin McKenna",
@@ -3122,7 +3131,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-10-31T22:10Z",
+   "asof": "2026-10-31T22:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3150,7 +3159,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-10-31T22:10Z",
+   "asof": "2026-10-31T22:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Valeri Nichushkin",
@@ -3178,7 +3187,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-31T22:10Z",
+   "asof": "2026-10-31T22:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Sam Steel",
@@ -3208,7 +3217,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-31T22:10Z",
+   "asof": "2026-10-31T22:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -3238,7 +3247,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-31T22:10Z",
+   "asof": "2026-10-31T22:36Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3283,7 +3292,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-10-31T21:45+00:00",
+  "at": "2026-10-31T22:10+00:00",
   "ok": [
    "10 games on 2026-10-31",
    "Daily Faceoff goalies parsed for 20 teams",
@@ -3295,14 +3304,6 @@
    "Kalshi spread markets found (66) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-31T19:11+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (86) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-10-31T19:36+00:00",
@@ -3364,6 +3365,14 @@
    {
     "mode": "plan",
     "at": "2026-10-31T21:45+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (66) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-31T22:10+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (66) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -3624,5 +3633,5 @@
    "hit": 2
   }
  },
- "made": "2026-10-31T22:10+00:00"
+ "made": "2026-10-31T22:36+00:00"
 }
