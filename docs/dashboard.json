@@ -2732,6 +2732,15 @@
    "note": "auto 22:36Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
    "over55": 0.655,
    "over65": 0.545
+  },
+  {
+   "date": "2026-10-31",
+   "game": "CBJ@DAL",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.635,
+   "note": "auto 23:31Z; mid of bid/ask; O5.5 goals 48%; O6.5 goals 38%",
+   "over55": 0.485,
+   "over65": 0.385
   }
  ],
  "lineups": {
@@ -3205,7 +3214,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-10-31T23:26Z",
+   "asof": "2026-10-31T23:31Z",
    "source": "Daily Faceoff",
    "lines": [
     "Valeri Nichushkin",
@@ -3233,7 +3242,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-10-31T23:26Z",
+   "asof": "2026-10-31T23:31Z",
    "source": "Daily Faceoff",
    "lines": [
     "Sam Steel",
@@ -3263,7 +3272,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-10-31T23:26Z",
+   "asof": "2026-10-31T23:31Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -3293,7 +3302,7 @@
    }
   },
   "COL": {
-   "asof": "2026-10-31T23:26Z",
+   "asof": "2026-10-31T23:31Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3337,21 +3346,19 @@
   "sh3_exp": 208.0
  },
  "health": {
-  "mode": "grade",
-  "at": "2026-10-31T23:01+00:00",
+  "mode": "plan",
+  "at": "2026-10-31T23:26+00:00",
   "ok": [
-   "graded 2026-10-31_BUF@LAK: 3-2, shots 31-29",
-   "graded 2026-10-31_OTT@SJS: 5-1, shots 35-23",
-   "2 games and 20 player rows added"
+   "10 games on 2026-10-31",
+   "Daily Faceoff goalies parsed for 20 teams",
+   "lineups refreshed for 4/4 teams",
+   "Kalshi: 4 NHL games priced, 0 new rows",
+   "nothing new to log (no new games, no goalie changes)"
   ],
-  "problems": [],
+  "problems": [
+   "Kalshi spread markets found (56) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+  ],
   "history": [
-   {
-    "mode": "grade",
-    "at": "2026-10-31T20:02+00:00",
-    "n_ok": 2,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-10-31T20:28+00:00",
@@ -3419,6 +3426,14 @@
     "at": "2026-10-31T23:01+00:00",
     "n_ok": 3,
     "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-10-31T23:26+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (56) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
    }
   ]
  },
@@ -3675,5 +3690,5 @@
    "hit": 2
   }
  },
- "made": "2026-10-31T23:27+00:00"
+ "made": "2026-10-31T23:31+00:00"
 }

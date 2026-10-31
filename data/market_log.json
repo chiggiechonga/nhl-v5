@@ -1753,5 +1753,14 @@
   "note": "auto 22:36Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
   "over55": 0.655,
   "over65": 0.545
+ },
+ {
+  "date": "2026-10-31",
+  "game": "CBJ@DAL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.635,
+  "note": "auto 23:31Z; mid of bid/ask; O5.5 goals 48%; O6.5 goals 38%",
+  "over55": 0.485,
+  "over65": 0.385
  }
 ]
