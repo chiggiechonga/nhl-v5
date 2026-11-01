@@ -49,7 +49,7 @@
    "time": "6:00 ET",
    "start": "2026-11-01T23:00:00Z",
    "gid": 2026020230,
-   "started": false,
+   "started": true,
    "goalie_a": "Matt Tomkins",
    "status_a": "unconfirmed",
    "goalie_h": "Dylan Garand",
