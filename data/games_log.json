@@ -1450,5 +1450,17 @@
   "winner": "MIN",
   "date": "2026-11-01",
   "id": "2026-11-01_MIN@WSH"
+ },
+ {
+  "away": "UTA",
+  "home": "PHI",
+  "ag": 3,
+  "hg": 6,
+  "a_sh": 22,
+  "h_sh": 21,
+  "ot": null,
+  "winner": "PHI",
+  "date": "2026-11-01",
+  "id": "2026-11-01_UTA@PHI"
  }
 ]

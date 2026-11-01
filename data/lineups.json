@@ -89,7 +89,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-11-01T23:25Z",
+  "asof": "2026-11-01T23:51Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -98,12 +98,12 @@
    "Philip Tomasino",
    "Shane Pinto",
    "Drake Batherson",
+   "Michael Amadio",
    "Ridly Greig",
    "Claude Giroux",
-   "Michael Amadio",
-   "Xavier Bourgault",
-   "Stephen Halliday",
    "Nick Cousins",
+   "Stephen Halliday",
+   "Xavier Bourgault",
    "Jake Sanderson",
    "Artem Zub",
    "Thomas Chabot",
@@ -147,7 +147,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-01T23:25Z",
+  "asof": "2026-11-01T23:51Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
