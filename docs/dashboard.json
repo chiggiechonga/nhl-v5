@@ -3271,7 +3271,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-01T01:08Z",
+   "asof": "2026-11-01T01:33Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -3301,7 +3301,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-01T01:08Z",
+   "asof": "2026-11-01T01:33Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3346,7 +3346,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-01T00:43+00:00",
+  "at": "2026-11-01T01:08+00:00",
   "ok": [
    "10 games on 2026-10-31",
    "Daily Faceoff goalies parsed for 20 teams",
@@ -3358,14 +3358,6 @@
    "Kalshi spread markets found (58) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-10-31T21:19+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (64) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-10-31T21:45+00:00",
@@ -3431,6 +3423,14 @@
    {
     "mode": "plan",
     "at": "2026-11-01T00:43+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (58) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-01T01:08+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (58) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -3691,5 +3691,5 @@
    "hit": 2
   }
  },
- "made": "2026-11-01T01:08+00:00"
+ "made": "2026-11-01T01:34+00:00"
 }
