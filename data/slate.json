@@ -37,7 +37,7 @@
    "time": "4:00 ET",
    "start": "2026-11-01T21:00:00Z",
    "gid": 2026020229,
-   "started": false,
+   "started": true,
    "goalie_a": "Karel Vejmelka",
    "status_a": "unconfirmed",
    "goalie_h": "Dan Vladar",
