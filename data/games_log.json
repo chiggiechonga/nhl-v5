@@ -1414,5 +1414,17 @@
   "winner": "DAL",
   "date": "2026-10-31",
   "id": "2026-10-31_CBJ@DAL"
+ },
+ {
+  "away": "CGY",
+  "home": "COL",
+  "ag": 2,
+  "hg": 5,
+  "a_sh": 27,
+  "h_sh": 33,
+  "ot": null,
+  "winner": "COL",
+  "date": "2026-10-31",
+  "id": "2026-10-31_CGY@COL"
  }
 ]
