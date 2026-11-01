@@ -108,7 +108,7 @@
    "time": "8:00 ET",
    "start": "2026-11-01T00:00:00Z",
    "gid": 2026020225,
-   "started": false,
+   "started": true,
    "goalie_a": "Jet Greaves",
    "status_a": "unconfirmed",
    "goalie_h": "Jake Oettinger",
