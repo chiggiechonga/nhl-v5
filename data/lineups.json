@@ -529,7 +529,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-11-01T01:33Z",
+  "asof": "2026-11-01T01:59Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -538,9 +538,9 @@
    "Matvei Gridin",
    "Martin Pospisil",
    "Ryan Strome",
-   "Aydar Suniev",
-   "Morgan Frost",
    "Yegor Sharangovich",
+   "Morgan Frost",
+   "Aydar Suniev",
    "Maxim Tsyplakov",
    "Jonathan Castagna",
    "Adam Klapka",
@@ -849,7 +849,7 @@
   }
  },
  "COL": {
-  "asof": "2026-11-01T01:33Z",
+  "asof": "2026-11-01T01:59Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artturi Lehkonen",
@@ -866,9 +866,9 @@
    "Gavin Brindley",
    "Devon Toews",
    "Cale Makar",
-   "Brett Kulak",
-   "Sam Malinski",
    "Brent Burns",
+   "Sam Malinski",
+   "Brett Kulak",
    "Noah Juulsen"
   ],
   "inj": {
