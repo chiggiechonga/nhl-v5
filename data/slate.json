@@ -14,7 +14,7 @@
    "start": "2026-11-01T18:00:00Z",
    "gid": 2026020227,
    "started": false,
-   "goalie_a": "Nico Daws",
+   "goalie_a": "Stuart Skinner",
    "status_a": "unconfirmed",
    "goalie_h": "Pyotr Kochetkov",
    "status_h": "unconfirmed"
@@ -38,7 +38,7 @@
    "start": "2026-11-01T21:00:00Z",
    "gid": 2026020229,
    "started": false,
-   "goalie_a": "Sebastian Cossa",
+   "goalie_a": "Karel Vejmelka",
    "status_a": "unconfirmed",
    "goalie_h": "Dan Vladar",
    "status_h": "unconfirmed"
@@ -62,7 +62,7 @@
    "start": "2026-11-02T01:00:00Z",
    "gid": 2026020231,
    "started": false,
-   "goalie_a": "Samuel Ersson",
+   "goalie_a": "Jonas Johansson",
    "status_a": "unconfirmed",
    "goalie_h": "Laurent Brossoit",
    "status_h": "unconfirmed"

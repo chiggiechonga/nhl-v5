@@ -61,7 +61,7 @@
   }
  },
  "PHI": {
-  "asof": "2026-11-01T11:21Z",
+  "asof": "2026-11-01T17:37Z",
   "source": "Daily Faceoff",
   "lines": [
    "Trevor Zegras",
@@ -91,7 +91,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-11-01T11:21Z",
+  "asof": "2026-11-01T17:37Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -149,7 +149,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-01T11:21Z",
+  "asof": "2026-11-01T17:37Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -320,7 +320,7 @@
   }
  },
  "NYR": {
-  "asof": "2026-11-01T11:21Z",
+  "asof": "2026-11-01T17:37Z",
   "source": "Daily Faceoff",
   "lines": [
    "Pavel Dorofeyev",
@@ -443,7 +443,7 @@
   }
  },
  "WPG": {
-  "asof": "2026-11-01T11:21Z",
+  "asof": "2026-11-01T17:37Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cole Perfetti",
@@ -561,7 +561,7 @@
   }
  },
  "MIN": {
-  "asof": "2026-11-01T11:21Z",
+  "asof": "2026-11-01T17:37Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kirill Kaprizov",
@@ -592,7 +592,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-11-01T11:21Z",
+  "asof": "2026-11-01T17:37Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -606,7 +606,7 @@
    "Mathieu Joseph",
    "Trent Frederic",
    "Owen Michaels",
-   "Isaac Howard",
+   "Filip Hallander",
    "Mattias Ekholm",
    "Evan Bouchard",
    "Ryan Shea",
@@ -619,12 +619,13 @@
    "Frederik Andersen": "IR",
    "Mattias Janmark": "IR",
    "Matthew Savoie": "IR",
+   "Zach Hyman": "IR",
    "Devon Levi": "IR",
-   "Zach Hyman": "IR"
+   "Isaac Howard": "IR"
   }
  },
  "CAR": {
-  "asof": "2026-11-01T11:21Z",
+  "asof": "2026-11-01T17:37Z",
   "source": "Daily Faceoff",
   "lines": [
    "William Carrier",
@@ -681,7 +682,7 @@
   }
  },
  "UTA": {
-  "asof": "2026-11-01T11:21Z",
+  "asof": "2026-11-01T17:37Z",
   "source": "Daily Faceoff",
   "lines": [
    "Clayton Keller",
@@ -879,7 +880,7 @@
   }
  },
  "WSH": {
-  "asof": "2026-11-01T11:21Z",
+  "asof": "2026-11-01T17:37Z",
   "source": "Daily Faceoff",
   "lines": [
    "Aliaksei Protas",
