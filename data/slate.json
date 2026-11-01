@@ -13,7 +13,7 @@
    "time": "1:00 ET",
    "start": "2026-11-01T18:00:00Z",
    "gid": 2026020227,
-   "started": false,
+   "started": true,
    "goalie_a": "Stuart Skinner",
    "status_a": "unconfirmed",
    "goalie_h": "Pyotr Kochetkov",

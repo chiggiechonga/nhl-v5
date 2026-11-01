@@ -1560,7 +1560,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-01T17:53Z",
+   "asof": "2026-11-01T18:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -1591,7 +1591,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-11-01T17:53Z",
+   "asof": "2026-11-01T18:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -1619,7 +1619,7 @@
    }
   },
   "UTA": {
-   "asof": "2026-11-01T17:53Z",
+   "asof": "2026-11-01T18:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Clayton Keller",
@@ -1647,7 +1647,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-01T17:53Z",
+   "asof": "2026-11-01T18:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Trevor Zegras",
@@ -1677,7 +1677,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-11-01T17:53Z",
+   "asof": "2026-11-01T18:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1710,7 +1710,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-11-01T17:53Z",
+   "asof": "2026-11-01T18:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Pavel Dorofeyev",
@@ -1742,7 +1742,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-11-01T17:53Z",
+   "asof": "2026-11-01T18:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -1773,7 +1773,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-01T17:53Z",
+   "asof": "2026-11-01T18:19Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -1819,21 +1819,19 @@
   "sh3_exp": 221.3
  },
  "health": {
-  "mode": "players",
-  "at": "2026-11-01T15:38+00:00",
+  "mode": "plan",
+  "at": "2026-11-01T17:53+00:00",
   "ok": [
-   "players_base refreshed: 697 updated, 2 added"
+   "5 games on 2026-11-01",
+   "Daily Faceoff goalies parsed for 10 teams",
+   "lineups refreshed for 10/10 teams",
+   "Kalshi: 5 NHL games priced, 4 new rows",
+   "logging 3 game(s): ['2026-11-01_OTT@ANA', '2026-11-01_UTA@PHI', '2026-11-01_WPG@CAR']"
   ],
-  "problems": [],
+  "problems": [
+   "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+  ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-01T04:58+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "grade",
     "at": "2026-11-01T04:58+00:00",
@@ -1901,6 +1899,14 @@
     "at": "2026-11-01T15:38+00:00",
     "n_ok": 1,
     "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-01T17:53+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
    }
   ]
  },
@@ -2250,5 +2256,5 @@
    "hit": 4
   }
  },
- "made": "2026-11-01T17:53+00:00"
+ "made": "2026-11-01T18:19+00:00"
 }
