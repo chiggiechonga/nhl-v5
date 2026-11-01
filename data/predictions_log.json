@@ -37363,7 +37363,7 @@
   "date": "2026-11-01",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-01T17:37+00:00Z",
+  "made_at": "2026-11-01T17:53+00:00Z",
   "away": "WPG",
   "home": "CAR",
   "p_home": 0.7059,
@@ -37379,26 +37379,26 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "WPG": {
-    "asof": "2026-11-01T17:37Z",
+    "asof": "2026-11-01T17:53Z",
     "source": "Daily Faceoff",
     "lines": [
      "Cole Perfetti",
      "Mark Scheifele",
-     "Gabriel Vilardi",
+     "Dawson Mercer",
      "Kyle Connor",
      "Viggo Bj\u00f6rck",
-     "Dawson Mercer",
+     "Gabriel Vilardi",
      "Isak Rosen",
      "Adam Lowry",
      "Alex Iafallo",
-     "Cole Koepke",
+     "Nino Niederreiter",
      "Morgan Barron",
      "Dylan Samberg",
      "Neal Pionk",
      "Mario Ferraro",
-     "Dylan DeMelo",
-     "Haydn Fleury",
      "Elias Salomonsson",
+     "Haydn Fleury",
+     "Dylan DeMelo",
      "Tyrel Bauer"
     ],
     "inj": {
@@ -37408,7 +37408,7 @@
     }
    },
    "CAR": {
-    "asof": "2026-11-01T17:37Z",
+    "asof": "2026-11-01T17:53Z",
     "source": "Daily Faceoff",
     "lines": [
      "William Carrier",
@@ -37637,7 +37637,7 @@
   "date": "2026-11-01",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-01T17:37+00:00Z",
+  "made_at": "2026-11-01T17:53+00:00Z",
   "away": "UTA",
   "home": "PHI",
   "p_home": 0.428,
@@ -37653,7 +37653,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "UTA": {
-    "asof": "2026-11-01T17:37Z",
+    "asof": "2026-11-01T17:53Z",
     "source": "Daily Faceoff",
     "lines": [
      "Clayton Keller",
@@ -37681,7 +37681,7 @@
     }
    },
    "PHI": {
-    "asof": "2026-11-01T17:37Z",
+    "asof": "2026-11-01T17:53Z",
     "source": "Daily Faceoff",
     "lines": [
      "Trevor Zegras",
@@ -37912,7 +37912,7 @@
   "date": "2026-11-01",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-01T17:37+00:00Z",
+  "made_at": "2026-11-01T17:53+00:00Z",
   "away": "OTT",
   "home": "ANA",
   "p_home": 0.4785,
@@ -37928,7 +37928,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "OTT": {
-    "asof": "2026-11-01T17:37Z",
+    "asof": "2026-11-01T17:53Z",
     "source": "Daily Faceoff",
     "lines": [
      "Fabian Zetterlund",
@@ -37959,7 +37959,7 @@
     }
    },
    "ANA": {
-    "asof": "2026-11-01T17:37Z",
+    "asof": "2026-11-01T17:53Z",
     "source": "Daily Faceoff",
     "lines": [
      "Alex Killorn",

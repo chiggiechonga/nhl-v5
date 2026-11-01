@@ -61,7 +61,7 @@
   }
  },
  "PHI": {
-  "asof": "2026-11-01T17:37Z",
+  "asof": "2026-11-01T17:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Trevor Zegras",
@@ -91,7 +91,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-11-01T17:37Z",
+  "asof": "2026-11-01T17:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -149,7 +149,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-01T17:37Z",
+  "asof": "2026-11-01T17:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -320,7 +320,7 @@
   }
  },
  "NYR": {
-  "asof": "2026-11-01T17:37Z",
+  "asof": "2026-11-01T17:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Pavel Dorofeyev",
@@ -443,26 +443,26 @@
   }
  },
  "WPG": {
-  "asof": "2026-11-01T17:37Z",
+  "asof": "2026-11-01T17:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cole Perfetti",
    "Mark Scheifele",
-   "Gabriel Vilardi",
+   "Dawson Mercer",
    "Kyle Connor",
    "Viggo Björck",
-   "Dawson Mercer",
+   "Gabriel Vilardi",
    "Isak Rosen",
    "Adam Lowry",
    "Alex Iafallo",
-   "Cole Koepke",
+   "Nino Niederreiter",
    "Morgan Barron",
    "Dylan Samberg",
    "Neal Pionk",
    "Mario Ferraro",
-   "Dylan DeMelo",
-   "Haydn Fleury",
    "Elias Salomonsson",
+   "Haydn Fleury",
+   "Dylan DeMelo",
    "Tyrel Bauer"
   ],
   "inj": {
@@ -561,7 +561,7 @@
   }
  },
  "MIN": {
-  "asof": "2026-11-01T17:37Z",
+  "asof": "2026-11-01T17:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kirill Kaprizov",
@@ -592,7 +592,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-11-01T17:37Z",
+  "asof": "2026-11-01T17:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -625,7 +625,7 @@
   }
  },
  "CAR": {
-  "asof": "2026-11-01T17:37Z",
+  "asof": "2026-11-01T17:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "William Carrier",
@@ -682,7 +682,7 @@
   }
  },
  "UTA": {
-  "asof": "2026-11-01T17:37Z",
+  "asof": "2026-11-01T17:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Clayton Keller",
@@ -880,7 +880,7 @@
   }
  },
  "WSH": {
-  "asof": "2026-11-01T17:37Z",
+  "asof": "2026-11-01T17:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Aliaksei Protas",
