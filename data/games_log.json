@@ -1426,5 +1426,17 @@
   "winner": "COL",
   "date": "2026-10-31",
   "id": "2026-10-31_CGY@COL"
+ },
+ {
+  "away": "WPG",
+  "home": "CAR",
+  "ag": 0,
+  "hg": 7,
+  "a_sh": 26,
+  "h_sh": 32,
+  "ot": null,
+  "winner": "CAR",
+  "date": "2026-11-01",
+  "id": "2026-11-01_WPG@CAR"
  }
 ]

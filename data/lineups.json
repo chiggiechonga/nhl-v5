@@ -61,37 +61,35 @@
   }
  },
  "PHI": {
-  "asof": "2026-11-01T20:27Z",
+  "asof": "2026-11-01T20:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Trevor Zegras",
    "Christian Dvorak",
    "Travis Konecny",
-   "Porter Martone",
-   "Noah Cates",
-   "Matvei Michkov",
    "Tyson Foerster",
    "Denver Barkey",
    "Owen Tippett",
-   "Alex Bump",
+   "Porter Martone",
+   "Noah Cates",
+   "Matvei Michkov",
+   "Cole Knuble",
    "Sean Couturier",
-   "Michael Bunting",
+   "Noel Acciari",
    "Travis Sanheim",
    "Jamie Drysdale",
    "Cam York",
+   "Oliver Bonk",
    "Nick Seeler",
-   "Simon Benoit",
-   "Oliver Bonk"
+   "Simon Benoit"
   ],
   "inj": {
    "Nikita Grebenkin": "IR",
-   "Owen Tippett": "IR",
-   "Travis Konecny": "IR",
    "Rasmus Ristolainen": "IR"
   }
  },
  "OTT": {
-  "asof": "2026-11-01T20:27Z",
+  "asof": "2026-11-01T20:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -149,7 +147,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-01T20:27Z",
+  "asof": "2026-11-01T20:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -320,7 +318,7 @@
   }
  },
  "NYR": {
-  "asof": "2026-11-01T20:27Z",
+  "asof": "2026-11-01T20:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Pavel Dorofeyev",
@@ -592,7 +590,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-11-01T20:27Z",
+  "asof": "2026-11-01T20:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -682,7 +680,7 @@
   }
  },
  "UTA": {
-  "asof": "2026-11-01T20:27Z",
+  "asof": "2026-11-01T20:53Z",
   "source": "Daily Faceoff",
   "lines": [
    "Clayton Keller",
@@ -693,10 +691,10 @@
    "Lawson Crouse",
    "Anders Lee",
    "Barrett Hayton",
-   "Kailer Yamamoto",
+   "Michael Carcone",
    "Jack McBain",
    "Kevin Stenlund",
-   "Daniil But",
+   "Liam O'Brien",
    "Mikhail Sergachev",
    "MacKenzie Weegar",
    "Nate Schmidt",
@@ -705,8 +703,8 @@
    "Artem Duda"
   ],
   "inj": {
-   "Michael Carcone": "IR",
-   "John Marino": "IR"
+   "John Marino": "IR",
+   "Kailer Yamamoto": "IR"
   }
  },
  "VAN": {

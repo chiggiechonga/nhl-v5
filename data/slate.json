@@ -25,7 +25,7 @@
    "time": "3:30 ET",
    "start": "2026-11-01T20:30:00Z",
    "gid": 2026020228,
-   "started": false,
+   "started": true,
    "goalie_a": "Jesper Wallstedt",
    "status_a": "unconfirmed",
    "goalie_h": "Logan Thompson",
