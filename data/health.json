@@ -1,18 +1,17 @@
 {
- "mode": "grade",
- "at": "2026-11-01T04:58+00:00",
+ "mode": "plan",
+ "at": "2026-11-01T05:24+00:00",
  "ok": [
-  "graded 2026-10-31_CGY@COL: 2-5, shots 27-33",
-  "1 games and 10 player rows added"
+  "5 games on 2026-11-01",
+  "Daily Faceoff goalies parsed for 10 teams",
+  "lineups refreshed for 10/10 teams",
+  "Kalshi: 5 NHL games priced, 0 new rows",
+  "nothing new to log (no new games, no goalie changes)"
  ],
- "problems": [],
+ "problems": [
+  "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+ ],
  "history": [
-  {
-   "mode": "grade",
-   "at": "2026-11-01T01:59+00:00",
-   "n_ok": 3,
-   "problems": []
-  },
   {
    "mode": "plan",
    "at": "2026-11-01T02:24+00:00",
@@ -80,6 +79,14 @@
    "at": "2026-11-01T04:58+00:00",
    "n_ok": 2,
    "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-11-01T05:24+00:00",
+   "n_ok": 5,
+   "problems": [
+    "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   ]
   }
  ]
 }
