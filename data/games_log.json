@@ -1438,5 +1438,17 @@
   "winner": "CAR",
   "date": "2026-11-01",
   "id": "2026-11-01_WPG@CAR"
+ },
+ {
+  "away": "MIN",
+  "home": "WSH",
+  "ag": 5,
+  "hg": 1,
+  "a_sh": 29,
+  "h_sh": 27,
+  "ot": null,
+  "winner": "MIN",
+  "date": "2026-11-01",
+  "id": "2026-11-01_MIN@WSH"
  }
 ]

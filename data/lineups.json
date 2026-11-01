@@ -89,7 +89,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-11-01T23:00Z",
+  "asof": "2026-11-01T23:25Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -147,7 +147,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-01T23:00Z",
+  "asof": "2026-11-01T23:25Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
