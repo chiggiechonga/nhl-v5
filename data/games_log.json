@@ -1402,5 +1402,17 @@
   "winner": "TOR",
   "date": "2026-10-31",
   "id": "2026-10-31_TOR@VAN"
+ },
+ {
+  "away": "CBJ",
+  "home": "DAL",
+  "ag": 1,
+  "hg": 3,
+  "a_sh": 25,
+  "h_sh": 17,
+  "ot": null,
+  "winner": "DAL",
+  "date": "2026-10-31",
+  "id": "2026-10-31_CBJ@DAL"
  }
 ]
