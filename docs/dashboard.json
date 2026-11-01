@@ -1454,11 +1454,20 @@
    "note": "auto 06:42Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
    "over55": 0.56,
    "over65": 0.445
+  },
+  {
+   "date": "2026-11-01",
+   "game": "OTT@ANA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.485,
+   "note": "auto 09:44Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
+   "over55": 0.655,
+   "over65": 0.545
   }
  ],
  "lineups": {
   "WPG": {
-   "asof": "2026-11-01T07:08Z",
+   "asof": "2026-11-01T09:44Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Perfetti",
@@ -1487,7 +1496,7 @@
    }
   },
   "CAR": {
-   "asof": "2026-11-01T07:08Z",
+   "asof": "2026-11-01T09:44Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -1515,7 +1524,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-01T07:08Z",
+   "asof": "2026-11-01T09:44Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -1546,7 +1555,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-11-01T07:08Z",
+   "asof": "2026-11-01T09:44Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -1574,7 +1583,7 @@
    }
   },
   "UTA": {
-   "asof": "2026-11-01T07:08Z",
+   "asof": "2026-11-01T09:44Z",
    "source": "Daily Faceoff",
    "lines": [
     "Clayton Keller",
@@ -1602,7 +1611,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-01T07:08Z",
+   "asof": "2026-11-01T09:44Z",
    "source": "Daily Faceoff",
    "lines": [
     "Trevor Zegras",
@@ -1632,7 +1641,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-11-01T07:08Z",
+   "asof": "2026-11-01T09:44Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -1664,7 +1673,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-11-01T07:08Z",
+   "asof": "2026-11-01T09:44Z",
    "source": "Daily Faceoff",
    "lines": [
     "Pavel Dorofeyev",
@@ -1696,7 +1705,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-11-01T07:08Z",
+   "asof": "2026-11-01T09:44Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -1727,7 +1736,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-01T07:08Z",
+   "asof": "2026-11-01T09:44Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -1774,26 +1783,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-01T06:42+00:00",
+  "at": "2026-11-01T07:08+00:00",
   "ok": [
    "5 games on 2026-11-01",
    "Daily Faceoff goalies parsed for 10 teams",
    "lineups refreshed for 10/10 teams",
-   "Kalshi: 5 NHL games priced, 1 new rows",
+   "Kalshi: 5 NHL games priced, 0 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
    "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-01T03:15+00:00",
-    "n_ok": 4,
-    "problems": [
-     "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-01T03:40+00:00",
@@ -1859,6 +1860,14 @@
    {
     "mode": "plan",
     "at": "2026-11-01T06:42+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-01T07:08+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -2212,5 +2221,5 @@
    "hit": 4
   }
  },
- "made": "2026-11-01T07:08+00:00"
+ "made": "2026-11-01T09:44+00:00"
 }
