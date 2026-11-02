@@ -1474,5 +1474,17 @@
   "winner": "EDM",
   "date": "2026-11-01",
   "id": "2026-11-01_EDM@NYR"
+ },
+ {
+  "away": "OTT",
+  "home": "ANA",
+  "ag": 3,
+  "hg": 6,
+  "a_sh": 22,
+  "h_sh": 33,
+  "ot": null,
+  "winner": "ANA",
+  "date": "2026-11-01",
+  "id": "2026-11-01_OTT@ANA"
  }
 ]
