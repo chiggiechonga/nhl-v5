@@ -1,6 +1,6 @@
 {
  "FLA": {
-  "asof": "2026-10-30T22:43Z",
+  "asof": "2026-11-02T05:24Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brady Tkachuk",
@@ -176,21 +176,21 @@
   }
  },
  "SJS": {
-  "asof": "2026-10-31T19:36Z",
+  "asof": "2026-11-02T05:24Z",
   "source": "Daily Faceoff",
   "lines": [
-   "Ivar Stenberg",
+   "Will Smith",
    "Macklin Celebrini",
    "Collin Graf",
    "Mason Marchment",
    "Michael Misa",
-   "Will Smith",
    "Kiefer Sherwood",
+   "Ivar Stenberg",
    "Filip Bystedt",
    "Tyler Toffoli",
    "Barclay Goodrow",
+   "Zack Ostapchuk",
    "Ty Dellandrea",
-   "Adam Gaudette",
    "Sam Dickinson",
    "Jacob Trouba",
    "Darnell Nurse",
@@ -233,7 +233,7 @@
   }
  },
  "BOS": {
-  "asof": "2026-10-31T16:47Z",
+  "asof": "2026-11-02T05:24Z",
   "source": "Daily Faceoff",
   "lines": [
    "JJ Peterka",
@@ -500,7 +500,7 @@
   }
  },
  "VGK": {
-  "asof": "2026-10-30T21:52Z",
+  "asof": "2026-11-02T05:24Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivan Barbashev",
@@ -519,7 +519,7 @@
    "Shea Theodore",
    "Jeremy Lauzon",
    "Noah Hanifin",
-   "Ville Heinola",
+   "Dylan Coghlan",
    "Rasmus Andersson"
   ],
   "inj": {
@@ -528,7 +528,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-11-01T01:59Z",
+  "asof": "2026-11-02T05:24Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -735,7 +735,7 @@
   }
  },
  "DET": {
-  "asof": "2026-10-31T16:47Z",
+  "asof": "2026-11-02T05:24Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex DeBrincat",
@@ -765,7 +765,7 @@
   }
  },
  "CHI": {
-  "asof": "2026-10-31T16:47Z",
+  "asof": "2026-11-02T05:24Z",
   "source": "Daily Faceoff",
   "lines": [
    "Roman Kantserov",
@@ -849,7 +849,7 @@
   }
  },
  "COL": {
-  "asof": "2026-11-01T01:59Z",
+  "asof": "2026-11-02T05:24Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artturi Lehkonen",
