@@ -1,6 +1,6 @@
 {
  "FLA": {
-  "asof": "2026-11-02T07:34Z",
+  "asof": "2026-11-02T21:23Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brady Tkachuk",
@@ -25,8 +25,7 @@
   "inj": {
    "Aleksander Barkov": "IR",
    "Jonah Gadjovich": "IR",
-   "Brad Marchand": "IR",
-   "Jacob Markstrom": "IR"
+   "Brad Marchand": "IR"
   }
  },
  "BUF": {
@@ -176,18 +175,18 @@
   }
  },
  "SJS": {
-  "asof": "2026-11-02T07:34Z",
+  "asof": "2026-11-02T21:23Z",
   "source": "Daily Faceoff",
   "lines": [
-   "Will Smith",
+   "Tyler Toffoli",
    "Macklin Celebrini",
-   "Collin Graf",
+   "Will Smith",
    "Mason Marchment",
    "Michael Misa",
    "Kiefer Sherwood",
    "Ivar Stenberg",
    "Filip Bystedt",
-   "Tyler Toffoli",
+   "Collin Graf",
    "Barclay Goodrow",
    "Zack Ostapchuk",
    "Ty Dellandrea",
@@ -195,8 +194,8 @@
    "Jacob Trouba",
    "Darnell Nurse",
    "Michael Kesselring",
-   "Dmitry Orlov",
-   "Nolan Allan"
+   "Nolan Allan",
+   "Dmitry Orlov"
   ],
   "inj": {
    "Alexander Wennberg": "IR",
@@ -233,7 +232,7 @@
   }
  },
  "BOS": {
-  "asof": "2026-11-02T07:34Z",
+  "asof": "2026-11-02T21:23Z",
   "source": "Daily Faceoff",
   "lines": [
    "JJ Peterka",
@@ -246,14 +245,14 @@
    "Elias Lindholm",
    "James Hagens",
    "Tanner Jeannot",
-   "Sean Kuraly",
+   "Matthew Poitras",
    "Mark Kastelic",
    "Hampus Lindholm",
    "Charlie McAvoy",
    "Nikita Zadorov",
    "Will Borgen",
-   "Mason Lohrei",
-   "Jonathan Aspirot"
+   "Jonathan Aspirot",
+   "Mason Lohrei"
   ],
   "inj": {}
  },
@@ -500,7 +499,7 @@
   }
  },
  "VGK": {
-  "asof": "2026-11-02T07:34Z",
+  "asof": "2026-11-02T21:23Z",
   "source": "Daily Faceoff",
   "lines": [
    "Ivan Barbashev",
@@ -528,7 +527,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-11-02T07:34Z",
+  "asof": "2026-11-02T21:23Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -540,7 +539,7 @@
    "Yegor Sharangovich",
    "Morgan Frost",
    "Aydar Suniev",
-   "Maxim Tsyplakov",
+   "William Stromgren",
    "Jonathan Castagna",
    "Adam Klapka",
    "Kevin Bahl",
@@ -735,7 +734,7 @@
   }
  },
  "DET": {
-  "asof": "2026-11-02T07:34Z",
+  "asof": "2026-11-02T21:23Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex DeBrincat",
@@ -746,7 +745,7 @@
    "Lucas Raymond",
    "Michael Rasmussen",
    "J.T. Compher",
-   "Nate Danielson",
+   "John Leonard",
    "Carter Mazur",
    "Sheldon Dries",
    "Keegan Kolesar",
@@ -765,7 +764,7 @@
   }
  },
  "CHI": {
-  "asof": "2026-11-02T07:34Z",
+  "asof": "2026-11-02T21:23Z",
   "source": "Daily Faceoff",
   "lines": [
    "Roman Kantserov",
@@ -779,13 +778,13 @@
    "Patrick Kane",
    "Cole Smith",
    "Ryan Greene",
-   "Jordan Greenway",
+   "Teuvo Teravainen",
    "Alex Vlasic",
    "Ian Cole",
    "Wyatt Kaiser",
    "Artyom Levshunov",
-   "Sam Rinzel",
-   "Ethan Del Mastro"
+   "Ethan Del Mastro",
+   "Sam Rinzel"
   ],
   "inj": {
    "Bowen Byram": "IR"
@@ -849,7 +848,7 @@
   }
  },
  "COL": {
-  "asof": "2026-11-02T07:34Z",
+  "asof": "2026-11-02T21:23Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artturi Lehkonen",
@@ -863,11 +862,11 @@
    "T.J. Hughes",
    "Parker Kelly",
    "Fedor Svechkov",
-   "Gavin Brindley",
+   "Logan O'Connor",
    "Devon Toews",
    "Cale Makar",
-   "Brent Burns",
    "Sam Malinski",
+   "Brent Burns",
    "Brett Kulak",
    "Noah Juulsen"
   ],
