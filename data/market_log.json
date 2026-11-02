@@ -2005,5 +2005,14 @@
   "note": "auto 23:23Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%",
   "over55": 0.585,
   "over65": 0.475
+ },
+ {
+  "date": "2026-11-02",
+  "game": "DET@FLA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.615,
+  "note": "auto 23:48Z; mid of bid/ask; O5.5 goals 50%; O6.5 goals 42%",
+  "over55": 0.505,
+  "over65": 0.415
  }
 ]

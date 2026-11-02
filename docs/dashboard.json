@@ -1170,11 +1170,20 @@
    "note": "auto 23:23Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%",
    "over55": 0.585,
    "over65": 0.475
+  },
+  {
+   "date": "2026-11-02",
+   "game": "DET@FLA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.615,
+   "note": "auto 23:48Z; mid of bid/ask; O5.5 goals 50%; O6.5 goals 42%",
+   "over55": 0.505,
+   "over65": 0.415
   }
  ],
  "lineups": {
   "VGK": {
-   "asof": "2026-11-02T23:23Z",
+   "asof": "2026-11-02T23:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -1202,7 +1211,7 @@
    }
   },
   "BOS": {
-   "asof": "2026-11-02T23:23Z",
+   "asof": "2026-11-02T23:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "JJ Peterka",
@@ -1227,7 +1236,7 @@
    "inj": {}
   },
   "DET": {
-   "asof": "2026-11-02T23:23Z",
+   "asof": "2026-11-02T23:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -1257,7 +1266,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-11-02T23:23Z",
+   "asof": "2026-11-02T23:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1286,7 +1295,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-02T23:23Z",
+   "asof": "2026-11-02T23:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -1314,7 +1323,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-11-02T23:23Z",
+   "asof": "2026-11-02T23:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -1341,7 +1350,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-02T23:23Z",
+   "asof": "2026-11-02T23:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1371,7 +1380,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-02T23:23Z",
+   "asof": "2026-11-02T23:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Toffoli",
@@ -1416,26 +1425,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-02T22:57+00:00",
+  "at": "2026-11-02T23:23+00:00",
   "ok": [
    "4 games on 2026-11-02",
    "Daily Faceoff goalies parsed for 8 teams",
    "lineups refreshed for 8/8 teams",
-   "Kalshi: 4 NHL games priced, 0 new rows",
+   "Kalshi: 4 NHL games priced, 2 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
    "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-02T05:24+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-02T05:50+00:00",
@@ -1501,6 +1502,14 @@
    {
     "mode": "plan",
     "at": "2026-11-02T22:57+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-02T23:23+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -1915,5 +1924,5 @@
    "hit": 5
   }
  },
- "made": "2026-11-02T23:23+00:00"
+ "made": "2026-11-02T23:48+00:00"
 }
