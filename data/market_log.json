@@ -1957,7 +1957,7 @@
   "game": "DET@FLA",
   "source": "Kalshi moneyline",
   "home_prob": 0.615,
-  "note": "auto 21:23Z; mid of bid/ask; O5.5 goals 52%; O6.5 goals 42%",
+  "note": "auto 21:38Z; mid of bid/ask; O5.5 goals 52%; O6.5 goals 42%",
   "over55": 0.525,
   "over65": 0.415
  },
@@ -1966,7 +1966,7 @@
   "game": "COL@CHI",
   "source": "Kalshi moneyline",
   "home_prob": 0.335,
-  "note": "auto 21:23Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 46%",
+  "note": "auto 21:38Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 46%",
   "over55": 0.595,
   "over65": 0.465
  },
@@ -1975,7 +1975,7 @@
   "game": "CGY@SJS",
   "source": "Kalshi moneyline",
   "home_prob": 0.515,
-  "note": "auto 21:23Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%",
+  "note": "auto 21:38Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%",
   "over55": 0.585,
   "over65": 0.475
  }

@@ -39284,7 +39284,7 @@
   "date": "2026-11-02",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-02T21:23+00:00Z",
+  "made_at": "2026-11-02T21:38+00:00Z",
   "away": "DET",
   "home": "FLA",
   "p_home": 0.5448,
@@ -39300,7 +39300,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "DET": {
-    "asof": "2026-11-02T21:23Z",
+    "asof": "2026-11-02T21:38Z",
     "source": "Daily Faceoff",
     "lines": [
      "Alex DeBrincat",
@@ -39330,7 +39330,7 @@
     }
    },
    "FLA": {
-    "asof": "2026-11-02T21:23Z",
+    "asof": "2026-11-02T21:38Z",
     "source": "Daily Faceoff",
     "lines": [
      "Brady Tkachuk",
@@ -39560,7 +39560,7 @@
   "date": "2026-11-02",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-02T21:23+00:00Z",
+  "made_at": "2026-11-02T21:38+00:00Z",
   "away": "COL",
   "home": "CHI",
   "p_home": 0.3219,
@@ -39576,7 +39576,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "COL": {
-    "asof": "2026-11-02T21:23Z",
+    "asof": "2026-11-02T21:38Z",
     "source": "Daily Faceoff",
     "lines": [
      "Artturi Lehkonen",
@@ -39604,7 +39604,7 @@
     }
    },
    "CHI": {
-    "asof": "2026-11-02T21:23Z",
+    "asof": "2026-11-02T21:38Z",
     "source": "Daily Faceoff",
     "lines": [
      "Roman Kantserov",
