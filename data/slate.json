@@ -61,7 +61,7 @@
    "time": "8:00 ET",
    "start": "2026-11-02T01:00:00Z",
    "gid": 2026020231,
-   "started": false,
+   "started": true,
    "goalie_a": "Jonas Johansson",
    "status_a": "unconfirmed",
    "goalie_h": "Laurent Brossoit",
