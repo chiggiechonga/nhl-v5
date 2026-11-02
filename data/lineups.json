@@ -89,7 +89,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-11-02T00:16Z",
+  "asof": "2026-11-02T00:42Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -147,7 +147,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-02T00:16Z",
+  "asof": "2026-11-02T00:42Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -159,9 +159,9 @@
    "A.J. Greer",
    "Tim Washe",
    "Sam Colangelo",
-   "Frank Vatrano",
-   "Roger McQueen",
    "Jeff Malott",
+   "Roger McQueen",
+   "Nikita Nesterenko",
    "Jackson Lacombe",
    "Drew Helleson",
    "Pavel Mintyukov",
@@ -172,8 +172,7 @@
   "inj": {
    "Troy Terry": "IR",
    "Ian Moore": "IR",
-   "Ryan Poehling": "IR",
-   "Pavel Mintyukov": "IR"
+   "Ryan Poehling": "IR"
   }
  },
  "SJS": {
