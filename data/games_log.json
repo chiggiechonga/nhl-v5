@@ -1462,5 +1462,17 @@
   "winner": "PHI",
   "date": "2026-11-01",
   "id": "2026-11-01_UTA@PHI"
+ },
+ {
+  "away": "EDM",
+  "home": "NYR",
+  "ag": 4,
+  "hg": 1,
+  "a_sh": 25,
+  "h_sh": 28,
+  "ot": null,
+  "winner": "EDM",
+  "date": "2026-11-01",
+  "id": "2026-11-01_EDM@NYR"
  }
 ]
