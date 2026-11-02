@@ -1421,6 +1421,15 @@
    "note": "auto 22:09Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 56%",
    "over55": 0.665,
    "over65": 0.555
+  },
+  {
+   "date": "2026-11-01",
+   "game": "OTT@ANA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.465,
+   "note": "auto 00:57Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 56%",
+   "over55": 0.655,
+   "over65": 0.555
   }
  ],
  "lineups": {
@@ -1662,7 +1671,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-11-02T00:42Z",
+   "asof": "2026-11-02T00:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -1693,7 +1702,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-02T00:42Z",
+   "asof": "2026-11-02T00:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -1739,7 +1748,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-02T00:16+00:00",
+  "at": "2026-11-02T00:42+00:00",
   "ok": [
    "5 games on 2026-11-01",
    "Daily Faceoff goalies parsed for 10 teams",
@@ -1748,17 +1757,9 @@
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (74) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-01T21:18+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-01T21:43+00:00",
@@ -1825,6 +1826,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-02T00:42+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (74) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -2183,5 +2192,5 @@
    "hit": 4
   }
  },
- "made": "2026-11-02T00:42+00:00"
+ "made": "2026-11-02T00:57+00:00"
 }
