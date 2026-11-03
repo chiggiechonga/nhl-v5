@@ -46,7 +46,7 @@
    "time": "9:00 ET",
    "start": "2026-11-03T02:00:00Z",
    "gid": 2026020235,
-   "started": false,
+   "started": true,
    "goalie_a": "Dustin Wolf",
    "status_a": "unconfirmed",
    "goalie_h": "Yaroslav Askarov",
