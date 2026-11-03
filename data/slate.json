@@ -15,7 +15,7 @@
    "start": "2026-11-04T00:00:00Z",
    "gid": 2026020236,
    "started": false,
-   "goalie_a": "Karel Vejmelka",
+   "goalie_a": "Sebastian Cossa",
    "status_a": "unconfirmed",
    "goalie_h": "Sergei Bobrovsky",
    "status_h": "unconfirmed"
@@ -39,7 +39,7 @@
    "start": "2026-11-04T00:00:00Z",
    "gid": 2026020238,
    "started": false,
-   "goalie_a": "Daniil Tarasov",
+   "goalie_a": "John Gibson",
    "status_a": "unconfirmed",
    "goalie_h": "Andrei Vasilevskiy",
    "status_h": "unconfirmed"
@@ -75,7 +75,7 @@
    "start": "2026-11-04T00:00:00Z",
    "gid": 2026020242,
    "started": false,
-   "goalie_a": "Carter Hart",
+   "goalie_a": "Adin Hill",
    "status_a": "unconfirmed",
    "goalie_h": "Arturs Silovs",
    "status_h": "unconfirmed"
@@ -101,7 +101,7 @@
    "started": false,
    "goalie_a": "Scott Wedgewood",
    "status_a": "unconfirmed",
-   "goalie_h": "Jet Greaves",
+   "goalie_h": "Cam Talbot",
    "status_h": "unconfirmed"
   },
   {
@@ -111,7 +111,7 @@
    "start": "2026-11-04T00:30:00Z",
    "gid": 2026020239,
    "started": false,
-   "goalie_a": "Matt Tomkins",
+   "goalie_a": "Tristan Jarry",
    "status_a": "unconfirmed",
    "goalie_h": "Connor Hellebuyck",
    "status_h": "unconfirmed"
@@ -135,9 +135,9 @@
    "start": "2026-11-04T02:00:00Z",
    "gid": 2026020246,
    "started": false,
-   "goalie_a": "Laurent Brossoit",
+   "goalie_a": "Lukas Dostal",
    "status_a": "unconfirmed",
-   "goalie_h": "Leevi Merilainen",
+   "goalie_h": "Kevin Lankinen",
    "status_h": "unconfirmed"
   }
  ]
