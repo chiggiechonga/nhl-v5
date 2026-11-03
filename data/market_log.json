@@ -2347,5 +2347,14 @@
   "note": "auto 20:42Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 46%",
   "over55": 0.575,
   "over65": 0.455
+ },
+ {
+  "date": "2026-11-03",
+  "game": "DET@TBL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.725,
+  "note": "auto 21:09Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 46%",
+  "over55": 0.575,
+  "over65": 0.455
  }
 ]
