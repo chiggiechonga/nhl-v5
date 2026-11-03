@@ -2671,11 +2671,29 @@
    "note": "auto 05:21Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
    "over55": 0.655,
    "over65": 0.55
+  },
+  {
+   "date": "2026-11-03",
+   "game": "STL@NYR",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.52,
+   "note": "auto 05:47Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 44%",
+   "over55": 0.55,
+   "over65": 0.44
+  },
+  {
+   "date": "2026-11-03",
+   "game": "VGK@PIT",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.495,
+   "note": "auto 05:47Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%",
+   "over55": 0.635,
+   "over65": 0.535
   }
  ],
  "lineups": {
   "UTA": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Clayton Keller",
@@ -2703,7 +2721,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -2734,7 +2752,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -2763,7 +2781,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -2793,7 +2811,7 @@
    }
   },
   "DET": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -2823,7 +2841,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -2851,7 +2869,7 @@
    }
   },
   "STL": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Neighbours",
@@ -2882,7 +2900,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Pavel Dorofeyev",
@@ -2913,7 +2931,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -2944,7 +2962,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Trevor Zegras",
@@ -2972,7 +2990,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -3000,7 +3018,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tommy Novak",
@@ -3029,7 +3047,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jamie Benn",
@@ -3059,7 +3077,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -3087,7 +3105,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3115,7 +3133,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Matthew Knies",
@@ -3142,7 +3160,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -3175,7 +3193,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -3202,7 +3220,7 @@
    }
   },
   "CAR": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -3230,7 +3248,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -3257,7 +3275,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3286,7 +3304,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-11-03T05:21Z",
+   "asof": "2026-11-03T05:47Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3330,22 +3348,19 @@
   "sh3_exp": 252.2
  },
  "health": {
-  "mode": "grade",
-  "at": "2026-11-03T04:55+00:00",
+  "mode": "plan",
+  "at": "2026-11-03T05:21+00:00",
   "ok": [
-   "graded 2026-11-02_CGY@SJS: 2-1, shots 22-27",
-   "1 games and 10 player rows added"
+   "11 games on 2026-11-03",
+   "Daily Faceoff goalies parsed for 22 teams",
+   "lineups refreshed for 22/22 teams",
+   "Kalshi: 11 NHL games priced, 11 new rows",
+   "logging 11 game(s): ['2026-11-03_ANA@VAN', '2026-11-03_CAR@NSH', '2026-11-03_COL@CBJ', '2026-11-03_DAL@WSH', '2026-11-03_DET@TBL', '2026-11-03_EDM@NJD', '2026-11-03_MIN@PHI', '2026-11-03_STL@NYR', '2026-11-03_UTA@TOR', '2026-11-03_VGK@PIT', '2026-11-03_WPG@MTL']"
   ],
-  "problems": [],
+  "problems": [
+   "Kalshi spread markets found (104) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+  ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-03T02:22+00:00",
-    "n_ok": 4,
-    "problems": [
-     "Kalshi spread markets found (130) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-03T02:47+00:00",
@@ -3411,6 +3426,14 @@
     "at": "2026-11-03T04:55+00:00",
     "n_ok": 2,
     "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-03T05:21+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (104) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
    }
   ]
  },
@@ -3874,5 +3897,5 @@
    "hit": 5
   }
  },
- "made": "2026-11-03T05:21+00:00"
+ "made": "2026-11-03T05:48+00:00"
 }

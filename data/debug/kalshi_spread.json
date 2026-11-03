@@ -47,9 +47,9 @@
   "volume_24h_fp": "0.00",
   "volume_fp": "0.00",
   "yes_ask_dollars": "0.1200",
-  "yes_ask_size_fp": "2427.00",
+  "yes_ask_size_fp": "2428.00",
   "yes_bid_dollars": "0.0800",
-  "yes_bid_size_fp": "2381.00",
+  "yes_bid_size_fp": "2429.00",
   "yes_sub_title": "Nashville wins by over 2.5 goals"
  },
  {
@@ -102,7 +102,7 @@
   "yes_ask_dollars": "0.1900",
   "yes_ask_size_fp": "2267.00",
   "yes_bid_dollars": "0.1200",
-  "yes_bid_size_fp": "2365.00",
+  "yes_bid_size_fp": "2470.00",
   "yes_sub_title": "Nashville wins by over 1.5 goals"
  },
  {
@@ -155,7 +155,7 @@
   "yes_ask_dollars": "0.3900",
   "yes_ask_size_fp": "2352.00",
   "yes_bid_dollars": "0.2900",
-  "yes_bid_size_fp": "2373.00",
+  "yes_bid_size_fp": "2394.00",
   "yes_sub_title": "Colorado wins by over 2.5 goals"
  }
 ]
