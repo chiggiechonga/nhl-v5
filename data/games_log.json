@@ -1522,5 +1522,17 @@
   "winner": "COL",
   "date": "2026-11-02",
   "id": "2026-11-02_COL@CHI"
+ },
+ {
+  "away": "CGY",
+  "home": "SJS",
+  "ag": 2,
+  "hg": 1,
+  "a_sh": 22,
+  "h_sh": 27,
+  "ot": null,
+  "winner": "CGY",
+  "date": "2026-11-02",
+  "id": "2026-11-02_CGY@SJS"
  }
 ]
