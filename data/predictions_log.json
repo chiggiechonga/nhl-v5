@@ -43130,7 +43130,7 @@
   "date": "2026-11-03",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-03T19:00+00:00Z",
+  "made_at": "2026-11-03T19:20+00:00Z",
   "away": "UTA",
   "home": "TOR",
   "p_home": 0.4474,
@@ -43146,7 +43146,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "UTA": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Clayton Keller",
@@ -43174,7 +43174,7 @@
     }
    },
    "TOR": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Easton Cowan",
@@ -43406,7 +43406,7 @@
   "date": "2026-11-03",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-03T19:00+00:00Z",
+  "made_at": "2026-11-03T19:20+00:00Z",
   "away": "DET",
   "home": "TBL",
   "p_home": 0.5703,
@@ -43422,7 +43422,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "DET": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Alex DeBrincat",
@@ -43452,7 +43452,7 @@
     }
    },
    "TBL": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Jake Guentzel",
@@ -43681,7 +43681,7 @@
   "date": "2026-11-03",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-03T19:00+00:00Z",
+  "made_at": "2026-11-03T19:20+00:00Z",
   "away": "VGK",
   "home": "PIT",
   "p_home": 0.5001,
@@ -43697,7 +43697,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "VGK": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Ivan Barbashev",
@@ -43725,7 +43725,7 @@
     }
    },
    "PIT": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Tommy Novak",
@@ -43957,7 +43957,7 @@
   "date": "2026-11-03",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-03T19:00+00:00Z",
+  "made_at": "2026-11-03T19:20+00:00Z",
   "away": "COL",
   "home": "CBJ",
   "p_home": 0.4111,
@@ -43973,7 +43973,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "COL": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Artturi Lehkonen",
@@ -44001,7 +44001,7 @@
     }
    },
    "CBJ": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Matthew Knies",
@@ -44229,7 +44229,7 @@
   "date": "2026-11-03",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-03T19:00+00:00Z",
+  "made_at": "2026-11-03T19:20+00:00Z",
   "away": "EDM",
   "home": "NJD",
   "p_home": 0.5376,
@@ -44245,7 +44245,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "EDM": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Vasily Podkolzin",
@@ -44278,7 +44278,7 @@
     }
    },
    "NJD": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Timo Meier",
@@ -44506,7 +44506,7 @@
   "date": "2026-11-03",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-03T19:00+00:00Z",
+  "made_at": "2026-11-03T19:20+00:00Z",
   "away": "ANA",
   "home": "VAN",
   "p_home": 0.4157,
@@ -44516,13 +44516,13 @@
   "o55": 0.6449,
   "pl_h": 0.6544,
   "pl_a": 0.7885,
-  "goalie_a": "Lukas Dostal",
+  "goalie_a": "Laurent Brossoit",
   "goalie_h": "Kevin Lankinen",
   "goalie_status_a": "unconfirmed",
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "ANA": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Alex Killorn",
@@ -44551,7 +44551,7 @@
     }
    },
    "VAN": {
-    "asof": "2026-11-03T19:00Z",
+    "asof": "2026-11-03T19:20Z",
     "source": "Daily Faceoff",
     "lines": [
      "Jake DeBrusk",

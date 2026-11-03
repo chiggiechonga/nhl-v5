@@ -571,7 +571,7 @@
    "p00": 0.0016335533281032254,
    "pl_h": 0.6543617362285273,
    "pl_a": 0.7884561762850896,
-   "goalie_a": "Lukas Dostal",
+   "goalie_a": "Laurent Brossoit",
    "goalie_h": "Kevin Lankinen",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
@@ -2794,7 +2794,7 @@
    "game": "UTA@TOR",
    "source": "Kalshi moneyline",
    "home_prob": 0.425,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
    "over55": 0.655,
    "over65": 0.545
   },
@@ -2803,7 +2803,7 @@
    "game": "WPG@MTL",
    "source": "Kalshi moneyline",
    "home_prob": 0.595,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 43%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 43%",
    "over55": 0.555,
    "over65": 0.43
   },
@@ -2812,7 +2812,7 @@
    "game": "DET@TBL",
    "source": "Kalshi moneyline",
    "home_prob": 0.715,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 46%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 46%",
    "over55": 0.575,
    "over65": 0.455
   },
@@ -2821,7 +2821,7 @@
    "game": "STL@NYR",
    "source": "Kalshi moneyline",
    "home_prob": 0.535,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
    "over55": 0.555,
    "over65": 0.435
   },
@@ -2830,7 +2830,7 @@
    "game": "MIN@PHI",
    "source": "Kalshi moneyline",
    "home_prob": 0.365,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%",
    "over55": 0.535,
    "over65": 0.42
   },
@@ -2839,7 +2839,7 @@
    "game": "VGK@PIT",
    "source": "Kalshi moneyline",
    "home_prob": 0.515,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%",
    "over55": 0.635,
    "over65": 0.515
   },
@@ -2848,7 +2848,7 @@
    "game": "DAL@WSH",
    "source": "Kalshi moneyline",
    "home_prob": 0.505,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 42%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 42%",
    "over55": 0.545,
    "over65": 0.415
   },
@@ -2857,7 +2857,7 @@
    "game": "COL@CBJ",
    "source": "Kalshi moneyline",
    "home_prob": 0.475,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
    "over55": 0.595,
    "over65": 0.485
   },
@@ -2866,7 +2866,7 @@
    "game": "EDM@NJD",
    "source": "Kalshi moneyline",
    "home_prob": 0.595,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
    "over55": 0.565,
    "over65": 0.435
   },
@@ -2875,7 +2875,7 @@
    "game": "CAR@NSH",
    "source": "Kalshi moneyline",
    "home_prob": 0.345,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 46%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 46%",
    "over55": 0.585,
    "over65": 0.465
   },
@@ -2884,14 +2884,14 @@
    "game": "ANA@VAN",
    "source": "Kalshi moneyline",
    "home_prob": 0.395,
-   "note": "auto 19:00Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 56%",
+   "note": "auto 19:20Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 56%",
    "over55": 0.665,
    "over65": 0.565
   }
  ],
  "lineups": {
   "UTA": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Clayton Keller",
@@ -2919,7 +2919,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -2950,7 +2950,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -2979,7 +2979,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -3009,7 +3009,7 @@
    }
   },
   "DET": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -3039,7 +3039,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -3067,7 +3067,7 @@
    }
   },
   "STL": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Dylan Holloway",
@@ -3096,7 +3096,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Pavel Dorofeyev",
@@ -3127,7 +3127,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -3158,7 +3158,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Trevor Zegras",
@@ -3186,7 +3186,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Ivan Barbashev",
@@ -3214,7 +3214,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tommy Novak",
@@ -3245,7 +3245,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jamie Benn",
@@ -3274,7 +3274,7 @@
    }
   },
   "WSH": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Aliaksei Protas",
@@ -3302,7 +3302,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3330,7 +3330,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Matthew Knies",
@@ -3357,7 +3357,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -3390,7 +3390,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -3417,7 +3417,7 @@
    }
   },
   "CAR": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -3445,7 +3445,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -3472,7 +3472,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3501,7 +3501,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-11-03T19:00Z",
+   "asof": "2026-11-03T19:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -4090,5 +4090,5 @@
    "hit": 5
   }
  },
- "made": "2026-11-03T19:00+00:00"
+ "made": "2026-11-03T19:20+00:00"
 }
