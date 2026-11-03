@@ -1486,5 +1486,29 @@
   "winner": "ANA",
   "date": "2026-11-01",
   "id": "2026-11-01_OTT@ANA"
+ },
+ {
+  "away": "VGK",
+  "home": "BOS",
+  "ag": 2,
+  "hg": 3,
+  "a_sh": 23,
+  "h_sh": 27,
+  "ot": "SO",
+  "winner": "BOS",
+  "date": "2026-11-02",
+  "id": "2026-11-02_VGK@BOS"
+ },
+ {
+  "away": "DET",
+  "home": "FLA",
+  "ag": 5,
+  "hg": 3,
+  "a_sh": 29,
+  "h_sh": 26,
+  "ot": null,
+  "winner": "DET",
+  "date": "2026-11-02",
+  "id": "2026-11-02_DET@FLA"
  }
 ]
