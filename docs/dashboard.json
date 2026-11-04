@@ -1294,7 +1294,7 @@
  ],
  "lineups": {
   "OTT": {
-   "asof": "2026-11-04T19:20Z",
+   "asof": "2026-11-04T20:22Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -1326,7 +1326,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-04T19:20Z",
+   "asof": "2026-11-04T20:22Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -1357,7 +1357,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-11-04T19:20Z",
+   "asof": "2026-11-04T20:22Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -1385,7 +1385,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-11-04T19:20Z",
+   "asof": "2026-11-04T20:22Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1414,7 +1414,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-04T19:20Z",
+   "asof": "2026-11-04T20:22Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Toffoli",
@@ -1433,8 +1433,8 @@
     "Jacob Trouba",
     "Darnell Nurse",
     "Michael Kesselring",
-    "Nolan Allan",
-    "Dmitry Orlov"
+    "Dmitry Orlov",
+    "Eric Pohlkamp"
    ],
    "inj": {
     "Alexander Wennberg": "IR",
@@ -1442,7 +1442,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-04T19:20Z",
+   "asof": "2026-11-04T20:22Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -1473,7 +1473,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-04T19:20Z",
+   "asof": "2026-11-04T20:22Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1503,7 +1503,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-11-04T19:20Z",
+   "asof": "2026-11-04T20:22Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1523,7 +1523,7 @@
     "Ryker Evans",
     "Brandon Montour",
     "Joshua Mahura",
-    "Cale Fleury"
+    "Ville Ottavainen"
    ],
    "inj": {
     "Jared McCann": "IR",
@@ -1548,21 +1548,19 @@
   "sh3_exp": 289.3
  },
  "health": {
-  "mode": "players",
-  "at": "2026-11-04T16:41+00:00",
+  "mode": "plan",
+  "at": "2026-11-04T19:20+00:00",
   "ok": [
-   "players_base refreshed: 702 updated, 3 added"
+   "4 games on 2026-11-04",
+   "Daily Faceoff goalies parsed for 8 teams",
+   "lineups refreshed for 8/8 teams",
+   "Kalshi: 4 NHL games priced, 2 new rows",
+   "nothing new to log (no new games, no goalie changes)"
   ],
-  "problems": [],
+  "problems": [
+   "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+  ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-04T04:28+00:00",
-    "n_ok": 4,
-    "problems": [
-     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-04T04:53+00:00",
@@ -1630,6 +1628,14 @@
     "at": "2026-11-04T16:41+00:00",
     "n_ok": 1,
     "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-04T19:20+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
    }
   ]
  },
@@ -2202,5 +2208,5 @@
    "hit": 8
   }
  },
- "made": "2026-11-04T19:20+00:00"
+ "made": "2026-11-04T20:22+00:00"
 }
