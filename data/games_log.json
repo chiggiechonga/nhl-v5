@@ -1534,5 +1534,77 @@
   "winner": "CGY",
   "date": "2026-11-02",
   "id": "2026-11-02_CGY@SJS"
+ },
+ {
+  "away": "UTA",
+  "home": "TOR",
+  "ag": 3,
+  "hg": 2,
+  "a_sh": 36,
+  "h_sh": 29,
+  "ot": null,
+  "winner": "UTA",
+  "date": "2026-11-03",
+  "id": "2026-11-03_UTA@TOR"
+ },
+ {
+  "away": "DET",
+  "home": "TBL",
+  "ag": 2,
+  "hg": 4,
+  "a_sh": 21,
+  "h_sh": 27,
+  "ot": null,
+  "winner": "TBL",
+  "date": "2026-11-03",
+  "id": "2026-11-03_DET@TBL"
+ },
+ {
+  "away": "MIN",
+  "home": "PHI",
+  "ag": 4,
+  "hg": 2,
+  "a_sh": 22,
+  "h_sh": 25,
+  "ot": null,
+  "winner": "MIN",
+  "date": "2026-11-03",
+  "id": "2026-11-03_MIN@PHI"
+ },
+ {
+  "away": "VGK",
+  "home": "PIT",
+  "ag": 3,
+  "hg": 2,
+  "a_sh": 23,
+  "h_sh": 25,
+  "ot": null,
+  "winner": "VGK",
+  "date": "2026-11-03",
+  "id": "2026-11-03_VGK@PIT"
+ },
+ {
+  "away": "DAL",
+  "home": "WSH",
+  "ag": 6,
+  "hg": 5,
+  "a_sh": 23,
+  "h_sh": 25,
+  "ot": null,
+  "winner": "DAL",
+  "date": "2026-11-03",
+  "id": "2026-11-03_DAL@WSH"
+ },
+ {
+  "away": "COL",
+  "home": "CBJ",
+  "ag": 2,
+  "hg": 7,
+  "a_sh": 29,
+  "h_sh": 24,
+  "ot": null,
+  "winner": "CBJ",
+  "date": "2026-11-03",
+  "id": "2026-11-03_COL@CBJ"
  }
 ]
