@@ -1654,5 +1654,17 @@
   "winner": "NSH",
   "date": "2026-11-03",
   "id": "2026-11-03_CAR@NSH"
+ },
+ {
+  "away": "ANA",
+  "home": "VAN",
+  "ag": 5,
+  "hg": 4,
+  "a_sh": 22,
+  "h_sh": 23,
+  "ot": null,
+  "winner": "ANA",
+  "date": "2026-11-03",
+  "id": "2026-11-03_ANA@VAN"
  }
 ]
