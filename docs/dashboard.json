@@ -3652,7 +3652,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-04T01:29Z",
+   "asof": "2026-11-04T01:55Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3682,7 +3682,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-11-04T01:29Z",
+   "asof": "2026-11-04T01:55Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3727,7 +3727,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-04T01:04+00:00",
+  "at": "2026-11-04T01:29+00:00",
   "ok": [
    "11 games on 2026-11-03",
    "Daily Faceoff goalies parsed for 22 teams",
@@ -3736,17 +3736,9 @@
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (132) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (140) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-03T21:09+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (104) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-03T21:36+00:00",
@@ -3817,6 +3809,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (132) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-04T01:29+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (140) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -4281,5 +4281,5 @@
    "hit": 5
   }
  },
- "made": "2026-11-04T01:29+00:00"
+ "made": "2026-11-04T01:55+00:00"
 }
