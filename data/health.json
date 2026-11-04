@@ -1,18 +1,17 @@
 {
- "mode": "grade",
- "at": "2026-11-04T04:53+00:00",
+ "mode": "plan",
+ "at": "2026-11-04T05:19+00:00",
  "ok": [
-  "graded 2026-11-03_ANA@VAN: 5-4, shots 22-23",
-  "1 games and 10 player rows added"
+  "4 games on 2026-11-04",
+  "Daily Faceoff goalies parsed for 8 teams",
+  "lineups refreshed for 8/8 teams",
+  "Kalshi: 4 NHL games priced, 4 new rows",
+  "logging 4 game(s): ['2026-11-04_CGY@SEA', '2026-11-04_CHI@FLA', '2026-11-04_OTT@BUF', '2026-11-04_SJS@LAK']"
  ],
- "problems": [],
+ "problems": [
+  "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+ ],
  "history": [
-  {
-   "mode": "grade",
-   "at": "2026-11-04T02:46+00:00",
-   "n_ok": 7,
-   "problems": []
-  },
   {
    "mode": "plan",
    "at": "2026-11-04T03:11+00:00",
@@ -76,6 +75,14 @@
    "at": "2026-11-04T04:53+00:00",
    "n_ok": 2,
    "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-11-04T05:19+00:00",
+   "n_ok": 5,
+   "problems": [
+    "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   ]
   }
  ]
 }

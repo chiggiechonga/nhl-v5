@@ -1,6 +1,6 @@
 {
  "FLA": {
-  "asof": "2026-11-02T23:48Z",
+  "asof": "2026-11-04T05:19Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brady Tkachuk",
@@ -29,7 +29,7 @@
   }
  },
  "BUF": {
-  "asof": "2026-10-31T19:36Z",
+  "asof": "2026-11-04T05:19Z",
   "source": "Daily Faceoff",
   "lines": [
    "Peyton Krebs",
@@ -48,7 +48,7 @@
    "Rasmus Dahlin",
    "Olen Zellweger",
    "Owen Power",
-   "Dennis Gilbert",
+   "Zach Metsa",
    "Louis Crevier"
   ],
   "inj": {
@@ -56,7 +56,8 @@
    "Conor Timmins": "IR",
    "Alex Lyon": "IR",
    "Jiri Kulich": "IR",
-   "Konsta Helenius": "IR"
+   "Konsta Helenius": "IR",
+   "Zach Benson": "IR"
   }
  },
  "PHI": {
@@ -88,7 +89,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-11-02T00:57Z",
+  "asof": "2026-11-04T05:19Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -102,7 +103,7 @@
    "Claude Giroux",
    "Nick Cousins",
    "Stephen Halliday",
-   "Xavier Bourgault",
+   "Sammy Blais",
    "Jake Sanderson",
    "Artem Zub",
    "Thomas Chabot",
@@ -176,7 +177,7 @@
   }
  },
  "SJS": {
-  "asof": "2026-11-03T01:56Z",
+  "asof": "2026-11-04T05:19Z",
   "source": "Daily Faceoff",
   "lines": [
    "Tyler Toffoli",
@@ -190,7 +191,7 @@
    "Collin Graf",
    "Barclay Goodrow",
    "Zack Ostapchuk",
-   "Ty Dellandrea",
+   "Adam Gaudette",
    "Sam Dickinson",
    "Jacob Trouba",
    "Darnell Nurse",
@@ -380,12 +381,12 @@
   }
  },
  "LAK": {
-  "asof": "2026-10-31T19:36Z",
+  "asof": "2026-11-04T05:19Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
    "Alex Laferriere",
-   "Taylor Ward",
+   "Martin Chromiak",
    "Trevor Moore",
    "Quinton Byfield",
    "Corey Perry",
@@ -394,7 +395,7 @@
    "Joel Armia",
    "Erik Haula",
    "Samuel Helenius",
-   "Martin Chromiak",
+   "Taylor Ward",
    "Erik Gustafsson",
    "Brandt Clarke",
    "Joel Edmundson",
@@ -406,7 +407,8 @@
    "Alex Turcotte": "IR",
    "Kevin Fiala": "IR",
    "Mats Zuccarello": "IR",
-   "Adrian Kempe": "IR"
+   "Adrian Kempe": "IR",
+   "Brandt Clarke": "IR"
   }
  },
  "DAL": {
@@ -525,7 +527,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-11-03T01:56Z",
+  "asof": "2026-11-04T05:19Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -647,7 +649,7 @@
   }
  },
  "SEA": {
-  "asof": "2026-10-30T23:34Z",
+  "asof": "2026-11-04T05:19Z",
   "source": "Daily Faceoff",
   "lines": [
    "Bobby McMann",
@@ -655,13 +657,13 @@
    "Jordan Eberle",
    "Chandler Stephenson",
    "Frederick Gaudreau",
-   "Mackie Samoskevich",
+   "Matthew Wood",
    "Kaapo Kakko",
    "Berkly Catton",
-   "Shane Wright",
+   "Mackie Samoskevich",
+   "Jani Nyman",
    "Ben Meyers",
    "Ryan Winterton",
-   "Jani Nyman",
    "Vince Dunn",
    "Adam Larsson",
    "Ryker Evans",
@@ -762,7 +764,7 @@
   }
  },
  "CHI": {
-  "asof": "2026-11-03T00:39Z",
+  "asof": "2026-11-04T05:19Z",
   "source": "Daily Faceoff",
   "lines": [
    "Roman Kantserov",
@@ -785,6 +787,7 @@
    "Sam Rinzel"
   ],
   "inj": {
+   "Patrick Kane": "IR",
    "Bowen Byram": "IR"
   }
  },
