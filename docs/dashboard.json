@@ -1303,7 +1303,7 @@
  ],
  "lineups": {
   "OTT": {
-   "asof": "2026-11-04T21:40Z",
+   "asof": "2026-11-04T22:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -1335,7 +1335,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-04T21:40Z",
+   "asof": "2026-11-04T22:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -1366,7 +1366,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-11-04T21:40Z",
+   "asof": "2026-11-04T22:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -1394,7 +1394,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-11-04T21:40Z",
+   "asof": "2026-11-04T22:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1423,7 +1423,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-04T21:40Z",
+   "asof": "2026-11-04T22:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Toffoli",
@@ -1451,7 +1451,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-04T21:40Z",
+   "asof": "2026-11-04T22:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -1480,7 +1480,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-04T21:40Z",
+   "asof": "2026-11-04T22:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1510,7 +1510,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-11-04T21:40Z",
+   "asof": "2026-11-04T22:06Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1556,26 +1556,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-04T21:14+00:00",
+  "at": "2026-11-04T21:40+00:00",
   "ok": [
    "4 games on 2026-11-04",
    "Daily Faceoff goalies parsed for 8 teams",
    "lineups refreshed for 8/8 teams",
-   "Kalshi: 4 NHL games priced, 0 new rows",
+   "Kalshi: 4 NHL games priced, 1 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
    "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-04T05:45+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-04T06:10+00:00",
@@ -1641,6 +1633,14 @@
    {
     "mode": "plan",
     "at": "2026-11-04T21:14+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-04T21:40+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -2217,5 +2217,5 @@
    "hit": 8
   }
  },
- "made": "2026-11-04T21:40+00:00"
+ "made": "2026-11-04T22:06+00:00"
 }
