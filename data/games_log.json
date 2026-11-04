@@ -1642,5 +1642,17 @@
   "winner": "NJD",
   "date": "2026-11-03",
   "id": "2026-11-03_EDM@NJD"
+ },
+ {
+  "away": "CAR",
+  "home": "NSH",
+  "ag": 1,
+  "hg": 4,
+  "a_sh": 30,
+  "h_sh": 20,
+  "ot": null,
+  "winner": "NSH",
+  "date": "2026-11-03",
+  "id": "2026-11-03_CAR@NSH"
  }
 ]
