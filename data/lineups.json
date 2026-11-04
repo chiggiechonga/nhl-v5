@@ -1,6 +1,6 @@
 {
  "FLA": {
-  "asof": "2026-11-04T12:47Z",
+  "asof": "2026-11-04T19:20Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brady Tkachuk",
@@ -20,7 +20,7 @@
    "Niko Mikkola",
    "Seth Jones",
    "Dmitry Kulikov",
-   "Radko Gudas"
+   "Uvis Balinskis"
   ],
   "inj": {
    "Aleksander Barkov": "IR",
@@ -29,21 +29,21 @@
   }
  },
  "BUF": {
-  "asof": "2026-11-04T12:47Z",
+  "asof": "2026-11-04T19:20Z",
   "source": "Daily Faceoff",
   "lines": [
+   "Zach Benson",
    "Peyton Krebs",
    "Tage Thompson",
-   "Zach Benson",
    "Josh Doan",
    "Noah Ostlund",
    "Jack Quinn",
    "Jason Zucker",
-   "Ryan McLeod",
    "Josh Norris",
+   "Ryan McLeod",
+   "Beck Malenstyn",
    "Tyson Kozak",
    "Sam Carrick",
-   "Beck Malenstyn",
    "Mattias Samuelsson",
    "Rasmus Dahlin",
    "Olen Zellweger",
@@ -56,8 +56,7 @@
    "Conor Timmins": "IR",
    "Alex Lyon": "IR",
    "Jiri Kulich": "IR",
-   "Konsta Helenius": "IR",
-   "Zach Benson": "IR"
+   "Konsta Helenius": "IR"
   }
  },
  "PHI": {
@@ -89,7 +88,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-11-04T12:47Z",
+  "asof": "2026-11-04T19:20Z",
   "source": "Daily Faceoff",
   "lines": [
    "Fabian Zetterlund",
@@ -108,15 +107,16 @@
    "Artem Zub",
    "Thomas Chabot",
    "Jordan Spence",
-   "Tyler Kleven",
-   "Nikolas Matinpalo"
+   "Nikolas Matinpalo",
+   "Carter Yakemchuk"
   ],
   "inj": {
    "William Eklund": "IR",
    "Linus Ullmark": "IR",
    "Warren Foegele": "IR",
    "Hayden Hodgson": "IR",
-   "Andre Burakovsky": "IR"
+   "Andre Burakovsky": "IR",
+   "Tyler Kleven": "IR"
   }
  },
  "NJD": {
@@ -177,7 +177,7 @@
   }
  },
  "SJS": {
-  "asof": "2026-11-04T12:47Z",
+  "asof": "2026-11-04T19:20Z",
   "source": "Daily Faceoff",
   "lines": [
    "Tyler Toffoli",
@@ -381,7 +381,7 @@
   }
  },
  "LAK": {
-  "asof": "2026-11-04T12:47Z",
+  "asof": "2026-11-04T19:20Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
@@ -527,7 +527,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-11-04T12:47Z",
+  "asof": "2026-11-04T19:20Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -649,7 +649,7 @@
   }
  },
  "SEA": {
-  "asof": "2026-11-04T12:47Z",
+  "asof": "2026-11-04T19:20Z",
   "source": "Daily Faceoff",
   "lines": [
    "Bobby McMann",
@@ -764,25 +764,25 @@
   }
  },
  "CHI": {
-  "asof": "2026-11-04T12:47Z",
+  "asof": "2026-11-04T19:20Z",
   "source": "Daily Faceoff",
   "lines": [
    "Roman Kantserov",
    "Connor Bedard",
-   "Ryan Donato",
    "Tyler Bertuzzi",
-   "Anton Frondell",
-   "Andrew Mangiapane",
    "Oliver Moore",
    "Frank Nazar",
-   "Patrick Kane",
+   "Ryan Donato",
    "Cole Smith",
-   "Ryan Greene",
+   "Anton Frondell",
    "Teuvo Teravainen",
-   "Alex Vlasic",
-   "Ian Cole",
+   "Jordan Greenway",
+   "Ryan Greene",
+   "Dillon Boucher",
    "Wyatt Kaiser",
    "Artyom Levshunov",
+   "Alex Vlasic",
+   "Ian Cole",
    "Ethan Del Mastro",
    "Sam Rinzel"
   ],
