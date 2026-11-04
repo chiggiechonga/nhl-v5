@@ -3536,7 +3536,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-11-03T23:58Z",
+   "asof": "2026-11-04T00:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -3569,7 +3569,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-03T23:58Z",
+   "asof": "2026-11-04T00:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -3596,7 +3596,7 @@
    }
   },
   "CAR": {
-   "asof": "2026-11-03T23:58Z",
+   "asof": "2026-11-04T00:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -3624,7 +3624,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-11-03T23:58Z",
+   "asof": "2026-11-04T00:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -3651,7 +3651,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-03T23:58Z",
+   "asof": "2026-11-04T00:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3681,7 +3681,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-11-03T23:58Z",
+   "asof": "2026-11-04T00:13Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -4280,5 +4280,5 @@
    "hit": 5
   }
  },
- "made": "2026-11-03T23:59+00:00"
+ "made": "2026-11-04T00:13+00:00"
 }
