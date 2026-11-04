@@ -1630,5 +1630,17 @@
   "winner": "NYR",
   "date": "2026-11-03",
   "id": "2026-11-03_STL@NYR"
+ },
+ {
+  "away": "EDM",
+  "home": "NJD",
+  "ag": 3,
+  "hg": 4,
+  "a_sh": 21,
+  "h_sh": 34,
+  "ot": "SO",
+  "winner": "NJD",
+  "date": "2026-11-03",
+  "id": "2026-11-03_EDM@NJD"
  }
 ]
