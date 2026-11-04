@@ -1236,11 +1236,20 @@
    "note": "auto 05:19Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 47%",
    "over55": 0.575,
    "over65": 0.47
+  },
+  {
+   "date": "2026-11-04",
+   "game": "CGY@SEA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.57,
+   "note": "auto 06:10Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+   "over55": 0.565,
+   "over65": 0.445
   }
  ],
  "lineups": {
   "OTT": {
-   "asof": "2026-11-04T05:54Z",
+   "asof": "2026-11-04T06:10Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -1271,7 +1280,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-04T05:54Z",
+   "asof": "2026-11-04T06:10Z",
    "source": "Daily Faceoff",
    "lines": [
     "Peyton Krebs",
@@ -1303,7 +1312,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-11-04T05:54Z",
+   "asof": "2026-11-04T06:10Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -1331,7 +1340,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-11-04T05:54Z",
+   "asof": "2026-11-04T06:10Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1360,7 +1369,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-04T05:54Z",
+   "asof": "2026-11-04T06:10Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Toffoli",
@@ -1388,7 +1397,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-04T05:54Z",
+   "asof": "2026-11-04T06:10Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -1419,7 +1428,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-04T05:54Z",
+   "asof": "2026-11-04T06:10Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1449,7 +1458,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-11-04T05:54Z",
+   "asof": "2026-11-04T06:10Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -2150,5 +2159,5 @@
    "hit": 8
   }
  },
- "made": "2026-11-04T05:54+00:00"
+ "made": "2026-11-04T06:10+00:00"
 }

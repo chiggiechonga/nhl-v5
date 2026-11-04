@@ -2545,5 +2545,14 @@
   "note": "auto 05:19Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 47%",
   "over55": 0.575,
   "over65": 0.47
+ },
+ {
+  "date": "2026-11-04",
+  "game": "CGY@SEA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.57,
+  "note": "auto 06:10Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+  "over55": 0.565,
+  "over65": 0.445
  }
 ]
