@@ -1606,5 +1606,29 @@
   "winner": "CBJ",
   "date": "2026-11-03",
   "id": "2026-11-03_COL@CBJ"
+ },
+ {
+  "away": "WPG",
+  "home": "MTL",
+  "ag": 5,
+  "hg": 4,
+  "a_sh": 47,
+  "h_sh": 22,
+  "ot": "OT",
+  "winner": "WPG",
+  "date": "2026-11-03",
+  "id": "2026-11-03_WPG@MTL"
+ },
+ {
+  "away": "STL",
+  "home": "NYR",
+  "ag": 1,
+  "hg": 3,
+  "a_sh": 33,
+  "h_sh": 31,
+  "ot": null,
+  "winner": "NYR",
+  "date": "2026-11-03",
+  "id": "2026-11-03_STL@NYR"
  }
 ]
