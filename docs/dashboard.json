@@ -948,6 +948,24 @@
    "basis": "2025-26 78 GP + 2026-27 13 GP (stats as of Nov 4)"
   },
   {
+   "name": "Adrian Kempe",
+   "team": "LAK",
+   "opp": "SJS",
+   "pos": "F",
+   "p_pt": 0.5436,
+   "p_g": 0.3041,
+   "ep": 0.784,
+   "sog": 3.4,
+   "sog2_raw": 0.8005,
+   "sog3_raw": 0.6119,
+   "sog4_raw": 0.4246,
+   "sog2": 0.7524,
+   "sog3": 0.5507,
+   "sog4": 0.3397,
+   "dtd": false,
+   "basis": "2025-26 81 GP + 2026-27 12 GP (stats as of Nov 4)"
+  },
+  {
    "name": "Alex Laferriere",
    "team": "LAK",
    "opp": "SJS",
@@ -962,6 +980,24 @@
    "sog2": 0.6907,
    "sog3": 0.4677,
    "sog4": 0.2635,
+   "dtd": false,
+   "basis": "2025-26 82 GP + 2026-27 13 GP (stats as of Nov 4)"
+  },
+  {
+   "name": "Brandt Clarke",
+   "team": "LAK",
+   "opp": "SJS",
+   "pos": "D",
+   "p_pt": 0.4261,
+   "p_g": 0.1272,
+   "ep": 0.555,
+   "sog": 2.1,
+   "sog2_raw": 0.5883,
+   "sog3_raw": 0.3473,
+   "sog4_raw": 0.1799,
+   "sog2": 0.553,
+   "sog3": 0.3125,
+   "sog4": 0.1439,
    "dtd": false,
    "basis": "2025-26 82 GP + 2026-27 13 GP (stats as of Nov 4)"
   },
@@ -982,42 +1018,6 @@
    "sog4": 0.2262,
    "dtd": false,
    "basis": "2025-26 79 GP + 2026-27 11 GP (stats as of Nov 4)"
-  },
-  {
-   "name": "Drew Doughty",
-   "team": "LAK",
-   "opp": "SJS",
-   "pos": "D",
-   "p_pt": 0.4025,
-   "p_g": 0.126,
-   "ep": 0.515,
-   "sog": 1.59,
-   "sog2_raw": 0.454,
-   "sog3_raw": 0.222,
-   "sog4_raw": 0.0939,
-   "sog2": 0.4267,
-   "sog3": 0.1998,
-   "sog4": 0.0751,
-   "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 12 GP (stats as of Nov 4)"
-  },
-  {
-   "name": "Erik Haula",
-   "team": "LAK",
-   "opp": "SJS",
-   "pos": "F",
-   "p_pt": 0.3433,
-   "p_g": 0.1548,
-   "ep": 0.42,
-   "sog": 2.16,
-   "sog2_raw": 0.6019,
-   "sog3_raw": 0.3616,
-   "sog4_raw": 0.1909,
-   "sog2": 0.5658,
-   "sog3": 0.3254,
-   "sog4": 0.1528,
-   "dtd": false,
-   "basis": "2025-26 0 GP + 2026-27 13 GP (stats as of Nov 4)"
   },
   {
    "name": "Matt Coronato",
@@ -1294,7 +1294,7 @@
  ],
  "lineups": {
   "OTT": {
-   "asof": "2026-11-04T20:22Z",
+   "asof": "2026-11-04T20:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -1326,7 +1326,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-04T20:22Z",
+   "asof": "2026-11-04T20:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -1357,7 +1357,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-11-04T20:22Z",
+   "asof": "2026-11-04T20:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -1385,7 +1385,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-11-04T20:22Z",
+   "asof": "2026-11-04T20:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1414,7 +1414,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-04T20:22Z",
+   "asof": "2026-11-04T20:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Toffoli",
@@ -1442,21 +1442,21 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-04T20:22Z",
+   "asof": "2026-11-04T20:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
     "Alex Laferriere",
-    "Martin Chromiak",
+    "Adrian Kempe",
     "Trevor Moore",
     "Quinton Byfield",
     "Corey Perry",
     "Andre Lee",
     "Scott Laughton",
-    "Joel Armia",
+    "Martin Chromiak",
     "Erik Haula",
-    "Samuel Helenius",
-    "Taylor Ward",
+    "Kenny Connors",
+    "Joel Armia",
     "Erik Gustafsson",
     "Brandt Clarke",
     "Joel Edmundson",
@@ -1467,13 +1467,11 @@
    "inj": {
     "Alex Turcotte": "IR",
     "Kevin Fiala": "IR",
-    "Mats Zuccarello": "IR",
-    "Adrian Kempe": "IR",
-    "Brandt Clarke": "IR"
+    "Mats Zuccarello": "IR"
    }
   },
   "CGY": {
-   "asof": "2026-11-04T20:22Z",
+   "asof": "2026-11-04T20:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1503,7 +1501,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-11-04T20:22Z",
+   "asof": "2026-11-04T20:48Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1549,26 +1547,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-04T19:20+00:00",
+  "at": "2026-11-04T20:22+00:00",
   "ok": [
    "4 games on 2026-11-04",
    "Daily Faceoff goalies parsed for 8 teams",
    "lineups refreshed for 8/8 teams",
-   "Kalshi: 4 NHL games priced, 2 new rows",
+   "Kalshi: 4 NHL games priced, 0 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-04T04:53+00:00",
-    "n_ok": 4,
-    "problems": [
-     "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "grade",
     "at": "2026-11-04T04:53+00:00",
@@ -1635,6 +1625,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (72) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-04T20:22+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -2208,5 +2206,5 @@
    "hit": 8
   }
  },
- "made": "2026-11-04T20:22+00:00"
+ "made": "2026-11-04T20:48+00:00"
 }
