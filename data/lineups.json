@@ -146,7 +146,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-04T00:13Z",
+  "asof": "2026-11-04T00:38Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -259,7 +259,7 @@
   "inj": {}
  },
  "NSH": {
-  "asof": "2026-11-04T00:13Z",
+  "asof": "2026-11-04T00:38Z",
   "source": "Daily Faceoff",
   "lines": [
    "Steven Stamkos",
@@ -273,7 +273,7 @@
    "Adam Edstrom",
    "Reid Schaefer",
    "Alex Kerfoot",
-   "Jonathan Marchessault",
+   "Vitali Pinchuk",
    "Roman Josi",
    "Adam Wilsby",
    "Brady Skjei",
@@ -282,7 +282,8 @@
    "Jayden Struble"
   ],
   "inj": {
-   "William Trudeau": "IR"
+   "William Trudeau": "IR",
+   "Jonathan Marchessault": "IR"
   }
  },
  "TOR": {
@@ -618,7 +619,7 @@
   }
  },
  "CAR": {
-  "asof": "2026-11-04T00:13Z",
+  "asof": "2026-11-04T00:38Z",
   "source": "Daily Faceoff",
   "lines": [
    "William Carrier",
@@ -703,7 +704,7 @@
   }
  },
  "VAN": {
-  "asof": "2026-11-04T00:13Z",
+  "asof": "2026-11-04T00:38Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake DeBrusk",

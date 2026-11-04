@@ -110,7 +110,7 @@
    "time": "7:30 ET",
    "start": "2026-11-04T00:30:00Z",
    "gid": 2026020239,
-   "started": false,
+   "started": true,
    "goalie_a": "Tristan Jarry",
    "status_a": "unconfirmed",
    "goalie_h": "Connor Hellebuyck",
