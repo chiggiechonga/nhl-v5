@@ -3067,5 +3067,14 @@
   "note": "auto 23:13Z; mid of bid/ask; O5.5 goals 70%; O6.5 goals 58%",
   "over55": 0.695,
   "over65": 0.585
+ },
+ {
+  "date": "2026-11-05",
+  "game": "UTA@MTL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.465,
+  "note": "auto 23:38Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%",
+  "over55": 0.64,
+  "over65": 0.535
  }
 ]
