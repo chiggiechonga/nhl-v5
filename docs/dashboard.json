@@ -1317,11 +1317,20 @@
    "note": "auto 23:50Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 46%",
    "over55": 0.585,
    "over65": 0.465
+  },
+  {
+   "date": "2026-11-04",
+   "game": "OTT@BUF",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.535,
+   "note": "auto 00:15Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%",
+   "over55": 0.645,
+   "over65": 0.535
   }
  ],
  "lineups": {
   "OTT": {
-   "asof": "2026-11-04T23:50Z",
+   "asof": "2026-11-05T00:15Z",
    "source": "Daily Faceoff",
    "lines": [
     "Fabian Zetterlund",
@@ -1353,7 +1362,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-04T23:50Z",
+   "asof": "2026-11-05T00:15Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -1384,7 +1393,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-11-04T23:50Z",
+   "asof": "2026-11-05T00:15Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -1396,9 +1405,9 @@
     "Cole Smith",
     "Anton Frondell",
     "Teuvo Teravainen",
-    "Jordan Greenway",
-    "Ryan Greene",
     "Dillon Boucher",
+    "Ryan Greene",
+    "Jordan Greenway",
     "Wyatt Kaiser",
     "Artyom Levshunov",
     "Alex Vlasic",
@@ -1412,7 +1421,7 @@
    }
   },
   "FLA": {
-   "asof": "2026-11-04T23:50Z",
+   "asof": "2026-11-05T00:15Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1431,8 +1440,8 @@
     "Aaron Ekblad",
     "Niko Mikkola",
     "Seth Jones",
-    "Dmitry Kulikov",
-    "Uvis Balinskis"
+    "Uvis Balinskis",
+    "Dmitry Kulikov"
    ],
    "inj": {
     "Aleksander Barkov": "IR",
@@ -1441,7 +1450,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-04T23:50Z",
+   "asof": "2026-11-05T00:15Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Toffoli",
@@ -1469,7 +1478,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-04T23:50Z",
+   "asof": "2026-11-05T00:15Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -1498,7 +1507,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-04T23:50Z",
+   "asof": "2026-11-05T00:15Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1528,7 +1537,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-11-04T23:50Z",
+   "asof": "2026-11-05T00:15Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1574,7 +1583,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-04T23:24+00:00",
+  "at": "2026-11-04T23:50+00:00",
   "ok": [
    "4 games on 2026-11-04",
    "Daily Faceoff goalies parsed for 8 teams",
@@ -1586,12 +1595,6 @@
    "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "players",
-    "at": "2026-11-04T16:41+00:00",
-    "n_ok": 1,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-11-04T19:20+00:00",
@@ -1659,6 +1662,14 @@
    {
     "mode": "plan",
     "at": "2026-11-04T23:24+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-04T23:50+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -2235,5 +2246,5 @@
    "hit": 8
   }
  },
- "made": "2026-11-04T23:50+00:00"
+ "made": "2026-11-05T00:15+00:00"
 }
