@@ -1467,7 +1467,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-05T00:41Z",
+   "asof": "2026-11-05T01:07Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Toffoli",
@@ -1495,7 +1495,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-05T00:41Z",
+   "asof": "2026-11-05T01:07Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -1524,7 +1524,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-05T00:41Z",
+   "asof": "2026-11-05T01:07Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1554,7 +1554,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-11-05T00:41Z",
+   "asof": "2026-11-05T01:07Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -1600,26 +1600,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-05T00:15+00:00",
+  "at": "2026-11-05T00:41+00:00",
   "ok": [
    "4 games on 2026-11-04",
    "Daily Faceoff goalies parsed for 8 teams",
-   "lineups refreshed for 8/8 teams",
-   "Kalshi: 4 NHL games priced, 1 new rows",
+   "lineups refreshed for 4/4 teams",
+   "Kalshi: 4 NHL games priced, 0 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (88) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-04T20:22+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-04T20:48+00:00",
@@ -1690,6 +1682,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-05T00:41+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (88) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -2263,5 +2263,5 @@
    "hit": 8
   }
  },
- "made": "2026-11-05T00:41+00:00"
+ "made": "2026-11-05T01:07+00:00"
 }
