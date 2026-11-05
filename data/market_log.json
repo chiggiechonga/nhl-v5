@@ -2950,5 +2950,32 @@
   "note": "auto 20:09Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
   "over55": 0.555,
   "over65": 0.435
+ },
+ {
+  "date": "2026-11-05",
+  "game": "PHI@NYR",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.57,
+  "note": "auto 20:36Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+  "over55": 0.555,
+  "over65": 0.435
+ },
+ {
+  "date": "2026-11-05",
+  "game": "BOS@PIT",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.495,
+  "note": "auto 20:36Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%",
+  "over55": 0.635,
+  "over65": 0.515
+ },
+ {
+  "date": "2026-11-05",
+  "game": "VAN@WPG",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.665,
+  "note": "auto 20:36Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%",
+  "over55": 0.615,
+  "over65": 0.495
  }
 ]
