@@ -1666,5 +1666,17 @@
   "winner": "ANA",
   "date": "2026-11-03",
   "id": "2026-11-03_ANA@VAN"
+ },
+ {
+  "away": "OTT",
+  "home": "BUF",
+  "ag": 2,
+  "hg": 1,
+  "a_sh": 30,
+  "h_sh": 25,
+  "ot": null,
+  "winner": "OTT",
+  "date": "2026-11-04",
+  "id": "2026-11-04_OTT@BUF"
  }
 ]
