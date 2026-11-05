@@ -3022,5 +3022,14 @@
   "note": "auto 21:54Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
   "over55": 0.555,
   "over65": 0.435
+ },
+ {
+  "date": "2026-11-05",
+  "game": "CAR@NYI",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.355,
+  "note": "auto 22:20Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 44%",
+  "over55": 0.575,
+  "over65": 0.445
  }
 ]
