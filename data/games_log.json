@@ -1702,5 +1702,17 @@
   "winner": "SEA",
   "date": "2026-11-04",
   "id": "2026-11-04_CGY@SEA"
+ },
+ {
+  "away": "SJS",
+  "home": "LAK",
+  "ag": 2,
+  "hg": 7,
+  "a_sh": 32,
+  "h_sh": 27,
+  "ot": null,
+  "winner": "LAK",
+  "date": "2026-11-04",
+  "id": "2026-11-04_SJS@LAK"
  }
 ]

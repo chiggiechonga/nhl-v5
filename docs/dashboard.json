@@ -1,9 +1,9 @@
 {
  "summary": {
-  "n": 142,
-  "brier5": 0.23441364654763655,
-  "ll5": 0.6612527244582199,
-  "acc5": 0.6056338028169014,
+  "n": 143,
+  "brier5": 0.23400176608602274,
+  "ll5": 0.6604251495176169,
+  "acc5": 0.6083916083916084,
   "n_h2h": 42,
   "brier4_h2h": 0.2340558066666667,
   "brier5_h2h": 0.2308742635566758,
@@ -11,11 +11,11 @@
   "ll5_h2h": 0.654203680258315,
   "acc4_h2h": 0.5714285714285714,
   "acc5_h2h": 0.6666666666666666,
-  "tot_bias5": -0.22438729497714266,
-  "tot_mae5": 1.8271081259318722,
-  "tot_bias4": -0.2348085106382979,
-  "shot_mae5": 4.600468294023642,
-  "shot_bias5": -0.11949392572337166
+  "tot_bias5": -0.24230082997886115,
+  "tot_mae5": 1.8338138229548864,
+  "tot_bias4": -0.25277464788732396,
+  "shot_mae5": 4.604124475226393,
+  "shot_bias5": -0.12158128133845691
  },
  "daily": [
   {
@@ -140,8 +140,8 @@
   },
   {
    "date": "2026-11-04",
-   "n": 3,
-   "b5": 0.20663284230753445,
+   "n": 4,
+   "b5": 0.19885331686486554,
    "b4": null
   }
  ],
@@ -199,6 +199,24 @@
    "k_price": 0.535,
    "k_pnl": -10.0,
    "pick": "BUF"
+  },
+  {
+   "away": "SJS",
+   "home": "LAK",
+   "score": "2-7",
+   "ot": null,
+   "winner": "LAK",
+   "p5": 0.5810552058601768,
+   "p4": null,
+   "tot5": 6.213977199777112,
+   "tot_act": 9,
+   "sh_act": [
+    32,
+    27
+   ],
+   "k_price": 0.615,
+   "k_pnl": 6.26,
+   "pick": "LAK"
   }
  ],
  "graded_date": "2026-11-04",
@@ -2661,11 +2679,20 @@
    "note": "auto 05:21Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
    "over55": 0.6,
    "over65": 0.485
+  },
+  {
+   "date": "2026-11-05",
+   "game": "PHI@NYR",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.585,
+   "note": "auto 06:14Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 42%",
+   "over55": 0.545,
+   "over65": 0.425
   }
  ],
  "lineups": {
   "UTA": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Clayton Keller",
@@ -2693,7 +2720,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -2723,7 +2750,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brett Howden",
@@ -2751,7 +2778,7 @@
    }
   },
   "DET": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -2783,7 +2810,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Roman Kantserov",
@@ -2811,7 +2838,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -2839,7 +2866,7 @@
    }
   },
   "STL": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Dylan Holloway",
@@ -2868,7 +2895,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -2895,7 +2922,7 @@
    }
   },
   "CAR": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -2923,7 +2950,7 @@
    }
   },
   "NYI": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Simon Holmstrom",
@@ -2954,7 +2981,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Trevor Zegras",
@@ -2982,7 +3009,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Pavel Dorofeyev",
@@ -3013,7 +3040,7 @@
    }
   },
   "BOS": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "JJ Peterka",
@@ -3038,7 +3065,7 @@
    "inj": {}
   },
   "PIT": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tommy Novak",
@@ -3068,7 +3095,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jamie Benn",
@@ -3098,7 +3125,7 @@
    }
   },
   "CBJ": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Matthew Knies",
@@ -3125,7 +3152,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3153,7 +3180,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -3182,7 +3209,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3212,7 +3239,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -3245,7 +3272,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -3273,7 +3300,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-05T05:47Z",
+   "asof": "2026-11-05T06:14Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3303,49 +3330,33 @@
  },
  "slate_label": "Thu Nov 5",
  "slate_note": "",
- "n_games": 142,
+ "n_games": 143,
  "target": 300,
  "refit": "2026-11-23",
  "player_cal": {
-  "n": 961,
-  "pt_act": 547,
-  "pt_exp": 484.7,
-  "g_act": 268,
-  "g_exp": 228.7,
-  "n_shots": 870,
-  "sh3_act": 341,
-  "sh3_exp": 299.2
+  "n": 971,
+  "pt_act": 553,
+  "pt_exp": 489.2,
+  "g_act": 272,
+  "g_exp": 230.8,
+  "n_shots": 880,
+  "sh3_act": 346,
+  "sh3_exp": 302.9
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-05T05:47+00:00",
+  "at": "2026-11-05T06:14+00:00",
   "ok": [
    "11 games on 2026-11-05",
    "Daily Faceoff goalies parsed for 22 teams",
    "lineups refreshed for 22/22 teams",
-   "Kalshi: 11 NHL games priced, 0 new rows",
+   "Kalshi: 11 NHL games priced, 1 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (113) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (104) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-05T02:49+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (122) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
-   {
-    "mode": "plan",
-    "at": "2026-11-05T03:14+00:00",
-    "n_ok": 4,
-    "problems": [
-     "Kalshi spread markets found (120) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "grade",
     "at": "2026-11-05T03:14+00:00",
@@ -3404,6 +3415,20 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (113) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "grade",
+    "at": "2026-11-05T05:48+00:00",
+    "n_ok": 2,
+    "problems": []
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-05T06:14+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (104) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -3531,11 +3556,11 @@
   },
   {
    "date": "2026-11-04",
-   "games": 3,
-   "bets": 3,
-   "wins": 2,
-   "pnl": 2.41,
-   "cum": -14.6
+   "games": 4,
+   "bets": 4,
+   "wins": 3,
+   "pnl": 8.67,
+   "cum": -8.34
   }
  ],
  "parlay_days": [
@@ -3969,21 +3994,66 @@
    "cum": 16.58,
    "singles": -3.93,
    "singles_cum": 74.54
+  },
+  {
+   "date": "2026-11-04",
+   "legs": [
+    {
+     "label": "CGY/SEA O5.5",
+     "kind": "tot",
+     "dec": 1.709,
+     "model": false,
+     "hit": false,
+     "pnl": -10.0
+    },
+    {
+     "label": "FLA ML",
+     "kind": "ml",
+     "dec": 1.439,
+     "model": false,
+     "hit": true,
+     "pnl": 4.39
+    },
+    {
+     "label": "OTT +1.5",
+     "kind": "pl",
+     "dec": 1.392,
+     "model": true,
+     "hit": true,
+     "pnl": 3.92
+    },
+    {
+     "label": "LAK ML",
+     "kind": "ml",
+     "dec": 1.626,
+     "model": false,
+     "hit": true,
+     "pnl": 6.26
+    }
+   ],
+   "n": 4,
+   "hits": 3,
+   "odds": 5.57,
+   "won": false,
+   "pnl": -10.0,
+   "cum": 6.58,
+   "singles": 4.57,
+   "singles_cum": 79.11
   }
  ],
  "parlay_types": {
   "ml": {
-   "n": 14,
-   "hit": 11
+   "n": 16,
+   "hit": 13
   },
   "pl": {
-   "n": 20,
-   "hit": 16
+   "n": 21,
+   "hit": 17
   },
   "tot": {
-   "n": 10,
+   "n": 11,
    "hit": 8
   }
  },
- "made": "2026-11-05T05:48+00:00"
+ "made": "2026-11-05T06:14+00:00"
 }
