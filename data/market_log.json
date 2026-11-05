@@ -2635,5 +2635,23 @@
   "note": "auto 00:15Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 54%",
   "over55": 0.645,
   "over65": 0.535
+ },
+ {
+  "date": "2026-11-04",
+  "game": "OTT@BUF",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.535,
+  "note": "auto 00:28Z; mid of bid/ask; O5.5 goals 66%; O6.5 goals 55%",
+  "over55": 0.655,
+  "over65": 0.545
+ },
+ {
+  "date": "2026-11-04",
+  "game": "CHI@FLA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.695,
+  "note": "auto 00:28Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+  "over55": 0.555,
+  "over65": 0.435
  }
 ]
