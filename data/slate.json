@@ -13,9 +13,9 @@
    "start": "2026-11-06T00:00:00Z",
    "gid": 2026020251,
    "started": false,
-   "goalie_a": "Karel Vejmelka",
+   "goalie_a": "Sebastian Cossa",
    "status_a": "unconfirmed",
-   "goalie_h": "Jacob Fowler",
+   "goalie_h": "Jakub Dobes",
    "status_h": "unconfirmed"
   },
   {
@@ -25,7 +25,7 @@
    "start": "2026-11-06T00:00:00Z",
    "gid": 2026020252,
    "started": false,
-   "goalie_a": "Adin Hill",
+   "goalie_a": "Carter Hart",
    "status_a": "unconfirmed",
    "goalie_h": "Daniil Tarasov",
    "status_h": "unconfirmed"
@@ -37,7 +37,7 @@
    "start": "2026-11-06T00:00:00Z",
    "gid": 2026020253,
    "started": false,
-   "goalie_a": "Spencer Knight",
+   "goalie_a": "Arvid Soderblom",
    "status_a": "unconfirmed",
    "goalie_h": "Andrei Vasilevskiy",
    "status_h": "unconfirmed"
@@ -49,7 +49,7 @@
    "start": "2026-11-06T00:00:00Z",
    "gid": 2026020254,
    "started": false,
-   "goalie_a": "Joel Hofer",
+   "goalie_a": "Jordan Binnington",
    "status_a": "unconfirmed",
    "goalie_h": "Connor Hellebuyck",
    "status_h": "unconfirmed"
@@ -61,9 +61,9 @@
    "start": "2026-11-06T00:00:00Z",
    "gid": 2026020255,
    "started": false,
-   "goalie_a": "Pyotr Kochetkov",
+   "goalie_a": "Brandon Bussi",
    "status_a": "unconfirmed",
-   "goalie_h": "Ilya Sorokin",
+   "goalie_h": "Semyon Varlamov",
    "status_h": "unconfirmed"
   },
   {
@@ -97,7 +97,7 @@
    "start": "2026-11-06T00:00:00Z",
    "gid": 2026020258,
    "started": false,
-   "goalie_a": "Jake Oettinger",
+   "goalie_a": "Casey DeSmith",
    "status_a": "unconfirmed",
    "goalie_h": "Cam Talbot",
    "status_h": "unconfirmed"
@@ -109,7 +109,7 @@
    "start": "2026-11-06T00:00:00Z",
    "gid": 2026020259,
    "started": false,
-   "goalie_a": "Kevin Lankinen",
+   "goalie_a": "Leevi Merilainen",
    "status_a": "unconfirmed",
    "goalie_h": "Stuart Skinner",
    "status_h": "unconfirmed"
@@ -123,7 +123,7 @@
    "started": false,
    "goalie_a": "Laurent Brossoit",
    "status_a": "unconfirmed",
-   "goalie_h": "Tristan Jarry",
+   "goalie_h": "Matt Tomkins",
    "status_h": "unconfirmed"
   },
   {
