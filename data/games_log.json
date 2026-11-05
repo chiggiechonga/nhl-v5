@@ -1678,5 +1678,17 @@
   "winner": "OTT",
   "date": "2026-11-04",
   "id": "2026-11-04_OTT@BUF"
+ },
+ {
+  "away": "CHI",
+  "home": "FLA",
+  "ag": 3,
+  "hg": 5,
+  "a_sh": 20,
+  "h_sh": 30,
+  "ot": null,
+  "winner": "FLA",
+  "date": "2026-11-04",
+  "id": "2026-11-04_CHI@FLA"
  }
 ]
