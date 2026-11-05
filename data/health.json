@@ -1,6 +1,6 @@
 {
  "mode": "plan",
- "at": "2026-11-05T19:28+00:00",
+ "at": "2026-11-05T19:43+00:00",
  "ok": [
   "11 games on 2026-11-05",
   "Daily Faceoff goalies parsed for 22 teams",
@@ -80,7 +80,7 @@
   },
   {
    "mode": "plan",
-   "at": "2026-11-05T19:28+00:00",
+   "at": "2026-11-05T19:43+00:00",
    "n_ok": 5,
    "problems": [
     "Kalshi spread markets found (104) but none matched a game today; sample saved to data/debug/kalshi_spread.json"

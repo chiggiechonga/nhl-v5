@@ -49465,7 +49465,7 @@
   "date": "2026-11-05",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-05T19:28+00:00Z",
+  "made_at": "2026-11-05T19:43+00:00Z",
   "away": "UTA",
   "home": "MTL",
   "p_home": 0.4742,
@@ -49481,7 +49481,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "UTA": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Clayton Keller",
@@ -49509,7 +49509,7 @@
     }
    },
    "MTL": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Cole Caufield",
@@ -49739,7 +49739,7 @@
   "date": "2026-11-05",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-05T19:28+00:00Z",
+  "made_at": "2026-11-05T19:43+00:00Z",
   "away": "VGK",
   "home": "DET",
   "p_home": 0.493,
@@ -49755,7 +49755,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "VGK": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Brett Howden",
@@ -49782,7 +49782,7 @@
     }
    },
    "DET": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Alex DeBrincat",
@@ -50015,7 +50015,7 @@
   "date": "2026-11-05",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-05T19:28+00:00Z",
+  "made_at": "2026-11-05T19:43+00:00Z",
   "away": "CHI",
   "home": "TBL",
   "p_home": 0.6985,
@@ -50031,7 +50031,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "CHI": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Roman Kantserov",
@@ -50059,7 +50059,7 @@
     }
    },
    "TBL": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Jake Guentzel",
@@ -50288,7 +50288,7 @@
   "date": "2026-11-05",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-05T19:28+00:00Z",
+  "made_at": "2026-11-05T19:43+00:00Z",
   "away": "STL",
   "home": "NJD",
   "p_home": 0.6202,
@@ -50304,7 +50304,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "STL": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Dylan Holloway",
@@ -50332,7 +50332,7 @@
     }
    },
    "NJD": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Timo Meier",
@@ -50560,7 +50560,7 @@
   "date": "2026-11-05",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-05T19:28+00:00Z",
+  "made_at": "2026-11-05T19:43+00:00Z",
   "away": "CAR",
   "home": "NYI",
   "p_home": 0.3933,
@@ -50576,7 +50576,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "CAR": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "William Carrier",
@@ -50604,7 +50604,7 @@
     }
    },
    "NYI": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Simon Holmstrom",
@@ -50836,7 +50836,7 @@
   "date": "2026-11-05",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-05T19:28+00:00Z",
+  "made_at": "2026-11-05T19:43+00:00Z",
   "away": "DAL",
   "home": "CBJ",
   "p_home": 0.4945,
@@ -50852,7 +50852,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "DAL": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Jamie Benn",
@@ -50882,7 +50882,7 @@
     }
    },
    "CBJ": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Matthew Knies",
@@ -51110,7 +51110,7 @@
   "date": "2026-11-05",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-05T19:28+00:00Z",
+  "made_at": "2026-11-05T19:43+00:00Z",
   "away": "VAN",
   "home": "WPG",
   "p_home": 0.6151,
@@ -51126,7 +51126,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "VAN": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Jake DeBrusk",
@@ -51154,7 +51154,7 @@
     }
    },
    "WPG": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Kyle Connor",
@@ -51384,7 +51384,7 @@
   "date": "2026-11-05",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-05T19:28+00:00Z",
+  "made_at": "2026-11-05T19:43+00:00Z",
   "away": "ANA",
   "home": "EDM",
   "p_home": 0.5861,
@@ -51400,7 +51400,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "ANA": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Alex Killorn",
@@ -51430,7 +51430,7 @@
     }
    },
    "EDM": {
-    "asof": "2026-11-05T19:28Z",
+    "asof": "2026-11-05T19:43Z",
     "source": "Daily Faceoff",
     "lines": [
      "Vasily Podkolzin",

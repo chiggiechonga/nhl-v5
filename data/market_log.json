@@ -2848,7 +2848,7 @@
   "game": "UTA@MTL",
   "source": "Kalshi moneyline",
   "home_prob": 0.465,
-  "note": "auto 19:28Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%",
+  "note": "auto 19:43Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%",
   "over55": 0.625,
   "over65": 0.525
  },
@@ -2857,7 +2857,7 @@
   "game": "CHI@TBL",
   "source": "Kalshi moneyline",
   "home_prob": 0.805,
-  "note": "auto 19:28Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 50%",
+  "note": "auto 19:43Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 50%",
   "over55": 0.635,
   "over65": 0.505
  },
@@ -2866,7 +2866,7 @@
   "game": "STL@NJD",
   "source": "Kalshi moneyline",
   "home_prob": 0.675,
-  "note": "auto 19:28Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 44%",
+  "note": "auto 19:43Z; mid of bid/ask; O5.5 goals 55%; O6.5 goals 44%",
   "over55": 0.545,
   "over65": 0.435
  },
@@ -2875,7 +2875,7 @@
   "game": "CAR@NYI",
   "source": "Kalshi moneyline",
   "home_prob": 0.355,
-  "note": "auto 19:28Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+  "note": "auto 19:43Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
   "over55": 0.565,
   "over65": 0.445
  },
@@ -2884,7 +2884,7 @@
   "game": "PHI@NYR",
   "source": "Kalshi moneyline",
   "home_prob": 0.57,
-  "note": "auto 19:28Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+  "note": "auto 19:43Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
   "over55": 0.555,
   "over65": 0.435
  },
@@ -2893,7 +2893,7 @@
   "game": "BOS@PIT",
   "source": "Kalshi moneyline",
   "home_prob": 0.495,
-  "note": "auto 19:28Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%",
+  "note": "auto 19:43Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%",
   "over55": 0.625,
   "over65": 0.515
  },
@@ -2902,7 +2902,7 @@
   "game": "DAL@CBJ",
   "source": "Kalshi moneyline",
   "home_prob": 0.445,
-  "note": "auto 19:28Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 40%",
+  "note": "auto 19:43Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 40%",
   "over55": 0.535,
   "over65": 0.405
  },
@@ -2910,8 +2910,8 @@
   "date": "2026-11-05",
   "game": "VAN@WPG",
   "source": "Kalshi moneyline",
-  "home_prob": 0.66,
-  "note": "auto 19:28Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 50%",
+  "home_prob": 0.665,
+  "note": "auto 19:43Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 50%",
   "over55": 0.605,
   "over65": 0.495
  },
@@ -2920,7 +2920,7 @@
   "game": "ANA@EDM",
   "source": "Kalshi moneyline",
   "home_prob": 0.635,
-  "note": "auto 19:28Z; mid of bid/ask; O5.5 goals 68%; O6.5 goals 58%",
+  "note": "auto 19:43Z; mid of bid/ask; O5.5 goals 68%; O6.5 goals 58%",
   "over55": 0.685,
   "over65": 0.585
  },
@@ -2929,7 +2929,7 @@
   "game": "NSH@COL",
   "source": "Kalshi moneyline",
   "home_prob": 0.645,
-  "note": "auto 19:28Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%",
+  "note": "auto 19:43Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%",
   "over55": 0.615,
   "over65": 0.505
  }
