@@ -2995,5 +2995,14 @@
   "note": "auto 21:02Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
   "over55": 0.555,
   "over65": 0.435
+ },
+ {
+  "date": "2026-11-05",
+  "game": "VGK@DET",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.425,
+  "note": "auto 21:28Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+  "over55": 0.555,
+  "over65": 0.445
  }
 ]
