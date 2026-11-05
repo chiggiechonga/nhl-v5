@@ -1467,7 +1467,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-05T00:28Z",
+   "asof": "2026-11-05T00:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Toffoli",
@@ -1495,7 +1495,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-05T00:28Z",
+   "asof": "2026-11-05T00:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -1524,7 +1524,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-05T00:28Z",
+   "asof": "2026-11-05T00:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1554,7 +1554,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-11-05T00:28Z",
+   "asof": "2026-11-05T00:41Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -2263,5 +2263,5 @@
    "hit": 8
   }
  },
- "made": "2026-11-05T00:28+00:00"
+ "made": "2026-11-05T00:41+00:00"
 }
