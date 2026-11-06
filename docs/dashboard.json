@@ -1044,7 +1044,7 @@
    "game": "CBJ@BUF",
    "source": "Kalshi moneyline",
    "home_prob": 0.605,
-   "note": "auto 18:51Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 46%",
+   "note": "auto 19:09Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 46%",
    "over55": 0.585,
    "over65": 0.465
   },
@@ -1053,7 +1053,7 @@
    "game": "SJS@MIN",
    "source": "Kalshi moneyline",
    "home_prob": 0.705,
-   "note": "auto 18:51Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 48%",
+   "note": "auto 19:09Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 48%",
    "over55": 0.615,
    "over65": 0.485
   },
@@ -1062,14 +1062,14 @@
    "game": "ANA@CGY",
    "source": "Kalshi moneyline",
    "home_prob": 0.575,
-   "note": "auto 18:51Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
+   "note": "auto 19:09Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
    "over55": 0.595,
    "over65": 0.485
   }
  ],
  "lineups": {
   "CBJ": {
-   "asof": "2026-11-06T18:51Z",
+   "asof": "2026-11-06T19:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Matthew Knies",
@@ -1096,7 +1096,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-06T18:51Z",
+   "asof": "2026-11-06T19:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -1127,7 +1127,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-06T18:51Z",
+   "asof": "2026-11-06T19:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Michael Misa",
@@ -1155,7 +1155,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-06T18:51Z",
+   "asof": "2026-11-06T19:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -1187,7 +1187,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-06T18:51Z",
+   "asof": "2026-11-06T19:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -1217,7 +1217,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-06T18:51Z",
+   "asof": "2026-11-06T19:09Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -2078,5 +2078,5 @@
    "hit": 9
   }
  },
- "made": "2026-11-06T18:51+00:00"
+ "made": "2026-11-06T19:09+00:00"
 }

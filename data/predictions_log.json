@@ -53037,7 +53037,7 @@
   "date": "2026-11-06",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-06T18:51+00:00Z",
+  "made_at": "2026-11-06T19:09+00:00Z",
   "away": "CBJ",
   "home": "BUF",
   "p_home": 0.5338,
@@ -53053,7 +53053,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "CBJ": {
-    "asof": "2026-11-06T18:51Z",
+    "asof": "2026-11-06T19:09Z",
     "source": "Daily Faceoff",
     "lines": [
      "Matthew Knies",
@@ -53080,7 +53080,7 @@
     }
    },
    "BUF": {
-    "asof": "2026-11-06T18:51Z",
+    "asof": "2026-11-06T19:09Z",
     "source": "Daily Faceoff",
     "lines": [
      "Zach Benson",
