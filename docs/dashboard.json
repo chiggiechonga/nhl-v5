@@ -3564,7 +3564,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-11-06T00:55Z",
+   "asof": "2026-11-06T01:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -3592,7 +3592,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-06T00:55Z",
+   "asof": "2026-11-06T01:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3637,7 +3637,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-06T00:30+00:00",
+  "at": "2026-11-06T00:55+00:00",
   "ok": [
    "11 games on 2026-11-05",
    "Daily Faceoff goalies parsed for 22 teams",
@@ -3646,17 +3646,9 @@
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (134) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (140) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-05T20:36+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (108) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-05T21:02+00:00",
@@ -3727,6 +3719,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (134) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-06T00:55+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (140) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -4353,5 +4353,5 @@
    "hit": 8
   }
  },
- "made": "2026-11-06T00:55+00:00"
+ "made": "2026-11-06T01:21+00:00"
 }

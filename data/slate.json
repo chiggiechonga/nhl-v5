@@ -120,7 +120,7 @@
    "time": "8:00 ET",
    "start": "2026-11-06T01:00:00Z",
    "gid": 2026020260,
-   "started": false,
+   "started": true,
    "goalie_a": "Laurent Brossoit",
    "status_a": "unconfirmed",
    "goalie_h": "Matt Tomkins",
