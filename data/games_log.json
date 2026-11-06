@@ -1738,5 +1738,89 @@
   "winner": "BOS",
   "date": "2026-11-05",
   "id": "2026-11-05_BOS@PIT"
+ },
+ {
+  "away": "UTA",
+  "home": "MTL",
+  "ag": 4,
+  "hg": 5,
+  "a_sh": 20,
+  "h_sh": 35,
+  "ot": "OT",
+  "winner": "MTL",
+  "date": "2026-11-05",
+  "id": "2026-11-05_UTA@MTL"
+ },
+ {
+  "away": "VGK",
+  "home": "DET",
+  "ag": 2,
+  "hg": 1,
+  "a_sh": 34,
+  "h_sh": 26,
+  "ot": null,
+  "winner": "VGK",
+  "date": "2026-11-05",
+  "id": "2026-11-05_VGK@DET"
+ },
+ {
+  "away": "CHI",
+  "home": "TBL",
+  "ag": 1,
+  "hg": 4,
+  "a_sh": 25,
+  "h_sh": 35,
+  "ot": null,
+  "winner": "TBL",
+  "date": "2026-11-05",
+  "id": "2026-11-05_CHI@TBL"
+ },
+ {
+  "away": "STL",
+  "home": "NJD",
+  "ag": 4,
+  "hg": 5,
+  "a_sh": 32,
+  "h_sh": 36,
+  "ot": "OT",
+  "winner": "NJD",
+  "date": "2026-11-05",
+  "id": "2026-11-05_STL@NJD"
+ },
+ {
+  "away": "CAR",
+  "home": "NYI",
+  "ag": 5,
+  "hg": 3,
+  "a_sh": 39,
+  "h_sh": 27,
+  "ot": null,
+  "winner": "CAR",
+  "date": "2026-11-05",
+  "id": "2026-11-05_CAR@NYI"
+ },
+ {
+  "away": "DAL",
+  "home": "CBJ",
+  "ag": 1,
+  "hg": 2,
+  "a_sh": 28,
+  "h_sh": 30,
+  "ot": "SO",
+  "winner": "CBJ",
+  "date": "2026-11-05",
+  "id": "2026-11-05_DAL@CBJ"
+ },
+ {
+  "away": "VAN",
+  "home": "WPG",
+  "ag": 2,
+  "hg": 6,
+  "a_sh": 26,
+  "h_sh": 29,
+  "ot": null,
+  "winner": "WPG",
+  "date": "2026-11-05",
+  "id": "2026-11-05_VAN@WPG"
  }
 ]
