@@ -1123,21 +1123,21 @@
  ],
  "lineups": {
   "CBJ": {
-   "asof": "2026-11-06T23:38Z",
+   "asof": "2026-11-06T23:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Matthew Knies",
-    "Adam Fantilli",
+    "Sean Monahan",
     "Kent Johnson",
     "Valeri Nichushkin",
-    "Sean Monahan",
+    "Adam Fantilli",
     "Conor Garland",
     "Cole Sillinger",
     "Charlie Coyle",
     "Mathieu Olivier",
-    "Ryan Lomberg",
-    "Luca Del Bel Belluz",
     "Dmitri Voronkov",
+    "Jack Williams",
+    "Steven Lorentz",
     "Zach Werenski",
     "Damon Severson",
     "Ivan Provorov",
@@ -1150,7 +1150,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-06T23:38Z",
+   "asof": "2026-11-06T23:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -1169,19 +1169,17 @@
     "Rasmus Dahlin",
     "Olen Zellweger",
     "Owen Power",
-    "Zach Metsa",
-    "Louis Crevier"
+    "Conor Timmins",
+    "Zach Metsa"
    ],
    "inj": {
     "Matt Grzelcyk": "IR",
-    "Conor Timmins": "IR",
     "Alex Lyon": "IR",
-    "Jiri Kulich": "IR",
     "Konsta Helenius": "IR"
    }
   },
   "SJS": {
-   "asof": "2026-11-06T23:38Z",
+   "asof": "2026-11-06T23:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Michael Misa",
@@ -1209,7 +1207,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-06T23:38Z",
+   "asof": "2026-11-06T23:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -1241,7 +1239,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-06T23:38Z",
+   "asof": "2026-11-06T23:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -1271,7 +1269,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-06T23:38Z",
+   "asof": "2026-11-06T23:54Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -2142,5 +2140,5 @@
    "hit": 9
   }
  },
- "made": "2026-11-06T23:38+00:00"
+ "made": "2026-11-06T23:54+00:00"
 }
