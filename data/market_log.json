@@ -3094,5 +3094,32 @@
   "note": "auto 02:12Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%",
   "over55": 0.635,
   "over65": 0.515
+ },
+ {
+  "date": "2026-11-06",
+  "game": "CBJ@BUF",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.615,
+  "note": "auto 05:10Z; mid of bid/ask; O5.5 goals 59%; O6.5 goals 48%",
+  "over55": 0.59,
+  "over65": 0.485
+ },
+ {
+  "date": "2026-11-06",
+  "game": "SJS@MIN",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.705,
+  "note": "auto 05:10Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 46%",
+  "over55": 0.575,
+  "over65": 0.465
+ },
+ {
+  "date": "2026-11-06",
+  "game": "ANA@CGY",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.535,
+  "note": "auto 05:10Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
+  "over55": 0.605,
+  "over65": 0.485
  }
 ]

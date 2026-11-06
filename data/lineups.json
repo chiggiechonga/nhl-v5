@@ -29,7 +29,7 @@
   }
  },
  "BUF": {
-  "asof": "2026-11-05T00:28Z",
+  "asof": "2026-11-06T05:10Z",
   "source": "Daily Faceoff",
   "lines": [
    "Zach Benson",
@@ -146,7 +146,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-06T00:55Z",
+  "asof": "2026-11-06T05:10Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -176,18 +176,18 @@
   }
  },
  "SJS": {
-  "asof": "2026-11-05T02:49Z",
+  "asof": "2026-11-06T05:10Z",
   "source": "Daily Faceoff",
   "lines": [
-   "Tyler Toffoli",
+   "Michael Misa",
    "Macklin Celebrini",
    "Will Smith",
    "Mason Marchment",
-   "Michael Misa",
+   "Collin Graf",
    "Kiefer Sherwood",
    "Ivar Stenberg",
    "Filip Bystedt",
-   "Collin Graf",
+   "Tyler Toffoli",
    "Barclay Goodrow",
    "Zack Ostapchuk",
    "Ty Dellandrea",
@@ -521,7 +521,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-11-05T02:49Z",
+  "asof": "2026-11-06T05:10Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -551,7 +551,7 @@
   }
  },
  "MIN": {
-  "asof": "2026-11-03T23:58Z",
+  "asof": "2026-11-06T05:10Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kirill Kaprizov",
@@ -578,7 +578,8 @@
    "Filip Gustavsson": "IR",
    "Nick Foligno": "IR",
    "Marcus Foligno": "IR",
-   "Jared Spurgeon": "IR"
+   "Jared Spurgeon": "IR",
+   "Joel Eriksson Ek": "IR"
   }
  },
  "EDM": {
@@ -901,7 +902,7 @@
   }
  },
  "CBJ": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-06T05:10Z",
   "source": "Daily Faceoff",
   "lines": [
    "Matthew Knies",
@@ -915,7 +916,7 @@
    "Mathieu Olivier",
    "Ryan Lomberg",
    "Luca Del Bel Belluz",
-   "Danton Heinen",
+   "Dmitri Voronkov",
    "Zach Werenski",
    "Damon Severson",
    "Ivan Provorov",
