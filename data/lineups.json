@@ -146,7 +146,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-06T00:04Z",
+  "asof": "2026-11-06T00:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -258,7 +258,7 @@
   "inj": {}
  },
  "NSH": {
-  "asof": "2026-11-06T00:04Z",
+  "asof": "2026-11-06T00:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Steven Stamkos",
@@ -582,7 +582,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-11-06T00:04Z",
+  "asof": "2026-11-06T00:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -845,7 +845,7 @@
   }
  },
  "COL": {
-  "asof": "2026-11-06T00:04Z",
+  "asof": "2026-11-06T00:30Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artturi Lehkonen",
