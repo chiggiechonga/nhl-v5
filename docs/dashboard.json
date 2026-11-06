@@ -579,7 +579,7 @@
    "p00": 0.0016327435966326694,
    "pl_h": 0.8300754765080334,
    "pl_a": 0.5976140266819211,
-   "goalie_a": "Juuse Saros",
+   "goalie_a": "Justus Annunen",
    "goalie_h": "Mackenzie Blackwood",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
@@ -2994,6 +2994,15 @@
    "note": "auto 01:46Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%",
    "over55": 0.625,
    "over65": 0.515
+  },
+  {
+   "date": "2026-11-05",
+   "game": "NSH@COL",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.645,
+   "note": "auto 02:12Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%",
+   "over55": 0.635,
+   "over65": 0.515
   }
  ],
  "lineups": {
@@ -3573,7 +3582,7 @@
    }
   },
   "NSH": {
-   "asof": "2026-11-06T01:46Z",
+   "asof": "2026-11-06T02:12Z",
    "source": "Daily Faceoff",
    "lines": [
     "Steven Stamkos",
@@ -3601,7 +3610,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-06T01:46Z",
+   "asof": "2026-11-06T02:12Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3616,12 +3625,12 @@
     "Parker Kelly",
     "Fedor Svechkov",
     "Logan O'Connor",
-    "Devon Toews",
-    "Cale Makar",
-    "Sam Malinski",
-    "Brent Burns",
     "Brett Kulak",
-    "Noah Juulsen"
+    "Cale Makar",
+    "Devon Toews",
+    "Sam Malinski",
+    "Noah Juulsen",
+    "Brent Burns"
    ],
    "inj": {
     "Josh Manson": "IR",
@@ -3646,26 +3655,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-06T01:20+00:00",
+  "at": "2026-11-06T01:46+00:00",
   "ok": [
    "11 games on 2026-11-05",
    "Daily Faceoff goalies parsed for 22 teams",
    "lineups refreshed for 2/2 teams",
-   "Kalshi: 11 NHL games priced, 0 new rows",
+   "Kalshi: 11 NHL games priced, 1 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (142) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (150) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-05T21:28+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (108) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-05T21:54+00:00",
@@ -3736,6 +3737,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (142) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-06T01:46+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (150) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -4362,5 +4371,5 @@
    "hit": 8
   }
  },
- "made": "2026-11-06T01:46+00:00"
+ "made": "2026-11-06T02:12+00:00"
 }
