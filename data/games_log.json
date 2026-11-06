@@ -1834,5 +1834,17 @@
   "winner": "ANA",
   "date": "2026-11-05",
   "id": "2026-11-05_ANA@EDM"
+ },
+ {
+  "away": "NSH",
+  "home": "COL",
+  "ag": 3,
+  "hg": 2,
+  "a_sh": 25,
+  "h_sh": 32,
+  "ot": "OT",
+  "winner": "NSH",
+  "date": "2026-11-05",
+  "id": "2026-11-05_NSH@COL"
  }
 ]
