@@ -1822,5 +1822,17 @@
   "winner": "WPG",
   "date": "2026-11-05",
   "id": "2026-11-05_VAN@WPG"
+ },
+ {
+  "away": "ANA",
+  "home": "EDM",
+  "ag": 5,
+  "hg": 4,
+  "a_sh": 21,
+  "h_sh": 27,
+  "ot": null,
+  "winner": "ANA",
+  "date": "2026-11-05",
+  "id": "2026-11-05_ANA@EDM"
  }
 ]
