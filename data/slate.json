@@ -132,7 +132,7 @@
    "time": "9:30 ET",
    "start": "2026-11-06T02:30:00Z",
    "gid": 2026020261,
-   "started": false,
+   "started": true,
    "goalie_a": "Justus Annunen",
    "status_a": "unconfirmed",
    "goalie_h": "Mackenzie Blackwood",

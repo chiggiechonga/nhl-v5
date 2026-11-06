@@ -1714,5 +1714,29 @@
   "winner": "LAK",
   "date": "2026-11-04",
   "id": "2026-11-04_SJS@LAK"
+ },
+ {
+  "away": "PHI",
+  "home": "NYR",
+  "ag": 2,
+  "hg": 3,
+  "a_sh": 25,
+  "h_sh": 27,
+  "ot": null,
+  "winner": "NYR",
+  "date": "2026-11-05",
+  "id": "2026-11-05_PHI@NYR"
+ },
+ {
+  "away": "BOS",
+  "home": "PIT",
+  "ag": 6,
+  "hg": 2,
+  "a_sh": 24,
+  "h_sh": 18,
+  "ot": null,
+  "winner": "BOS",
+  "date": "2026-11-05",
+  "id": "2026-11-05_BOS@PIT"
  }
 ]
