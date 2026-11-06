@@ -1092,11 +1092,38 @@
    "note": "auto 22:11Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%",
    "over55": 0.615,
    "over65": 0.495
+  },
+  {
+   "date": "2026-11-06",
+   "game": "CBJ@BUF",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.615,
+   "note": "auto 23:02Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%",
+   "over55": 0.585,
+   "over65": 0.475
+  },
+  {
+   "date": "2026-11-06",
+   "game": "SJS@MIN",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.715,
+   "note": "auto 23:02Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%",
+   "over55": 0.625,
+   "over65": 0.495
+  },
+  {
+   "date": "2026-11-06",
+   "game": "ANA@CGY",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.575,
+   "note": "auto 23:02Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%",
+   "over55": 0.625,
+   "over65": 0.525
   }
  ],
  "lineups": {
   "CBJ": {
-   "asof": "2026-11-06T22:37Z",
+   "asof": "2026-11-06T23:02Z",
    "source": "Daily Faceoff",
    "lines": [
     "Matthew Knies",
@@ -1123,7 +1150,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-06T22:37Z",
+   "asof": "2026-11-06T23:02Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -1154,7 +1181,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-06T22:37Z",
+   "asof": "2026-11-06T23:02Z",
    "source": "Daily Faceoff",
    "lines": [
     "Michael Misa",
@@ -1182,7 +1209,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-06T22:37Z",
+   "asof": "2026-11-06T23:02Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -1214,7 +1241,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-06T22:37Z",
+   "asof": "2026-11-06T23:02Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -1244,7 +1271,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-06T22:37Z",
+   "asof": "2026-11-06T23:02Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1290,26 +1317,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-06T22:11+00:00",
+  "at": "2026-11-06T22:37+00:00",
   "ok": [
    "3 games on 2026-11-06",
    "Daily Faceoff goalies parsed for 6 teams",
    "lineups refreshed for 6/6 teams",
-   "Kalshi: 3 NHL games priced, 2 new rows",
+   "Kalshi: 3 NHL games priced, 0 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
    "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-06T07:45+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "players",
     "at": "2026-11-06T16:30+00:00",
@@ -1375,6 +1394,14 @@
    {
     "mode": "plan",
     "at": "2026-11-06T22:11+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-06T22:37+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -2113,5 +2140,5 @@
    "hit": 9
   }
  },
- "made": "2026-11-06T22:37+00:00"
+ "made": "2026-11-06T23:03+00:00"
 }
