@@ -3589,5 +3589,14 @@
   "note": "auto 17:39Z; mid of bid/ask; O5.5 goals 69%; O6.5 goals 58%",
   "over55": 0.69,
   "over65": 0.585
+ },
+ {
+  "date": "2026-11-07",
+  "game": "NYR@SEA",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.435,
+  "note": "auto 18:05Z; mid of bid/ask; O5.5 goals 59%; O6.5 goals 46%",
+  "over55": 0.59,
+  "over65": 0.465
  }
 ]

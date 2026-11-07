@@ -25,7 +25,7 @@
    "time": "1:00 ET",
    "start": "2026-11-07T18:00:00Z",
    "gid": 2026020266,
-   "started": false,
+   "started": true,
    "goalie_a": "Joel Hofer",
    "status_a": "unconfirmed",
    "goalie_h": "Juuse Saros",
@@ -148,7 +148,7 @@
    "started": false,
    "goalie_a": "Kevin Lankinen",
    "status_a": "unconfirmed",
-   "goalie_h": "Tristan Jarry",
+   "goalie_h": "Devon Levi",
    "status_h": "unconfirmed"
   }
  ]
