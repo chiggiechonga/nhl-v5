@@ -3229,6 +3229,24 @@
    "note": "auto 22:23Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
    "over55": 0.565,
    "over65": 0.435
+  },
+  {
+   "date": "2026-11-07",
+   "game": "CHI@CAR",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.8,
+   "note": "auto 22:49Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 47%",
+   "over55": 0.595,
+   "over65": 0.47
+  },
+  {
+   "date": "2026-11-07",
+   "game": "SJS@DAL",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.73,
+   "note": "auto 22:49Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 44%",
+   "over55": 0.57,
+   "over65": 0.435
   }
  ],
  "lineups": {
@@ -3407,7 +3425,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -3437,7 +3455,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -3467,7 +3485,7 @@
    }
   },
   "UTA": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Anders Lee",
@@ -3495,7 +3513,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Nick Cousins",
@@ -3526,7 +3544,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -3553,7 +3571,7 @@
    }
   },
   "NYI": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Emil Heineman",
@@ -3584,7 +3602,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Bertuzzi",
@@ -3612,7 +3630,7 @@
    }
   },
   "CAR": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -3639,7 +3657,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Michael Misa",
@@ -3667,7 +3685,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jamie Benn",
@@ -3697,7 +3715,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -3724,7 +3742,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -3756,7 +3774,7 @@
    }
   },
   "DET": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -3788,7 +3806,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3816,7 +3834,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Evgeni Malkin",
@@ -3845,7 +3863,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -3873,7 +3891,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3901,7 +3919,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-11-07T22:23Z",
+   "asof": "2026-11-07T22:49Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -3951,26 +3969,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-07T21:58+00:00",
+  "at": "2026-11-07T22:23+00:00",
   "ok": [
    "12 games on 2026-11-07",
    "Daily Faceoff goalies parsed for 24 teams",
-   "lineups refreshed for 20/20 teams",
-   "Kalshi: 10 NHL games priced, 1 new rows",
+   "lineups refreshed for 18/18 teams",
+   "Kalshi: 10 NHL games priced, 2 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (78) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-07T18:57+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (90) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-07T19:22+00:00",
@@ -4037,6 +4047,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-07T22:23+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (78) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -4825,5 +4843,5 @@
    "hit": 10
   }
  },
- "made": "2026-11-07T22:24+00:00"
+ "made": "2026-11-07T22:50+00:00"
 }

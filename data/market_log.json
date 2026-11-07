@@ -3652,5 +3652,23 @@
   "note": "auto 22:23Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
   "over55": 0.565,
   "over65": 0.435
+ },
+ {
+  "date": "2026-11-07",
+  "game": "CHI@CAR",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.8,
+  "note": "auto 22:49Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 47%",
+  "over55": 0.595,
+  "over65": 0.47
+ },
+ {
+  "date": "2026-11-07",
+  "game": "SJS@DAL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.73,
+  "note": "auto 22:49Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 44%",
+  "over55": 0.57,
+  "over65": 0.435
  }
 ]
