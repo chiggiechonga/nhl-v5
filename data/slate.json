@@ -37,7 +37,7 @@
    "time": "5:00 ET",
    "start": "2026-11-07T22:00:00Z",
    "gid": 2026020267,
-   "started": false,
+   "started": true,
    "goalie_a": "Joonas Korpisalo",
    "status_a": "unconfirmed",
    "goalie_h": "Joey Daccord",
