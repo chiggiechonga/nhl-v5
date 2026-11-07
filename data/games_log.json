@@ -1894,5 +1894,17 @@
   "winner": "WSH",
   "date": "2026-11-07",
   "id": "2026-11-07_FLA@WSH"
+ },
+ {
+  "away": "STL",
+  "home": "NSH",
+  "ag": 1,
+  "hg": 3,
+  "a_sh": 26,
+  "h_sh": 29,
+  "ot": null,
+  "winner": "NSH",
+  "date": "2026-11-07",
+  "id": "2026-11-07_STL@NSH"
  }
 ]

@@ -1,26 +1,12 @@
 {
  "mode": "grade",
- "at": "2026-11-07T20:15+00:00",
+ "at": "2026-11-07T20:40+00:00",
  "ok": [
-  "graded 2026-11-07_FLA@WSH: 3-4, shots 30-31",
+  "graded 2026-11-07_STL@NSH: 1-3, shots 26-29",
   "1 games and 10 player rows added"
  ],
  "problems": [],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-11-07T11:18+00:00",
-   "n_ok": 5,
-   "problems": [
-    "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-   ]
-  },
-  {
-   "mode": "players",
-   "at": "2026-11-07T15:17+00:00",
-   "n_ok": 1,
-   "problems": []
-  },
   {
    "mode": "plan",
    "at": "2026-11-07T17:39+00:00",
@@ -80,6 +66,20 @@
   {
    "mode": "grade",
    "at": "2026-11-07T20:15+00:00",
+   "n_ok": 2,
+   "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-11-07T20:40+00:00",
+   "n_ok": 5,
+   "problems": [
+    "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   ]
+  },
+  {
+   "mode": "grade",
+   "at": "2026-11-07T20:40+00:00",
    "n_ok": 2,
    "problems": []
   }
