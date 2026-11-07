@@ -3598,5 +3598,14 @@
   "note": "auto 18:05Z; mid of bid/ask; O5.5 goals 59%; O6.5 goals 46%",
   "over55": 0.59,
   "over65": 0.465
+ },
+ {
+  "date": "2026-11-07",
+  "game": "TBL@MIN",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.425,
+  "note": "auto 18:57Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%",
+  "over55": 0.615,
+  "over65": 0.505
  }
 ]

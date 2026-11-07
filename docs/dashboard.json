@@ -3177,6 +3177,15 @@
    "note": "auto 18:05Z; mid of bid/ask; O5.5 goals 59%; O6.5 goals 46%",
    "over55": 0.59,
    "over65": 0.465
+  },
+  {
+   "date": "2026-11-07",
+   "game": "TBL@MIN",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.425,
+   "note": "auto 18:57Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 50%",
+   "over55": 0.615,
+   "over65": 0.505
   }
  ],
  "lineups": {
@@ -3296,7 +3305,7 @@
    }
   },
   "NYR": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Pavel Dorofeyev",
@@ -3326,7 +3335,7 @@
    }
   },
   "SEA": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Bobby McMann",
@@ -3355,7 +3364,7 @@
    }
   },
   "MTL": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Cole Caufield",
@@ -3385,7 +3394,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -3415,7 +3424,7 @@
    }
   },
   "UTA": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Anders Lee",
@@ -3443,7 +3452,7 @@
    }
   },
   "OTT": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Nick Cousins",
@@ -3474,7 +3483,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -3501,7 +3510,7 @@
    }
   },
   "NYI": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Emil Heineman",
@@ -3532,7 +3541,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Bertuzzi",
@@ -3560,7 +3569,7 @@
    }
   },
   "CAR": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -3587,7 +3596,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Michael Misa",
@@ -3615,7 +3624,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jamie Benn",
@@ -3645,7 +3654,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -3672,7 +3681,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -3704,7 +3713,7 @@
    }
   },
   "DET": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -3736,7 +3745,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3764,15 +3773,15 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
-    "Tommy Novak",
+    "Evgeni Malkin",
     "Sidney Crosby",
     "Rickard Rakell",
-    "Egor Chinakhov",
+    "Tommy Novak",
     "Ben Kindel",
-    "Evgeni Malkin",
+    "Egor Chinakhov",
     "Ville Koivunen",
     "Hendrix Lapierre",
     "Justin Brazeau",
@@ -3780,9 +3789,9 @@
     "Blake Lizotte",
     "Nicholas Robertson",
     "Samuel Girard",
-    "Erik Karlsson",
-    "Spencer Stastney",
     "Kaedan Korczak",
+    "Spencer Stastney",
+    "Erik Karlsson",
     "Declan Carlile",
     "Kris Letang"
    ],
@@ -3793,7 +3802,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -3821,7 +3830,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3849,7 +3858,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-11-07T18:31Z",
+   "asof": "2026-11-07T18:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -3899,26 +3908,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-07T18:05+00:00",
+  "at": "2026-11-07T18:31+00:00",
   "ok": [
    "12 games on 2026-11-07",
    "Daily Faceoff goalies parsed for 24 teams",
    "lineups refreshed for 20/20 teams",
-   "Kalshi: 12 NHL games priced, 1 new rows",
+   "Kalshi: 12 NHL games priced, 0 new rows",
    "logging 1 game(s): ['2026-11-07_VAN@EDM']"
   ],
   "problems": [
    "Kalshi spread markets found (88) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-07T05:26+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-07T05:52+00:00",
@@ -3984,6 +3985,14 @@
    {
     "mode": "plan",
     "at": "2026-11-07T18:05+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (88) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-07T18:31+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (88) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -4767,5 +4776,5 @@
    "hit": 10
   }
  },
- "made": "2026-11-07T18:31+00:00"
+ "made": "2026-11-07T18:57+00:00"
 }
