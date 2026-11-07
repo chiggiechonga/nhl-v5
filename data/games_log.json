@@ -1846,5 +1846,17 @@
   "winner": "NSH",
   "date": "2026-11-05",
   "id": "2026-11-05_NSH@COL"
+ },
+ {
+  "away": "CBJ",
+  "home": "BUF",
+  "ag": 2,
+  "hg": 5,
+  "a_sh": 26,
+  "h_sh": 37,
+  "ot": null,
+  "winner": "BUF",
+  "date": "2026-11-06",
+  "id": "2026-11-06_CBJ@BUF"
  }
 ]
