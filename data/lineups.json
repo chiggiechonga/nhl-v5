@@ -1,6 +1,6 @@
 {
  "FLA": {
-  "asof": "2026-11-05T00:28Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brady Tkachuk",
@@ -86,7 +86,7 @@
   }
  },
  "OTT": {
-  "asof": "2026-11-05T00:28Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Nick Cousins",
@@ -117,7 +117,7 @@
   }
  },
  "NJD": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Timo Meier",
@@ -174,7 +174,7 @@
   }
  },
  "SJS": {
-  "asof": "2026-11-07T00:45Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Michael Misa",
@@ -202,7 +202,7 @@
   }
  },
  "PIT": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Tommy Novak",
@@ -256,7 +256,7 @@
   "inj": {}
  },
  "NSH": {
-  "asof": "2026-11-06T02:12Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Steven Stamkos",
@@ -284,18 +284,18 @@
   }
  },
  "TOR": {
-  "asof": "2026-11-03T23:58Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
    "Auston Matthews",
    "Jack Roslovic",
-   "Dakota Joshua",
+   "John Tavares",
    "Nick Paul",
    "William Nylander",
-   "Gavin McKenna",
+   "Dakota Joshua",
    "Colton Sissons",
-   "Vinni Lettieri",
+   "Gavin McKenna",
    "Brandon Duhaime",
    "Teddy Blueger",
    "Zack MacEwen",
@@ -315,7 +315,7 @@
   }
  },
  "NYR": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Pavel Dorofeyev",
@@ -345,16 +345,16 @@
   }
  },
  "NYI": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
-   "Simon Holmstrom",
+   "Emil Heineman",
    "Bo Horvat",
    "Kyle Palmieri",
-   "Emil Heineman",
+   "Ondrej Palat",
    "Brayden Schenn",
    "Victor Eklund",
-   "Ondrej Palat",
+   "Simon Holmstrom",
    "Jean-Gabriel Pageau",
    "Anthony Duclair",
    "Kyle MacLean",
@@ -364,8 +364,8 @@
    "Matthew Schaefer",
    "Adam Pelech",
    "Tony DeAngelo",
-   "Matthew Kessel",
-   "Scott Mayfield"
+   "Ben Hutton",
+   "Matthew Kessel"
   ],
   "inj": {
    "Mathew Barzal": "IR",
@@ -376,7 +376,7 @@
   }
  },
  "LAK": {
-  "asof": "2026-11-05T02:49Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
@@ -405,7 +405,7 @@
   }
  },
  "DAL": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jamie Benn",
@@ -421,9 +421,9 @@
    "Radek Faksa",
    "Colin Blackwell",
    "Thomas Harley",
-   "Esa Lindell",
-   "Lian Bichsel",
    "Nils Lundkvist",
+   "Lian Bichsel",
+   "Esa Lindell",
    "Trey Taylor",
    "Tyler Myers"
   ],
@@ -464,7 +464,7 @@
   }
  },
  "STL": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Dylan Holloway",
@@ -548,7 +548,7 @@
   }
  },
  "MIN": {
-  "asof": "2026-11-07T00:45Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kirill Kaprizov",
@@ -580,7 +580,7 @@
   }
  },
  "EDM": {
-  "asof": "2026-11-06T00:55Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -613,7 +613,7 @@
   }
  },
  "CAR": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "William Carrier",
@@ -622,12 +622,12 @@
    "Nikolaj Ehlers",
    "Logan Stankoven",
    "Jackson Blake",
-   "Jordan Martinook",
+   "Taylor Hall",
    "Mark Jankowski",
    "Seth Jarvis",
    "Eric Robinson",
    "Jesperi Kotkaniemi",
-   "Nicolas Deslauriers",
+   "Jordan Martinook",
    "Jaccob Slavin",
    "Jalen Chatfield",
    "K'Andre Miller",
@@ -636,12 +636,11 @@
    "Juuso Valimaki"
   ],
   "inj": {
-   "Jordan Staal": "IR",
-   "Taylor Hall": "IR"
+   "Jordan Staal": "IR"
   }
  },
  "SEA": {
-  "asof": "2026-11-05T02:49Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Bobby McMann",
@@ -670,7 +669,7 @@
   }
  },
  "UTA": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Anders Lee",
@@ -698,7 +697,7 @@
   }
  },
  "VAN": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake DeBrusk",
@@ -715,9 +714,9 @@
    "Brendan Gallagher",
    "Elias Nils Pettersson",
    "Filip Hronek",
-   "Jamie Oleksiak",
-   "Zeev Buium",
    "Guillaume Brisebois",
+   "Zeev Buium",
+   "Jamie Oleksiak",
    "Victor Mancini"
   ],
   "inj": {
@@ -726,7 +725,7 @@
   }
  },
  "DET": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex DeBrincat",
@@ -758,21 +757,21 @@
   }
  },
  "CHI": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
-   "Roman Kantserov",
-   "Connor Bedard",
    "Tyler Bertuzzi",
+   "Connor Bedard",
+   "Roman Kantserov",
    "Oliver Moore",
    "Frank Nazar",
    "Ryan Donato",
-   "Cole Smith",
+   "Andrew Mangiapane",
    "Anton Frondell",
    "Teuvo Teravainen",
-   "Dillon Boucher",
+   "Cole Smith",
    "Ryan Greene",
-   "Jordan Greenway",
+   "Dillon Boucher",
    "Wyatt Kaiser",
    "Artyom Levshunov",
    "Alex Vlasic",
@@ -786,7 +785,7 @@
   }
  },
  "MTL": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Cole Caufield",
@@ -815,7 +814,7 @@
   }
  },
  "TBL": {
-  "asof": "2026-11-05T23:38Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake Guentzel",
@@ -823,27 +822,26 @@
    "Nikita Kucherov",
    "Brandon Hagel",
    "Anthony Cirelli",
+   "Gage Goncalves",
    "Ilya Mikheyev",
-   "Dominic James",
+   "Zemgus Girgensons",
    "Pontus Holmberg",
    "Jeffrey Viel",
    "Conor Geekie",
-   "Gage Goncalves",
-   "J.J. Moser",
+   "Victor Hedman",
    "Maxwell Crozier",
+   "John Carlson",
+   "Charle-Edouard D'Astous",
    "Ryan McDonagh",
    "Erik Cernak",
-   "Victor Hedman",
-   "John Carlson",
-   "Charle-Edouard D'Astous"
+   "J.J. Moser"
   ],
   "inj": {
-   "Yanni Gourde": "IR",
-   "Zemgus Girgensons": "IR"
+   "Yanni Gourde": "IR"
   }
  },
  "COL": {
-  "asof": "2026-11-06T02:12Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artturi Lehkonen",
@@ -871,15 +869,15 @@
   }
  },
  "WSH": {
-  "asof": "2026-11-03T23:58Z",
+  "asof": "2026-11-07T05:00Z",
   "source": "Daily Faceoff",
   "lines": [
-   "Aliaksei Protas",
-   "Pierre-Luc Dubois",
-   "Tom Wilson",
    "Alex Tuch",
    "Dylan Strome",
    "Jordan Kyrou",
+   "Aliaksei Protas",
+   "Pierre-Luc Dubois",
+   "Tom Wilson",
    "Alex Ovechkin",
    "Justin Sourdif",
    "Anthony Beauvillier",
