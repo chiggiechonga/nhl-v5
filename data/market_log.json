@@ -3625,5 +3625,14 @@
   "note": "auto 21:32Z; mid of bid/ask; O5.5 goals 64%; O6.5 goals 52%",
   "over55": 0.635,
   "over65": 0.525
+ },
+ {
+  "date": "2026-11-07",
+  "game": "SJS@DAL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.725,
+  "note": "auto 21:58Z; mid of bid/ask; O5.5 goals 57%; O6.5 goals 44%",
+  "over55": 0.575,
+  "over65": 0.435
  }
 ]
