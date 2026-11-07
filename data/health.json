@@ -1,20 +1,17 @@
 {
- "mode": "grade",
- "at": "2026-11-07T20:40+00:00",
+ "mode": "plan",
+ "at": "2026-11-07T21:00+00:00",
  "ok": [
-  "graded 2026-11-07_STL@NSH: 1-3, shots 26-29",
-  "1 games and 10 player rows added"
+  "12 games on 2026-11-07",
+  "Daily Faceoff goalies parsed for 24 teams",
+  "lineups refreshed for 20/20 teams",
+  "Kalshi: 10 NHL games priced, 1 new rows",
+  "nothing new to log (no new games, no goalie changes)"
  ],
- "problems": [],
+ "problems": [
+  "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+ ],
  "history": [
-  {
-   "mode": "plan",
-   "at": "2026-11-07T17:39+00:00",
-   "n_ok": 5,
-   "problems": [
-    "Kalshi spread markets found (86) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-   ]
-  },
   {
    "mode": "plan",
    "at": "2026-11-07T18:05+00:00",
@@ -82,6 +79,14 @@
    "at": "2026-11-07T20:40+00:00",
    "n_ok": 2,
    "problems": []
+  },
+  {
+   "mode": "plan",
+   "at": "2026-11-07T21:00+00:00",
+   "n_ok": 5,
+   "problems": [
+    "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   ]
   }
  ]
 }
