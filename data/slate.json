@@ -13,7 +13,7 @@
    "time": "7:00 ET",
    "start": "2026-11-07T00:00:00Z",
    "gid": 2026020262,
-   "started": false,
+   "started": true,
    "goalie_a": "Jet Greaves",
    "status_a": "unconfirmed",
    "goalie_h": "Ukko-Pekka Luukkonen",

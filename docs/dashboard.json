@@ -1179,7 +1179,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-06T23:54Z",
+   "asof": "2026-11-07T00:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Michael Misa",
@@ -1207,7 +1207,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-06T23:54Z",
+   "asof": "2026-11-07T00:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -1239,7 +1239,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-06T23:54Z",
+   "asof": "2026-11-07T00:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -1269,7 +1269,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-06T23:54Z",
+   "asof": "2026-11-07T00:20Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1315,7 +1315,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-06T23:28+00:00",
+  "at": "2026-11-06T23:54+00:00",
   "ok": [
    "3 games on 2026-11-06",
    "Daily Faceoff goalies parsed for 6 teams",
@@ -1327,14 +1327,6 @@
    "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-06T19:35+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-06T20:01+00:00",
@@ -1402,6 +1394,14 @@
    {
     "mode": "plan",
     "at": "2026-11-06T23:28+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-06T23:54+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (84) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -2140,5 +2140,5 @@
    "hit": 9
   }
  },
- "made": "2026-11-06T23:54+00:00"
+ "made": "2026-11-07T00:20+00:00"
 }
