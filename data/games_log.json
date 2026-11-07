@@ -1882,5 +1882,17 @@
   "winner": "ANA",
   "date": "2026-11-06",
   "id": "2026-11-06_ANA@CGY"
+ },
+ {
+  "away": "FLA",
+  "home": "WSH",
+  "ag": 3,
+  "hg": 4,
+  "a_sh": 30,
+  "h_sh": 31,
+  "ot": null,
+  "winner": "WSH",
+  "date": "2026-11-07",
+  "id": "2026-11-07_FLA@WSH"
  }
 ]
