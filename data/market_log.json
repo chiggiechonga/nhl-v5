@@ -3481,5 +3481,41 @@
   "note": "auto 10:18Z; mid of bid/ask; O5.5 goals 69%; O6.5 goals 58%",
   "over55": 0.69,
   "over65": 0.58
+ },
+ {
+  "date": "2026-11-07",
+  "game": "STL@NSH",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.495,
+  "note": "auto 11:18Z; mid of bid/ask; O5.5 goals 56%; O6.5 goals 44%",
+  "over55": 0.555,
+  "over65": 0.435
+ },
+ {
+  "date": "2026-11-07",
+  "game": "MTL@TOR",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.465,
+  "note": "auto 11:18Z; mid of bid/ask; O5.5 goals 62%; O6.5 goals 52%",
+  "over55": 0.625,
+  "over65": 0.525
+ },
+ {
+  "date": "2026-11-07",
+  "game": "SJS@DAL",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.735,
+  "note": "auto 11:18Z; mid of bid/ask; O5.5 goals 59%; O6.5 goals 46%",
+  "over55": 0.59,
+  "over65": 0.465
+ },
+ {
+  "date": "2026-11-07",
+  "game": "PIT@LAK",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.545,
+  "note": "auto 11:18Z; mid of bid/ask; O5.5 goals 59%; O6.5 goals 48%",
+  "over55": 0.59,
+  "over65": 0.475
  }
 ]
