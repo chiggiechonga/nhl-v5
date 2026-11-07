@@ -13,8 +13,8 @@
    "time": "12:30 ET",
    "start": "2026-11-07T17:30:00Z",
    "gid": 2026020265,
-   "started": false,
-   "goalie_a": "Akira Schmid",
+   "started": true,
+   "goalie_a": "Jacob Markstrom",
    "status_a": "unconfirmed",
    "goalie_h": "Logan Thompson",
    "status_h": "unconfirmed"
@@ -110,7 +110,7 @@
    "start": "2026-11-08T01:00:00Z",
    "gid": 2026020273,
    "started": false,
-   "goalie_a": "Andrei Vasilevskiy",
+   "goalie_a": "Dennis Hildeby",
    "status_a": "unconfirmed",
    "goalie_h": "Calvin Pickard",
    "status_h": "unconfirmed"
