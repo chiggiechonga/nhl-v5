@@ -1858,5 +1858,17 @@
   "winner": "BUF",
   "date": "2026-11-06",
   "id": "2026-11-06_CBJ@BUF"
+ },
+ {
+  "away": "SJS",
+  "home": "MIN",
+  "ag": 1,
+  "hg": 4,
+  "a_sh": 24,
+  "h_sh": 29,
+  "ot": null,
+  "winner": "MIN",
+  "date": "2026-11-06",
+  "id": "2026-11-06_SJS@MIN"
  }
 ]
