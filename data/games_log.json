@@ -1870,5 +1870,17 @@
   "winner": "MIN",
   "date": "2026-11-06",
   "id": "2026-11-06_SJS@MIN"
+ },
+ {
+  "away": "ANA",
+  "home": "CGY",
+  "ag": 5,
+  "hg": 3,
+  "a_sh": 29,
+  "h_sh": 21,
+  "ot": null,
+  "winner": "ANA",
+  "date": "2026-11-06",
+  "id": "2026-11-06_ANA@CGY"
  }
 ]
