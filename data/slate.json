@@ -16,7 +16,7 @@
    "time": "1:00 ET",
    "start": "2026-11-08T18:00:00Z",
    "gid": 2026020277,
-   "started": false,
+   "started": true,
    "goalie_a": "Jacob Markstrom",
    "status_a": "unconfirmed",
    "goalie_h": "Jeremy Swayman",
