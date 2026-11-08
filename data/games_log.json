@@ -1954,5 +1954,17 @@
   "winner": "NJD",
   "date": "2026-11-07",
   "id": "2026-11-07_NJD@NYI"
+ },
+ {
+  "away": "CHI",
+  "home": "CAR",
+  "ag": 2,
+  "hg": 9,
+  "a_sh": 20,
+  "h_sh": 32,
+  "ot": null,
+  "winner": "CAR",
+  "date": "2026-11-07",
+  "id": "2026-11-07_CHI@CAR"
  }
 ]
