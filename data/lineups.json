@@ -59,7 +59,7 @@
   }
  },
  "PHI": {
-  "asof": "2026-11-08T23:25Z",
+  "asof": "2026-11-08T23:51Z",
   "source": "Daily Faceoff",
   "lines": [
    "Tyson Foerster",
@@ -118,7 +118,7 @@
   }
  },
  "NJD": {
-  "asof": "2026-11-08T23:25Z",
+  "asof": "2026-11-08T23:51Z",
   "source": "Daily Faceoff",
   "lines": [
    "Timo Meier",
@@ -146,7 +146,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-08T23:25Z",
+  "asof": "2026-11-08T23:51Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -204,7 +204,7 @@
   }
  },
  "PIT": {
-  "asof": "2026-11-08T23:25Z",
+  "asof": "2026-11-08T23:51Z",
   "source": "Daily Faceoff",
   "lines": [
    "Evgeni Malkin",
@@ -289,27 +289,27 @@
   }
  },
  "TOR": {
-  "asof": "2026-11-08T23:25Z",
+  "asof": "2026-11-08T23:51Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
    "Auston Matthews",
    "Jack Roslovic",
+   "Gavin McKenna",
    "John Tavares",
-   "Nick Paul",
    "William Nylander",
    "Dakota Joshua",
    "Colton Sissons",
-   "Gavin McKenna",
+   "Nick Paul",
    "Brandon Duhaime",
    "Teddy Blueger",
    "Zack MacEwen",
    "Jake McCabe",
    "Darren Raddysh",
-   "Cole McWard",
-   "Dakota Mermis",
    "Oliver Ekman-Larsson",
-   "Troy Stecher"
+   "Troy Stecher",
+   "Dakota Mermis",
+   "Cole McWard"
   ],
   "inj": {
    "Elvis Merzlikins": "IR",
@@ -526,7 +526,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-11-08T23:25Z",
+  "asof": "2026-11-08T23:51Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
