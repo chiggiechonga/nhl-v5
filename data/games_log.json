@@ -2014,5 +2014,17 @@
   "winner": "PIT",
   "date": "2026-11-07",
   "id": "2026-11-07_PIT@LAK"
+ },
+ {
+  "away": "VAN",
+  "home": "EDM",
+  "ag": 2,
+  "hg": 4,
+  "a_sh": 22,
+  "h_sh": 30,
+  "ot": null,
+  "winner": "EDM",
+  "date": "2026-11-07",
+  "id": "2026-11-07_VAN@EDM"
  }
 ]
