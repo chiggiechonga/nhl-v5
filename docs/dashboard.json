@@ -1,9 +1,9 @@
 {
  "summary": {
-  "n": 159,
-  "brier5": 0.23306567398910413,
-  "ll5": 0.6584834509715317,
-  "acc5": 0.6163522012578616,
+  "n": 160,
+  "brier5": 0.233170559495303,
+  "ll5": 0.6586981912186614,
+  "acc5": 0.61875,
   "n_h2h": 42,
   "brier4_h2h": 0.2340558066666667,
   "brier5_h2h": 0.2308742635566758,
@@ -11,11 +11,11 @@
   "ll5_h2h": 0.654203680258315,
   "acc4_h2h": 0.5714285714285714,
   "acc5_h2h": 0.6666666666666666,
-  "tot_bias5": -0.23950528535115767,
-  "tot_mae5": 1.8312548972573386,
-  "tot_bias4": -0.24890506329113923,
-  "shot_mae5": 4.56884688811918,
-  "shot_bias5": -0.22097478442368348
+  "tot_bias5": -0.2438753781887307,
+  "tot_mae5": 1.8256765550204979,
+  "tot_bias4": -0.25324528301886795,
+  "shot_mae5": 4.551303929217802,
+  "shot_bias5": -0.22276305361460583
  },
  "daily": [
   {
@@ -158,8 +158,8 @@
   },
   {
    "date": "2026-11-07",
-   "n": 2,
-   "b5": 0.2265584915814611,
+   "n": 3,
+   "b5": 0.2343214460479471,
    "b4": null
   }
  ],
@@ -181,6 +181,24 @@
    "k_price": 0.525,
    "k_pnl": 9.05,
    "pick": "WSH"
+  },
+  {
+   "away": "NYR",
+   "home": "SEA",
+   "score": "4-3",
+   "ot": null,
+   "winner": "NYR",
+   "p5": 0.4998473316733011,
+   "p4": null,
+   "tot5": 6.061279860637162,
+   "tot_act": 7,
+   "sh_act": [
+    26,
+    28
+   ],
+   "k_price": 0.565,
+   "k_pnl": 7.7,
+   "pick": "NYR"
   },
   {
    "away": "STL",
@@ -284,19 +302,19 @@
   {
    "away": "NYR",
    "home": "SEA",
-   "lh": 3.0301971726942445,
-   "la": 3.0310826879429182,
-   "sh": 25.730928681129956,
-   "sa": 27.25487560892752,
-   "p_home_raw": 0.4998473316733011,
-   "p_home": 0.4998473316733011,
-   "total": 6.061279860637162,
-   "o45": 0.7140487958046645,
-   "o55": 0.5586081417904278,
-   "o65": 0.4033330365374095,
-   "p00": 0.002847337178749637,
-   "pl_h": 0.7349983431566146,
-   "pl_a": 0.7352343966360632,
+   "lh": 3.0340699424087756,
+   "la": 3.047139141022802,
+   "sh": 26.139361518526563,
+   "sa": 27.028997999320566,
+   "p_home_raw": 0.49775494796570585,
+   "p_home": 0.49775494796570585,
+   "total": 6.0812090834315775,
+   "o45": 0.7165958072411325,
+   "o55": 0.5616659844554105,
+   "o65": 0.40642632398716183,
+   "p00": 0.002794712752976196,
+   "pl_h": 0.7330191262166582,
+   "pl_a": 0.7364995702998901,
    "goalie_a": "Joonas Korpisalo",
    "goalie_h": "Joey Daccord",
    "goalie_status_a": "unconfirmed",
@@ -306,14 +324,19 @@
    "id": "2026-11-07_NYR@SEA",
    "date": "2026-11-07",
    "why": {
-    "neutral": 0.4689,
+    "neutral": 0.4669,
     "home": 0.0309,
     "b2b": 0.0,
     "goalie": 0.0,
     "b2b_teams": [],
     "goalie_adj": false
    },
-   "time": "5:00 ET"
+   "time": "5:00 ET",
+   "final": {
+    "score": "4-3",
+    "ot": null,
+    "winner": "NYR"
+   }
   },
   {
    "away": "MTL",
@@ -992,16 +1015,16 @@
    "team": "NYR",
    "opp": "SEA",
    "pos": "D",
-   "p_pt": 0.6158,
-   "p_g": 0.1212,
-   "ep": 0.957,
-   "sog": 1.62,
-   "sog2_raw": 0.463,
-   "sog3_raw": 0.2295,
-   "sog4_raw": 0.0985,
-   "sog2": 0.4352,
-   "sog3": 0.2066,
-   "sog4": 0.0788,
+   "p_pt": 0.6166,
+   "p_g": 0.1215,
+   "ep": 0.959,
+   "sog": 1.61,
+   "sog2_raw": 0.4595,
+   "sog3_raw": 0.2266,
+   "sog4_raw": 0.0967,
+   "sog2": 0.432,
+   "sog3": 0.2039,
+   "sog4": 0.0774,
    "dtd": false,
    "basis": "2025-26 55 GP + 2026-27 17 GP (stats as of Nov 7)"
   },
@@ -1010,16 +1033,16 @@
    "team": "NYR",
    "opp": "SEA",
    "pos": "F",
-   "p_pt": 0.5446,
-   "p_g": 0.249,
-   "ep": 0.787,
-   "sog": 2.5,
-   "sog2_raw": 0.6702,
-   "sog3_raw": 0.4385,
-   "sog4_raw": 0.2545,
-   "sog2": 0.63,
-   "sog3": 0.3946,
-   "sog4": 0.2036,
+   "p_pt": 0.5454,
+   "p_g": 0.2494,
+   "ep": 0.788,
+   "sog": 2.48,
+   "sog2_raw": 0.6667,
+   "sog3_raw": 0.4343,
+   "sog4_raw": 0.2509,
+   "sog2": 0.6267,
+   "sog3": 0.3909,
+   "sog4": 0.2007,
    "dtd": false,
    "basis": "2025-26 81 GP + 2026-27 17 GP (stats as of Nov 7)"
   },
@@ -1028,16 +1051,16 @@
    "team": "NYR",
    "opp": "SEA",
    "pos": "F",
-   "p_pt": 0.5075,
-   "p_g": 0.2926,
-   "ep": 0.708,
-   "sog": 2.24,
-   "sog2_raw": 0.6183,
-   "sog3_raw": 0.3792,
-   "sog4_raw": 0.2049,
-   "sog2": 0.5812,
-   "sog3": 0.3413,
-   "sog4": 0.1639,
+   "p_pt": 0.5082,
+   "p_g": 0.2932,
+   "ep": 0.71,
+   "sog": 2.22,
+   "sog2_raw": 0.6147,
+   "sog3_raw": 0.3753,
+   "sog4_raw": 0.2018,
+   "sog2": 0.5778,
+   "sog3": 0.3378,
+   "sog4": 0.1614,
    "dtd": false,
    "basis": "2025-26 82 GP + 2026-27 17 GP (stats as of Nov 7)"
   },
@@ -1046,16 +1069,16 @@
    "team": "NYR",
    "opp": "SEA",
    "pos": "F",
-   "p_pt": 0.498,
-   "p_g": 0.1954,
-   "ep": 0.689,
-   "sog": 2.11,
-   "sog2_raw": 0.5902,
-   "sog3_raw": 0.3492,
-   "sog4_raw": 0.1813,
-   "sog2": 0.5548,
-   "sog3": 0.3142,
-   "sog4": 0.1451,
+   "p_pt": 0.4988,
+   "p_g": 0.1958,
+   "ep": 0.691,
+   "sog": 2.1,
+   "sog2_raw": 0.5866,
+   "sog3_raw": 0.3454,
+   "sog4_raw": 0.1785,
+   "sog2": 0.5514,
+   "sog3": 0.3109,
+   "sog4": 0.1428,
    "dtd": false,
    "basis": "2025-26 68 GP + 2026-27 17 GP (stats as of Nov 7)"
   },
@@ -1064,16 +1087,16 @@
    "team": "NYR",
    "opp": "SEA",
    "pos": "F",
-   "p_pt": 0.4654,
-   "p_g": 0.2921,
-   "ep": 0.626,
-   "sog": 2.62,
-   "sog2_raw": 0.6917,
-   "sog3_raw": 0.4645,
-   "sog4_raw": 0.2777,
-   "sog2": 0.6502,
-   "sog3": 0.4181,
-   "sog4": 0.2222,
+   "p_pt": 0.4661,
+   "p_g": 0.2926,
+   "ep": 0.628,
+   "sog": 2.6,
+   "sog2_raw": 0.6883,
+   "sog3_raw": 0.4603,
+   "sog4_raw": 0.2739,
+   "sog2": 0.647,
+   "sog3": 0.4143,
+   "sog4": 0.2191,
    "dtd": false,
    "basis": "2025-26 82 GP + 2026-27 17 GP (stats as of Nov 7)"
   },
@@ -1082,16 +1105,16 @@
    "team": "SEA",
    "opp": "NYR",
    "pos": "F",
-   "p_pt": 0.4563,
-   "p_g": 0.1442,
-   "ep": 0.609,
-   "sog": 1.1,
-   "sog2_raw": 0.297,
-   "sog3_raw": 0.1098,
-   "sog4_raw": 0.0346,
-   "sog2": 0.2792,
-   "sog3": 0.0988,
-   "sog4": 0.0277,
+   "p_pt": 0.4565,
+   "p_g": 0.1443,
+   "ep": 0.61,
+   "sog": 1.11,
+   "sog2_raw": 0.3023,
+   "sog3_raw": 0.113,
+   "sog4_raw": 0.036,
+   "sog2": 0.2842,
+   "sog3": 0.1017,
+   "sog4": 0.0288,
    "dtd": false,
    "basis": "2025-26 65 GP + 2026-27 15 GP (stats as of Nov 7)"
   },
@@ -1100,16 +1123,16 @@
    "team": "SEA",
    "opp": "NYR",
    "pos": "F",
-   "p_pt": 0.4554,
-   "p_g": 0.1442,
+   "p_pt": 0.4556,
+   "p_g": 0.1443,
    "ep": 0.608,
-   "sog": 1.02,
-   "sog2_raw": 0.2713,
-   "sog3_raw": 0.0948,
-   "sog4_raw": 0.0282,
-   "sog2": 0.255,
-   "sog3": 0.0853,
-   "sog4": 0.0225,
+   "sog": 1.04,
+   "sog2_raw": 0.2763,
+   "sog3_raw": 0.0976,
+   "sog4_raw": 0.0294,
+   "sog2": 0.2597,
+   "sog3": 0.0879,
+   "sog4": 0.0235,
    "dtd": false,
    "basis": "2025-26 80 GP + 2026-27 15 GP (stats as of Nov 7)"
   },
@@ -1118,16 +1141,16 @@
    "team": "SEA",
    "opp": "NYR",
    "pos": "F",
-   "p_pt": 0.4539,
-   "p_g": 0.2365,
+   "p_pt": 0.4541,
+   "p_g": 0.2366,
    "ep": 0.605,
-   "sog": 2.21,
-   "sog2_raw": 0.6109,
-   "sog3_raw": 0.3712,
-   "sog4_raw": 0.1985,
-   "sog2": 0.5743,
-   "sog3": 0.3341,
-   "sog4": 0.1588,
+   "sog": 2.24,
+   "sog2_raw": 0.6177,
+   "sog3_raw": 0.3786,
+   "sog4_raw": 0.2044,
+   "sog2": 0.5807,
+   "sog3": 0.3407,
+   "sog4": 0.1635,
    "dtd": false,
    "basis": "2025-26 80 GP + 2026-27 15 GP (stats as of Nov 7)"
   },
@@ -1136,16 +1159,16 @@
    "team": "SEA",
    "opp": "NYR",
    "pos": "F",
-   "p_pt": 0.4393,
-   "p_g": 0.2113,
+   "p_pt": 0.4395,
+   "p_g": 0.2114,
    "ep": 0.579,
-   "sog": 1.88,
-   "sog2_raw": 0.5331,
-   "sog3_raw": 0.2922,
-   "sog4_raw": 0.1397,
-   "sog2": 0.5011,
-   "sog3": 0.263,
-   "sog4": 0.1118,
+   "sog": 1.9,
+   "sog2_raw": 0.5399,
+   "sog3_raw": 0.2988,
+   "sog4_raw": 0.1443,
+   "sog2": 0.5075,
+   "sog3": 0.2689,
+   "sog4": 0.1154,
    "dtd": false,
    "basis": "2025-26 0 GP + 2026-27 15 GP (stats as of Nov 7)"
   },
@@ -1154,16 +1177,16 @@
    "team": "SEA",
    "opp": "NYR",
    "pos": "F",
-   "p_pt": 0.4357,
-   "p_g": 0.244,
-   "ep": 0.572,
-   "sog": 2.0,
-   "sog2_raw": 0.5629,
-   "sog3_raw": 0.3213,
-   "sog4_raw": 0.1605,
-   "sog2": 0.5291,
-   "sog3": 0.2891,
-   "sog4": 0.1284,
+   "p_pt": 0.4359,
+   "p_g": 0.2441,
+   "ep": 0.573,
+   "sog": 2.02,
+   "sog2_raw": 0.5697,
+   "sog3_raw": 0.3281,
+   "sog4_raw": 0.1655,
+   "sog2": 0.5355,
+   "sog3": 0.2953,
+   "sog4": 0.1324,
    "dtd": false,
    "basis": "2025-26 0 GP + 2026-27 14 GP (stats as of Nov 7)"
   },
@@ -3307,9 +3330,18 @@
    "game": "CHI@CAR",
    "source": "Kalshi moneyline",
    "home_prob": 0.805,
-   "note": "auto 00:34Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
+   "note": "auto 00:58Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
    "over55": 0.595,
    "over65": 0.475
+  },
+  {
+   "date": "2026-11-07",
+   "game": "VAN@EDM",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.775,
+   "note": "auto 00:58Z; mid of bid/ask; O5.5 goals 70%; O6.5 goals 57%",
+   "over55": 0.695,
+   "over65": 0.575
   }
  ],
  "lineups": {
@@ -3666,7 +3698,7 @@
    }
   },
   "CHI": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyler Bertuzzi",
@@ -3694,7 +3726,7 @@
    }
   },
   "CAR": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "William Carrier",
@@ -3721,7 +3753,7 @@
    }
   },
   "SJS": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Michael Misa",
@@ -3749,7 +3781,7 @@
    }
   },
   "DAL": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jamie Benn",
@@ -3779,7 +3811,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -3793,12 +3825,12 @@
     "Pontus Holmberg",
     "Jeffrey Viel",
     "Conor Geekie",
-    "Victor Hedman",
-    "Maxwell Crozier",
-    "John Carlson",
-    "Charle-Edouard D'Astous",
+    "Scott Sabourin",
     "Ryan McDonagh",
     "Erik Cernak",
+    "John Carlson",
+    "Charle-Edouard D'Astous",
+    "Victor Hedman",
     "J.J. Moser"
    ],
    "inj": {
@@ -3806,7 +3838,7 @@
    }
   },
   "MIN": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kirill Kaprizov",
@@ -3836,7 +3868,7 @@
    }
   },
   "DET": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -3868,7 +3900,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3896,7 +3928,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Evgeni Malkin",
@@ -3925,7 +3957,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -3953,7 +3985,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -3981,7 +4013,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-11-08T00:34Z",
+   "asof": "2026-11-08T00:58Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -4016,39 +4048,33 @@
  },
  "slate_label": "Sat Nov 7",
  "slate_note": "",
- "n_games": 159,
+ "n_games": 160,
  "target": 300,
  "refit": "2026-11-23",
  "player_cal": {
-  "n": 1131,
-  "pt_act": 643,
-  "pt_exp": 570.6,
-  "g_act": 314,
-  "g_exp": 269.0,
-  "n_shots": 1040,
-  "sh3_act": 413,
-  "sh3_exp": 355.5
+  "n": 1141,
+  "pt_act": 651,
+  "pt_exp": 575.5,
+  "g_act": 317,
+  "g_exp": 271.1,
+  "n_shots": 1050,
+  "sh3_act": 414,
+  "sh3_exp": 358.3
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-08T00:33+00:00",
+  "at": "2026-11-08T00:58+00:00",
   "ok": [
    "12 games on 2026-11-07",
    "Daily Faceoff goalies parsed for 24 teams",
    "lineups refreshed for 12/12 teams",
-   "Kalshi: 10 NHL games priced, 1 new rows",
+   "Kalshi: 9 NHL games priced, 2 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (88) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (82) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "grade",
-    "at": "2026-11-07T20:40+00:00",
-    "n_ok": 2,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-11-07T21:06+00:00",
@@ -4119,6 +4145,14 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (88) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-08T00:58+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (82) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -4270,11 +4304,11 @@
   },
   {
    "date": "2026-11-07",
-   "games": 2,
-   "bets": 2,
-   "wins": 2,
-   "pnl": 19.67,
-   "cum": 17.66
+   "games": 3,
+   "bets": 3,
+   "wins": 3,
+   "pnl": 27.37,
+   "cum": 25.36
   }
  ],
  "parlay_days": [
@@ -4907,5 +4941,5 @@
    "hit": 10
   }
  },
- "made": "2026-11-08T00:34+00:00"
+ "made": "2026-11-08T00:58+00:00"
 }

@@ -1906,5 +1906,17 @@
   "winner": "NSH",
   "date": "2026-11-07",
   "id": "2026-11-07_STL@NSH"
+ },
+ {
+  "away": "NYR",
+  "home": "SEA",
+  "ag": 4,
+  "hg": 3,
+  "a_sh": 26,
+  "h_sh": 28,
+  "ot": null,
+  "winner": "NYR",
+  "date": "2026-11-07",
+  "id": "2026-11-07_NYR@SEA"
  }
 ]

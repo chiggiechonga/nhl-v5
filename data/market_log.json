@@ -3730,8 +3730,17 @@
   "game": "CHI@CAR",
   "source": "Kalshi moneyline",
   "home_prob": 0.805,
-  "note": "auto 00:34Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
+  "note": "auto 00:58Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
   "over55": 0.595,
   "over65": 0.475
+ },
+ {
+  "date": "2026-11-07",
+  "game": "VAN@EDM",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.775,
+  "note": "auto 00:58Z; mid of bid/ask; O5.5 goals 70%; O6.5 goals 57%",
+  "over55": 0.695,
+  "over65": 0.575
  }
 ]
