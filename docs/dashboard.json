@@ -1755,7 +1755,7 @@
  ],
  "lineups": {
   "FLA": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1785,7 +1785,7 @@
    }
   },
   "BOS": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "JJ Peterka",
@@ -1812,7 +1812,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brett Howden",
@@ -1839,7 +1839,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -1868,7 +1868,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -1895,7 +1895,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -1925,7 +1925,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -1952,7 +1952,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -1982,7 +1982,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyson Foerster",
@@ -2010,7 +2010,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -2040,7 +2040,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Evgeni Malkin",
@@ -2069,7 +2069,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-08T06:43Z",
+   "asof": "2026-11-08T06:57Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3097,5 +3097,5 @@
    "hit": 11
   }
  },
- "made": "2026-11-08T06:43+00:00"
+ "made": "2026-11-08T06:57+00:00"
 }
