@@ -1690,6 +1690,15 @@
    "note": "auto 21:17Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%",
    "over55": 0.585,
    "over65": 0.475
+  },
+  {
+   "date": "2026-11-08",
+   "game": "PIT@ANA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.525,
+   "note": "auto 21:43Z; mid of bid/ask; O5.5 goals 70%; O6.5 goals 58%",
+   "over55": 0.695,
+   "over65": 0.58
   }
  ],
  "lineups": {
@@ -1807,7 +1816,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-08T21:22Z",
+   "asof": "2026-11-08T21:43Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -1834,7 +1843,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-11-08T21:22Z",
+   "asof": "2026-11-08T21:43Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -1864,7 +1873,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-08T21:22Z",
+   "asof": "2026-11-08T21:43Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -1891,7 +1900,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-08T21:22Z",
+   "asof": "2026-11-08T21:43Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -1922,7 +1931,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-08T21:22Z",
+   "asof": "2026-11-08T21:43Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyson Foerster",
@@ -1950,7 +1959,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-08T21:22Z",
+   "asof": "2026-11-08T21:43Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1980,7 +1989,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-08T21:22Z",
+   "asof": "2026-11-08T21:43Z",
    "source": "Daily Faceoff",
    "lines": [
     "Evgeni Malkin",
@@ -2009,7 +2018,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-08T21:22Z",
+   "asof": "2026-11-08T21:43Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3044,5 +3053,5 @@
    "hit": 11
   }
  },
- "made": "2026-11-08T21:22+00:00"
+ "made": "2026-11-08T21:43+00:00"
 }
