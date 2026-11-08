@@ -1871,7 +1871,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-08T22:34Z",
+   "asof": "2026-11-08T23:00Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -1899,7 +1899,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-08T22:34Z",
+   "asof": "2026-11-08T23:00Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -1931,7 +1931,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-08T22:34Z",
+   "asof": "2026-11-08T23:00Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyson Foerster",
@@ -1959,7 +1959,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-08T22:34Z",
+   "asof": "2026-11-08T23:00Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1989,7 +1989,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-08T22:34Z",
+   "asof": "2026-11-08T23:00Z",
    "source": "Daily Faceoff",
    "lines": [
     "Evgeni Malkin",
@@ -2018,7 +2018,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-08T22:34Z",
+   "asof": "2026-11-08T23:00Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -2065,7 +2065,7 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-08T22:09+00:00",
+  "at": "2026-11-08T22:34+00:00",
   "ok": [
    "6 games on 2026-11-08",
    "Daily Faceoff goalies parsed for 12 teams",
@@ -2077,14 +2077,6 @@
    "Kalshi spread markets found (62) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-08T18:43+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (66) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-08T19:09+00:00",
@@ -2150,6 +2142,14 @@
    {
     "mode": "plan",
     "at": "2026-11-08T22:09+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (62) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-08T22:34+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (62) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -3058,5 +3058,5 @@
    "hit": 11
   }
  },
- "made": "2026-11-08T22:34+00:00"
+ "made": "2026-11-08T23:00+00:00"
 }

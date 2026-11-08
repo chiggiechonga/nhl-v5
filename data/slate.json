@@ -40,7 +40,7 @@
    "time": "6:00 ET",
    "start": "2026-11-08T23:00:00Z",
    "gid": 2026020280,
-   "started": false,
+   "started": true,
    "goalie_a": "Andrei Vasilevskiy",
    "status_a": "unconfirmed",
    "goalie_h": "Stuart Skinner",
