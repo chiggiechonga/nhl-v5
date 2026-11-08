@@ -28,7 +28,7 @@
    "time": "3:30 ET",
    "start": "2026-11-08T20:30:00Z",
    "gid": 2026020278,
-   "started": false,
+   "started": true,
    "goalie_a": "Adin Hill",
    "status_a": "unconfirmed",
    "goalie_h": "Colten Ellis",
