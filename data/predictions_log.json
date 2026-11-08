@@ -60473,7 +60473,7 @@
   "date": "2026-11-08",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-08T17:35+00:00Z",
+  "made_at": "2026-11-08T17:52+00:00Z",
   "away": "FLA",
   "home": "BOS",
   "p_home": 0.537,
@@ -60489,7 +60489,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "FLA": {
-    "asof": "2026-11-08T17:35Z",
+    "asof": "2026-11-08T17:52Z",
     "source": "Daily Faceoff",
     "lines": [
      "Brady Tkachuk",
@@ -60497,9 +60497,9 @@
      "Matthew Tkachuk",
      "Carter Verhaeghe",
      "Sam Reinhart",
-     "Anton Lundell",
-     "Eetu Luostarinen",
      "Lars Eller",
+     "Eetu Luostarinen",
+     "Anton Lundell",
      "Cole Reinhardt",
      "Bokondji Imama",
      "Cole Schwindt",
@@ -60515,25 +60515,24 @@
      "Aleksander Barkov": "IR",
      "Jonah Gadjovich": "IR",
      "Brad Marchand": "IR",
-     "Anton Lundell": "IR",
      "Sandis Vilmanis": "IR"
     }
    },
    "BOS": {
-    "asof": "2026-11-08T17:35Z",
+    "asof": "2026-11-08T17:52Z",
     "source": "Daily Faceoff",
     "lines": [
      "JJ Peterka",
      "Pavel Zacha",
      "David Pastrnak",
-     "Matthew Poitras",
+     "Michael Eyssimont",
      "Fraser Minten",
      "Morgan Geekie",
      "Casey Mittelstadt",
      "Elias Lindholm",
      "Marat Khusnutdinov",
      "Tanner Jeannot",
-     "Michael Eyssimont",
+     "Matthew Poitras",
      "Mark Kastelic",
      "Hampus Lindholm",
      "Charlie McAvoy",
@@ -60748,7 +60747,7 @@
   "date": "2026-11-08",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-08T17:35+00:00Z",
+  "made_at": "2026-11-08T17:52+00:00Z",
   "away": "VGK",
   "home": "BUF",
   "p_home": 0.4875,
@@ -60764,7 +60763,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "VGK": {
-    "asof": "2026-11-08T17:35Z",
+    "asof": "2026-11-08T17:52Z",
     "source": "Daily Faceoff",
     "lines": [
      "Brett Howden",
@@ -60791,7 +60790,7 @@
     }
    },
    "BUF": {
-    "asof": "2026-11-08T17:35Z",
+    "asof": "2026-11-08T17:52Z",
     "source": "Daily Faceoff",
     "lines": [
      "Zach Benson",
@@ -61021,7 +61020,7 @@
   "date": "2026-11-08",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-08T17:35+00:00Z",
+  "made_at": "2026-11-08T17:52+00:00Z",
   "away": "NJD",
   "home": "TOR",
   "p_home": 0.4118,
@@ -61037,7 +61036,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "NJD": {
-    "asof": "2026-11-08T17:35Z",
+    "asof": "2026-11-08T17:52Z",
     "source": "Daily Faceoff",
     "lines": [
      "Timo Meier",
@@ -61064,7 +61063,7 @@
     }
    },
    "TOR": {
-    "asof": "2026-11-08T17:35Z",
+    "asof": "2026-11-08T17:52Z",
     "source": "Daily Faceoff",
     "lines": [
      "Easton Cowan",
@@ -61296,7 +61295,7 @@
   "date": "2026-11-08",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-08T17:35+00:00Z",
+  "made_at": "2026-11-08T17:52+00:00Z",
   "away": "PHI",
   "home": "CGY",
   "p_home": 0.5222,
@@ -61312,7 +61311,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "PHI": {
-    "asof": "2026-11-08T17:35Z",
+    "asof": "2026-11-08T17:52Z",
     "source": "Daily Faceoff",
     "lines": [
      "Tyson Foerster",
@@ -61340,7 +61339,7 @@
     }
    },
    "CGY": {
-    "asof": "2026-11-08T17:35Z",
+    "asof": "2026-11-08T17:52Z",
     "source": "Daily Faceoff",
     "lines": [
      "Joel Farabee",
@@ -61571,7 +61570,7 @@
   "date": "2026-11-08",
   "model": "v5",
   "pass_no": 2,
-  "made_at": "2026-11-08T17:35+00:00Z",
+  "made_at": "2026-11-08T17:52+00:00Z",
   "away": "PIT",
   "home": "ANA",
   "p_home": 0.517,
@@ -61587,7 +61586,7 @@
   "goalie_status_h": "unconfirmed",
   "roster_snapshot": {
    "PIT": {
-    "asof": "2026-11-08T17:35Z",
+    "asof": "2026-11-08T17:52Z",
     "source": "Daily Faceoff",
     "lines": [
      "Evgeni Malkin",
@@ -61616,7 +61615,7 @@
     }
    },
    "ANA": {
-    "asof": "2026-11-08T17:35Z",
+    "asof": "2026-11-08T17:52Z",
     "source": "Daily Faceoff",
     "lines": [
      "Alex Killorn",

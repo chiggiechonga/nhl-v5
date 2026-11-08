@@ -1757,7 +1757,7 @@
    "game": "FLA@BOS",
    "source": "Kalshi moneyline",
    "home_prob": 0.585,
-   "note": "auto 17:35Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%",
+   "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 54%; O6.5 goals 42%",
    "over55": 0.535,
    "over65": 0.415
   },
@@ -1766,7 +1766,7 @@
    "game": "TBL@WPG",
    "source": "Kalshi moneyline",
    "home_prob": 0.425,
-   "note": "auto 17:35Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
+   "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
    "over55": 0.595,
    "over65": 0.485
   },
@@ -1775,7 +1775,7 @@
    "game": "NJD@TOR",
    "source": "Kalshi moneyline",
    "home_prob": 0.405,
-   "note": "auto 17:35Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 46%",
+   "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 46%",
    "over55": 0.595,
    "over65": 0.465
   },
@@ -1784,7 +1784,7 @@
    "game": "PHI@CGY",
    "source": "Kalshi moneyline",
    "home_prob": 0.475,
-   "note": "auto 17:35Z; mid of bid/ask; O5.5 goals 52%; O6.5 goals 40%",
+   "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 52%; O6.5 goals 40%",
    "over55": 0.515,
    "over65": 0.405
   },
@@ -1793,14 +1793,14 @@
    "game": "PIT@ANA",
    "source": "Kalshi moneyline",
    "home_prob": 0.515,
-   "note": "auto 17:35Z; mid of bid/ask; O5.5 goals 68%; O6.5 goals 57%",
-   "over55": 0.675,
+   "note": "auto 17:52Z; mid of bid/ask; O5.5 goals 68%; O6.5 goals 57%",
+   "over55": 0.685,
    "over65": 0.575
   }
  ],
  "lineups": {
   "FLA": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brady Tkachuk",
@@ -1808,9 +1808,9 @@
     "Matthew Tkachuk",
     "Carter Verhaeghe",
     "Sam Reinhart",
-    "Anton Lundell",
-    "Eetu Luostarinen",
     "Lars Eller",
+    "Eetu Luostarinen",
+    "Anton Lundell",
     "Cole Reinhardt",
     "Bokondji Imama",
     "Cole Schwindt",
@@ -1826,25 +1826,24 @@
     "Aleksander Barkov": "IR",
     "Jonah Gadjovich": "IR",
     "Brad Marchand": "IR",
-    "Anton Lundell": "IR",
     "Sandis Vilmanis": "IR"
    }
   },
   "BOS": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "JJ Peterka",
     "Pavel Zacha",
     "David Pastrnak",
-    "Matthew Poitras",
+    "Michael Eyssimont",
     "Fraser Minten",
     "Morgan Geekie",
     "Casey Mittelstadt",
     "Elias Lindholm",
     "Marat Khusnutdinov",
     "Tanner Jeannot",
-    "Michael Eyssimont",
+    "Matthew Poitras",
     "Mark Kastelic",
     "Hampus Lindholm",
     "Charlie McAvoy",
@@ -1858,7 +1857,7 @@
    }
   },
   "VGK": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Brett Howden",
@@ -1885,7 +1884,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -1914,7 +1913,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -1941,7 +1940,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -1971,7 +1970,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -1998,7 +1997,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -2029,7 +2028,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyson Foerster",
@@ -2057,7 +2056,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -2087,7 +2086,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Evgeni Malkin",
@@ -2116,7 +2115,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-08T17:35Z",
+   "asof": "2026-11-08T17:52Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -3138,5 +3137,5 @@
    "hit": 11
   }
  },
- "made": "2026-11-08T17:35+00:00"
+ "made": "2026-11-08T17:52+00:00"
 }
