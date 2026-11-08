@@ -2038,5 +2038,17 @@
   "winner": "BOS",
   "date": "2026-11-08",
   "id": "2026-11-08_FLA@BOS"
+ },
+ {
+  "away": "VGK",
+  "home": "BUF",
+  "ag": 4,
+  "hg": 1,
+  "a_sh": 26,
+  "h_sh": 29,
+  "ot": null,
+  "winner": "VGK",
+  "date": "2026-11-08",
+  "id": "2026-11-08_VGK@BUF"
  }
 ]

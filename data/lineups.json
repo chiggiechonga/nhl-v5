@@ -59,7 +59,7 @@
   }
  },
  "PHI": {
-  "asof": "2026-11-08T23:00Z",
+  "asof": "2026-11-08T23:25Z",
   "source": "Daily Faceoff",
   "lines": [
    "Tyson Foerster",
@@ -118,7 +118,7 @@
   }
  },
  "NJD": {
-  "asof": "2026-11-08T23:00Z",
+  "asof": "2026-11-08T23:25Z",
   "source": "Daily Faceoff",
   "lines": [
    "Timo Meier",
@@ -146,7 +146,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-08T23:00Z",
+  "asof": "2026-11-08T23:25Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -204,7 +204,7 @@
   }
  },
  "PIT": {
-  "asof": "2026-11-08T23:00Z",
+  "asof": "2026-11-08T23:25Z",
   "source": "Daily Faceoff",
   "lines": [
    "Evgeni Malkin",
@@ -213,7 +213,7 @@
    "Tommy Novak",
    "Ben Kindel",
    "Egor Chinakhov",
-   "Ville Koivunen",
+   "Rutger McGroarty",
    "Hendrix Lapierre",
    "Justin Brazeau",
    "Connor Dewar",
@@ -229,7 +229,8 @@
   "inj": {
    "Trevor van Riemsdyk": "IR",
    "Ryan Graves": "IR",
-   "Bryan Rust": "IR"
+   "Bryan Rust": "IR",
+   "Ville Koivunen": "IR"
   }
  },
  "BOS": {
@@ -288,7 +289,7 @@
   }
  },
  "TOR": {
-  "asof": "2026-11-08T23:00Z",
+  "asof": "2026-11-08T23:25Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
@@ -525,7 +526,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-11-08T23:00Z",
+  "asof": "2026-11-08T23:25Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
