@@ -17,7 +17,7 @@
    "start": "2026-11-08T18:00:00Z",
    "gid": 2026020277,
    "started": false,
-   "goalie_a": "Akira Schmid",
+   "goalie_a": "Jacob Markstrom",
    "status_a": "unconfirmed",
    "goalie_h": "Jeremy Swayman",
    "status_h": "unconfirmed"
@@ -29,9 +29,9 @@
    "start": "2026-11-08T20:30:00Z",
    "gid": 2026020278,
    "started": false,
-   "goalie_a": "Carter Hart",
+   "goalie_a": "Adin Hill",
    "status_a": "unconfirmed",
-   "goalie_h": "Colten Ellis",
+   "goalie_h": "Ukko-Pekka Luukkonen",
    "status_h": "unconfirmed"
   },
   {
@@ -53,9 +53,9 @@
    "start": "2026-11-09T00:00:00Z",
    "gid": 2026020279,
    "started": false,
-   "goalie_a": "Jake Allen",
+   "goalie_a": "Connor Hellebuyck",
    "status_a": "unconfirmed",
-   "goalie_h": "Sergei Bobrovsky",
+   "goalie_h": "Anthony Stolarz",
    "status_h": "unconfirmed"
   },
   {
@@ -67,7 +67,7 @@
    "started": false,
    "goalie_a": "Dan Vladar",
    "status_a": "unconfirmed",
-   "goalie_h": "Dustin Wolf",
+   "goalie_h": "Devin Cooley",
    "status_h": "unconfirmed"
   },
   {
@@ -77,9 +77,9 @@
    "start": "2026-11-09T01:00:00Z",
    "gid": 2026020282,
    "started": false,
-   "goalie_a": "Sergei Murashov",
+   "goalie_a": "Arturs Silovs",
    "status_a": "unconfirmed",
-   "goalie_h": "Lukas Dostal",
+   "goalie_h": "Ville Husso",
    "status_h": "unconfirmed"
   }
  ]

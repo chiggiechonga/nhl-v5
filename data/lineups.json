@@ -1,6 +1,6 @@
 {
  "FLA": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brady Tkachuk",
@@ -8,7 +8,7 @@
    "Matthew Tkachuk",
    "Carter Verhaeghe",
    "Sam Reinhart",
-   "Sandis Vilmanis",
+   "Anton Lundell",
    "Eetu Luostarinen",
    "Lars Eller",
    "Cole Reinhardt",
@@ -26,11 +26,12 @@
    "Aleksander Barkov": "IR",
    "Jonah Gadjovich": "IR",
    "Brad Marchand": "IR",
-   "Anton Lundell": "IR"
+   "Anton Lundell": "IR",
+   "Sandis Vilmanis": "IR"
   }
  },
  "BUF": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Zach Benson",
@@ -59,7 +60,7 @@
   }
  },
  "PHI": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Tyson Foerster",
@@ -118,7 +119,7 @@
   }
  },
  "NJD": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Timo Meier",
@@ -145,7 +146,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -203,7 +204,7 @@
   }
  },
  "PIT": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Evgeni Malkin",
@@ -232,7 +233,7 @@
   }
  },
  "BOS": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "JJ Peterka",
@@ -245,7 +246,7 @@
    "Elias Lindholm",
    "Marat Khusnutdinov",
    "Tanner Jeannot",
-   "Sean Kuraly",
+   "Michael Eyssimont",
    "Mark Kastelic",
    "Hampus Lindholm",
    "Charlie McAvoy",
@@ -287,7 +288,7 @@
   }
  },
  "TOR": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
@@ -313,7 +314,8 @@
    "Elvis Merzlikins": "IR",
    "Max Domi": "IR",
    "Kirill Marchenko": "IR",
-   "Marshall Rifai": "IR"
+   "Marshall Rifai": "IR",
+   "Morgan Rielly": "IR"
   }
  },
  "NYR": {
@@ -436,7 +438,7 @@
   }
  },
  "WPG": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kyle Connor",
@@ -495,7 +497,7 @@
   }
  },
  "VGK": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Brett Howden",
@@ -522,7 +524,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -546,9 +548,9 @@
   ],
   "inj": {
    "Jonathan Huberdeau": "IR",
+   "Kevin Bahl": "IR",
    "Samuel Honzek": "IR",
-   "Brennan Othmann": "IR",
-   "Kevin Bahl": "IR"
+   "Brennan Othmann": "IR"
   }
  },
  "MIN": {
@@ -818,7 +820,7 @@
   }
  },
  "TBL": {
-  "asof": "2026-11-08T07:23Z",
+  "asof": "2026-11-08T17:35Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake Guentzel",
