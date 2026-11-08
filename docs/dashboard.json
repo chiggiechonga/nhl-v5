@@ -1816,7 +1816,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-08T22:09Z",
+   "asof": "2026-11-08T22:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -1824,26 +1824,24 @@
     "Nikita Kucherov",
     "Brandon Hagel",
     "Anthony Cirelli",
-    "Gage Goncalves",
+    "Yanni Gourde",
     "Ilya Mikheyev",
     "Zemgus Girgensons",
     "Pontus Holmberg",
     "Jeffrey Viel",
     "Conor Geekie",
-    "Scott Sabourin",
     "Ryan McDonagh",
     "Erik Cernak",
     "John Carlson",
     "Charle-Edouard D'Astous",
     "Victor Hedman",
-    "J.J. Moser"
+    "J.J. Moser",
+    "Maxwell Crozier"
    ],
-   "inj": {
-    "Yanni Gourde": "IR"
-   }
+   "inj": {}
   },
   "WPG": {
-   "asof": "2026-11-08T22:09Z",
+   "asof": "2026-11-08T22:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -1873,7 +1871,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-08T22:09Z",
+   "asof": "2026-11-08T22:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -1901,7 +1899,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-08T22:09Z",
+   "asof": "2026-11-08T22:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -1933,7 +1931,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-08T22:09Z",
+   "asof": "2026-11-08T22:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyson Foerster",
@@ -1961,7 +1959,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-08T22:09Z",
+   "asof": "2026-11-08T22:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -1991,7 +1989,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-08T22:09Z",
+   "asof": "2026-11-08T22:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Evgeni Malkin",
@@ -2020,7 +2018,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-08T22:09Z",
+   "asof": "2026-11-08T22:34Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -2067,26 +2065,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-08T21:43+00:00",
+  "at": "2026-11-08T22:09+00:00",
   "ok": [
    "6 games on 2026-11-08",
    "Daily Faceoff goalies parsed for 12 teams",
    "lineups refreshed for 8/8 teams",
-   "Kalshi: 5 NHL games priced, 1 new rows",
+   "Kalshi: 5 NHL games priced, 0 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
    "Kalshi spread markets found (62) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-08T18:17+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (66) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-08T18:43+00:00",
@@ -2152,6 +2142,14 @@
    {
     "mode": "plan",
     "at": "2026-11-08T21:43+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (62) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-08T22:09+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (62) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -3060,5 +3058,5 @@
    "hit": 11
   }
  },
- "made": "2026-11-08T22:09+00:00"
+ "made": "2026-11-08T22:34+00:00"
 }

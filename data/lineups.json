@@ -59,7 +59,7 @@
   }
  },
  "PHI": {
-  "asof": "2026-11-08T22:09Z",
+  "asof": "2026-11-08T22:34Z",
   "source": "Daily Faceoff",
   "lines": [
    "Tyson Foerster",
@@ -118,7 +118,7 @@
   }
  },
  "NJD": {
-  "asof": "2026-11-08T22:09Z",
+  "asof": "2026-11-08T22:34Z",
   "source": "Daily Faceoff",
   "lines": [
    "Timo Meier",
@@ -146,7 +146,7 @@
   }
  },
  "ANA": {
-  "asof": "2026-11-08T22:09Z",
+  "asof": "2026-11-08T22:34Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex Killorn",
@@ -204,7 +204,7 @@
   }
  },
  "PIT": {
-  "asof": "2026-11-08T22:09Z",
+  "asof": "2026-11-08T22:34Z",
   "source": "Daily Faceoff",
   "lines": [
    "Evgeni Malkin",
@@ -288,7 +288,7 @@
   }
  },
  "TOR": {
-  "asof": "2026-11-08T22:09Z",
+  "asof": "2026-11-08T22:34Z",
   "source": "Daily Faceoff",
   "lines": [
    "Easton Cowan",
@@ -439,7 +439,7 @@
   }
  },
  "WPG": {
-  "asof": "2026-11-08T22:09Z",
+  "asof": "2026-11-08T22:34Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kyle Connor",
@@ -525,7 +525,7 @@
   }
  },
  "CGY": {
-  "asof": "2026-11-08T22:09Z",
+  "asof": "2026-11-08T22:34Z",
   "source": "Daily Faceoff",
   "lines": [
    "Joel Farabee",
@@ -821,7 +821,7 @@
   }
  },
  "TBL": {
-  "asof": "2026-11-08T22:09Z",
+  "asof": "2026-11-08T22:34Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake Guentzel",
@@ -829,23 +829,21 @@
    "Nikita Kucherov",
    "Brandon Hagel",
    "Anthony Cirelli",
-   "Gage Goncalves",
+   "Yanni Gourde",
    "Ilya Mikheyev",
    "Zemgus Girgensons",
    "Pontus Holmberg",
    "Jeffrey Viel",
    "Conor Geekie",
-   "Scott Sabourin",
    "Ryan McDonagh",
    "Erik Cernak",
    "John Carlson",
    "Charle-Edouard D'Astous",
    "Victor Hedman",
-   "J.J. Moser"
+   "J.J. Moser",
+   "Maxwell Crozier"
   ],
-  "inj": {
-   "Yanni Gourde": "IR"
-  }
+  "inj": {}
  },
  "COL": {
   "asof": "2026-11-08T01:49Z",
