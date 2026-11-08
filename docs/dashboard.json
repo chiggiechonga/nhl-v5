@@ -4200,24 +4200,15 @@
   "sh3_exp": 379.7
  },
  "health": {
-  "mode": "plan",
+  "mode": "grade",
   "at": "2026-11-08T03:57+00:00",
   "ok": [
-   "12 games on 2026-11-07",
-   "Daily Faceoff goalies parsed for 24 teams",
-   "Kalshi: 3 NHL games priced, 0 new rows",
-   "nothing new to log (no new games, no goalie changes)"
+   "graded 2026-11-07_SJS@DAL: 3-4, shots 23-30",
+   "graded 2026-11-07_TBL@MIN: 4-3 OT, shots 34-22",
+   "2 games and 20 player rows added"
   ],
-  "problems": [
-   "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-  ],
+  "problems": [],
   "history": [
-   {
-    "mode": "grade",
-    "at": "2026-11-08T00:58+00:00",
-    "n_ok": 2,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-11-08T01:24+00:00",
@@ -4285,6 +4276,12 @@
     "problems": [
      "Kalshi spread markets found (80) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
+   },
+   {
+    "mode": "grade",
+    "at": "2026-11-08T03:57+00:00",
+    "n_ok": 3,
+    "problems": []
    }
   ]
  },
@@ -5072,5 +5069,5 @@
    "hit": 10
   }
  },
- "made": "2026-11-08T03:57+00:00"
+ "made": "2026-11-08T04:22+00:00"
 }
