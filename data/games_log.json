@@ -1990,5 +1990,29 @@
   "winner": "TBL",
   "date": "2026-11-07",
   "id": "2026-11-07_TBL@MIN"
+ },
+ {
+  "away": "DET",
+  "home": "COL",
+  "ag": 0,
+  "hg": 4,
+  "a_sh": 27,
+  "h_sh": 29,
+  "ot": null,
+  "winner": "COL",
+  "date": "2026-11-07",
+  "id": "2026-11-07_DET@COL"
+ },
+ {
+  "away": "PIT",
+  "home": "LAK",
+  "ag": 5,
+  "hg": 2,
+  "a_sh": 19,
+  "h_sh": 28,
+  "ot": null,
+  "winner": "PIT",
+  "date": "2026-11-07",
+  "id": "2026-11-07_PIT@LAK"
  }
 ]
