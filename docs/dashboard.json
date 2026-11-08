@@ -3868,7 +3868,7 @@
    }
   },
   "DET": {
-   "asof": "2026-11-08T00:58Z",
+   "asof": "2026-11-08T01:24Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex DeBrincat",
@@ -3900,7 +3900,7 @@
    }
   },
   "COL": {
-   "asof": "2026-11-08T00:58Z",
+   "asof": "2026-11-08T01:24Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artturi Lehkonen",
@@ -3928,7 +3928,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-08T00:58Z",
+   "asof": "2026-11-08T01:24Z",
    "source": "Daily Faceoff",
    "lines": [
     "Evgeni Malkin",
@@ -3957,7 +3957,7 @@
    }
   },
   "LAK": {
-   "asof": "2026-11-08T00:58Z",
+   "asof": "2026-11-08T01:24Z",
    "source": "Daily Faceoff",
    "lines": [
     "Artemi Panarin",
@@ -3985,7 +3985,7 @@
    }
   },
   "VAN": {
-   "asof": "2026-11-08T00:58Z",
+   "asof": "2026-11-08T01:24Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake DeBrusk",
@@ -4013,7 +4013,7 @@
    }
   },
   "EDM": {
-   "asof": "2026-11-08T00:58Z",
+   "asof": "2026-11-08T01:24Z",
    "source": "Daily Faceoff",
    "lines": [
     "Vasily Podkolzin",
@@ -4062,27 +4062,14 @@
   "sh3_exp": 358.3
  },
  "health": {
-  "mode": "plan",
+  "mode": "grade",
   "at": "2026-11-08T00:58+00:00",
   "ok": [
-   "12 games on 2026-11-07",
-   "Daily Faceoff goalies parsed for 24 teams",
-   "lineups refreshed for 12/12 teams",
-   "Kalshi: 9 NHL games priced, 2 new rows",
-   "nothing new to log (no new games, no goalie changes)"
+   "graded 2026-11-07_NYR@SEA: 4-3, shots 26-28",
+   "1 games and 10 player rows added"
   ],
-  "problems": [
-   "Kalshi spread markets found (82) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-  ],
+  "problems": [],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-07T21:06+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (76) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "plan",
     "at": "2026-11-07T21:32+00:00",
@@ -4154,6 +4141,12 @@
     "problems": [
      "Kalshi spread markets found (82) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
+   },
+   {
+    "mode": "grade",
+    "at": "2026-11-08T00:58+00:00",
+    "n_ok": 2,
+    "problems": []
    }
   ]
  },
@@ -4941,5 +4934,5 @@
    "hit": 10
   }
  },
- "made": "2026-11-08T00:58+00:00"
+ "made": "2026-11-08T01:24+00:00"
 }
