@@ -175,7 +175,7 @@
   }
  },
  "SJS": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Michael Misa",
@@ -203,7 +203,7 @@
   }
  },
  "PIT": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Evgeni Malkin",
@@ -376,7 +376,7 @@
   }
  },
  "LAK": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artemi Panarin",
@@ -404,7 +404,7 @@
   }
  },
  "DAL": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jamie Benn",
@@ -548,21 +548,21 @@
   }
  },
  "MIN": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Kirill Kaprizov",
    "Joel Eriksson Ek",
    "Matt Boldy",
    "Blake Coleman",
-   "Michael McCarron",
+   "Ryan Hartman",
    "Bobby Brink",
    "Maxim Shabanov",
    "Danila Yurov",
    "Yakov Trenin",
+   "Marcus Foligno",
    "Nico Sturm",
-   "Ryan Hartman",
-   "Tyler Pitlick",
+   "Nick Foligno",
    "Quinn Hughes",
    "Jonas Brodin",
    "Olli Maatta",
@@ -573,14 +573,12 @@
   "inj": {
    "Brock Faber": "IR",
    "Filip Gustavsson": "IR",
-   "Nick Foligno": "IR",
-   "Marcus Foligno": "IR",
    "Jared Spurgeon": "IR",
-   "Joel Eriksson Ek": "IR"
+   "Michael McCarron": "IR"
   }
  },
  "EDM": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Vasily Podkolzin",
@@ -613,7 +611,7 @@
   }
  },
  "CAR": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "William Carrier",
@@ -698,7 +696,7 @@
   }
  },
  "VAN": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake DeBrusk",
@@ -726,7 +724,7 @@
   }
  },
  "DET": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Alex DeBrincat",
@@ -758,7 +756,7 @@
   }
  },
  "CHI": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Tyler Bertuzzi",
@@ -816,7 +814,7 @@
   }
  },
  "TBL": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Jake Guentzel",
@@ -843,7 +841,7 @@
   }
  },
  "COL": {
-  "asof": "2026-11-07T23:41Z",
+  "asof": "2026-11-08T00:07Z",
   "source": "Daily Faceoff",
   "lines": [
    "Artturi Lehkonen",
