@@ -436,7 +436,7 @@
    "pl_h": 0.722859597279953,
    "pl_a": 0.7423920217070619,
    "goalie_a": "Adin Hill",
-   "goalie_h": "Ukko-Pekka Luukkonen",
+   "goalie_h": "Colten Ellis",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -577,7 +577,7 @@
    "pl_h": 0.7386145339256598,
    "pl_a": 0.7117115101304186,
    "goalie_a": "Arturs Silovs",
-   "goalie_h": "Ville Husso",
+   "goalie_h": "Laurent Brossoit",
    "goalie_status_a": "unconfirmed",
    "goalie_status_h": "unconfirmed",
    "goalie_data_a": false,
@@ -1841,6 +1841,33 @@
    "note": "auto 20:00Z; mid of bid/ask; O5.5 goals 68%; O6.5 goals 58%",
    "over55": 0.685,
    "over65": 0.58
+  },
+  {
+   "date": "2026-11-08",
+   "game": "VGK@BUF",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.485,
+   "note": "auto 20:26Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 50%",
+   "over55": 0.605,
+   "over65": 0.495
+  },
+  {
+   "date": "2026-11-08",
+   "game": "TBL@WPG",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.415,
+   "note": "auto 20:26Z; mid of bid/ask; O5.5 goals 60%; O6.5 goals 48%",
+   "over55": 0.595,
+   "over65": 0.475
+  },
+  {
+   "date": "2026-11-08",
+   "game": "PIT@ANA",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.515,
+   "note": "auto 20:26Z; mid of bid/ask; O5.5 goals 70%; O6.5 goals 58%",
+   "over55": 0.695,
+   "over65": 0.58
   }
  ],
  "lineups": {
@@ -1902,16 +1929,16 @@
    }
   },
   "VGK": {
-   "asof": "2026-11-08T20:00Z",
+   "asof": "2026-11-08T20:26Z",
    "source": "Daily Faceoff",
    "lines": [
-    "Brett Howden",
+    "Trevor Connelly",
     "Jack Eichel",
     "Mark Stone",
-    "Ivan Barbashev",
+    "Brett Howden",
     "William Karlsson",
     "Mitch Marner",
-    "Trevor Connelly",
+    "Ivan Barbashev",
     "Tomas Hertl",
     "Victor Olofsson",
     "Braeden Bowman",
@@ -1929,7 +1956,7 @@
    }
   },
   "BUF": {
-   "asof": "2026-11-08T20:00Z",
+   "asof": "2026-11-08T20:26Z",
    "source": "Daily Faceoff",
    "lines": [
     "Zach Benson",
@@ -1958,7 +1985,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-08T20:00Z",
+   "asof": "2026-11-08T20:26Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -1985,7 +2012,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-11-08T20:00Z",
+   "asof": "2026-11-08T20:26Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -2015,7 +2042,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-08T20:00Z",
+   "asof": "2026-11-08T20:26Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -2042,7 +2069,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-08T20:00Z",
+   "asof": "2026-11-08T20:26Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -2073,7 +2100,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-08T20:00Z",
+   "asof": "2026-11-08T20:26Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyson Foerster",
@@ -2101,7 +2128,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-08T20:00Z",
+   "asof": "2026-11-08T20:26Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -2131,7 +2158,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-08T20:00Z",
+   "asof": "2026-11-08T20:26Z",
    "source": "Daily Faceoff",
    "lines": [
     "Evgeni Malkin",
@@ -2160,7 +2187,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-08T20:00Z",
+   "asof": "2026-11-08T20:26Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -2207,24 +2234,18 @@
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-08T19:34+00:00",
+  "at": "2026-11-08T20:00+00:00",
   "ok": [
    "6 games on 2026-11-08",
    "Daily Faceoff goalies parsed for 12 teams",
    "lineups refreshed for 10/10 teams",
-   "Kalshi: 6 NHL games priced, 0 new rows",
+   "Kalshi: 6 NHL games priced, 2 new rows",
    "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
    "Kalshi spread markets found (66) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "grade",
-    "at": "2026-11-08T06:05+00:00",
-    "n_ok": 2,
-    "problems": []
-   },
    {
     "mode": "plan",
     "at": "2026-11-08T06:31+00:00",
@@ -2290,6 +2311,14 @@
    {
     "mode": "plan",
     "at": "2026-11-08T19:34+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (66) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-08T20:00+00:00",
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (66) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
@@ -3190,5 +3219,5 @@
    "hit": 11
   }
  },
- "made": "2026-11-08T20:00+00:00"
+ "made": "2026-11-08T20:26+00:00"
 }
