@@ -3931,5 +3931,14 @@
   "note": "auto 20:26Z; mid of bid/ask; O5.5 goals 70%; O6.5 goals 58%",
   "over55": 0.695,
   "over65": 0.58
+ },
+ {
+  "date": "2026-11-08",
+  "game": "NJD@TOR",
+  "source": "Kalshi moneyline",
+  "home_prob": 0.405,
+  "note": "auto 21:17Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%",
+  "over55": 0.585,
+  "over65": 0.475
  }
 ]

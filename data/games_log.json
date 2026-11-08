@@ -2026,5 +2026,17 @@
   "winner": "EDM",
   "date": "2026-11-07",
   "id": "2026-11-07_VAN@EDM"
+ },
+ {
+  "away": "FLA",
+  "home": "BOS",
+  "ag": 1,
+  "hg": 4,
+  "a_sh": 41,
+  "h_sh": 36,
+  "ot": null,
+  "winner": "BOS",
+  "date": "2026-11-08",
+  "id": "2026-11-08_FLA@BOS"
  }
 ]

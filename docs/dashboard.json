@@ -1,9 +1,9 @@
 {
  "summary": {
-  "n": 169,
-  "brier5": 0.23052398418736897,
-  "ll5": 0.6530745559390839,
-  "acc5": 0.6272189349112426,
+  "n": 170,
+  "brier5": 0.23042887842665277,
+  "ll5": 0.6528901823808749,
+  "acc5": 0.6294117647058823,
   "n_h2h": 42,
   "brier4_h2h": 0.2340558066666667,
   "brier5_h2h": 0.2308742635566758,
@@ -11,11 +11,11 @@
   "ll5_h2h": 0.654203680258315,
   "acc4_h2h": 0.5714285714285714,
   "acc5_h2h": 0.6666666666666666,
-  "tot_bias5": -0.2689384196241485,
-  "tot_mae5": 1.8112575838930165,
-  "tot_bias4": -0.27795238095238095,
-  "shot_mae5": 4.502267582823477,
-  "shot_bias5": -0.22435061148187227
+  "tot_bias5": -0.2605426283532367,
+  "tot_mae5": 1.8074169280844152,
+  "tot_bias4": -0.2694556213017752,
+  "shot_mae5": 4.547046757049881,
+  "shot_bias5": -0.2942940031867557
  },
  "daily": [
   {
@@ -161,244 +161,52 @@
    "n": 12,
    "b5": 0.19618567888006022,
    "b4": null
+  },
+  {
+   "date": "2026-11-08",
+   "n": 1,
+   "b5": 0.21435600486560827,
+   "b4": null
   }
  ],
  "graded": [
   {
-   "away": "CHI",
-   "home": "CAR",
-   "score": "2-9",
-   "ot": null,
-   "winner": "CAR",
-   "p5": 0.7712662690376758,
-   "p4": null,
-   "tot5": 6.175841255472577,
-   "tot_act": 11,
-   "sh_act": [
-    20,
-    32
-   ],
-   "k_price": 0.805,
-   "k_pnl": 2.42,
-   "pick": "CAR"
-  },
-  {
-   "away": "DET",
-   "home": "COL",
-   "score": "0-4",
-   "ot": null,
-   "winner": "COL",
-   "p5": 0.6145580731933465,
-   "p4": null,
-   "tot5": 6.4751646455339,
-   "tot_act": 4,
-   "sh_act": [
-    27,
-    29
-   ],
-   "k_price": 0.665,
-   "k_pnl": 5.04,
-   "pick": "COL"
-  },
-  {
    "away": "FLA",
-   "home": "WSH",
-   "score": "3-4",
+   "home": "BOS",
+   "score": "1-4",
    "ot": null,
-   "winner": "WSH",
-   "p5": 0.5138181398923253,
+   "winner": "BOS",
+   "p5": 0.5370140338351407,
    "p4": null,
-   "tot5": 6.287042007360451,
-   "tot_act": 7,
+   "tot5": 6.15834609643085,
+   "tot_act": 5,
    "sh_act": [
-    30,
-    31
-   ],
-   "k_price": 0.525,
-   "k_pnl": 9.05,
-   "pick": "WSH"
-  },
-  {
-   "away": "MTL",
-   "home": "TOR",
-   "score": "4-2",
-   "ot": null,
-   "winner": "MTL",
-   "p5": 0.4889148065615835,
-   "p4": null,
-   "tot5": 6.6312953705258355,
-   "tot_act": 6,
-   "sh_act": [
-    28,
-    28
-   ],
-   "k_price": 0.535,
-   "k_pnl": 8.69,
-   "pick": "MTL"
-  },
-  {
-   "away": "NJD",
-   "home": "NYI",
-   "score": "5-4",
-   "ot": "OT",
-   "winner": "NJD",
-   "p5": 0.4621966608202424,
-   "p4": null,
-   "tot5": 6.149708681365086,
-   "tot_act": 9,
-   "sh_act": [
-    50,
-    23
+    41,
+    36
    ],
    "k_price": 0.585,
    "k_pnl": 7.09,
-   "pick": "NJD"
-  },
-  {
-   "away": "NYR",
-   "home": "SEA",
-   "score": "4-3",
-   "ot": null,
-   "winner": "NYR",
-   "p5": 0.4998473316733011,
-   "p4": null,
-   "tot5": 6.061279860637162,
-   "tot_act": 7,
-   "sh_act": [
-    26,
-    28
-   ],
-   "k_price": 0.565,
-   "k_pnl": 7.7,
-   "pick": "NYR"
-  },
-  {
-   "away": "PIT",
-   "home": "LAK",
-   "score": "5-2",
-   "ot": null,
-   "winner": "PIT",
-   "p5": 0.5109213941256102,
-   "p4": null,
-   "tot5": 6.357582835456944,
-   "tot_act": 7,
-   "sh_act": [
-    19,
-    28
-   ],
-   "k_price": 0.515,
-   "k_pnl": -10.0,
-   "pick": "LAK"
-  },
-  {
-   "away": "SJS",
-   "home": "DAL",
-   "score": "3-4",
-   "ot": null,
-   "winner": "DAL",
-   "p5": 0.637740167337421,
-   "p4": null,
-   "tot5": 5.846541246858905,
-   "tot_act": 7,
-   "sh_act": [
-    23,
-    30
-   ],
-   "k_price": 0.735,
-   "k_pnl": 3.61,
-   "pick": "DAL"
-  },
-  {
-   "away": "STL",
-   "home": "NSH",
-   "score": "1-3",
-   "ot": null,
-   "winner": "NSH",
-   "p5": 0.5344420744255731,
-   "p4": null,
-   "tot5": 6.170705902038247,
-   "tot_act": 4,
-   "sh_act": [
-    26,
-    29
-   ],
-   "k_price": 0.485,
-   "k_pnl": 10.62,
-   "pick": "NSH"
-  },
-  {
-   "away": "TBL",
-   "home": "MIN",
-   "score": "4-3",
-   "ot": "OT",
-   "winner": "TBL",
-   "p5": 0.5292773899963549,
-   "p4": null,
-   "tot5": 6.257918340384343,
-   "tot_act": 7,
-   "sh_act": [
-    34,
-    22
-   ],
-   "k_price": 0.435,
-   "k_pnl": -10.0,
-   "pick": "MIN"
-  },
-  {
-   "away": "UTA",
-   "home": "OTT",
-   "score": "2-4",
-   "ot": null,
-   "winner": "OTT",
-   "p5": 0.5173192567806055,
-   "p4": null,
-   "tot5": 6.178346818291877,
-   "tot_act": 6,
-   "sh_act": [
-    32,
-    21
-   ],
-   "k_price": 0.475,
-   "k_pnl": 11.05,
-   "pick": "OTT"
-  },
-  {
-   "away": "VAN",
-   "home": "EDM",
-   "score": "2-4",
-   "ot": null,
-   "winner": "EDM",
-   "p5": 0.6961453379067214,
-   "p4": null,
-   "tot5": 6.497068399826345,
-   "tot_act": 6,
-   "sh_act": [
-    22,
-    30
-   ],
-   "k_price": 0.775,
-   "k_pnl": 2.9,
-   "pick": "EDM"
+   "pick": "BOS"
   }
  ],
- "graded_date": "2026-11-07",
+ "graded_date": "2026-11-08",
  "games": [
   {
    "away": "FLA",
    "home": "BOS",
-   "lh": 3.187826186778889,
-   "la": 2.9705199096519608,
-   "sh": 25.640959455514515,
-   "sa": 26.586994419024155,
-   "p_home_raw": 0.5370140338351407,
-   "p_home": 0.5370140338351407,
-   "total": 6.15834609643085,
-   "o45": 0.7262964096511366,
-   "o55": 0.5733987165893576,
-   "o65": 0.41838346065365223,
-   "p00": 0.002600123711336603,
-   "pl_h": 0.7614807665248348,
-   "pl_a": 0.7038726189067676,
+   "lh": 3.2382939585272523,
+   "la": 2.9929340223272587,
+   "sh": 27.505586753521907,
+   "sa": 29.033735423599808,
+   "p_home_raw": 0.5415043571667796,
+   "p_home": 0.5415043571667796,
+   "total": 6.231227980854511,
+   "o45": 0.7352323680012933,
+   "o55": 0.5843301037578927,
+   "o65": 0.42965128892005067,
+   "p00": 0.0024288549170934154,
+   "pl_h": 0.7636293697802367,
+   "pl_a": 0.6988294740738847,
    "goalie_a": "Jacob Markstrom",
    "goalie_h": "Jeremy Swayman",
    "goalie_status_a": "unconfirmed",
@@ -408,8 +216,8 @@
    "id": "2026-11-08_FLA@BOS",
    "date": "2026-11-08",
    "why": {
-    "neutral": 0.5064,
-    "home": 0.0307,
+    "neutral": 0.5111,
+    "home": 0.0304,
     "b2b": 0.0,
     "goalie": 0.0,
     "b2b_teams": [
@@ -417,7 +225,12 @@
     ],
     "goalie_adj": false
    },
-   "time": "1:00 ET"
+   "time": "1:00 ET",
+   "final": {
+    "score": "1-4",
+    "ot": null,
+    "winner": "BOS"
+   }
   },
   {
    "away": "VGK",
@@ -603,16 +416,16 @@
    "team": "FLA",
    "opp": "BOS",
    "pos": "F",
-   "p_pt": 0.6407,
-   "p_g": 0.2464,
-   "ep": 1.024,
-   "sog": 2.39,
-   "sog2_raw": 0.6501,
-   "sog3_raw": 0.4149,
-   "sog4_raw": 0.2343,
-   "sog2": 0.6111,
-   "sog3": 0.3734,
-   "sog4": 0.1874,
+   "p_pt": 0.6419,
+   "p_g": 0.2471,
+   "ep": 1.027,
+   "sog": 2.59,
+   "sog2_raw": 0.6868,
+   "sog3_raw": 0.4586,
+   "sog4_raw": 0.2723,
+   "sog2": 0.6456,
+   "sog3": 0.4127,
+   "sog4": 0.2179,
    "dtd": false,
    "basis": "2025-26 31 GP + 2026-27 17 GP (stats as of Nov 8)"
   },
@@ -621,16 +434,16 @@
    "team": "FLA",
    "opp": "BOS",
    "pos": "F",
-   "p_pt": 0.5731,
-   "p_g": 0.3122,
-   "ep": 0.851,
-   "sog": 3.26,
-   "sog2_raw": 0.7852,
-   "sog3_raw": 0.5894,
-   "sog4_raw": 0.4004,
-   "sog2": 0.738,
-   "sog3": 0.5305,
-   "sog4": 0.3203,
+   "p_pt": 0.5743,
+   "p_g": 0.3131,
+   "ep": 0.854,
+   "sog": 3.53,
+   "sog2_raw": 0.815,
+   "sog3_raw": 0.6339,
+   "sog4_raw": 0.449,
+   "sog2": 0.7661,
+   "sog3": 0.5705,
+   "sog4": 0.3592,
    "dtd": false,
    "basis": "2025-26 60 GP + 2026-27 17 GP (stats as of Nov 8)"
   },
@@ -639,16 +452,16 @@
    "team": "FLA",
    "opp": "BOS",
    "pos": "F",
-   "p_pt": 0.5495,
-   "p_g": 0.3277,
-   "ep": 0.797,
-   "sog": 2.66,
-   "sog2_raw": 0.6987,
-   "sog3_raw": 0.4732,
-   "sog4_raw": 0.2856,
-   "sog2": 0.6567,
-   "sog3": 0.4259,
-   "sog4": 0.2284,
+   "p_pt": 0.5507,
+   "p_g": 0.3285,
+   "ep": 0.8,
+   "sog": 2.88,
+   "sog2_raw": 0.7336,
+   "sog3_raw": 0.5181,
+   "sog4_raw": 0.3279,
+   "sog2": 0.6896,
+   "sog3": 0.4663,
+   "sog4": 0.2623,
    "dtd": false,
    "basis": "2025-26 64 GP + 2026-27 17 GP (stats as of Nov 8)"
   },
@@ -657,16 +470,16 @@
    "team": "FLA",
    "opp": "BOS",
    "pos": "D",
-   "p_pt": 0.4989,
-   "p_g": 0.1169,
-   "ep": 0.691,
-   "sog": 1.89,
-   "sog2_raw": 0.5359,
-   "sog3_raw": 0.2949,
-   "sog4_raw": 0.1416,
-   "sog2": 0.5037,
-   "sog3": 0.2654,
-   "sog4": 0.1133,
+   "p_pt": 0.5001,
+   "p_g": 0.1173,
+   "ep": 0.693,
+   "sog": 2.04,
+   "sog2_raw": 0.5741,
+   "sog3_raw": 0.3326,
+   "sog4_raw": 0.1688,
+   "sog2": 0.5397,
+   "sog3": 0.2994,
+   "sog4": 0.1351,
    "dtd": false,
    "basis": "2025-26 52 GP + 2026-27 17 GP (stats as of Nov 8)"
   },
@@ -675,16 +488,16 @@
    "team": "FLA",
    "opp": "BOS",
    "pos": "F",
-   "p_pt": 0.4736,
-   "p_g": 0.2841,
-   "ep": 0.642,
-   "sog": 2.17,
-   "sog2_raw": 0.6021,
-   "sog3_raw": 0.3618,
-   "sog4_raw": 0.1911,
-   "sog2": 0.566,
-   "sog3": 0.3256,
-   "sog4": 0.1529,
+   "p_pt": 0.4747,
+   "p_g": 0.2849,
+   "ep": 0.644,
+   "sog": 2.34,
+   "sog2_raw": 0.6399,
+   "sog3_raw": 0.4033,
+   "sog4_raw": 0.2246,
+   "sog2": 0.6015,
+   "sog3": 0.363,
+   "sog4": 0.1797,
    "dtd": false,
    "basis": "2025-26 77 GP + 2026-27 17 GP (stats as of Nov 8)"
   },
@@ -693,16 +506,16 @@
    "team": "BOS",
    "opp": "FLA",
    "pos": "F",
-   "p_pt": 0.6796,
-   "p_g": 0.3051,
-   "ep": 1.138,
-   "sog": 3.36,
-   "sog2_raw": 0.7963,
-   "sog3_raw": 0.6058,
-   "sog4_raw": 0.4179,
-   "sog2": 0.7485,
-   "sog3": 0.5452,
-   "sog4": 0.3344,
+   "p_pt": 0.6823,
+   "p_g": 0.3069,
+   "ep": 1.147,
+   "sog": 3.58,
+   "sog2_raw": 0.8196,
+   "sog3_raw": 0.641,
+   "sog4_raw": 0.457,
+   "sog2": 0.7705,
+   "sog3": 0.5769,
+   "sog4": 0.3656,
    "dtd": false,
    "basis": "2025-26 77 GP + 2026-27 17 GP (stats as of Nov 8)"
   },
@@ -711,16 +524,16 @@
    "team": "BOS",
    "opp": "FLA",
    "pos": "D",
-   "p_pt": 0.5199,
-   "p_g": 0.1144,
-   "ep": 0.734,
-   "sog": 1.59,
-   "sog2_raw": 0.4552,
-   "sog3_raw": 0.223,
-   "sog4_raw": 0.0945,
-   "sog2": 0.4279,
-   "sog3": 0.2007,
-   "sog4": 0.0756,
+   "p_pt": 0.5225,
+   "p_g": 0.1152,
+   "ep": 0.739,
+   "sog": 1.7,
+   "sog2_raw": 0.4848,
+   "sog3_raw": 0.2482,
+   "sog4_raw": 0.1103,
+   "sog2": 0.4557,
+   "sog3": 0.2234,
+   "sog4": 0.0882,
    "dtd": false,
    "basis": "2025-26 69 GP + 2026-27 11 GP (stats as of Nov 8)"
   },
@@ -729,16 +542,16 @@
    "team": "BOS",
    "opp": "FLA",
    "pos": "F",
-   "p_pt": 0.5085,
-   "p_g": 0.2847,
-   "ep": 0.71,
-   "sog": 1.84,
-   "sog2_raw": 0.5238,
-   "sog3_raw": 0.2835,
-   "sog4_raw": 0.1337,
-   "sog2": 0.4924,
-   "sog3": 0.2552,
-   "sog4": 0.107,
+   "p_pt": 0.511,
+   "p_g": 0.2865,
+   "ep": 0.715,
+   "sog": 1.96,
+   "sog2_raw": 0.5543,
+   "sog3_raw": 0.3128,
+   "sog4_raw": 0.1543,
+   "sog2": 0.521,
+   "sog3": 0.2815,
+   "sog4": 0.1234,
    "dtd": false,
    "basis": "2025-26 81 GP + 2026-27 17 GP (stats as of Nov 8)"
   },
@@ -747,16 +560,16 @@
    "team": "BOS",
    "opp": "FLA",
    "pos": "F",
-   "p_pt": 0.5048,
-   "p_g": 0.2686,
-   "ep": 0.703,
-   "sog": 1.63,
-   "sog2_raw": 0.4657,
-   "sog3_raw": 0.2318,
-   "sog4_raw": 0.0999,
-   "sog2": 0.4378,
-   "sog3": 0.2086,
-   "sog4": 0.0799,
+   "p_pt": 0.5074,
+   "p_g": 0.2703,
+   "ep": 0.708,
+   "sog": 1.74,
+   "sog2_raw": 0.4955,
+   "sog3_raw": 0.2577,
+   "sog4_raw": 0.1164,
+   "sog2": 0.4658,
+   "sog3": 0.2319,
+   "sog4": 0.0931,
    "dtd": false,
    "basis": "2025-26 78 GP + 2026-27 16 GP (stats as of Nov 8)"
   },
@@ -765,16 +578,16 @@
    "team": "BOS",
    "opp": "FLA",
    "pos": "F",
-   "p_pt": 0.4811,
-   "p_g": 0.2244,
-   "ep": 0.656,
-   "sog": 1.62,
-   "sog2_raw": 0.4633,
-   "sog3_raw": 0.2298,
-   "sog4_raw": 0.0986,
-   "sog2": 0.4355,
-   "sog3": 0.2068,
-   "sog4": 0.0789,
+   "p_pt": 0.4836,
+   "p_g": 0.2258,
+   "ep": 0.661,
+   "sog": 1.73,
+   "sog2_raw": 0.4931,
+   "sog3_raw": 0.2555,
+   "sog4_raw": 0.115,
+   "sog2": 0.4635,
+   "sog3": 0.23,
+   "sog4": 0.092,
    "dtd": false,
    "basis": "2025-26 69 GP + 2026-27 17 GP (stats as of Nov 8)"
   },
@@ -1868,6 +1681,15 @@
    "note": "auto 20:26Z; mid of bid/ask; O5.5 goals 70%; O6.5 goals 58%",
    "over55": 0.695,
    "over65": 0.58
+  },
+  {
+   "date": "2026-11-08",
+   "game": "NJD@TOR",
+   "source": "Kalshi moneyline",
+   "home_prob": 0.405,
+   "note": "auto 21:17Z; mid of bid/ask; O5.5 goals 58%; O6.5 goals 48%",
+   "over55": 0.585,
+   "over65": 0.475
   }
  ],
  "lineups": {
@@ -1985,7 +1807,7 @@
    }
   },
   "TBL": {
-   "asof": "2026-11-08T20:51Z",
+   "asof": "2026-11-08T21:17Z",
    "source": "Daily Faceoff",
    "lines": [
     "Jake Guentzel",
@@ -2012,7 +1834,7 @@
    }
   },
   "WPG": {
-   "asof": "2026-11-08T20:51Z",
+   "asof": "2026-11-08T21:17Z",
    "source": "Daily Faceoff",
    "lines": [
     "Kyle Connor",
@@ -2042,7 +1864,7 @@
    }
   },
   "NJD": {
-   "asof": "2026-11-08T20:51Z",
+   "asof": "2026-11-08T21:17Z",
    "source": "Daily Faceoff",
    "lines": [
     "Timo Meier",
@@ -2069,7 +1891,7 @@
    }
   },
   "TOR": {
-   "asof": "2026-11-08T20:51Z",
+   "asof": "2026-11-08T21:17Z",
    "source": "Daily Faceoff",
    "lines": [
     "Easton Cowan",
@@ -2100,7 +1922,7 @@
    }
   },
   "PHI": {
-   "asof": "2026-11-08T20:51Z",
+   "asof": "2026-11-08T21:17Z",
    "source": "Daily Faceoff",
    "lines": [
     "Tyson Foerster",
@@ -2128,7 +1950,7 @@
    }
   },
   "CGY": {
-   "asof": "2026-11-08T20:51Z",
+   "asof": "2026-11-08T21:17Z",
    "source": "Daily Faceoff",
    "lines": [
     "Joel Farabee",
@@ -2158,7 +1980,7 @@
    }
   },
   "PIT": {
-   "asof": "2026-11-08T20:51Z",
+   "asof": "2026-11-08T21:17Z",
    "source": "Daily Faceoff",
    "lines": [
     "Evgeni Malkin",
@@ -2187,7 +2009,7 @@
    }
   },
   "ANA": {
-   "asof": "2026-11-08T20:51Z",
+   "asof": "2026-11-08T21:17Z",
    "source": "Daily Faceoff",
    "lines": [
     "Alex Killorn",
@@ -2219,49 +2041,33 @@
  },
  "slate_label": "Sun Nov 8",
  "slate_note": "",
- "n_games": 169,
+ "n_games": 170,
  "target": 300,
  "refit": "2026-11-23",
  "player_cal": {
-  "n": 1231,
-  "pt_act": 705,
-  "pt_exp": 622.0,
-  "g_act": 346,
-  "g_exp": 293.6,
-  "n_shots": 1140,
-  "sh3_act": 451,
-  "sh3_exp": 390.0
+  "n": 1241,
+  "pt_act": 713,
+  "pt_exp": 627.4,
+  "g_act": 349,
+  "g_exp": 296.1,
+  "n_shots": 1150,
+  "sh3_act": 458,
+  "sh3_exp": 393.3
  },
  "health": {
   "mode": "plan",
-  "at": "2026-11-08T20:26+00:00",
+  "at": "2026-11-08T21:17+00:00",
   "ok": [
    "6 games on 2026-11-08",
    "Daily Faceoff goalies parsed for 12 teams",
-   "lineups refreshed for 10/10 teams",
-   "Kalshi: 6 NHL games priced, 3 new rows",
-   "logging 2 game(s): ['2026-11-08_PIT@ANA', '2026-11-08_VGK@BUF']"
+   "lineups refreshed for 8/8 teams",
+   "Kalshi: 5 NHL games priced, 1 new rows",
+   "nothing new to log (no new games, no goalie changes)"
   ],
   "problems": [
-   "Kalshi spread markets found (66) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+   "Kalshi spread markets found (62) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
   ],
   "history": [
-   {
-    "mode": "plan",
-    "at": "2026-11-08T06:57+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (64) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
-   {
-    "mode": "plan",
-    "at": "2026-11-08T07:23+00:00",
-    "n_ok": 5,
-    "problems": [
-     "Kalshi spread markets found (64) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
-    ]
-   },
    {
     "mode": "players",
     "at": "2026-11-08T15:41+00:00",
@@ -2322,6 +2128,22 @@
     "n_ok": 5,
     "problems": [
      "Kalshi spread markets found (66) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-08T20:51+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (70) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
+    ]
+   },
+   {
+    "mode": "plan",
+    "at": "2026-11-08T21:17+00:00",
+    "n_ok": 5,
+    "problems": [
+     "Kalshi spread markets found (62) but none matched a game today; sample saved to data/debug/kalshi_spread.json"
     ]
    }
   ]
@@ -2478,6 +2300,14 @@
    "wins": 10,
    "pnl": 48.17,
    "cum": 46.16
+  },
+  {
+   "date": "2026-11-08",
+   "games": 1,
+   "bets": 1,
+   "wins": 1,
+   "pnl": 7.09,
+   "cum": 53.25
   }
  ],
  "parlay_days": [
@@ -3219,5 +3049,5 @@
    "hit": 11
   }
  },
- "made": "2026-11-08T20:52+00:00"
+ "made": "2026-11-08T21:17+00:00"
 }
