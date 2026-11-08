@@ -145,7 +145,7 @@
    "time": "10:00 ET",
    "start": "2026-11-08T03:00:00Z",
    "gid": 2026020276,
-   "started": false,
+   "started": true,
    "goalie_a": "Leevi Merilainen",
    "status_a": "unconfirmed",
    "goalie_h": "Devon Levi",

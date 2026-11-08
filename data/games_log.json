@@ -1918,5 +1918,41 @@
   "winner": "NYR",
   "date": "2026-11-07",
   "id": "2026-11-07_NYR@SEA"
+ },
+ {
+  "away": "MTL",
+  "home": "TOR",
+  "ag": 4,
+  "hg": 2,
+  "a_sh": 28,
+  "h_sh": 28,
+  "ot": null,
+  "winner": "MTL",
+  "date": "2026-11-07",
+  "id": "2026-11-07_MTL@TOR"
+ },
+ {
+  "away": "UTA",
+  "home": "OTT",
+  "ag": 2,
+  "hg": 4,
+  "a_sh": 32,
+  "h_sh": 21,
+  "ot": null,
+  "winner": "OTT",
+  "date": "2026-11-07",
+  "id": "2026-11-07_UTA@OTT"
+ },
+ {
+  "away": "NJD",
+  "home": "NYI",
+  "ag": 5,
+  "hg": 4,
+  "a_sh": 50,
+  "h_sh": 23,
+  "ot": "OT",
+  "winner": "NJD",
+  "date": "2026-11-07",
+  "id": "2026-11-07_NJD@NYI"
  }
 ]
