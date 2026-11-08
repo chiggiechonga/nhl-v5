@@ -1966,5 +1966,29 @@
   "winner": "CAR",
   "date": "2026-11-07",
   "id": "2026-11-07_CHI@CAR"
+ },
+ {
+  "away": "SJS",
+  "home": "DAL",
+  "ag": 3,
+  "hg": 4,
+  "a_sh": 23,
+  "h_sh": 30,
+  "ot": null,
+  "winner": "DAL",
+  "date": "2026-11-07",
+  "id": "2026-11-07_SJS@DAL"
+ },
+ {
+  "away": "TBL",
+  "home": "MIN",
+  "ag": 4,
+  "hg": 3,
+  "a_sh": 34,
+  "h_sh": 22,
+  "ot": "OT",
+  "winner": "TBL",
+  "date": "2026-11-07",
+  "id": "2026-11-07_TBL@MIN"
  }
 ]
