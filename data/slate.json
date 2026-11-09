@@ -76,7 +76,7 @@
    "time": "8:00 ET",
    "start": "2026-11-09T01:00:00Z",
    "gid": 2026020282,
-   "started": false,
+   "started": true,
    "goalie_a": "Arturs Silovs",
    "status_a": "unconfirmed",
    "goalie_h": "Laurent Brossoit",
